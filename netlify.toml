@@ -1,5 +1,5 @@
 [build]
-  command = "cd packages/web && npm install && npm run build"
+  command = "git submodule update --init --recursive && cd packages/web && npm install && npm run build"
   publish = "packages/web/dist"
   functions = "netlify/functions"
 
@@ -9,6 +9,7 @@
 [functions]
   node_bundler = "esbuild"
   external_node_modules = ["@notionhq/client"]
+  included_files = ["docs/**/*.md"]
 
 [[redirects]]
   from = "/api/*"

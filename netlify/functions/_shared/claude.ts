@@ -8,6 +8,7 @@ import Anthropic from '@anthropic-ai/sdk';
 import { SYSTEM_PROMPT, NOTION_PAGES } from './system-prompt.js';
 import { searchNotion, getNotionPage } from './notion-tools.js';
 import { searchQAPairs } from './qa-store.js';
+import { searchDocs, getDocsPage } from './docs-tools.js';
 
 const anthropic = new Anthropic({
   apiKey: process.env.ANTHROPIC_API_KEY,
@@ -74,6 +75,51 @@ Use page_filter to target specific sections:
       required: ['query'],
     },
   },
+  {
+    name: 'search_docs',
+    description: `Search Zenlytic's public documentation (docs.zenlytic.com).
+
+Use this for questions about:
+- Data sources and connections (Snowflake, BigQuery, Databricks, etc.)
+- Authentication (SSO, SAML, Okta, Microsoft Entra)
+- Security practices and IP whitelisting
+- Legal documents (Terms of Service, DPA, Subprocessors)
+- Customer support policies
+
+Sections available:
+- data-sources: Database connection setup guides
+- authentication-and-security: SSO, security features
+- legal-and-support: Legal docs, subprocessors, support policy`,
+    input_schema: {
+      type: 'object' as const,
+      properties: {
+        query: {
+          type: 'string',
+          description: 'Search query - e.g. "subprocessors", "snowflake setup", "okta SSO"',
+        },
+        section: {
+          type: 'string',
+          enum: ['data-sources', 'authentication-and-security', 'legal-and-support'],
+          description: 'Optional: limit search to a specific section',
+        },
+      },
+      required: ['query'],
+    },
+  },
+  {
+    name: 'get_docs_page',
+    description: 'Get full content of a specific documentation page from docs.zenlytic.com',
+    input_schema: {
+      type: 'object' as const,
+      properties: {
+        page_path: {
+          type: 'string',
+          description: 'Path to the page, e.g. "legal-and-support/legal/subprocessors" or "data-sources/snowflake_setup"',
+        },
+      },
+      required: ['page_path'],
+    },
+  },
 ];
 
 /**
@@ -97,6 +143,14 @@ async function processToolCall(
     case 'search_qa_pairs': {
       const { query } = toolInput as { query: string };
       return searchQAPairs(query);
+    }
+    case 'search_docs': {
+      const { query, section } = toolInput as { query: string; section?: string };
+      return searchDocs(query, section);
+    }
+    case 'get_docs_page': {
+      const { page_path } = toolInput as { page_path: string };
+      return getDocsPage(page_path);
     }
     default:
       return `Unknown tool: ${toolName}`;
