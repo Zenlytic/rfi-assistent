@@ -1,0 +1,37 @@
+{
+  "pages": {
+    "employee_handbook": {
+      "id": "dc73011524e54feaa2a69d78d6e5164e",
+      "name": "Employee Handbook",
+      "use_for": ["policies", "training", "HR", "CC controls"]
+    },
+    "security_homepage": {
+      "id": "6b8833be227a437a8f846f9cd5c896e4",
+      "name": "Security Homepage", 
+      "use_for": ["SOC2", "audits", "penetration tests"]
+    },
+    "engineering_wiki": {
+      "id": "3f72c85f50d947ec97543db5242260f9",
+      "name": "Engineering Wiki",
+      "use_for": ["architecture", "technical", "Zoë", "BYOD", "MDM"]
+    },
+    "soc2_page": {
+      "id": "a4bde54a446d41b6a3f36ccf8fbf3374",
+      "name": "SOC2 Page",
+      "use_for": ["SOC2 reports", "audit evidence"]
+    }
+  },
+  "cc_controls": {
+    "CC1.1.1": "526475ca69d24b67a4f7ddf8d8964201",
+    "CC1.1.3": "53107304c6764dad877fe3dc62b7fe2f",
+    "CC1.5.1": "519cf166e30d44bfb454d388ed246e04",
+    "CC2.3.3": "cdfb1ee20e754a98b2ee05e323f44433",
+    "CC2.3.4": "1b4a8dad05ac803ba447fc9262f97f83",
+    "CC6.2.2": "808186e5ec0845e99539c798f47ffb15",
+    "CC8.1.1": "fc9d81e43f8440c8b798d5018a890134",
+    "CC9.1.1": "54d40b58483548bebe4d087df35eed07",
+    "CC9.1.2": "ab72611c438740fe8ab4f7dcac850c91",
+    "CC-P2.1": "df929f142b7d418893dd979ceeee50f8",
+    "CC.AI.1": "21ea8dad05ac8094a02de223590bc0b3"
+  }
+}

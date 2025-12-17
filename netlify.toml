@@ -1,0 +1,27 @@
+[build]
+  command = "cd packages/web && npm install && npm run build"
+  publish = "packages/web/dist"
+  functions = "netlify/functions"
+
+[build.environment]
+  NODE_VERSION = "20"
+
+[functions]
+  node_bundler = "esbuild"
+  external_node_modules = ["@notionhq/client"]
+
+[[redirects]]
+  from = "/api/*"
+  to = "/.netlify/functions/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+[dev]
+  command = "cd packages/web && npm run dev"
+  targetPort = 5173
+  port = 8888
+  autoLaunch = false

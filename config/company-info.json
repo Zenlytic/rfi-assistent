@@ -1,0 +1,43 @@
+{
+  "legal_name": "Ex Quanta Inc (d.b.a. Zenlytic)",
+  "duns": "119327466",
+  "aws_account_id": "734818345323",
+  "founded": "2018",
+  "employee_count": "~25",
+  "office": {
+    "address": "345 E 64th St, New York, NY 10065",
+    "model": "Hybrid - NYC office available; majority remote"
+  },
+  "contacts": {
+    "security": "security@zenlytic.com",
+    "support": "support@zenlytic.com",
+    "sales": "sales@zenlytic.com",
+    "sales_phone": "+1 646-355-8737",
+    "ops": "ops@zenlytic.com",
+    "billing": "billing@zenlytic.com"
+  },
+  "leadership": {
+    "cto": { "name": "Paul Blankley", "roles": ["Security Officer", "Policy Owner"] },
+    "ceo": { "name": "Ryan Janssen" }
+  },
+  "infrastructure": {
+    "provider": "AWS",
+    "primary_region": "us-east-1",
+    "backup_region": "us-west-2",
+    "architecture": "Docker on ECS, RDS, S3"
+  },
+  "security": {
+    "soc2": "Type II (November 2025)",
+    "encryption": "AES-256 at rest, TLS 1.2+ in transit",
+    "vulnerability_scanning": "Quarterly",
+    "penetration_testing": "Annual",
+    "breach_notification": "24 hours",
+    "breaches_to_date": "None"
+  },
+  "data": {
+    "storage": "Query federation - no raw customer data stored",
+    "cache": "Temporary (<1 hour) for display",
+    "chat_retention": "Configurable by customer",
+    "llm_providers": ["OpenAI", "Anthropic Claude", "Google Gemini"]
+  }
+}
