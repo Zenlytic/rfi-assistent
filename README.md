@@ -117,6 +117,15 @@ Add a new Q&A pair.
 
 **Add Notion Pages:** Edit `config/notion-pages.json`
 
+## Documentation
+
+This app includes a submodule linking to [zenlytic-docs](https://github.com/Zenlytic/zenlytic-docs) for searching public documentation from docs.zenlytic.com.
+
+To update the docs submodule:
+```bash
+git submodule update --remote docs
+```
+
 ## License
 
 Proprietary - Zenlytic Internal Use Only
