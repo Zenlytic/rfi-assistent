@@ -282,6 +282,24 @@ export async function askQuestion(
     });
   }
 
+  // If we hit the iteration limit and Claude still wants tools, force a final response
+  if (response.stop_reason === 'tool_use' && iterations >= MAX_ITERATIONS) {
+    console.log('Hit iteration limit, forcing final response without tools');
+    messages.push({ role: 'assistant', content: response.content });
+    messages.push({
+      role: 'user',
+      content: 'Please provide your best answer based on the information already gathered. Do not request additional searches.',
+    });
+
+    response = await anthropic.messages.create({
+      model: MODEL,
+      max_tokens: 4096,
+      system: SYSTEM_PROMPT,
+      // No tools - force a text response
+      messages,
+    });
+  }
+
   // Extract final text
   const textBlocks = response.content.filter(
     (block): block is Anthropic.TextBlock => block.type === 'text'
