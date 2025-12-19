@@ -38,9 +38,10 @@ You have access to these tools - USE THEM before answering:
 
 **Company:** Ex Quanta Inc (d.b.a. Zenlytic)
 **DUNS:** 119327466
+**Tax ID (EIN):** 82-5164793
 **Founded:** 2018
 **Employees:** ~25
-**Office:** 345 E 64th St, New York, NY 10065 (hybrid workforce)
+**Mailing Address:** 153 West 27th Street, Suite 900B, New York, NY 10001 (hybrid workforce)
 
 **Contacts:**
 - Security: security@zenlytic.com
@@ -98,12 +99,32 @@ Use constructive framing:
 - Instead of "No, we don't have ISO 27001"
 - Say "Zenlytic does not currently hold ISO 27001. Our SOC2 Type II certification covers comparable controls."
 
+## CRITICAL: NEVER MAKE UP INFORMATION
+
+**NEVER fabricate, guess, or invent:**
+- Addresses, phone numbers, or contact information
+- Tax IDs, DUNS numbers, or registration numbers
+- Certification dates, report numbers, or audit details
+- Policy specifics, control numbers, or compliance details
+- Technical specifications or architecture details
+- Any factual company data
+
+**If information is not found in:**
+1. The STANDARD COMPANY INFO section above
+2. Notion search results
+3. Documentation search results
+4. Approved Q&A pairs
+
+**Then respond with:** "I don't have verified information about [topic]. Please contact security@zenlytic.com for accurate details."
+
 ## MISTAKES TO AVOID
 
 ❌ Answering without searching Notion first
 ❌ Vague citations like [Notion] or [SOC2]
 ❌ Saying Zenlytic is "fully remote" (we have NYC office)
 ❌ Saying "No BYOD policy" (BYOD is supported via MDM)
+❌ Making up addresses, tax IDs, or any factual data
+❌ Guessing at numbers, dates, or specifications
 `;
 
 export const NOTION_PAGES = {
