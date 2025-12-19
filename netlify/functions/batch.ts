@@ -7,6 +7,7 @@
 
 import type { Handler, HandlerEvent } from '@netlify/functions';
 import { askQuestion } from './_shared/claude.js';
+import { requireAuth } from './_shared/auth.js';
 
 const headers = {
   'Access-Control-Allow-Origin': '*',
@@ -39,6 +40,16 @@ export const handler: Handler = async (event: HandlerEvent) => {
       statusCode: 405,
       headers,
       body: JSON.stringify({ error: 'Method not allowed' }),
+    };
+  }
+
+  // Require authentication
+  const authResult = requireAuth(event.headers.cookie);
+  if ('error' in authResult) {
+    return {
+      statusCode: authResult.error.statusCode,
+      headers,
+      body: authResult.error.body,
     };
   }
 
