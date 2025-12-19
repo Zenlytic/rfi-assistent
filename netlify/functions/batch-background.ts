@@ -25,7 +25,7 @@ export const handler: Handler = async (event: HandlerEvent) => {
       return { statusCode: 400, body: 'jobId required' };
     }
 
-    const job = getJob(jobId);
+    const job = await getJob(jobId);
     if (!job) {
       console.error(`Job ${jobId} not found`);
       return { statusCode: 404, body: 'Job not found' };
@@ -34,7 +34,7 @@ export const handler: Handler = async (event: HandlerEvent) => {
     console.log(`Background: Starting job ${jobId} with ${job.questions.length} questions`);
 
     // Update status to processing
-    updateJob(jobId, { status: 'processing' });
+    await updateJob(jobId, { status: 'processing' });
 
     // Process each question sequentially (no timeout pressure in background)
     for (const q of job.questions) {
@@ -52,7 +52,7 @@ export const handler: Handler = async (event: HandlerEvent) => {
         // Use Sonnet (quality) - no need for fast mode in background
         const result = await askQuestion(q.question, fullContext || undefined);
 
-        addResult(jobId, {
+        await addResult(jobId, {
           id: q.id,
           question: q.question,
           answer: result.answer,
@@ -62,7 +62,7 @@ export const handler: Handler = async (event: HandlerEvent) => {
         console.log(`Completed question ${q.id}`);
       } catch (error) {
         console.error(`Error processing question ${q.id}:`, error);
-        addResult(jobId, {
+        await addResult(jobId, {
           id: q.id,
           question: q.question,
           answer: '',
@@ -73,7 +73,7 @@ export const handler: Handler = async (event: HandlerEvent) => {
     }
 
     // Mark job as completed
-    updateJob(jobId, { status: 'completed' });
+    await updateJob(jobId, { status: 'completed' });
     console.log(`Background: Completed job ${jobId}`);
 
     return { statusCode: 200, body: JSON.stringify({ success: true, jobId }) };

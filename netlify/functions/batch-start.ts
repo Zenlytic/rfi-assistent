@@ -62,8 +62,8 @@ export const handler: Handler = async (event: HandlerEvent) => {
       };
     }
 
-    // Create a job
-    const job = createJob(questions, instructions);
+    // Create a job (now async with Netlify Blobs)
+    const job = await createJob(questions, instructions);
 
     console.log(`Created batch job ${job.id} with ${questions.length} questions`);
 

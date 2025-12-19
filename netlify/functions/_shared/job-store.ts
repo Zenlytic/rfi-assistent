@@ -1,9 +1,8 @@
 /**
- * Simple in-memory job store for batch processing
- *
- * Note: This works for warm function instances but jobs will be lost on cold starts.
- * For production, consider using Netlify Blobs, Redis, or a database.
+ * Job store using Netlify Blobs for persistence across function invocations
  */
+
+import { getStore } from '@netlify/blobs';
 
 export interface BatchJob {
   id: string;
@@ -23,24 +22,17 @@ export interface BatchJob {
   updatedAt: number;
 }
 
-// Global job store - persists across warm function invocations
-const jobs = new Map<string, BatchJob>();
+const STORE_NAME = 'batch-jobs';
 
-// Clean up old jobs (older than 1 hour)
-function cleanupOldJobs() {
-  const oneHourAgo = Date.now() - 60 * 60 * 1000;
-  for (const [id, job] of jobs.entries()) {
-    if (job.updatedAt < oneHourAgo) {
-      jobs.delete(id);
-    }
-  }
+function getJobStore() {
+  return getStore(STORE_NAME);
 }
 
-export function createJob(
+export async function createJob(
   questions: BatchJob['questions'],
   instructions?: string
-): BatchJob {
-  cleanupOldJobs();
+): Promise<BatchJob> {
+  const store = getJobStore();
 
   const job: BatchJob = {
     id: `job_${Date.now()}_${Math.random().toString(36).slice(2, 8)}`,
@@ -53,28 +45,47 @@ export function createJob(
     updatedAt: Date.now(),
   };
 
-  jobs.set(job.id, job);
+  await store.setJSON(job.id, job);
+  console.log(`Created job ${job.id} in blob store`);
+
   return job;
 }
 
-export function getJob(id: string): BatchJob | undefined {
-  return jobs.get(id);
+export async function getJob(id: string): Promise<BatchJob | null> {
+  const store = getJobStore();
+
+  try {
+    const job = await store.get(id, { type: 'json' }) as BatchJob | null;
+    return job;
+  } catch (error) {
+    console.error(`Error getting job ${id}:`, error);
+    return null;
+  }
 }
 
-export function updateJob(id: string, updates: Partial<BatchJob>): BatchJob | undefined {
-  const job = jobs.get(id);
-  if (!job) return undefined;
+export async function updateJob(
+  id: string,
+  updates: Partial<BatchJob>
+): Promise<BatchJob | null> {
+  const store = getJobStore();
+
+  const job = await getJob(id);
+  if (!job) return null;
 
   Object.assign(job, updates, { updatedAt: Date.now() });
+  await store.setJSON(id, job);
+
   return job;
 }
 
-export function addResult(
+export async function addResult(
   jobId: string,
   result: BatchJob['results'][0]
-): BatchJob | undefined {
-  const job = jobs.get(jobId);
-  if (!job) return undefined;
+): Promise<BatchJob | null> {
+  const store = getJobStore();
+
+  const job = await getJob(jobId);
+  if (!job) return null;
 
   job.results.push(result);
   job.progress = Math.round((job.results.length / job.questions.length) * 100);
@@ -84,5 +95,26 @@ export function addResult(
     job.status = 'completed';
   }
 
+  await store.setJSON(jobId, job);
+
   return job;
+}
+
+// Clean up old jobs (call periodically)
+export async function cleanupOldJobs(): Promise<void> {
+  const store = getJobStore();
+  const oneHourAgo = Date.now() - 60 * 60 * 1000;
+
+  try {
+    const { blobs } = await store.list();
+    for (const blob of blobs) {
+      const job = await store.get(blob.key, { type: 'json' }) as BatchJob | null;
+      if (job && job.updatedAt < oneHourAgo) {
+        await store.delete(blob.key);
+        console.log(`Cleaned up old job: ${blob.key}`);
+      }
+    }
+  } catch (error) {
+    console.error('Error cleaning up old jobs:', error);
+  }
 }

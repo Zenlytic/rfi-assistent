@@ -48,7 +48,7 @@ export const handler: Handler = async (event: HandlerEvent) => {
     };
   }
 
-  const job = getJob(jobId);
+  const job = await getJob(jobId);
 
   if (!job) {
     return {

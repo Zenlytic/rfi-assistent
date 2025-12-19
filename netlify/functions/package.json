@@ -8,6 +8,7 @@
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.32.0",
+    "@netlify/blobs": "^10.5.0",
     "@notionhq/client": "^2.2.15",
     "google-auth-library": "^10.5.0",
     "jsonwebtoken": "^9.0.3"
