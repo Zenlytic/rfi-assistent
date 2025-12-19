@@ -282,20 +282,30 @@ export async function askQuestion(
     });
   }
 
-  // If we hit the iteration limit and Claude still wants tools, force a final response
-  if (response.stop_reason === 'tool_use' && iterations >= MAX_ITERATIONS) {
-    console.log('Hit iteration limit, forcing final response without tools');
+  // If Claude still wants tools after iterations, force a final response
+  if (response.stop_reason === 'tool_use') {
+    console.log('Claude wants more tools, forcing final response');
+
+    // We need to provide tool_result for each tool_use, or Claude will error
+    const toolUseBlocks = response.content.filter(
+      (block): block is Anthropic.ToolUseBlock => block.type === 'tool_use'
+    );
+
+    // Return empty results to satisfy the API, then ask for final answer
+    const emptyResults: Anthropic.ToolResultBlockParam[] = toolUseBlocks.map((toolUse) => ({
+      type: 'tool_result' as const,
+      tool_use_id: toolUse.id,
+      content: 'Search limit reached. Please provide your answer based on the information already gathered.',
+    }));
+
     messages.push({ role: 'assistant', content: response.content });
-    messages.push({
-      role: 'user',
-      content: 'Please provide your best answer based on the information already gathered. Do not request additional searches.',
-    });
+    messages.push({ role: 'user', content: emptyResults });
 
     response = await anthropic.messages.create({
       model: MODEL,
       max_tokens: 4096,
       system: SYSTEM_PROMPT,
-      // No tools - force a text response
+      // No tools available - force a text response
       messages,
     });
   }
