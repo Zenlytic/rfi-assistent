@@ -239,42 +239,79 @@ export function BatchPage() {
     setResults([]);
     setError(null);
 
-    const batchSize = 1; // Process one at a time to avoid Netlify gateway timeout (30s hard limit)
-    const allResults: Result[] = [];
-
     try {
-      for (let i = 0; i < questions.length; i += batchSize) {
-        const batch = questions.slice(i, i + batchSize);
+      // Start the batch job (returns immediately with job ID)
+      const startRes = await fetch('/api/batch-start', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          questions: questions.map(q => ({
+            id: q.id,
+            question: q.question,
+            context: q.context,
+          })),
+          instructions: customInstructions || undefined,
+        }),
+      });
 
-        // Include custom instructions in the request
-        const res = await fetch('/api/batch', {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({
-            questions: batch,
-            instructions: customInstructions || undefined,
-          }),
-        });
+      if (!startRes.ok) {
+        const data = await startRes.json();
+        throw new Error(data.error || `HTTP ${startRes.status}`);
+      }
 
-        if (!res.ok) {
-          const data = await res.json();
-          throw new Error(data.error || `HTTP ${res.status}`);
+      const { jobId } = await startRes.json();
+      console.log('Batch job started:', jobId);
+
+      // Poll for results
+      const pollInterval = 2000; // 2 seconds
+      const maxPolls = 300; // 10 minutes max
+      let polls = 0;
+
+      const poll = async (): Promise<void> => {
+        polls++;
+        if (polls > maxPolls) {
+          throw new Error('Job timed out after 10 minutes');
         }
 
-        const data = await res.json();
+        const statusRes = await fetch(`/api/batch-status?jobId=${jobId}`);
+        if (!statusRes.ok) {
+          const data = await statusRes.json();
+          throw new Error(data.error || `HTTP ${statusRes.status}`);
+        }
 
-        const resultsWithRows = data.results.map((r: Result, idx: number) => ({
-          ...r,
-          originalRow: batch[idx]?.originalRow,
-        }));
+        const job = await statusRes.json();
+        console.log(`Poll ${polls}: status=${job.status}, progress=${job.progress}%`);
 
-        allResults.push(...resultsWithRows);
-        setResults([...allResults]);
-        setProgress(Math.min(100, Math.round(((i + batch.length) / questions.length) * 100)));
-      }
+        // Update progress and results
+        setProgress(job.progress);
+
+        // Map results back to include originalRow
+        const resultsWithRows = job.results.map((r: Result) => {
+          const originalQuestion = questions.find(q => q.id === r.id);
+          return {
+            ...r,
+            originalRow: originalQuestion?.originalRow,
+          };
+        });
+        setResults(resultsWithRows);
+
+        if (job.status === 'completed') {
+          setLoading(false);
+          return;
+        }
+
+        if (job.status === 'failed') {
+          throw new Error(job.error || 'Job failed');
+        }
+
+        // Continue polling
+        await new Promise(resolve => setTimeout(resolve, pollInterval));
+        return poll();
+      };
+
+      await poll();
     } catch (err) {
       setError(err instanceof Error ? err.message : 'Processing failed');
-    } finally {
       setLoading(false);
     }
   };

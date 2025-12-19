@@ -15,8 +15,10 @@
 [functions."ask"]
   timeout = 60
 
-[functions."batch"]
-  timeout = 60
+# Background function for batch processing (up to 15 min on Pro)
+# The -background suffix enables async processing
+[functions."batch-background"]
+  timeout = 900  # 15 minutes
 
 [[redirects]]
   from = "/api/*"

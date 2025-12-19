@@ -231,10 +231,8 @@ export async function askQuestion(
     userMessage += `\n\n---\nRelevant information from knowledge base:${prefetchedContext}`;
   }
 
-  // Use Haiku for fast mode (batch processing), Sonnet for quality (single questions)
-  const MODEL = options?.fast
-    ? 'claude-haiku-4-20250414'  // Fast model for batch
-    : (process.env.CLAUDE_MODEL || 'claude-sonnet-4-20250514');  // Quality model for single
+  // Always use Sonnet for quality responses
+  const MODEL = process.env.CLAUDE_MODEL || 'claude-sonnet-4-20250514';
 
   // If we have prefetched context, make a single call WITHOUT tools
   // This dramatically improves performance by avoiding tool use loops
