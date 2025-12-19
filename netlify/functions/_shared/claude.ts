@@ -177,9 +177,12 @@ export async function askQuestion(
     userMessage = `Context: ${context}\n\nQuestion: ${question}`;
   }
 
+  // Use Haiku for faster responses (Sonnet for higher quality but slower)
+  const MODEL = process.env.CLAUDE_MODEL || 'claude-sonnet-4-20250514';
+
   // Initial API call
   let response = await anthropic.messages.create({
-    model: 'claude-sonnet-4-20250514',
+    model: MODEL,
     max_tokens: 4096,
     system: SYSTEM_PROMPT,
     tools: TOOLS,
@@ -213,7 +216,7 @@ export async function askQuestion(
     messages.push({ role: 'user', content: toolResults });
 
     response = await anthropic.messages.create({
-      model: 'claude-sonnet-4-20250514',
+      model: MODEL,
       max_tokens: 4096,
       system: SYSTEM_PROMPT,
       tools: TOOLS,

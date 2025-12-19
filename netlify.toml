@@ -11,6 +11,13 @@
   external_node_modules = ["@notionhq/client"]
   included_files = ["docs/**/*.md"]
 
+# Increase timeout for AI functions (requires Netlify Pro or higher for >10s)
+[functions."ask"]
+  timeout = 60
+
+[functions."batch"]
+  timeout = 60
+
 [[redirects]]
   from = "/api/*"
   to = "/.netlify/functions/:splat"
