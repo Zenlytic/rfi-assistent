@@ -301,20 +301,30 @@ export async function askQuestion(
     messages.push({ role: 'assistant', content: response.content });
     messages.push({ role: 'user', content: emptyResults });
 
+    // Call WITHOUT tools to force a text response
     response = await anthropic.messages.create({
       model: MODEL,
       max_tokens: 4096,
-      system: SYSTEM_PROMPT,
-      // No tools available - force a text response
+      system: SYSTEM_PROMPT + '\n\nIMPORTANT: You must now provide your final answer. No more tool calls are available.',
       messages,
+      // Explicitly no tools parameter
     });
   }
 
-  // Extract final text
+  console.log('Final response stop_reason:', response.stop_reason);
+  console.log('Final response content types:', response.content.map(b => b.type));
+
+  // Extract final text - handle both text blocks and any remaining tool_use gracefully
   const textBlocks = response.content.filter(
     (block): block is Anthropic.TextBlock => block.type === 'text'
   );
-  const answer = textBlocks.map((block) => block.text).join('\n');
+  let answer = textBlocks.map((block) => block.text).join('\n');
+
+  // If still no answer, provide a fallback
+  if (!answer.trim()) {
+    console.log('No text in response, providing fallback');
+    answer = "I wasn't able to generate a complete response. Please try rephrasing your question or contact security@zenlytic.com for assistance.";
+  }
 
   // Extract citations from answer
   const citationMatches = answer.match(/\[([^\]]+)\]/g) || [];
