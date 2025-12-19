@@ -1,5 +1,5 @@
 [build]
-  command = "git submodule update --init --recursive && cd packages/web && npm install && npm run build"
+  command = "git submodule update --init --recursive && cd netlify/functions && npm install && cd ../.. && cd packages/web && npm install && npm run build"
   publish = "packages/web/dist"
   functions = "netlify/functions"
 
