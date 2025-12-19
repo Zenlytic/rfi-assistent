@@ -81,42 +81,40 @@ export const handler: Handler = async (event: HandlerEvent) => {
       };
     }
 
-    console.log(`Processing batch of ${questions.length} questions`);
+    console.log(`Processing batch of ${questions.length} questions in parallel`);
     if (instructions) {
       console.log('Custom instructions:', instructions.slice(0, 100));
     }
 
-    const results: BatchResult[] = [];
-
-    for (const q of questions) {
-      try {
-        // Combine context with custom instructions
-        let fullContext = q.context || '';
-        if (instructions) {
-          fullContext = fullContext
-            ? `${fullContext}\n\nAdditional instructions: ${instructions}`
-            : `Additional instructions: ${instructions}`;
+    // Process all questions in parallel for speed
+    const results: BatchResult[] = await Promise.all(
+      questions.map(async (q): Promise<BatchResult> => {
+        try {
+          // Combine context with custom instructions
+          let fullContext = q.context || '';
+          if (instructions) {
+            fullContext = fullContext
+              ? `${fullContext}\n\nAdditional instructions: ${instructions}`
+              : `Additional instructions: ${instructions}`;
+          }
+          const result = await askQuestion(q.question, fullContext || undefined);
+          return {
+            id: q.id,
+            question: q.question,
+            answer: result.answer,
+            citations: result.citations,
+          };
+        } catch (error) {
+          return {
+            id: q.id,
+            question: q.question,
+            answer: '',
+            citations: [],
+            error: error instanceof Error ? error.message : 'Unknown error',
+          };
         }
-        const result = await askQuestion(q.question, fullContext || undefined);
-        results.push({
-          id: q.id,
-          question: q.question,
-          answer: result.answer,
-          citations: result.citations,
-        });
-      } catch (error) {
-        results.push({
-          id: q.id,
-          question: q.question,
-          answer: '',
-          citations: [],
-          error: error instanceof Error ? error.message : 'Unknown error',
-        });
-      }
-
-      // Small delay between questions
-      await new Promise(resolve => setTimeout(resolve, 200));
-    }
+      })
+    );
 
     return {
       statusCode: 200,

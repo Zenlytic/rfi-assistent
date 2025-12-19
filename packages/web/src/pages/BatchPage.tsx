@@ -224,7 +224,7 @@ export function BatchPage() {
     setResults([]);
     setError(null);
 
-    const batchSize = 5;
+    const batchSize = 2; // Keep small to avoid timeouts (each question takes ~6-8s)
     const allResults: Result[] = [];
 
     try {
