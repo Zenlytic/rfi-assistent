@@ -230,10 +230,38 @@ export async function askQuestion(
     userMessage += `\n\n---\nRelevant information from knowledge base:${prefetchedContext}`;
   }
 
-  // Use Haiku for faster responses (Sonnet for higher quality but slower)
+  // Use configured model (default to Sonnet for quality)
   const MODEL = process.env.CLAUDE_MODEL || 'claude-sonnet-4-20250514';
 
-  // Single API call with pre-fetched context (no tool use needed in most cases)
+  // If we have prefetched context, make a single call WITHOUT tools
+  // This dramatically improves performance by avoiding tool use loops
+  if (prefetchedContext) {
+    console.log('Have prefetched context, calling without tools for speed');
+
+    const response = await anthropic.messages.create({
+      model: MODEL,
+      max_tokens: 4096,
+      system: SYSTEM_PROMPT + '\n\nIMPORTANT: Answer based on the provided context. Do not indicate you need to search - the relevant information has already been retrieved for you.',
+      messages: [{ role: 'user', content: userMessage }],
+      // NO tools - force direct answer
+    });
+
+    console.log('Response stop_reason:', response.stop_reason);
+
+    const textBlocks = response.content.filter(
+      (block): block is Anthropic.TextBlock => block.type === 'text'
+    );
+    const answer = textBlocks.map((block) => block.text).join('\n');
+
+    const citationMatches = answer.match(/\[([^\]]+)\]/g) || [];
+    const citations = [...new Set(citationMatches.map((c) => c.slice(1, -1)))];
+
+    return { answer, citations, searches };
+  }
+
+  // Fallback: No prefetched context, use tools (slower path)
+  console.log('No prefetched context, using tools');
+
   let response = await anthropic.messages.create({
     model: MODEL,
     max_tokens: 4096,
@@ -244,17 +272,12 @@ export async function askQuestion(
 
   const messages: Anthropic.MessageParam[] = [{ role: 'user', content: userMessage }];
 
-  // Handle tool use loop (limited to 1 iteration to stay under timeout)
-  let iterations = 0;
-  const MAX_ITERATIONS = 1;
-
-  while (response.stop_reason === 'tool_use' && iterations < MAX_ITERATIONS) {
-    iterations++;
+  // Handle tool use (limited to 1 iteration)
+  if (response.stop_reason === 'tool_use') {
     const toolUseBlocks = response.content.filter(
       (block): block is Anthropic.ToolUseBlock => block.type === 'tool_use'
     );
 
-    // Execute all tool calls in parallel
     const toolResults = await Promise.all(
       toolUseBlocks.map(async (toolUse) => {
         searches.push(`${toolUse.name}: ${JSON.stringify(toolUse.input)}`);
@@ -265,7 +288,7 @@ export async function askQuestion(
         return {
           type: 'tool_result' as const,
           tool_use_id: toolUse.id,
-          content: result.slice(0, 8000), // Limit result size
+          content: result.slice(0, 8000),
         };
       })
     );
@@ -273,41 +296,12 @@ export async function askQuestion(
     messages.push({ role: 'assistant', content: response.content });
     messages.push({ role: 'user', content: toolResults });
 
+    // Final call without tools to force answer
     response = await anthropic.messages.create({
       model: MODEL,
       max_tokens: 4096,
-      system: SYSTEM_PROMPT,
-      tools: TOOLS,
+      system: SYSTEM_PROMPT + '\n\nProvide your final answer now.',
       messages,
-    });
-  }
-
-  // If Claude still wants tools after iterations, force a final response
-  if (response.stop_reason === 'tool_use') {
-    console.log('Claude wants more tools, forcing final response');
-
-    // We need to provide tool_result for each tool_use, or Claude will error
-    const toolUseBlocks = response.content.filter(
-      (block): block is Anthropic.ToolUseBlock => block.type === 'tool_use'
-    );
-
-    // Return empty results to satisfy the API, then ask for final answer
-    const emptyResults: Anthropic.ToolResultBlockParam[] = toolUseBlocks.map((toolUse) => ({
-      type: 'tool_result' as const,
-      tool_use_id: toolUse.id,
-      content: 'Search limit reached. Please provide your answer based on the information already gathered.',
-    }));
-
-    messages.push({ role: 'assistant', content: response.content });
-    messages.push({ role: 'user', content: emptyResults });
-
-    // Call WITHOUT tools to force a text response
-    response = await anthropic.messages.create({
-      model: MODEL,
-      max_tokens: 4096,
-      system: SYSTEM_PROMPT + '\n\nIMPORTANT: You must now provide your final answer. No more tool calls are available.',
-      messages,
-      // Explicitly no tools parameter
     });
   }
 
