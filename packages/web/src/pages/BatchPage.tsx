@@ -1,11 +1,17 @@
 import { useState, useRef } from 'react';
 import * as XLSX from 'xlsx';
+import * as mammoth from 'mammoth';
+import * as pdfjsLib from 'pdfjs-dist';
+
+// Set up PDF.js worker
+pdfjsLib.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjsLib.version}/pdf.worker.min.js`;
 
 interface Question {
   id: string;
   question: string;
   context?: string;
-  originalRow: Record<string, string>;
+  originalRow?: Record<string, string>;
+  lineNumber?: number;
 }
 
 interface Result {
@@ -22,6 +28,9 @@ interface ColumnMapping {
   contextCol: string | null;
 }
 
+type OutputFormat = 'excel' | 'word' | 'csv';
+type FileType = 'spreadsheet' | 'document' | 'unknown';
+
 export function BatchPage() {
   const [rawData, setRawData] = useState<Record<string, string>[]>([]);
   const [columns, setColumns] = useState<string[]>([]);
@@ -32,7 +41,56 @@ export function BatchPage() {
   const [progress, setProgress] = useState(0);
   const [error, setError] = useState<string | null>(null);
   const [showMapping, setShowMapping] = useState(false);
+  const [customInstructions, setCustomInstructions] = useState('');
+  const [outputFormat, setOutputFormat] = useState<OutputFormat>('excel');
+  const [fileType, setFileType] = useState<FileType>('unknown');
+  const [fileName, setFileName] = useState<string>('');
   const fileInputRef = useRef<HTMLInputElement>(null);
+
+  const parseSpreadsheet = async (buffer: ArrayBuffer): Promise<{ data: Record<string, string>[], columns: string[] }> => {
+    const workbook = XLSX.read(buffer, { type: 'array' });
+    const sheetName = workbook.SheetNames[0];
+    const worksheet = workbook.Sheets[sheetName];
+    const data = XLSX.utils.sheet_to_json(worksheet) as Record<string, string>[];
+    const cols = data.length > 0 ? Object.keys(data[0]) : [];
+    return { data, columns: cols };
+  };
+
+  const parsePDF = async (buffer: ArrayBuffer): Promise<string[]> => {
+    const pdf = await pdfjsLib.getDocument({ data: buffer }).promise;
+    const lines: string[] = [];
+
+    for (let i = 1; i <= pdf.numPages; i++) {
+      const page = await pdf.getPage(i);
+      const textContent = await page.getTextContent();
+      const pageText = textContent.items
+        .map((item: any) => item.str)
+        .join(' ');
+
+      // Split by common question patterns
+      const pageLines = pageText
+        .split(/(?=\d+\.\s)|(?=Q\d+)|(?=Question\s*\d+)|(?=•)|(?=\n)/)
+        .map(line => line.trim())
+        .filter(line => line.length > 10); // Filter out short fragments
+
+      lines.push(...pageLines);
+    }
+
+    return lines;
+  };
+
+  const parseWord = async (buffer: ArrayBuffer): Promise<string[]> => {
+    const result = await mammoth.extractRawText({ arrayBuffer: buffer });
+    const text = result.value;
+
+    // Split by newlines and numbered items
+    const lines = text
+      .split(/\n/)
+      .map(line => line.trim())
+      .filter(line => line.length > 10);
+
+    return lines;
+  };
 
   const handleFileUpload = async (e: React.ChangeEvent<HTMLInputElement>) => {
     const file = e.target.files?.[0];
@@ -42,57 +100,100 @@ export function BatchPage() {
     setResults([]);
     setQuestions([]);
     setShowMapping(false);
+    setFileName(file.name);
+
+    const extension = file.name.split('.').pop()?.toLowerCase();
 
     try {
       const buffer = await file.arrayBuffer();
-      const workbook = XLSX.read(buffer, { type: 'array' });
-      const sheetName = workbook.SheetNames[0];
-      const worksheet = workbook.Sheets[sheetName];
-      const data = XLSX.utils.sheet_to_json(worksheet) as Record<string, string>[];
 
-      if (data.length === 0) {
-        setError('No data found in file');
-        return;
-      }
+      if (['xlsx', 'xls', 'csv'].includes(extension || '')) {
+        // Spreadsheet file
+        setFileType('spreadsheet');
+        const { data, columns: cols } = await parseSpreadsheet(buffer);
 
-      const cols = Object.keys(data[0]);
-      setColumns(cols);
-      setRawData(data);
+        if (data.length === 0) {
+          setError('No data found in file');
+          return;
+        }
 
-      // Try to auto-detect question column
-      const questionCol = cols.find(
-        (col) =>
-          col.toLowerCase().includes('question') ||
-          col.toLowerCase() === 'q' ||
-          col.toLowerCase() === 'query' ||
-          col.toLowerCase().includes('requirement') ||
-          col.toLowerCase().includes('request')
-      );
+        setColumns(cols);
+        setRawData(data);
 
-      const contextCol = cols.find(
-        (col) =>
-          col.toLowerCase().includes('context') ||
-          col.toLowerCase().includes('additional') ||
-          col.toLowerCase().includes('note') ||
-          col.toLowerCase().includes('comment')
-      );
+        // Try to auto-detect question column
+        const questionCol = cols.find(
+          (col) =>
+            col.toLowerCase().includes('question') ||
+            col.toLowerCase() === 'q' ||
+            col.toLowerCase() === 'query' ||
+            col.toLowerCase().includes('requirement') ||
+            col.toLowerCase().includes('request')
+        );
 
-      if (questionCol) {
-        // Auto-detected, apply mapping
-        const newMapping = { questionCol, contextCol: contextCol || null };
-        setMapping(newMapping);
-        applyMapping(data, newMapping);
+        const contextCol = cols.find(
+          (col) =>
+            col.toLowerCase().includes('context') ||
+            col.toLowerCase().includes('additional') ||
+            col.toLowerCase().includes('note') ||
+            col.toLowerCase().includes('comment')
+        );
+
+        if (questionCol) {
+          const newMapping = { questionCol, contextCol: contextCol || null };
+          setMapping(newMapping);
+          applySpreadsheetMapping(data, newMapping);
+        } else {
+          setShowMapping(true);
+          setMapping({ questionCol: null, contextCol: null });
+        }
+
+      } else if (extension === 'pdf') {
+        // PDF file
+        setFileType('document');
+        const lines = await parsePDF(buffer);
+
+        if (lines.length === 0) {
+          setError('No text content found in PDF');
+          return;
+        }
+
+        const parsed: Question[] = lines.map((line, i) => ({
+          id: `q_${i + 1}`,
+          question: line,
+          lineNumber: i + 1,
+        }));
+
+        setQuestions(parsed);
+
+      } else if (['docx', 'doc'].includes(extension || '')) {
+        // Word file
+        setFileType('document');
+        const lines = await parseWord(buffer);
+
+        if (lines.length === 0) {
+          setError('No text content found in document');
+          return;
+        }
+
+        const parsed: Question[] = lines.map((line, i) => ({
+          id: `q_${i + 1}`,
+          question: line,
+          lineNumber: i + 1,
+        }));
+
+        setQuestions(parsed);
+
       } else {
-        // Show column selector
-        setShowMapping(true);
-        setMapping({ questionCol: null, contextCol: null });
+        setError(`Unsupported file type: .${extension}`);
       }
+
     } catch (err) {
+      console.error('Parse error:', err);
       setError(err instanceof Error ? err.message : 'Failed to parse file');
     }
   };
 
-  const applyMapping = (data: Record<string, string>[], columnMapping: ColumnMapping) => {
+  const applySpreadsheetMapping = (data: Record<string, string>[], columnMapping: ColumnMapping) => {
     if (!columnMapping.questionCol) {
       setError('Please select a question column');
       return;
@@ -112,7 +213,7 @@ export function BatchPage() {
   };
 
   const handleMappingConfirm = () => {
-    applyMapping(rawData, mapping);
+    applySpreadsheetMapping(rawData, mapping);
   };
 
   const processQuestions = async () => {
@@ -123,17 +224,21 @@ export function BatchPage() {
     setResults([]);
     setError(null);
 
-    const batchSize = 5; // Smaller batches for better progress feedback
+    const batchSize = 5;
     const allResults: Result[] = [];
 
     try {
       for (let i = 0; i < questions.length; i += batchSize) {
         const batch = questions.slice(i, i + batchSize);
 
+        // Include custom instructions in the request
         const res = await fetch('/api/batch', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({ questions: batch }),
+          body: JSON.stringify({
+            questions: batch,
+            instructions: customInstructions || undefined,
+          }),
         });
 
         if (!res.ok) {
@@ -143,7 +248,6 @@ export function BatchPage() {
 
         const data = await res.json();
 
-        // Merge results with original row data
         const resultsWithRows = data.results.map((r: Result, idx: number) => ({
           ...r,
           originalRow: batch[idx]?.originalRow,
@@ -163,18 +267,70 @@ export function BatchPage() {
   const downloadResults = () => {
     if (results.length === 0) return;
 
-    // Include original columns plus responses
-    const data = results.map((r) => ({
-      ...r.originalRow,
-      'AI Response': r.answer,
-      'Citations': r.citations.join('; '),
-      'Error': r.error || '',
-    }));
+    const timestamp = Date.now();
 
-    const worksheet = XLSX.utils.json_to_sheet(data);
-    const workbook = XLSX.utils.book_new();
-    XLSX.utils.book_append_sheet(workbook, worksheet, 'Responses');
-    XLSX.writeFile(workbook, `rfi-responses-${Date.now()}.xlsx`);
+    if (outputFormat === 'excel') {
+      const data = results.map((r) => ({
+        ...(r.originalRow || {}),
+        Question: r.question,
+        'AI Response': r.answer,
+        'Citations': r.citations.join('; '),
+        'Error': r.error || '',
+      }));
+
+      const worksheet = XLSX.utils.json_to_sheet(data);
+      const workbook = XLSX.utils.book_new();
+      XLSX.utils.book_append_sheet(workbook, worksheet, 'Responses');
+      XLSX.writeFile(workbook, `rfi-responses-${timestamp}.xlsx`);
+
+    } else if (outputFormat === 'csv') {
+      const data = results.map((r) => ({
+        ...(r.originalRow || {}),
+        Question: r.question,
+        'AI Response': r.answer,
+        'Citations': r.citations.join('; '),
+        'Error': r.error || '',
+      }));
+
+      const worksheet = XLSX.utils.json_to_sheet(data);
+      const csv = XLSX.utils.sheet_to_csv(worksheet);
+      const blob = new Blob([csv], { type: 'text/csv;charset=utf-8;' });
+      const link = document.createElement('a');
+      link.href = URL.createObjectURL(blob);
+      link.download = `rfi-responses-${timestamp}.csv`;
+      link.click();
+
+    } else if (outputFormat === 'word') {
+      // Generate a simple HTML that Word can open
+      let html = `
+        <html xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word">
+        <head><meta charset="utf-8"><title>RFI Responses</title></head>
+        <body style="font-family: Arial, sans-serif;">
+        <h1>RFI Questionnaire Responses</h1>
+        <p>Generated: ${new Date().toLocaleString()}</p>
+        <hr/>
+      `;
+
+      results.forEach((r, i) => {
+        html += `
+          <div style="margin-bottom: 20px; page-break-inside: avoid;">
+            <h3 style="color: #333;">Q${i + 1}: ${r.question}</h3>
+            <p><strong>Response:</strong></p>
+            <p style="background: #f5f5f5; padding: 10px; border-left: 3px solid #05fcdf;">${r.answer}</p>
+            ${r.citations.length > 0 ? `<p style="font-size: 12px; color: #666;"><em>Citations: ${r.citations.join(', ')}</em></p>` : ''}
+            ${r.error ? `<p style="color: red;"><strong>Error:</strong> ${r.error}</p>` : ''}
+          </div>
+        `;
+      });
+
+      html += '</body></html>';
+
+      const blob = new Blob([html], { type: 'application/msword' });
+      const link = document.createElement('a');
+      link.href = URL.createObjectURL(blob);
+      link.download = `rfi-responses-${timestamp}.doc`;
+      link.click();
+    }
   };
 
   const clearAll = () => {
@@ -186,6 +342,8 @@ export function BatchPage() {
     setError(null);
     setProgress(0);
     setShowMapping(false);
+    setFileName('');
+    setFileType('unknown');
     if (fileInputRef.current) {
       fileInputRef.current.value = '';
     }
@@ -196,7 +354,7 @@ export function BatchPage() {
       <div>
         <h1 className="text-2xl font-bold text-white font-heading">Batch Processing</h1>
         <p className="text-gray-400 mt-1">
-          Upload any questionnaire spreadsheet and process all questions at once.
+          Upload questionnaires in Excel, CSV, Word, or PDF format.
         </p>
       </div>
 
@@ -210,16 +368,64 @@ export function BatchPage() {
             <input
               ref={fileInputRef}
               type="file"
-              accept=".xlsx,.xls,.csv"
+              accept=".xlsx,.xls,.csv,.pdf,.docx,.doc"
               onChange={handleFileUpload}
               className="block w-full text-sm text-gray-400 file:mr-4 file:py-2 file:px-4 file:rounded-lg file:border-0 file:text-sm file:font-medium file:bg-zenlytic-green file:text-white hover:file:bg-opacity-90 cursor-pointer"
             />
             <p className="mt-1 text-xs text-gray-500">
-              Supports Excel (.xlsx, .xls) and CSV files
+              Supports Excel (.xlsx, .xls), CSV, Word (.docx, .doc), and PDF files
             </p>
           </div>
 
-          {/* Column mapping UI */}
+          {/* Custom Instructions */}
+          <div>
+            <label className="block text-sm font-medium text-gray-300 mb-2">
+              Custom Instructions <span className="text-gray-500">(optional)</span>
+            </label>
+            <textarea
+              value={customInstructions}
+              onChange={(e) => setCustomInstructions(e.target.value)}
+              placeholder="e.g., Keep responses concise. This is for a healthcare customer requiring HIPAA compliance details. Focus on data security aspects."
+              className="w-full px-4 py-2 bg-zenlytic-dark-tertiary border border-white/10 rounded-lg text-white placeholder-gray-500 focus:ring-2 focus:ring-zenlytic-cyan focus:border-transparent resize-none text-sm"
+              rows={2}
+            />
+          </div>
+
+          {/* Output Format Selection */}
+          <div>
+            <label className="block text-sm font-medium text-gray-300 mb-2">
+              Output Format
+            </label>
+            <div className="flex gap-4">
+              {[
+                { value: 'excel', label: 'Excel (.xlsx)', icon: '📊' },
+                { value: 'word', label: 'Word (.doc)', icon: '📄' },
+                { value: 'csv', label: 'CSV', icon: '📑' },
+              ].map((option) => (
+                <label
+                  key={option.value}
+                  className={`flex items-center gap-2 px-4 py-2 rounded-lg cursor-pointer transition-all ${
+                    outputFormat === option.value
+                      ? 'bg-zenlytic-cyan/20 border border-zenlytic-cyan text-white'
+                      : 'bg-white/5 border border-white/10 text-gray-400 hover:bg-white/10'
+                  }`}
+                >
+                  <input
+                    type="radio"
+                    name="outputFormat"
+                    value={option.value}
+                    checked={outputFormat === option.value}
+                    onChange={(e) => setOutputFormat(e.target.value as OutputFormat)}
+                    className="sr-only"
+                  />
+                  <span>{option.icon}</span>
+                  <span className="text-sm">{option.label}</span>
+                </label>
+              ))}
+            </div>
+          </div>
+
+          {/* Column mapping UI for spreadsheets */}
           {showMapping && columns.length > 0 && (
             <div className="pt-4 border-t border-white/10 space-y-4">
               <p className="text-sm text-yellow-400">
@@ -260,7 +466,6 @@ export function BatchPage() {
                 </div>
               </div>
 
-              {/* Preview */}
               {mapping.questionCol && rawData.length > 0 && (
                 <div className="p-3 bg-white/5 rounded-lg">
                   <p className="text-xs text-gray-400 mb-2">Preview (first 3 rows):</p>
@@ -292,9 +497,9 @@ export function BatchPage() {
                   <span className="text-sm text-gray-400">
                     {questions.length} questions loaded
                   </span>
-                  {mapping.questionCol && (
+                  {fileName && (
                     <span className="text-xs text-gray-500 ml-2">
-                      (from "{mapping.questionCol}" column)
+                      from {fileName}
                     </span>
                   )}
                 </div>
@@ -314,6 +519,23 @@ export function BatchPage() {
                   </button>
                 </div>
               </div>
+
+              {/* Preview questions from document */}
+              {fileType === 'document' && (
+                <div className="mt-3 p-3 bg-white/5 rounded-lg max-h-48 overflow-y-auto">
+                  <p className="text-xs text-gray-400 mb-2">Detected questions (first 5):</p>
+                  <ul className="space-y-1">
+                    {questions.slice(0, 5).map((q, i) => (
+                      <li key={i} className="text-sm text-gray-300 truncate">
+                        {i + 1}. {q.question.slice(0, 100)}{q.question.length > 100 ? '...' : ''}
+                      </li>
+                    ))}
+                    {questions.length > 5 && (
+                      <li className="text-xs text-gray-500">...and {questions.length - 5} more</li>
+                    )}
+                  </ul>
+                </div>
+              )}
             </div>
           )}
         </div>
@@ -348,11 +570,11 @@ export function BatchPage() {
               onClick={downloadResults}
               className="px-4 py-2 bg-zenlytic-cyan text-zenlytic-dark text-sm font-medium rounded-lg hover:bg-opacity-90 transition-all"
             >
-              Download Excel
+              Download as {outputFormat === 'excel' ? 'Excel' : outputFormat === 'word' ? 'Word' : 'CSV'}
             </button>
           </div>
 
-          <div className="space-y-3">
+          <div className="space-y-3 max-h-96 overflow-y-auto">
             {results.map((result) => (
               <div
                 key={result.id}
@@ -388,21 +610,29 @@ export function BatchPage() {
         <div className="p-6 bg-white/5 rounded-xl border border-white/10">
           <h3 className="font-medium text-white mb-3">How to use</h3>
           <ol className="list-decimal list-inside space-y-2 text-sm text-gray-400">
-            <li>Upload your existing questionnaire Excel or CSV file</li>
             <li>
-              The system will auto-detect the question column, or you can select it manually
+              Upload your questionnaire file:
               <ul className="ml-6 mt-1 list-disc text-xs text-gray-500">
-                <li>Auto-detects columns named: Question, Query, Requirement, Request, Q</li>
-                <li>Optionally select a Context/Notes column for additional info</li>
+                <li><strong>Excel/CSV:</strong> Auto-detects question column, or select manually</li>
+                <li><strong>Word/PDF:</strong> Extracts text and identifies questions line by line</li>
               </ul>
             </li>
+            <li>
+              Add custom instructions (optional):
+              <ul className="ml-6 mt-1 list-disc text-xs text-gray-500">
+                <li>Specify response style (concise, detailed, formal)</li>
+                <li>Add context (healthcare customer, financial services, etc.)</li>
+                <li>Request focus areas (security, compliance, technical)</li>
+              </ul>
+            </li>
+            <li>Choose your preferred output format (Excel, Word, or CSV)</li>
             <li>Click "Process All" to generate AI responses</li>
-            <li>Download results - includes all original columns plus AI responses</li>
+            <li>Download the completed questionnaire</li>
           </ol>
 
           <div className="mt-4 p-3 bg-zenlytic-green/10 border border-zenlytic-green/30 rounded-lg">
             <p className="text-xs text-zenlytic-cyan">
-              <strong>Tip:</strong> No need to reformat your spreadsheet! Upload it as-is and select which column contains the questions.
+              <strong>Tip:</strong> Upload your questionnaire as-is - no reformatting needed! The system handles various formats and layouts.
             </p>
           </div>
         </div>

@@ -55,7 +55,7 @@ export const handler: Handler = async (event: HandlerEvent) => {
 
   try {
     const body = JSON.parse(event.body || '{}');
-    const { questions } = body as { questions: BatchQuestion[] };
+    const { questions, instructions } = body as { questions: BatchQuestion[]; instructions?: string };
 
     if (!Array.isArray(questions) || questions.length === 0) {
       return {
@@ -82,12 +82,22 @@ export const handler: Handler = async (event: HandlerEvent) => {
     }
 
     console.log(`Processing batch of ${questions.length} questions`);
+    if (instructions) {
+      console.log('Custom instructions:', instructions.slice(0, 100));
+    }
 
     const results: BatchResult[] = [];
 
     for (const q of questions) {
       try {
-        const result = await askQuestion(q.question, q.context);
+        // Combine context with custom instructions
+        let fullContext = q.context || '';
+        if (instructions) {
+          fullContext = fullContext
+            ? `${fullContext}\n\nAdditional instructions: ${instructions}`
+            : `Additional instructions: ${instructions}`;
+        }
+        const result = await askQuestion(q.question, fullContext || undefined);
         results.push({
           id: q.id,
           question: q.question,
