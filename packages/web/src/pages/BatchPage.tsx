@@ -146,17 +146,17 @@ export function BatchPage() {
   return (
     <div className="space-y-6">
       <div>
-        <h1 className="text-2xl font-bold text-gray-900">Batch Processing</h1>
-        <p className="text-gray-600 mt-1">
+        <h1 className="text-2xl font-bold text-white font-heading">Batch Processing</h1>
+        <p className="text-gray-400 mt-1">
           Upload a questionnaire spreadsheet and process all questions at once.
         </p>
       </div>
 
       {/* Upload section */}
-      <div className="p-6 bg-white border border-gray-200 rounded-lg">
+      <div className="p-6 card-dark rounded-xl">
         <div className="space-y-4">
           <div>
-            <label className="block text-sm font-medium text-gray-700 mb-2">
+            <label className="block text-sm font-medium text-gray-300 mb-2">
               Upload Questionnaire
             </label>
             <input
@@ -164,7 +164,7 @@ export function BatchPage() {
               type="file"
               accept=".xlsx,.xls,.csv"
               onChange={handleFileUpload}
-              className="block w-full text-sm text-gray-500 file:mr-4 file:py-2 file:px-4 file:rounded-lg file:border-0 file:text-sm file:font-medium file:bg-zenlytic-50 file:text-zenlytic-700 hover:file:bg-zenlytic-100"
+              className="block w-full text-sm text-gray-400 file:mr-4 file:py-2 file:px-4 file:rounded-lg file:border-0 file:text-sm file:font-medium file:bg-zenlytic-green file:text-white hover:file:bg-opacity-90 cursor-pointer"
             />
             <p className="mt-1 text-xs text-gray-500">
               Excel or CSV file with a "Question" column
@@ -172,21 +172,21 @@ export function BatchPage() {
           </div>
 
           {questions.length > 0 && (
-            <div className="flex items-center justify-between pt-4 border-t border-gray-100">
-              <span className="text-sm text-gray-600">
+            <div className="flex items-center justify-between pt-4 border-t border-white/10">
+              <span className="text-sm text-gray-400">
                 {questions.length} questions loaded
               </span>
               <div className="flex gap-2">
                 <button
                   onClick={clearAll}
-                  className="px-4 py-2 text-sm text-gray-600 hover:text-gray-900"
+                  className="px-4 py-2 text-sm text-gray-400 hover:text-white transition-colors"
                 >
                   Clear
                 </button>
                 <button
                   onClick={processQuestions}
                   disabled={loading}
-                  className="px-4 py-2 bg-zenlytic-600 text-white text-sm font-medium rounded-lg hover:bg-zenlytic-700 disabled:opacity-50"
+                  className="px-4 py-2 bg-zenlytic-green text-white text-sm font-medium rounded-lg hover:bg-opacity-90 disabled:opacity-50 transition-all"
                 >
                   {loading ? `Processing (${progress}%)` : 'Process All'}
                 </button>
@@ -197,8 +197,8 @@ export function BatchPage() {
       </div>
 
       {error && (
-        <div className="p-4 bg-red-50 border border-red-200 rounded-lg">
-          <p className="text-red-700">
+        <div className="p-4 bg-red-500/10 border border-red-500/30 rounded-lg">
+          <p className="text-red-400">
             <strong>Error:</strong> {error}
           </p>
         </div>
@@ -206,9 +206,9 @@ export function BatchPage() {
 
       {/* Progress bar */}
       {loading && (
-        <div className="w-full bg-gray-200 rounded-full h-2">
+        <div className="w-full bg-zenlytic-dark-tertiary rounded-full h-2">
           <div
-            className="bg-zenlytic-600 h-2 rounded-full transition-all duration-300"
+            className="bg-zenlytic-cyan h-2 rounded-full transition-all duration-300"
             style={{ width: `${progress}%` }}
           />
         </div>
@@ -218,12 +218,12 @@ export function BatchPage() {
       {results.length > 0 && (
         <div className="space-y-4">
           <div className="flex items-center justify-between">
-            <h2 className="text-lg font-semibold text-gray-900">
+            <h2 className="text-lg font-semibold text-white font-heading">
               Results ({results.length}/{questions.length})
             </h2>
             <button
               onClick={downloadResults}
-              className="px-4 py-2 bg-green-600 text-white text-sm font-medium rounded-lg hover:bg-green-700"
+              className="px-4 py-2 bg-zenlytic-cyan text-zenlytic-dark text-sm font-medium rounded-lg hover:bg-opacity-90 transition-all"
             >
               Download Excel
             </button>
@@ -235,18 +235,18 @@ export function BatchPage() {
                 key={result.id}
                 className={`p-4 rounded-lg border ${
                   result.error
-                    ? 'bg-red-50 border-red-200'
-                    : 'bg-white border-gray-200'
+                    ? 'bg-red-500/10 border-red-500/30'
+                    : 'card-dark'
                 }`}
               >
-                <p className="text-sm font-medium text-gray-900 mb-2">
+                <p className="text-sm font-medium text-white mb-2">
                   {result.question}
                 </p>
                 {result.error ? (
-                  <p className="text-sm text-red-600">{result.error}</p>
+                  <p className="text-sm text-red-400">{result.error}</p>
                 ) : (
                   <>
-                    <p className="text-sm text-gray-700">{result.answer}</p>
+                    <p className="text-sm text-gray-300">{result.answer}</p>
                     {result.citations.length > 0 && (
                       <p className="text-xs text-gray-500 mt-2">
                         Sources: {result.citations.join(', ')}
@@ -262,9 +262,9 @@ export function BatchPage() {
 
       {/* Instructions */}
       {questions.length === 0 && results.length === 0 && (
-        <div className="p-6 bg-gray-50 rounded-lg">
-          <h3 className="font-medium text-gray-900 mb-2">How to use</h3>
-          <ol className="list-decimal list-inside space-y-1 text-sm text-gray-600">
+        <div className="p-6 bg-white/5 rounded-xl border border-white/10">
+          <h3 className="font-medium text-white mb-2">How to use</h3>
+          <ol className="list-decimal list-inside space-y-1 text-sm text-gray-400">
             <li>Upload an Excel (.xlsx) or CSV file</li>
             <li>File should have a column named "Question" (or similar)</li>
             <li>Optionally include a "Context" column for additional info</li>

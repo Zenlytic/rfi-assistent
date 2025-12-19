@@ -5,32 +5,47 @@ interface LoginPageProps {
 
 export function LoginPage({ onLogin, error }: LoginPageProps) {
   return (
-    <div className="min-h-screen bg-gray-50 flex flex-col justify-center py-12 sm:px-6 lg:px-8">
-      <div className="sm:mx-auto sm:w-full sm:max-w-md">
-        <h1 className="text-center text-3xl font-bold text-gray-900">
-          Zenlytic RFI Assistant
+    <div className="min-h-screen bg-zenlytic-dark flex flex-col justify-center py-12 sm:px-6 lg:px-8 relative overflow-hidden">
+      {/* Background gradient effects */}
+      <div className="absolute inset-0 overflow-hidden">
+        <div className="absolute -top-40 -right-40 w-80 h-80 bg-zenlytic-cyan/20 rounded-full blur-3xl" />
+        <div className="absolute -bottom-40 -left-40 w-80 h-80 bg-zenlytic-blue/20 rounded-full blur-3xl" />
+      </div>
+
+      <div className="relative z-10 sm:mx-auto sm:w-full sm:max-w-md">
+        {/* Logo */}
+        <div className="flex justify-center mb-8">
+          <img
+            src="https://cdn.prod.website-files.com/64245009d04c101696e3d489/64301fdfad085fb44ede278a_newlogo.svg"
+            alt="Zenlytic"
+            className="h-10"
+          />
+        </div>
+
+        <h1 className="text-center text-3xl font-bold text-white font-heading">
+          RFI Assistant
         </h1>
-        <p className="mt-2 text-center text-sm text-gray-600">
+        <p className="mt-2 text-center text-sm text-gray-400">
           AI-powered responses for security questionnaires
         </p>
       </div>
 
-      <div className="mt-8 sm:mx-auto sm:w-full sm:max-w-md">
-        <div className="bg-white py-8 px-4 shadow sm:rounded-lg sm:px-10">
+      <div className="relative z-10 mt-8 sm:mx-auto sm:w-full sm:max-w-md">
+        <div className="card-dark py-8 px-6 shadow-xl rounded-xl">
           <div className="space-y-6">
             {error && (
-              <div className="bg-red-50 border border-red-200 text-red-700 px-4 py-3 rounded">
+              <div className="bg-red-500/10 border border-red-500/30 text-red-400 px-4 py-3 rounded-lg text-sm">
                 {error}
               </div>
             )}
 
             <div>
-              <p className="text-sm text-gray-500 text-center mb-4">
+              <p className="text-sm text-gray-400 text-center mb-6">
                 Sign in with your Zenlytic Google account to continue
               </p>
               <button
                 onClick={onLogin}
-                className="w-full flex justify-center items-center gap-3 py-3 px-4 border border-gray-300 rounded-md shadow-sm bg-white text-sm font-medium text-gray-700 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
+                className="w-full flex justify-center items-center gap-3 py-3 px-4 rounded-lg bg-white text-gray-800 font-medium hover:bg-gray-100 transition-all duration-200 hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-zenlytic-cyan focus:ring-offset-2 focus:ring-offset-zenlytic-dark"
               >
                 <svg className="w-5 h-5" viewBox="0 0 24 24">
                   <path
@@ -54,11 +69,16 @@ export function LoginPage({ onLogin, error }: LoginPageProps) {
               </button>
             </div>
 
-            <div className="text-xs text-gray-400 text-center">
-              Access restricted to @zenlytic.com accounts
+            <div className="text-xs text-gray-500 text-center">
+              Access restricted to <span className="text-zenlytic-cyan">@zenlytic.com</span> accounts
             </div>
           </div>
         </div>
+
+        {/* Footer */}
+        <p className="mt-8 text-center text-xs text-gray-600">
+          Powered by Claude AI
+        </p>
       </div>
     </div>
   );
