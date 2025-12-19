@@ -164,6 +164,48 @@ export interface AskResult {
 }
 
 /**
+ * Pre-fetch relevant context based on question keywords
+ * This runs searches in parallel before calling Claude, reducing round-trips
+ */
+async function prefetchContext(question: string): Promise<string> {
+  const lowerQ = question.toLowerCase();
+  const searches: Promise<string>[] = [];
+  const sources: string[] = [];
+
+  // Determine which sources to search based on keywords
+  const needsNotion =
+    /security|soc2|soc 2|compliance|policy|training|employee|hr|incident|access|encryption|audit|control|cc\d/i.test(question);
+  const needsDocs =
+    /docs|documentation|subprocessor|data source|snowflake|bigquery|databricks|sso|saml|okta|authentication|integration|api|setup|connect/i.test(question);
+  const needsQA = true; // Always check Q&A pairs for exact matches
+
+  // Run searches in parallel
+  if (needsNotion) {
+    sources.push('Notion');
+    searches.push(searchNotion(question.slice(0, 100), 'all'));
+  }
+  if (needsDocs) {
+    sources.push('Docs');
+    searches.push(searchDocs(question.slice(0, 100)));
+  }
+  if (needsQA) {
+    sources.push('Q&A');
+    searches.push(Promise.resolve(searchQAPairs(question)));
+  }
+
+  const results = await Promise.all(searches);
+
+  let context = '';
+  results.forEach((result, i) => {
+    if (result && !result.includes('No results') && !result.includes('No matching')) {
+      context += `\n\n### From ${sources[i]}:\n${result.slice(0, 4000)}`;
+    }
+  });
+
+  return context;
+}
+
+/**
  * Ask a question and get a response with citations
  */
 export async function askQuestion(
@@ -172,15 +214,25 @@ export async function askQuestion(
 ): Promise<AskResult> {
   const searches: string[] = [];
 
+  // Pre-fetch relevant context in parallel (big speed improvement)
+  console.log('Pre-fetching context...');
+  const prefetchedContext = await prefetchContext(question);
+  searches.push('prefetch: Notion, Docs, Q&A (parallel)');
+
   let userMessage = question;
   if (context) {
     userMessage = `Context: ${context}\n\nQuestion: ${question}`;
   }
 
+  // Add pre-fetched context to the message
+  if (prefetchedContext) {
+    userMessage += `\n\n---\nRelevant information from knowledge base:${prefetchedContext}`;
+  }
+
   // Use Haiku for faster responses (Sonnet for higher quality but slower)
   const MODEL = process.env.CLAUDE_MODEL || 'claude-sonnet-4-20250514';
 
-  // Initial API call
+  // Single API call with pre-fetched context (no tool use needed in most cases)
   let response = await anthropic.messages.create({
     model: MODEL,
     max_tokens: 4096,
@@ -191,26 +243,31 @@ export async function askQuestion(
 
   const messages: Anthropic.MessageParam[] = [{ role: 'user', content: userMessage }];
 
-  // Handle tool use loop
-  while (response.stop_reason === 'tool_use') {
+  // Handle tool use loop (limited to 2 iterations for speed)
+  let iterations = 0;
+  const MAX_ITERATIONS = 2;
+
+  while (response.stop_reason === 'tool_use' && iterations < MAX_ITERATIONS) {
+    iterations++;
     const toolUseBlocks = response.content.filter(
       (block): block is Anthropic.ToolUseBlock => block.type === 'tool_use'
     );
 
-    const toolResults: Anthropic.ToolResultBlockParam[] = [];
-
-    for (const toolUse of toolUseBlocks) {
-      searches.push(`${toolUse.name}: ${JSON.stringify(toolUse.input)}`);
-      const result = await processToolCall(
-        toolUse.name,
-        toolUse.input as Record<string, unknown>
-      );
-      toolResults.push({
-        type: 'tool_result',
-        tool_use_id: toolUse.id,
-        content: result.slice(0, 10000), // Limit result size
-      });
-    }
+    // Execute all tool calls in parallel
+    const toolResults = await Promise.all(
+      toolUseBlocks.map(async (toolUse) => {
+        searches.push(`${toolUse.name}: ${JSON.stringify(toolUse.input)}`);
+        const result = await processToolCall(
+          toolUse.name,
+          toolUse.input as Record<string, unknown>
+        );
+        return {
+          type: 'tool_result' as const,
+          tool_use_id: toolUse.id,
+          content: result.slice(0, 8000), // Limit result size
+        };
+      })
+    );
 
     messages.push({ role: 'assistant', content: response.content });
     messages.push({ role: 'user', content: toolResults });
