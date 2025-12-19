@@ -239,7 +239,7 @@ export function BatchPage() {
     setResults([]);
     setError(null);
 
-    const batchSize = 2; // Keep small to avoid timeouts (each question takes ~6-8s)
+    const batchSize = 1; // Process one at a time to avoid Netlify gateway timeout (30s hard limit)
     const allResults: Result[] = [];
 
     try {

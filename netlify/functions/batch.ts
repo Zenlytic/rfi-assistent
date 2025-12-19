@@ -81,40 +81,41 @@ export const handler: Handler = async (event: HandlerEvent) => {
       };
     }
 
-    console.log(`Processing batch of ${questions.length} questions in parallel`);
+    console.log(`Processing batch of ${questions.length} questions (fast mode)`);
     if (instructions) {
       console.log('Custom instructions:', instructions.slice(0, 100));
     }
 
-    // Process all questions in parallel for speed
-    const results: BatchResult[] = await Promise.all(
-      questions.map(async (q): Promise<BatchResult> => {
-        try {
-          // Combine context with custom instructions
-          let fullContext = q.context || '';
-          if (instructions) {
-            fullContext = fullContext
-              ? `${fullContext}\n\nAdditional instructions: ${instructions}`
-              : `Additional instructions: ${instructions}`;
-          }
-          const result = await askQuestion(q.question, fullContext || undefined);
-          return {
-            id: q.id,
-            question: q.question,
-            answer: result.answer,
-            citations: result.citations,
-          };
-        } catch (error) {
-          return {
-            id: q.id,
-            question: q.question,
-            answer: '',
-            citations: [],
-            error: error instanceof Error ? error.message : 'Unknown error',
-          };
+    // Process questions sequentially to stay under gateway timeout
+    // Using fast mode (Haiku) for speed - each question ~3-5s
+    const results: BatchResult[] = [];
+    for (const q of questions) {
+      try {
+        // Combine context with custom instructions
+        let fullContext = q.context || '';
+        if (instructions) {
+          fullContext = fullContext
+            ? `${fullContext}\n\nAdditional instructions: ${instructions}`
+            : `Additional instructions: ${instructions}`;
         }
-      })
-    );
+        // Use fast mode for batch processing
+        const result = await askQuestion(q.question, fullContext || undefined, { fast: true });
+        results.push({
+          id: q.id,
+          question: q.question,
+          answer: result.answer,
+          citations: result.citations,
+        });
+      } catch (error) {
+        results.push({
+          id: q.id,
+          question: q.question,
+          answer: '',
+          citations: [],
+          error: error instanceof Error ? error.message : 'Unknown error',
+        });
+      }
+    }
 
     return {
       statusCode: 200,
