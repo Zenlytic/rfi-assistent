@@ -33,9 +33,7 @@ type OutputFormat = 'excel' | 'word' | 'csv';
 type FileType = 'spreadsheet' | 'document' | 'unknown';
 
 export function BatchPage() {
-  const [rawData, setRawData] = useState<Record<string, string>[]>([]);
   const [allRows, setAllRows] = useState<string[][]>([]);
-  const [columns, setColumns] = useState<string[]>([]);
   const [colLetters, setColLetters] = useState<string[]>([]);
   const [mapping, setMapping] = useState<ColumnMapping>({ questionCol: null, contextCol: null, startRow: 1 });
   const [questions, setQuestions] = useState<Question[]>([]);
@@ -351,9 +349,7 @@ export function BatchPage() {
   };
 
   const clearAll = () => {
-    setRawData([]);
     setAllRows([]);
-    setColumns([]);
     setColLetters([]);
     setMapping({ questionCol: null, contextCol: null, startRow: 1 });
     setQuestions([]);
