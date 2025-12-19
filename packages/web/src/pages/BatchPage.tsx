@@ -239,79 +239,67 @@ export function BatchPage() {
     setResults([]);
     setError(null);
 
+    const allResults: Result[] = [];
+
     try {
-      // Start the batch job (returns immediately with job ID)
-      const startRes = await fetch('/api/batch-start', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          questions: questions.map(q => ({
+      // Process one question at a time via the single-question API
+      // This avoids timeout issues and shows real-time progress
+      for (let i = 0; i < questions.length; i++) {
+        const q = questions[i];
+
+        console.log(`Processing question ${i + 1}/${questions.length}: ${q.question.slice(0, 50)}...`);
+
+        // Build the question with custom instructions
+        let questionText = q.question;
+        if (customInstructions) {
+          questionText = `${q.question}\n\n[Instructions: ${customInstructions}]`;
+        }
+
+        try {
+          const res = await fetch('/api/ask', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({
+              question: questionText,
+              context: q.context,
+            }),
+          });
+
+          if (!res.ok) {
+            const data = await res.json().catch(() => ({}));
+            throw new Error(data.error || `HTTP ${res.status}`);
+          }
+
+          const data = await res.json();
+
+          allResults.push({
             id: q.id,
             question: q.question,
-            context: q.context,
-          })),
-          instructions: customInstructions || undefined,
-        }),
-      });
+            answer: data.answer || '',
+            citations: data.citations || [],
+            originalRow: q.originalRow,
+          });
+        } catch (err) {
+          // Add error result but continue processing
+          allResults.push({
+            id: q.id,
+            question: q.question,
+            answer: '',
+            citations: [],
+            error: err instanceof Error ? err.message : 'Failed to process',
+            originalRow: q.originalRow,
+          });
+        }
 
-      if (!startRes.ok) {
-        const data = await startRes.json();
-        throw new Error(data.error || `HTTP ${startRes.status}`);
+        // Update progress and show results as they come in
+        setResults([...allResults]);
+        setProgress(Math.round(((i + 1) / questions.length) * 100));
       }
 
-      const { jobId } = await startRes.json();
-      console.log('Batch job started:', jobId);
-
-      // Poll for results
-      const pollInterval = 2000; // 2 seconds
-      const maxPolls = 300; // 10 minutes max
-      let polls = 0;
-
-      const poll = async (): Promise<void> => {
-        polls++;
-        if (polls > maxPolls) {
-          throw new Error('Job timed out after 10 minutes');
-        }
-
-        const statusRes = await fetch(`/api/batch-status?jobId=${jobId}`);
-        if (!statusRes.ok) {
-          const data = await statusRes.json();
-          throw new Error(data.error || `HTTP ${statusRes.status}`);
-        }
-
-        const job = await statusRes.json();
-        console.log(`Poll ${polls}: status=${job.status}, progress=${job.progress}%`);
-
-        // Update progress and results
-        setProgress(job.progress);
-
-        // Map results back to include originalRow
-        const resultsWithRows = job.results.map((r: Result) => {
-          const originalQuestion = questions.find(q => q.id === r.id);
-          return {
-            ...r,
-            originalRow: originalQuestion?.originalRow,
-          };
-        });
-        setResults(resultsWithRows);
-
-        if (job.status === 'completed') {
-          setLoading(false);
-          return;
-        }
-
-        if (job.status === 'failed') {
-          throw new Error(job.error || 'Job failed');
-        }
-
-        // Continue polling
-        await new Promise(resolve => setTimeout(resolve, pollInterval));
-        return poll();
-      };
-
-      await poll();
+      console.log(`Completed all ${questions.length} questions`);
     } catch (err) {
       setError(err instanceof Error ? err.message : 'Processing failed');
+    } finally {
       setLoading(false);
     }
   };
