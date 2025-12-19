@@ -173,10 +173,11 @@ async function prefetchContext(question: string): Promise<string> {
   const sources: string[] = [];
 
   // Determine which sources to search based on keywords
+  // Be aggressive - search both sources for most questions to avoid tool use
   const needsNotion =
-    /security|soc2|soc 2|compliance|policy|training|employee|hr|incident|access|encryption|audit|control|cc\d/i.test(question);
+    /security|soc2|soc 2|compliance|policy|training|employee|hr|incident|access|encryption|audit|control|cc\d|gdpr|privacy|data|protect|breach|hipaa|pci|iso/i.test(question);
   const needsDocs =
-    /docs|documentation|subprocessor|data source|snowflake|bigquery|databricks|sso|saml|okta|authentication|integration|api|setup|connect/i.test(question);
+    /docs|documentation|subprocessor|data source|snowflake|bigquery|databricks|sso|saml|okta|authentication|integration|api|setup|connect|gdpr|privacy|legal|terms|dpa/i.test(question);
   const needsQA = true; // Always check Q&A pairs for exact matches
 
   // Run searches in parallel
@@ -243,9 +244,9 @@ export async function askQuestion(
 
   const messages: Anthropic.MessageParam[] = [{ role: 'user', content: userMessage }];
 
-  // Handle tool use loop (limited to 2 iterations for speed)
+  // Handle tool use loop (limited to 1 iteration to stay under timeout)
   let iterations = 0;
-  const MAX_ITERATIONS = 2;
+  const MAX_ITERATIONS = 1;
 
   while (response.stop_reason === 'tool_use' && iterations < MAX_ITERATIONS) {
     iterations++;
