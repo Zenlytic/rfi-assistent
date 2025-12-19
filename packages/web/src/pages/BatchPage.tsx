@@ -26,6 +26,7 @@ interface Result {
 interface ColumnMapping {
   questionCol: string | null;
   contextCol: string | null;
+  startRow: number; // 1-indexed row to start from
 }
 
 type OutputFormat = 'excel' | 'word' | 'csv';
@@ -33,8 +34,10 @@ type FileType = 'spreadsheet' | 'document' | 'unknown';
 
 export function BatchPage() {
   const [rawData, setRawData] = useState<Record<string, string>[]>([]);
+  const [allRows, setAllRows] = useState<string[][]>([]);
   const [columns, setColumns] = useState<string[]>([]);
-  const [mapping, setMapping] = useState<ColumnMapping>({ questionCol: null, contextCol: null });
+  const [colLetters, setColLetters] = useState<string[]>([]);
+  const [mapping, setMapping] = useState<ColumnMapping>({ questionCol: null, contextCol: null, startRow: 1 });
   const [questions, setQuestions] = useState<Question[]>([]);
   const [results, setResults] = useState<Result[]>([]);
   const [loading, setLoading] = useState(false);
@@ -47,13 +50,21 @@ export function BatchPage() {
   const [fileName, setFileName] = useState<string>('');
   const fileInputRef = useRef<HTMLInputElement>(null);
 
-  const parseSpreadsheet = async (buffer: ArrayBuffer): Promise<{ data: Record<string, string>[], columns: string[] }> => {
+  const parseSpreadsheet = async (buffer: ArrayBuffer): Promise<{ allRows: string[][], colLetters: string[] }> => {
     const workbook = XLSX.read(buffer, { type: 'array' });
     const sheetName = workbook.SheetNames[0];
     const worksheet = workbook.Sheets[sheetName];
-    const data = XLSX.utils.sheet_to_json(worksheet) as Record<string, string>[];
-    const cols = data.length > 0 ? Object.keys(data[0]) : [];
-    return { data, columns: cols };
+
+    // Get raw data as array of arrays (preserves all rows including headers)
+    const rows = XLSX.utils.sheet_to_json(worksheet, { header: 1 }) as string[][];
+
+    // Generate column letters (A, B, C, etc.)
+    const maxCols = Math.max(...rows.map(row => row?.length || 0), 1);
+    const letters = Array.from({ length: maxCols }, (_, i) =>
+      String.fromCharCode(65 + i) // A=65
+    );
+
+    return { allRows: rows, colLetters: letters };
   };
 
   const parsePDF = async (buffer: ArrayBuffer): Promise<string[]> => {
@@ -110,42 +121,20 @@ export function BatchPage() {
       if (['xlsx', 'xls', 'csv'].includes(extension || '')) {
         // Spreadsheet file
         setFileType('spreadsheet');
-        const { data, columns: cols } = await parseSpreadsheet(buffer);
+        const { allRows: rows, colLetters: letters } = await parseSpreadsheet(buffer);
 
-        if (data.length === 0) {
+        if (rows.length === 0) {
           setError('No data found in file');
           return;
         }
 
-        setColumns(cols);
-        setRawData(data);
+        setAllRows(rows);
+        setColLetters(letters);
 
-        // Try to auto-detect question column
-        const questionCol = cols.find(
-          (col) =>
-            col.toLowerCase().includes('question') ||
-            col.toLowerCase() === 'q' ||
-            col.toLowerCase() === 'query' ||
-            col.toLowerCase().includes('requirement') ||
-            col.toLowerCase().includes('request')
-        );
-
-        const contextCol = cols.find(
-          (col) =>
-            col.toLowerCase().includes('context') ||
-            col.toLowerCase().includes('additional') ||
-            col.toLowerCase().includes('note') ||
-            col.toLowerCase().includes('comment')
-        );
-
-        if (questionCol) {
-          const newMapping = { questionCol, contextCol: contextCol || null };
-          setMapping(newMapping);
-          applySpreadsheetMapping(data, newMapping);
-        } else {
-          setShowMapping(true);
-          setMapping({ questionCol: null, contextCol: null });
-        }
+        // Always show column selector for spreadsheets so user can verify
+        setShowMapping(true);
+        // Default to column A, starting at row 1
+        setMapping({ questionCol: 'A', contextCol: null, startRow: 1 });
 
       } else if (extension === 'pdf') {
         // PDF file
@@ -193,27 +182,55 @@ export function BatchPage() {
     }
   };
 
-  const applySpreadsheetMapping = (data: Record<string, string>[], columnMapping: ColumnMapping) => {
+  const applySpreadsheetMapping = (rows: string[][], columnMapping: ColumnMapping) => {
     if (!columnMapping.questionCol) {
       setError('Please select a question column');
       return;
     }
 
-    const parsed: Question[] = data
-      .map((row, i) => ({
-        id: `q_${i + 1}`,
-        question: row[columnMapping.questionCol!]?.toString().trim() || '',
-        context: columnMapping.contextCol ? row[columnMapping.contextCol]?.toString().trim() : undefined,
-        originalRow: row,
-      }))
-      .filter((q) => q.question);
+    // Convert column letter to index (A=0, B=1, etc.)
+    const qColIndex = columnMapping.questionCol.charCodeAt(0) - 65;
+    const ctxColIndex = columnMapping.contextCol
+      ? columnMapping.contextCol.charCodeAt(0) - 65
+      : -1;
+
+    // Start from the specified row (1-indexed, so subtract 1)
+    const startIndex = Math.max(0, columnMapping.startRow - 1);
+    const dataRows = rows.slice(startIndex);
+
+    const parsed: Question[] = dataRows
+      .map((row, i) => {
+        const question = row[qColIndex]?.toString().trim() || '';
+        const context = ctxColIndex >= 0 ? row[ctxColIndex]?.toString().trim() : undefined;
+
+        // Create originalRow object with column letters as keys
+        const originalRow: Record<string, string> = {};
+        row.forEach((cell, idx) => {
+          const colLetter = String.fromCharCode(65 + idx);
+          originalRow[colLetter] = cell?.toString() || '';
+        });
+
+        return {
+          id: `q_${startIndex + i + 1}`,
+          question,
+          context,
+          originalRow,
+          lineNumber: startIndex + i + 1,
+        };
+      })
+      .filter((q) => q.question && q.question.length > 5); // Filter out empty/tiny cells
+
+    if (parsed.length === 0) {
+      setError('No questions found in the selected column. Check your column and start row settings.');
+      return;
+    }
 
     setQuestions(parsed);
     setShowMapping(false);
   };
 
   const handleMappingConfirm = () => {
-    applySpreadsheetMapping(rawData, mapping);
+    applySpreadsheetMapping(allRows, mapping);
   };
 
   const processQuestions = async () => {
@@ -335,8 +352,10 @@ export function BatchPage() {
 
   const clearAll = () => {
     setRawData([]);
+    setAllRows([]);
     setColumns([]);
-    setMapping({ questionCol: null, contextCol: null });
+    setColLetters([]);
+    setMapping({ questionCol: null, contextCol: null, startRow: 1 });
     setQuestions([]);
     setResults([]);
     setError(null);
@@ -426,13 +445,13 @@ export function BatchPage() {
           </div>
 
           {/* Column mapping UI for spreadsheets */}
-          {showMapping && columns.length > 0 && (
+          {showMapping && colLetters.length > 0 && (
             <div className="pt-4 border-t border-white/10 space-y-4">
-              <p className="text-sm text-yellow-400">
-                Could not auto-detect question column. Please select the columns:
+              <p className="text-sm text-zenlytic-cyan">
+                Configure which column contains the questions and which row to start from:
               </p>
 
-              <div className="grid grid-cols-2 gap-4">
+              <div className="grid grid-cols-3 gap-4">
                 <div>
                   <label className="block text-sm font-medium text-gray-300 mb-1">
                     Question Column <span className="text-red-400">*</span>
@@ -442,11 +461,25 @@ export function BatchPage() {
                     onChange={(e) => setMapping({ ...mapping, questionCol: e.target.value || null })}
                     className="w-full px-3 py-2 bg-zenlytic-dark-tertiary border border-white/10 rounded-lg text-white text-sm focus:ring-2 focus:ring-zenlytic-cyan focus:border-transparent"
                   >
-                    <option value="">Select column...</option>
-                    {columns.map((col) => (
-                      <option key={col} value={col}>{col}</option>
+                    {colLetters.map((col) => (
+                      <option key={col} value={col}>Column {col}</option>
                     ))}
                   </select>
+                </div>
+
+                <div>
+                  <label className="block text-sm font-medium text-gray-300 mb-1">
+                    Start Row
+                  </label>
+                  <input
+                    type="number"
+                    min="1"
+                    max={allRows.length}
+                    value={mapping.startRow}
+                    onChange={(e) => setMapping({ ...mapping, startRow: parseInt(e.target.value) || 1 })}
+                    className="w-full px-3 py-2 bg-zenlytic-dark-tertiary border border-white/10 rounded-lg text-white text-sm focus:ring-2 focus:ring-zenlytic-cyan focus:border-transparent"
+                  />
+                  <p className="text-xs text-gray-500 mt-1">Skip header rows</p>
                 </div>
 
                 <div>
@@ -459,22 +492,32 @@ export function BatchPage() {
                     className="w-full px-3 py-2 bg-zenlytic-dark-tertiary border border-white/10 rounded-lg text-white text-sm focus:ring-2 focus:ring-zenlytic-cyan focus:border-transparent"
                   >
                     <option value="">None</option>
-                    {columns.map((col) => (
-                      <option key={col} value={col}>{col}</option>
+                    {colLetters.map((col) => (
+                      <option key={col} value={col}>Column {col}</option>
                     ))}
                   </select>
                 </div>
               </div>
 
-              {mapping.questionCol && rawData.length > 0 && (
+              {/* Preview of selected data */}
+              {mapping.questionCol && allRows.length > 0 && (
                 <div className="p-3 bg-white/5 rounded-lg">
-                  <p className="text-xs text-gray-400 mb-2">Preview (first 3 rows):</p>
+                  <p className="text-xs text-gray-400 mb-2">
+                    Preview (rows {mapping.startRow}-{Math.min(mapping.startRow + 4, allRows.length)}):
+                  </p>
                   <ul className="space-y-1">
-                    {rawData.slice(0, 3).map((row, i) => (
-                      <li key={i} className="text-sm text-gray-300 truncate">
-                        {i + 1}. {row[mapping.questionCol!]}
-                      </li>
-                    ))}
+                    {allRows
+                      .slice(mapping.startRow - 1, mapping.startRow + 4)
+                      .map((row, i) => {
+                        const colIndex = mapping.questionCol!.charCodeAt(0) - 65;
+                        const cellValue = row[colIndex]?.toString() || '(empty)';
+                        return (
+                          <li key={i} className="text-sm text-gray-300 truncate">
+                            <span className="text-gray-500">Row {mapping.startRow + i}:</span>{' '}
+                            {cellValue.slice(0, 80)}{cellValue.length > 80 ? '...' : ''}
+                          </li>
+                        );
+                      })}
                   </ul>
                 </div>
               )}
@@ -484,7 +527,7 @@ export function BatchPage() {
                 disabled={!mapping.questionCol}
                 className="px-4 py-2 bg-zenlytic-green text-white text-sm font-medium rounded-lg hover:bg-opacity-90 disabled:opacity-50 transition-all"
               >
-                Confirm Columns
+                Load Questions
               </button>
             </div>
           )}
@@ -613,8 +656,16 @@ export function BatchPage() {
             <li>
               Upload your questionnaire file:
               <ul className="ml-6 mt-1 list-disc text-xs text-gray-500">
-                <li><strong>Excel/CSV:</strong> Auto-detects question column, or select manually</li>
+                <li><strong>Excel/CSV:</strong> Select which column has questions and which row to start from</li>
                 <li><strong>Word/PDF:</strong> Extracts text and identifies questions line by line</li>
+              </ul>
+            </li>
+            <li>
+              For Excel files, configure the layout:
+              <ul className="ml-6 mt-1 list-disc text-xs text-gray-500">
+                <li>Select the column containing questions (A, B, C...)</li>
+                <li>Set the start row to skip headers</li>
+                <li>Preview shows what will be processed</li>
               </ul>
             </li>
             <li>
@@ -622,7 +673,6 @@ export function BatchPage() {
               <ul className="ml-6 mt-1 list-disc text-xs text-gray-500">
                 <li>Specify response style (concise, detailed, formal)</li>
                 <li>Add context (healthcare customer, financial services, etc.)</li>
-                <li>Request focus areas (security, compliance, technical)</li>
               </ul>
             </li>
             <li>Choose your preferred output format (Excel, Word, or CSV)</li>
