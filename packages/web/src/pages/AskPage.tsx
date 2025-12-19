@@ -25,9 +25,9 @@ export function AskPage() {
       const res = await fetch('/api/ask', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ 
-          question, 
-          context: context || undefined 
+        body: JSON.stringify({
+          question,
+          context: context || undefined
         }),
       });
 
@@ -54,8 +54,8 @@ export function AskPage() {
   return (
     <div className="space-y-6">
       <div>
-        <h1 className="text-2xl font-bold text-gray-900">Ask a Question</h1>
-        <p className="text-gray-600 mt-1">
+        <h1 className="text-2xl font-bold text-white font-heading">Ask a Question</h1>
+        <p className="text-gray-400 mt-1">
           Get instant, citation-backed answers to security and compliance questions.
         </p>
       </div>
@@ -64,7 +64,7 @@ export function AskPage() {
         <div>
           <label
             htmlFor="question"
-            className="block text-sm font-medium text-gray-700 mb-1"
+            className="block text-sm font-medium text-gray-300 mb-1"
           >
             Question
           </label>
@@ -73,7 +73,7 @@ export function AskPage() {
             value={question}
             onChange={(e) => setQuestion(e.target.value)}
             placeholder="e.g., Does Zenlytic have SOC2 certification?"
-            className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-zenlytic-500 focus:border-zenlytic-500 resize-none"
+            className="w-full px-4 py-3 bg-zenlytic-dark-tertiary border border-white/10 rounded-lg text-white placeholder-gray-500 focus:ring-2 focus:ring-zenlytic-cyan focus:border-transparent resize-none"
             rows={3}
           />
         </div>
@@ -81,10 +81,10 @@ export function AskPage() {
         <div>
           <label
             htmlFor="context"
-            className="block text-sm font-medium text-gray-700 mb-1"
+            className="block text-sm font-medium text-gray-300 mb-1"
           >
             Additional Context{' '}
-            <span className="text-gray-400 font-normal">(optional)</span>
+            <span className="text-gray-500 font-normal">(optional)</span>
           </label>
           <input
             id="context"
@@ -92,21 +92,22 @@ export function AskPage() {
             value={context}
             onChange={(e) => setContext(e.target.value)}
             placeholder="e.g., This is for a healthcare customer"
-            className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-zenlytic-500 focus:border-zenlytic-500"
+            className="w-full px-4 py-2 bg-zenlytic-dark-tertiary border border-white/10 rounded-lg text-white placeholder-gray-500 focus:ring-2 focus:ring-zenlytic-cyan focus:border-transparent"
           />
         </div>
 
         <button
           type="submit"
           disabled={loading || !question.trim()}
-          className="px-6 py-2.5 bg-zenlytic-600 text-white font-medium rounded-lg hover:bg-zenlytic-700 disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
+          className="px-6 py-2.5 bg-zenlytic-green text-white font-medium rounded-lg hover:bg-opacity-90 disabled:opacity-50 disabled:cursor-not-allowed transition-all duration-200"
         >
           {loading ? (
             <span className="flex items-center gap-2">
-              <span className="loading-dot w-1.5 h-1.5 bg-white rounded-full" />
-              <span className="loading-dot w-1.5 h-1.5 bg-white rounded-full" />
-              <span className="loading-dot w-1.5 h-1.5 bg-white rounded-full" />
-              <span className="ml-2">Processing</span>
+              <svg className="animate-spin h-4 w-4 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"></circle>
+                <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+              </svg>
+              Processing
             </span>
           ) : (
             'Get Answer'
@@ -115,37 +116,37 @@ export function AskPage() {
       </form>
 
       {error && (
-        <div className="p-4 bg-red-50 border border-red-200 rounded-lg">
-          <p className="text-red-700">
+        <div className="p-4 bg-red-500/10 border border-red-500/30 rounded-lg">
+          <p className="text-red-400">
             <strong>Error:</strong> {error}
           </p>
         </div>
       )}
 
       {response && (
-        <div className="p-6 bg-white border border-gray-200 rounded-lg shadow-sm space-y-4">
+        <div className="p-6 card-dark rounded-xl space-y-4">
           <div>
-            <h3 className="text-sm font-medium text-gray-500 uppercase tracking-wide mb-2">
+            <h3 className="text-sm font-medium text-gray-400 uppercase tracking-wide mb-2">
               Response
             </h3>
             <div
-              className="prose prose-sm max-w-none text-gray-800"
+              className="prose prose-invert prose-sm max-w-none text-gray-200"
               dangerouslySetInnerHTML={{ __html: formatAnswer(response.answer) }}
             />
           </div>
 
           {response.citations.length > 0 && (
-            <div className="pt-4 border-t border-gray-100">
-              <h4 className="text-sm font-medium text-gray-500 mb-2">
+            <div className="pt-4 border-t border-white/10">
+              <h4 className="text-sm font-medium text-gray-400 mb-2">
                 Citations
               </h4>
               <ul className="space-y-1">
                 {response.citations.map((citation, i) => (
                   <li
                     key={i}
-                    className="text-sm text-gray-600 flex items-start gap-2"
+                    className="text-sm text-gray-300 flex items-start gap-2"
                   >
-                    <span className="text-zenlytic-600">•</span>
+                    <span className="text-zenlytic-cyan">•</span>
                     {citation}
                   </li>
                 ))}
@@ -154,8 +155,8 @@ export function AskPage() {
           )}
 
           {response.searches.length > 0 && (
-            <details className="pt-4 border-t border-gray-100">
-              <summary className="text-sm text-gray-500 cursor-pointer hover:text-gray-700">
+            <details className="pt-4 border-t border-white/10">
+              <summary className="text-sm text-gray-500 cursor-pointer hover:text-gray-300">
                 Searches performed ({response.searches.length})
               </summary>
               <ul className="mt-2 space-y-1">
@@ -183,7 +184,7 @@ export function AskPage() {
             <button
               key={q}
               onClick={() => setQuestion(q)}
-              className="text-sm px-3 py-1.5 bg-gray-100 text-gray-700 rounded-full hover:bg-gray-200 transition-colors"
+              className="text-sm px-3 py-1.5 bg-white/5 text-gray-400 rounded-full hover:bg-white/10 hover:text-white transition-colors border border-white/10"
             >
               {q}
             </button>
