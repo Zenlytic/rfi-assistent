@@ -6,11 +6,7 @@
  */
 
 import { readFileSync, existsSync } from 'fs';
-import { join, dirname } from 'path';
-import { fileURLToPath } from 'url';
-
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = dirname(__filename);
+import { join } from 'path';
 
 interface IndexedPage {
   id: string;
@@ -44,15 +40,11 @@ function loadSearchIndex(): IndexedPage[] {
   if (searchIndex) return searchIndex;
 
   // Try multiple possible paths for different runtime contexts
-  // Netlify bundles files relative to function, so try various locations
   const possiblePaths = [
     // Netlify runtime (included_files puts them at root)
     '/var/task/config/notion-index/search-index.json',
-    // Local dev with netlify dev
+    // Local dev with netlify dev (process.cwd is project root)
     join(process.cwd(), 'config', 'notion-index', 'search-index.json'),
-    // Relative to __dirname (compiled)
-    join(__dirname, '..', '..', '..', 'config', 'notion-index', 'search-index.json'),
-    join(__dirname, '..', '..', 'config', 'notion-index', 'search-index.json'),
   ];
 
   for (const indexPath of possiblePaths) {
@@ -84,9 +76,6 @@ function loadFullIndex(): FullIndex | null {
     '/var/task/config/notion-index/index.json',
     // Local dev
     join(process.cwd(), 'config', 'notion-index', 'index.json'),
-    // Relative paths
-    join(__dirname, '..', '..', '..', 'config', 'notion-index', 'index.json'),
-    join(__dirname, '..', '..', 'config', 'notion-index', 'index.json'),
   ];
 
   for (const indexPath of possiblePaths) {
