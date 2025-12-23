@@ -1,4 +1,4 @@
-name: Update Notion Index
+name: Update Knowledge Base
 
 on:
   schedule:
@@ -7,7 +7,7 @@ on:
   workflow_dispatch: # Allow manual trigger from GitHub UI
 
 jobs:
-  update-index:
+  update-knowledge-base:
     runs-on: ubuntu-latest
 
     steps:
@@ -15,6 +15,12 @@ jobs:
         uses: actions/checkout@v4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
+          submodules: true
+
+      - name: Update docs submodule to latest
+        run: |
+          git submodule update --init --recursive --remote
+          cd docs && git checkout main && git pull origin main
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -33,13 +39,18 @@ jobs:
       - name: Check for changes
         id: changes
         run: |
-          git diff --quiet config/notion-index/ || echo "changed=true" >> $GITHUB_OUTPUT
+          git add -A
+          if git diff --cached --quiet; then
+            echo "changed=false" >> $GITHUB_OUTPUT
+          else
+            echo "changed=true" >> $GITHUB_OUTPUT
+          fi
 
       - name: Commit and push changes
         if: steps.changes.outputs.changed == 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add config/notion-index/
-          git commit -m "chore: Update Notion index (automated weekly)"
+          git add -A
+          git commit -m "chore: Update knowledge base (Notion + docs weekly sync)"
           git push
