@@ -793,6 +793,85 @@
     "snippet": "These are the key docs for our security policies \n## Data Retention\n## Legal\n## Security External Documents\n• Security and Compliance \n• SOC2 \n• Penetration Testing \n# Legal for Website\n## Architecture Diagrams\n• Clarity Engine Diagram\n• Network Diagram\n• Agent Flow Diagram (Figma link)\n# Completed Security Docs (for future reference)\n## FAQ"
   },
   {
+    "id": "3eb14fe0-7e8d-400f-8082-a5af44c29a0a",
+    "title": "Data Retention Policies",
+    "parent": "Security Homepage",
+    "keywords": [
+      "security",
+      "compliance",
+      "policy",
+      "retention",
+      "sso",
+      "aws",
+      "logging",
+      "monitoring"
+    ],
+    "snippet": "Ex Quanta Inc (d.b.a Zenlytic)\n# Data Retention Policies\nVersion: 0.0\nPolicy Owner: Paul Blankley\nStatus: Implemented\n## Policies as they apply \n### Overview\nThis document outlines the data retention policies for Zenlytic. These policies are designed to ensure compliance, maintain data integrity, and protect customer information.\n### Data Retention Policies\n- AWS Cloudwatch (Logging)\n- Sentry (Logging)\n- Langfuse (LLM Logging)\n- LogRocket (Monitoring)\n- OpenAI (LLM)\n### Conclusion\nThese data ret"
+  },
+  {
+    "id": "fd9bdf97-ab8c-4543-8810-2a70c312458c",
+    "title": "Privacy Policy",
+    "parent": "Security Homepage",
+    "keywords": [
+      "privacy",
+      "policy"
+    ],
+    "snippet": "This is the link to our current privacy policy\n## Last reviewed: 8/27/25\nChanges:\n• add GCP, Algolia, intercom, Snowflake, Airbyte\n• remove LogRocket\n• add last updated date to privacy policy"
+  },
+  {
+    "id": "482e1430-de5b-4c9f-8788-f3dce778af63",
+    "title": "End User License Agreement / Terms of Service",
+    "parent": "Security Homepage",
+    "keywords": [],
+    "snippet": "This is the link to our EULA / ToS "
+  },
+  {
+    "id": "028b3458-f905-4410-91db-39db87ff955f",
+    "title": "Subprocessors",
+    "parent": "Security Homepage",
+    "keywords": [
+      "sso",
+      "subprocessor"
+    ],
+    "snippet": "These are the subprocessors we use: \n• Amazon Web Services (Cloud provider)\n• Azure (Cloud provider)\n• Algolia (Search index)\n• OpenAI (LLM Provider)\n• Langfuse (developer logs)\n• LogRocket (developer logs)\n• Sentry (developer logs)\n• Segment (internal analytics)\n• Snowflake (internal analytics)\n• Airbyte (internal analytics)"
+  },
+  {
+    "id": "216a8dad-05ac-8053-86f9-f85f9cdf8363",
+    "title": "Data Processing Agreement (DPA)",
+    "parent": "Security Homepage",
+    "keywords": [],
+    "snippet": ""
+  },
+  {
+    "id": "180a8dad-05ac-80a1-bccf-da1558df31ed",
+    "title": "Zoë Architecture",
+    "parent": "Security Homepage",
+    "keywords": [],
+    "snippet": "Zoë operates with an Agentic architecture. This means that at each step of the question-answering process, the LLM chooses between calling a tool in its set of tools or responding directly to the user. \nIf the LLM chooses to call a tool, Zenlytic will run the tool and show the results to the LLM. The LLM will then make a decision on whether it wants to call another tool or respond directly to the user. This process continues until the LLM responds directly to the user.\nA high-level diagram of th"
+  },
+  {
+    "id": "a64dc864-7a02-468c-85f4-6c91bb6fc122",
+    "title": "Question flow diagram (with and without Clarity)",
+    "parent": "Security Homepage",
+    "keywords": [],
+    "snippet": "# Without Clarity (link)\n# With Clarity (link)\n# With Clarity - Deep questions (link)"
+  },
+  {
+    "id": "b1172bf4-7337-4ac6-8996-593a99253586",
+    "title": "FAQ - Zenlytic Security",
+    "parent": "Security Homepage",
+    "keywords": [
+      "training",
+      "security",
+      "incident",
+      "disaster recovery",
+      "employee",
+      "policy",
+      "aws"
+    ],
+    "snippet": "### How do you connect to the data warehouse?\n• Zenlytic uses database credentials to connect to and run SQL queries on your data warehouse. Zenlytic does NOT index any whole tables or copy data from your system to ours. We create a SQL query on the fly based on metadata stored in git and connected to Zenlytic and run that query on your data warehouse.\n### Do you cache my data?\n• We do. We use Redis to cache query results, but never the underlying tables in the warehouse. For example, if you ask"
+  },
+  {
     "id": "3f72c85f50d947ec97543db5242260f9",
     "title": "Engineering Wiki",
     "parent": "root",

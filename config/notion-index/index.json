@@ -1,5 +1,5 @@
 {
-  "exportedAt": "2025-12-23T16:53:06.328Z",
+  "exportedAt": "2025-12-23T17:15:33.644Z",
   "pages": [
     {
       "id": "dc73011524e54feaa2a69d78d6e5164e",
@@ -11,7 +11,7 @@
         "employee",
         "retention"
       ],
-      "lastUpdated": "2025-12-23T16:51:06.005Z"
+      "lastUpdated": "2025-12-23T17:13:31.844Z"
     },
     {
       "id": "526475ca-69d2-4b67-a4f7-ddf8d8964201",
@@ -26,7 +26,7 @@
         "employee",
         "policy"
       ],
-      "lastUpdated": "2025-12-23T16:51:06.996Z"
+      "lastUpdated": "2025-12-23T17:13:32.234Z"
     },
     {
       "id": "b1cd2254-9c1a-4b0b-945f-13e646221bf0",
@@ -47,7 +47,7 @@
         "policy",
         "firewall"
       ],
-      "lastUpdated": "2025-12-23T16:51:12.600Z"
+      "lastUpdated": "2025-12-23T17:13:32.855Z"
     },
     {
       "id": "5388c71d-8cee-4d62-8be8-972d606690fd",
@@ -59,7 +59,7 @@
         "employee",
         "policy"
       ],
-      "lastUpdated": "2025-12-23T16:51:13.200Z"
+      "lastUpdated": "2025-12-23T17:13:33.412Z"
     },
     {
       "id": "db53fd75-b172-44f9-84eb-e356d718c4ac",
@@ -83,7 +83,7 @@
         "network",
         "logging"
       ],
-      "lastUpdated": "2025-12-23T16:51:14.689Z"
+      "lastUpdated": "2025-12-23T17:13:34.167Z"
     },
     {
       "id": "53107304-c676-4dad-877f-e3dc62b7fe2f",
@@ -105,7 +105,7 @@
         "procedure",
         "vendor"
       ],
-      "lastUpdated": "2025-12-23T16:51:15.735Z"
+      "lastUpdated": "2025-12-23T17:13:35.105Z"
     },
     {
       "id": "519cf166-e30d-44bf-b454-d388ed246e04",
@@ -133,7 +133,7 @@
         "monitoring",
         "vendor"
       ],
-      "lastUpdated": "2025-12-23T16:51:17.063Z"
+      "lastUpdated": "2025-12-23T17:13:36.660Z"
     },
     {
       "id": "cdfb1ee2-0e75-4a98-b2ee-05e323f44433",
@@ -149,7 +149,7 @@
         "policy",
         "procedure"
       ],
-      "lastUpdated": "2025-12-23T16:51:18.761Z"
+      "lastUpdated": "2025-12-23T17:13:40.561Z"
     },
     {
       "id": "1b4a8dad-05ac-803b-a447-fc9262f97f83",
@@ -167,7 +167,7 @@
         "procedure",
         "integration"
       ],
-      "lastUpdated": "2025-12-23T16:51:19.580Z"
+      "lastUpdated": "2025-12-23T17:13:44.021Z"
     },
     {
       "id": "b2654df8-028d-4902-a8cf-93319708fc73",
@@ -192,7 +192,7 @@
         "monitoring",
         "vendor"
       ],
-      "lastUpdated": "2025-12-23T16:51:25.048Z"
+      "lastUpdated": "2025-12-23T17:13:45.991Z"
     },
     {
       "id": "808186e5-ec08-45e9-9539-c798f47ffb15",
@@ -210,7 +210,7 @@
         "procedure",
         "logging"
       ],
-      "lastUpdated": "2025-12-23T16:51:31.816Z"
+      "lastUpdated": "2025-12-23T17:13:53.441Z"
     },
     {
       "id": "2527d98e-ee9c-484a-b665-af3fd881eb66",
@@ -220,7 +220,7 @@
       "keywords": [
         "CC3.3.1"
       ],
-      "lastUpdated": "2025-12-23T16:51:32.409Z"
+      "lastUpdated": "2025-12-23T17:13:53.987Z"
     },
     {
       "id": "2f94af3c-24d2-4fdb-aa54-c6b3515294c1",
@@ -235,7 +235,7 @@
         "background check",
         "procedure"
       ],
-      "lastUpdated": "2025-12-23T16:51:33.034Z"
+      "lastUpdated": "2025-12-23T17:13:54.439Z"
     },
     {
       "id": "612e9f45-4c2c-4b02-b60c-d411f4623e30",
@@ -250,7 +250,7 @@
         "background check",
         "procedure"
       ],
-      "lastUpdated": "2025-12-23T16:51:35.458Z"
+      "lastUpdated": "2025-12-23T17:13:55.197Z"
     },
     {
       "id": "2b2a8dad-05ac-8047-a985-f4f279ca38fa",
@@ -267,7 +267,7 @@
         "procedure",
         "infrastructure"
       ],
-      "lastUpdated": "2025-12-23T16:51:36.178Z"
+      "lastUpdated": "2025-12-23T17:13:56.277Z"
     },
     {
       "id": "fc9d81e4-3f84-40c8-b798-d5018a890134",
@@ -280,7 +280,7 @@
         "policy",
         "procedure"
       ],
-      "lastUpdated": "2025-12-23T16:51:37.114Z"
+      "lastUpdated": "2025-12-23T17:13:58.032Z"
     },
     {
       "id": "ab72611c-4387-40fe-8ab4-f7dcac850c91",
@@ -303,7 +303,7 @@
         "vendor",
         "subprocessor"
       ],
-      "lastUpdated": "2025-12-23T16:51:37.938Z"
+      "lastUpdated": "2025-12-23T17:14:02.946Z"
     },
     {
       "id": "54d40b58-4835-48be-be4d-087df35eed07",
@@ -323,7 +323,7 @@
         "aws",
         "vendor"
       ],
-      "lastUpdated": "2025-12-23T16:51:39.219Z"
+      "lastUpdated": "2025-12-23T17:14:03.789Z"
     },
     {
       "id": "25a4bff1-68be-46a4-a958-5eace6f86ac4",
@@ -343,7 +343,7 @@
         "aws",
         "monitoring"
       ],
-      "lastUpdated": "2025-12-23T16:51:39.898Z"
+      "lastUpdated": "2025-12-23T17:14:04.672Z"
     },
     {
       "id": "df929f14-2b7d-4188-93dd-979ceeee50f8",
@@ -360,7 +360,7 @@
         "procedure",
         "retention"
       ],
-      "lastUpdated": "2025-12-23T16:51:40.564Z"
+      "lastUpdated": "2025-12-23T17:14:06.410Z"
     },
     {
       "id": "21ea8dad-05ac-8094-a02d-e223590bc0b3",
@@ -379,7 +379,7 @@
         "retention",
         "vendor"
       ],
-      "lastUpdated": "2025-12-23T16:51:41.181Z"
+      "lastUpdated": "2025-12-23T17:14:07.287Z"
     },
     {
       "id": "129a8dad-05ac-801c-b803-e69297ecf8c7",
@@ -406,7 +406,7 @@
         "monitoring",
         "vendor"
       ],
-      "lastUpdated": "2025-12-23T16:51:42.676Z"
+      "lastUpdated": "2025-12-23T17:14:08.127Z"
     },
     {
       "id": "29ca8dad-05ac-80f3-9e55-cbb965b5b401",
@@ -420,7 +420,7 @@
         "rpo",
         "rto"
       ],
-      "lastUpdated": "2025-12-23T16:51:46.498Z"
+      "lastUpdated": "2025-12-23T17:14:09.813Z"
     },
     {
       "id": "71ba3e15-d5b5-4e62-a6f2-f3cb07983910",
@@ -430,7 +430,7 @@
       "keywords": [
         "CC1.4.1"
       ],
-      "lastUpdated": "2025-12-23T16:51:47.367Z"
+      "lastUpdated": "2025-12-23T17:14:13.341Z"
     },
     {
       "id": "e62f4f20-ea21-458b-a00f-b23295e468f6",
@@ -440,7 +440,7 @@
       "keywords": [
         "onboarding"
       ],
-      "lastUpdated": "2025-12-23T16:51:47.763Z"
+      "lastUpdated": "2025-12-23T17:14:13.920Z"
     },
     {
       "id": "257a8dad-05ac-807d-a16d-c40911e9b0a7",
@@ -451,7 +451,7 @@
         "onboarding",
         "api"
       ],
-      "lastUpdated": "2025-12-23T16:51:49.127Z"
+      "lastUpdated": "2025-12-23T17:14:14.576Z"
     },
     {
       "id": "e5dfcc09-a3ea-4180-99c6-136a6325f3aa",
@@ -459,7 +459,7 @@
       "parent": "CC1.4.1 Job Descriptions",
       "content": "## Job Overview\nZenlytic is an Intelligent Analytics company: we're building the human-first analytics experience.\nOur platform features a strong cognitive layer and a powerful chat agent, Zoë — our helpful assistant powered by large language models (LLMs). Zoë integrates deeply with our semantic layer to provide data insights with unparalleled accuracy to people of all backgrounds, from data analysts to company executives.\nWe’ve built out v1 of Zenlytic’s analytics platform — now we need someone to make it delightful, streamlined, and ridiculously good-looking for two very different types of users. Business leaders want simple, clear answers to big questions. Data analysts want powerful tools that let them dive deep into SQL and modeling. As our UI/UX Designer, you’ll take on the challenge of designing experiences that make both groups feel at home — crafting simplicity where it matters, and surfacing depth where it counts.\nYou’ll own the user experience end-to-end: from wireframes to polished visuals to building a design system that keeps everything cohesive. You’ll work side-by-side with our front-end team (they ship fast!) and help shape features that balance ease-of-use for executives with power and flexibility for analysts.\nIf you love the idea of turning complex workflows into intuitive, elegant experiences — and you get excited about designing for very different user needs in the same product — this is your spot.\n## What You’ll Do\n• Design experiences that work for two audiences: execs who want quick insights and analysts who need depth.\n• Collaborate with product + engineering to layer simplicity on top of powerful features.\n• Create flows, wireframes, prototypes, and polished visuals — including AI-driven chat interfaces for advanced analysis.\n• Build and maintain our design system in Figma for consistency across the product.\n• Run user research and testing with both personas, refining designs based on feedback.\n• Balance usability with flexibility — knowing when to streamline and when to expose advanced tools.\n• Stay sharp on UX best practices, accessibility, and design trends for data-heavy apps.\n## What You’ll Bring\n• A portfolio showing you can design for different users — simple for some, powerful for others.\n• Experience designing SaaS products (bonus if data-heavy or complex).\n• Proficiency in Figma.\n• Strong grasp of information hierarchy, usability, and user-centered design.\n• Comfort with research, design systems, and shipping fast in iterative environments.\n• Detail-oriented problem solver who thrives on ownership.\nBonus Points\n• Familiarity with front-end tech (HTML/CSS/JS).\n• Experience with analytics or BI tools.\n• Knowledge of accessibility and inclusive design.\n• +1 if you love data and analytics.\n• +10 if you’re awesome and fun to work with.\n## Additional Information\nZenlytic is a remote-first company. Team members are free to work from anywhere in the United States. For those who prefer an office environment, we maintain an office in Midtown Manhattan that is available for use.\nVisa Sponsorship: U.S. citizens and those authorized to work in the U.S. are encouraged to apply. Please note that this position is not eligible for visa sponsorship.\nZenlytic is an equal opportunity employer. All qualified applicants will receive consideration for employment regardless of race, color, religion, sex, sexual orientation, gender identity, national origin, disability, or veteran status.",
       "keywords": [],
-      "lastUpdated": "2025-12-23T16:51:51.255Z"
+      "lastUpdated": "2025-12-23T17:14:15.376Z"
     },
     {
       "id": "1e04744c-8d19-4654-b475-0d61ccd115db",
@@ -472,7 +472,7 @@
         "aws",
         "api"
       ],
-      "lastUpdated": "2025-12-23T16:51:51.856Z"
+      "lastUpdated": "2025-12-23T17:14:19.698Z"
     },
     {
       "id": "6e1afd79-40ea-424e-a505-0a02de0c2fbd",
@@ -487,7 +487,7 @@
         "monitoring",
         "api"
       ],
-      "lastUpdated": "2025-12-23T16:51:52.514Z"
+      "lastUpdated": "2025-12-23T17:14:20.272Z"
     },
     {
       "id": "643242aa-ba5f-485a-a9ac-93632f14fcb1",
@@ -500,7 +500,7 @@
         "monitoring",
         "api"
       ],
-      "lastUpdated": "2025-12-23T16:51:53.536Z"
+      "lastUpdated": "2025-12-23T17:14:22.190Z"
     },
     {
       "id": "0eb67d56-4e2d-4f6b-813a-4211173efc76",
@@ -512,7 +512,7 @@
         "infrastructure",
         "api"
       ],
-      "lastUpdated": "2025-12-23T16:51:54.183Z"
+      "lastUpdated": "2025-12-23T17:14:24.007Z"
     },
     {
       "id": "1d1a8dad-05ac-8062-b9b7-d58d407e3574",
@@ -525,7 +525,7 @@
         "infrastructure",
         "monitoring"
       ],
-      "lastUpdated": "2025-12-23T16:51:54.861Z"
+      "lastUpdated": "2025-12-23T17:14:27.092Z"
     },
     {
       "id": "25da8dad-05ac-8001-bfe8-ff19bb0aa0bc",
@@ -533,7 +533,7 @@
       "parent": "CC1.4.1 Job Descriptions",
       "content": "## Job Overview\nZenlytic is an Intelligent Analytics company: we're building the human-first analytics experience.\nOur platform features a strong cognitive layer and a powerful chat agent, Zoë — our helpful assistant powered by large language models (LLMs). Zoë integrates deeply with our semantic layer to provide data insights with unparalleled accuracy to people of all backgrounds, from data analysts to company executives.\nWe’re looking for a Software Engineering Intern to develop benchmarks on the performance of LLMs. You will take ownership of the design, implementation, and testing of a system that evaluates how well LLMs convert user input into SQL. You will publish your findings and integrate the code into our existing software repository for general usage.\nThe LLM space is one of the fastest-moving and most exciting frontiers in tech today—and we’re building at that pace. This role is ideal for someone who thrives in high-ownership environments, enjoys both strategic thinking and hands-on coding, and wants to deliver cutting-edge product experiences at the intersection of AI and analytics.\n## What You’ll Do\n• Design and implement an LLM evaluation test suite\n• Measure the performance of several LLMs against the test suite\n## What You’ll Bring\n• Familiarity with LLMs, NLP, and ML concepts (e.g., retrieval-augmented generation, embedding search, agent frameworks).\n• Deep experience with Git, pull requests, and modern collaboration workflows.\n• A self-driven mindset, with the ability to own multiple initiatives simultaneously.\n## Additional Information\nZenlytic is a remote-first company. Team members are free to work from anywhere in the United States. For those who prefer an office environment, we maintain an office in Midtown Manhattan that is available for use.\nVisa Sponsorship: U.S. citizens and those authorized to work in the U.S. are encouraged to apply. Please note that this position is not eligible for visa sponsorship.\nZenlytic is an equal opportunity employer. All qualified applicants will receive consideration for employment regardless of race, color, religion, sex, sexual orientation, gender identity, national origin, disability, or veteran status.",
       "keywords": [],
-      "lastUpdated": "2025-12-23T16:51:55.397Z"
+      "lastUpdated": "2025-12-23T17:14:27.810Z"
     },
     {
       "id": "5fbb2322-5e1e-4511-bc93-4df61c309cdf",
@@ -541,7 +541,7 @@
       "parent": "CC1.4.1 Job Descriptions",
       "content": "",
       "keywords": [],
-      "lastUpdated": "2025-12-23T16:51:59.800Z"
+      "lastUpdated": "2025-12-23T17:14:28.429Z"
     },
     {
       "id": "c4dcf450-e0e8-44b9-a40f-f0c13f33f4be",
@@ -551,7 +551,7 @@
       "keywords": [
         "api"
       ],
-      "lastUpdated": "2025-12-23T16:52:00.778Z"
+      "lastUpdated": "2025-12-23T17:14:29.806Z"
     },
     {
       "id": "4cd88e19-4ea2-4549-bab4-974bb12ccd96",
@@ -559,7 +559,7 @@
       "parent": "Growth Lead",
       "content": "• Product-first, bottom-up sales motions: \n• Strong community-based marketing:\n• Content-marketing leaders\n• Leading Shopify technology providers:",
       "keywords": [],
-      "lastUpdated": "2025-12-23T16:52:01.387Z"
+      "lastUpdated": "2025-12-23T17:14:30.528Z"
     },
     {
       "id": "df6e0b27-3198-42d9-8664-af317ec8bd79",
@@ -567,7 +567,7 @@
       "parent": "Growth Lead",
       "content": "---\n• 10/14/20\n• Jonathan Beaton\n---\n## GTM \n• What are you planning for our GTM? What directions would you take us?\n• Most of his experience was with organic motion ",
       "keywords": [],
-      "lastUpdated": "2025-12-23T16:52:01.895Z"
+      "lastUpdated": "2025-12-23T17:14:34.055Z"
     },
     {
       "id": "5cfbb722-dd2b-4552-a259-ea50453cbd69",
@@ -575,7 +575,7 @@
       "parent": "Growth Lead",
       "content": "---\n## Meeting with Viral (8/5/2020)\n• He's the CFO, co-founder\n• He does ops and systems + low code tools \n• They're in growth stage and starting to focus on data\n• historically bringing data into gsheets and now on tableau\n• sync all data in tableau and report there \n---\n## Meeting with Alex (9/25/20)\n• No one person will fit all our needs \n• She'll send us a deck with their model and setup\n• We send them requirements and they'll match us \n• Hourly is $90-170 / hr except for CMO which is higher \n• Part time is locked in 20 hours a week, FT is 40% \n• 20% discount off rate for Part time and Full time ",
       "keywords": [],
-      "lastUpdated": "2025-12-23T16:52:02.585Z"
+      "lastUpdated": "2025-12-23T17:14:34.536Z"
     },
     {
       "id": "09030d3d-835d-42bc-9724-86d0a968e7de",
@@ -583,7 +583,7 @@
       "parent": "Growth Lead",
       "content": "- What would you do to launch Zenlytic?\nuse U-link to reach out\n- What do you think of the PLG model?\n- What's a marketing-driven company you respect?  How would you explain their marketing strategy?\n- How do you keep up with the industry?  What's your favorite email newsletter?\n- What are the most important components of an inbound strategy?\n- How have you used data before in your job?  What tools have you used?\n- What do you do for fun outside of work?\n- What brands or influencers do you follow on social media and why?",
       "keywords": [],
-      "lastUpdated": "2025-12-23T16:52:03.112Z"
+      "lastUpdated": "2025-12-23T17:14:35.054Z"
     },
     {
       "id": "c2fec5dc-b6b6-4ec1-b9b5-c3c312b32439",
@@ -591,7 +591,7 @@
       "parent": "Growth Lead",
       "content": "- What would you do to launch Zenlytic?\n- What do you think of the PLG model?\n- What's a marketing-driven company you respect?  How would you explain their marketing strategy?\n- How do you keep up with the industry?  What's your favorite email newsletter?\n- What are the most important components of an inbound strategy?\n- How have you used data before in your job?  What tools have you used?\n- What do you do for fun outside of work?\n- What brands or influencers do you follow on social media and why?",
       "keywords": [],
-      "lastUpdated": "2025-12-23T16:52:03.626Z"
+      "lastUpdated": "2025-12-23T17:14:35.636Z"
     },
     {
       "id": "ef147748-77aa-4049-92ec-d8d5978bc0d1",
@@ -604,7 +604,7 @@
         "aws",
         "api"
       ],
-      "lastUpdated": "2025-12-23T16:52:04.387Z"
+      "lastUpdated": "2025-12-23T17:14:44.514Z"
     },
     {
       "id": "1b4a8dad-05ac-8032-b5ce-c63f100dcabe",
@@ -614,7 +614,7 @@
       "keywords": [
         "infrastructure"
       ],
-      "lastUpdated": "2025-12-23T16:52:05.318Z"
+      "lastUpdated": "2025-12-23T17:14:45.118Z"
     },
     {
       "id": "add41806-bd72-4418-835a-d7a337fc0b36",
@@ -624,7 +624,7 @@
       "keywords": [
         "retention"
       ],
-      "lastUpdated": "2025-12-23T16:52:05.937Z"
+      "lastUpdated": "2025-12-23T17:14:46.255Z"
     },
     {
       "id": "1195ed70-a8b2-47cf-a34d-5894f200e66e",
@@ -635,7 +635,7 @@
         "rpo",
         "network"
       ],
-      "lastUpdated": "2025-12-23T16:52:08.989Z"
+      "lastUpdated": "2025-12-23T17:14:46.945Z"
     },
     {
       "id": "92da9569-6340-4865-be2a-7677164c5d1c",
@@ -646,7 +646,7 @@
         "onboarding",
         "api"
       ],
-      "lastUpdated": "2025-12-23T16:52:09.665Z"
+      "lastUpdated": "2025-12-23T17:14:47.734Z"
     },
     {
       "id": "1eaa8dad-05ac-80d0-9b92-c2ba45a52272",
@@ -660,7 +660,7 @@
         "vendor",
         "api"
       ],
-      "lastUpdated": "2025-12-23T16:52:10.438Z"
+      "lastUpdated": "2025-12-23T17:14:48.514Z"
     },
     {
       "id": "25ba8dad-05ac-801b-9928-e40a3d182470",
@@ -668,7 +668,7 @@
       "parent": "CC1.4.1 Job Descriptions",
       "content": "- What product or feature have you built from scratch that you're most proud of? \n- What product or feature have you worked on with the most demanding performance, scalability, latency, or memory requirements? Please describe these requirements.\n- What is the most complex application you've ever worked on? What specific factors made it complex?\n- Describe a technically challenging problem you solved that surprised you. Was it unexpectedly difficult or simple? Did you develop an elegant solution? Or did you build a very convoluted solution and later realized that there was a much simpler solution.",
       "keywords": [],
-      "lastUpdated": "2025-12-23T16:52:12.603Z"
+      "lastUpdated": "2025-12-23T17:14:49.214Z"
     },
     {
       "id": "1d0a8dad-05ac-80af-89e7-e100d0956aae",
@@ -678,7 +678,7 @@
       "keywords": [
         "api"
       ],
-      "lastUpdated": "2025-12-23T16:52:13.060Z"
+      "lastUpdated": "2025-12-23T17:14:49.730Z"
     },
     {
       "id": "1d1a8dad-05ac-807a-b46f-f343f6f4c20f",
@@ -688,7 +688,7 @@
       "keywords": [
         "infrastructure"
       ],
-      "lastUpdated": "2025-12-23T16:52:14.227Z"
+      "lastUpdated": "2025-12-23T17:14:50.248Z"
     },
     {
       "id": "1d1a8dad-05ac-80a8-8389-c938d2709bb8",
@@ -696,7 +696,7 @@
       "parent": "CC1.4.1 Job Descriptions",
       "content": "- Please describe the product or major feature that you are most proud of being the driving force behind.\n- What SaaS product out there do you think offers the most incredible user experience? What about it inspires you?\n- What do you think is the biggest thing that ChatGPT’s interface gets wrong?",
       "keywords": [],
-      "lastUpdated": "2025-12-23T16:52:14.768Z"
+      "lastUpdated": "2025-12-23T17:14:50.781Z"
     },
     {
       "id": "2aef0fb0-71ef-4ba9-806b-881051c8c20a",
@@ -707,7 +707,7 @@
         "employee",
         "policy"
       ],
-      "lastUpdated": "2025-12-23T16:52:15.520Z"
+      "lastUpdated": "2025-12-23T17:14:51.829Z"
     },
     {
       "id": "c63ab33c-0bc4-4aa9-98f3-fa81d7100850",
@@ -719,7 +719,7 @@
         "sso",
         "aws"
       ],
-      "lastUpdated": "2025-12-23T16:52:15.864Z"
+      "lastUpdated": "2025-12-23T17:14:52.210Z"
     },
     {
       "id": "a35e336a-5a92-4fba-9ac4-8a75d7872412",
@@ -738,7 +738,7 @@
         "aws",
         "logging"
       ],
-      "lastUpdated": "2025-12-23T16:52:16.896Z"
+      "lastUpdated": "2025-12-23T17:14:53.071Z"
     },
     {
       "id": "1325e189-2105-452d-b6f3-68f3b197ccf1",
@@ -751,7 +751,7 @@
         "onboarding",
         "aws"
       ],
-      "lastUpdated": "2025-12-23T16:52:17.436Z"
+      "lastUpdated": "2025-12-23T17:14:53.487Z"
     },
     {
       "id": "ac94c667-0af3-4bad-a023-ba0ce979ebff",
@@ -767,7 +767,7 @@
         "aws",
         "third party"
       ],
-      "lastUpdated": "2025-12-23T16:52:19.425Z"
+      "lastUpdated": "2025-12-23T17:14:54.309Z"
     },
     {
       "id": "1595fdb6-a46a-482e-9dcc-65fd98831020",
@@ -779,7 +779,7 @@
         "compliance",
         "audit"
       ],
-      "lastUpdated": "2025-12-23T16:52:24.107Z"
+      "lastUpdated": "2025-12-23T17:14:54.971Z"
     },
     {
       "id": "8230df19-ee1e-4f6f-b0c1-00518e41d5bb",
@@ -812,7 +812,7 @@
         "monitoring",
         "vendor"
       ],
-      "lastUpdated": "2025-12-23T16:52:25.116Z"
+      "lastUpdated": "2025-12-23T17:14:56.124Z"
     },
     {
       "id": "25ca8dad-05ac-80d9-a716-c2461db6a795",
@@ -825,7 +825,7 @@
         "incident",
         "onboarding"
       ],
-      "lastUpdated": "2025-12-23T16:52:36.360Z"
+      "lastUpdated": "2025-12-23T17:14:56.920Z"
     },
     {
       "id": "25ca8dad-05ac-805b-85a7-f7269be86e66",
@@ -837,7 +837,7 @@
         "employee",
         "onboarding"
       ],
-      "lastUpdated": "2025-12-23T16:52:37.006Z"
+      "lastUpdated": "2025-12-23T17:14:57.937Z"
     },
     {
       "id": "6b8833be227a437a8f846f9cd5c896e4",
@@ -852,7 +852,94 @@
         "retention",
         "network"
       ],
-      "lastUpdated": "2025-12-23T16:52:37.800Z"
+      "lastUpdated": "2025-12-23T17:14:58.730Z"
+    },
+    {
+      "id": "3eb14fe0-7e8d-400f-8082-a5af44c29a0a",
+      "title": "Data Retention Policies",
+      "parent": "Security Homepage",
+      "content": "Ex Quanta Inc (d.b.a Zenlytic)\n# Data Retention Policies\nVersion: 0.0\nPolicy Owner: Paul Blankley\nStatus: Implemented\n## Policies as they apply \n### Overview\nThis document outlines the data retention policies for Zenlytic. These policies are designed to ensure compliance, maintain data integrity, and protect customer information.\n### Data Retention Policies\n- AWS Cloudwatch (Logging)\n- Sentry (Logging)\n- Langfuse (LLM Logging)\n- LogRocket (Monitoring)\n- OpenAI (LLM)\n### Conclusion\nThese data retention policies balance operational efficiency and compliance with rigorous security standards. By implementing these retention periods, Zenlytic ensures the security, integrity, and availability of customer data while minimizing risks associated with data storage.",
+      "keywords": [
+        "security",
+        "compliance",
+        "policy",
+        "retention",
+        "sso",
+        "aws",
+        "logging",
+        "monitoring"
+      ],
+      "lastUpdated": "2025-12-23T17:15:00.456Z"
+    },
+    {
+      "id": "fd9bdf97-ab8c-4543-8810-2a70c312458c",
+      "title": "Privacy Policy",
+      "parent": "Security Homepage",
+      "content": "This is the link to our current privacy policy\n## Last reviewed: 8/27/25\nChanges:\n• add GCP, Algolia, intercom, Snowflake, Airbyte\n• remove LogRocket\n• add last updated date to privacy policy",
+      "keywords": [
+        "privacy",
+        "policy"
+      ],
+      "lastUpdated": "2025-12-23T17:15:00.977Z"
+    },
+    {
+      "id": "482e1430-de5b-4c9f-8788-f3dce778af63",
+      "title": "End User License Agreement / Terms of Service",
+      "parent": "Security Homepage",
+      "content": "This is the link to our EULA / ToS ",
+      "keywords": [],
+      "lastUpdated": "2025-12-23T17:15:01.559Z"
+    },
+    {
+      "id": "028b3458-f905-4410-91db-39db87ff955f",
+      "title": "Subprocessors",
+      "parent": "Security Homepage",
+      "content": "These are the subprocessors we use: \n• Amazon Web Services (Cloud provider)\n• Azure (Cloud provider)\n• Algolia (Search index)\n• OpenAI (LLM Provider)\n• Langfuse (developer logs)\n• LogRocket (developer logs)\n• Sentry (developer logs)\n• Segment (internal analytics)\n• Snowflake (internal analytics)\n• Airbyte (internal analytics)",
+      "keywords": [
+        "sso",
+        "subprocessor"
+      ],
+      "lastUpdated": "2025-12-23T17:15:03.209Z"
+    },
+    {
+      "id": "216a8dad-05ac-8053-86f9-f85f9cdf8363",
+      "title": "Data Processing Agreement (DPA)",
+      "parent": "Security Homepage",
+      "content": "",
+      "keywords": [],
+      "lastUpdated": "2025-12-23T17:15:04.216Z"
+    },
+    {
+      "id": "180a8dad-05ac-80a1-bccf-da1558df31ed",
+      "title": "Zoë Architecture",
+      "parent": "Security Homepage",
+      "content": "Zoë operates with an Agentic architecture. This means that at each step of the question-answering process, the LLM chooses between calling a tool in its set of tools or responding directly to the user. \nIf the LLM chooses to call a tool, Zenlytic will run the tool and show the results to the LLM. The LLM will then make a decision on whether it wants to call another tool or respond directly to the user. This process continues until the LLM responds directly to the user.\nA high-level diagram of this workflow looks like this:\n## Question Answering Process\nTo be more specific on the set of tools that Zoë uses and when she uses them, let’s look at a more complicated question flow that involves a wider range of tools used. \n- User asks a question “Can you show me gross revenue by product YTD and tell me which product had the highest growth from last YTD to this YTD?”\n- Zoë passes that question to the LLM which determines it wants to use the search fields tool. It queries the search fields tool with the search terms “gross revenue”, “ytd”, “product”.\n- Zoë executes the tool itself, and returns matching fields like order_lines.total_gross_revenue, order_lines.order_date, and products.product_title, along with their additional metadata and SQL definitions.\n- Zoë structures the SQL she wants to use from the metadata into a tool call to the LLM, and the LLM determines that it wants to use the run a query tool. It calls the run a query tool with SQL referencing the field definitions that it saw in the search fields tool response.\n- Zoë compiles the arguments the LLM passes into SQL using the Clarity Engine, and executes that SQL query on the customer’s warehouse.\n- Zoë passes the result of the tool call (the data from the query run on the warehouse) to the LLM and the LLM determines that it wants to use the code interpreter tool to calculate the percentage change from last YTD  to this YTD. The LLM writes the code it wants to execute on top of the query results it sees.\n- Zoë executes the code it received as part of the tool call for code interpreter in an isolated sandbox environment. \n- Zoë passes the result of the code interpreter execution to the LLM, and the LLM determines it wants to respond to the user directly and end the iteration process. The LLM responds with text summarizing the results of the conversation thus far.\n- Zoë passes that summarization to the user (including the previously used tool calls and results), answering their question. \nAnother helpful visual, which doesn’t contain all LLM calls made in the process outlined above, but shows all the unique services used, and how they fit together:",
+      "keywords": [],
+      "lastUpdated": "2025-12-23T17:15:04.774Z"
+    },
+    {
+      "id": "a64dc864-7a02-468c-85f4-6c91bb6fc122",
+      "title": "Question flow diagram (with and without Clarity)",
+      "parent": "Security Homepage",
+      "content": "# Without Clarity (link)\n# With Clarity (link)\n# With Clarity - Deep questions (link)",
+      "keywords": [],
+      "lastUpdated": "2025-12-23T17:15:05.966Z"
+    },
+    {
+      "id": "b1172bf4-7337-4ac6-8996-593a99253586",
+      "title": "FAQ - Zenlytic Security",
+      "parent": "Security Homepage",
+      "content": "### How do you connect to the data warehouse?\n• Zenlytic uses database credentials to connect to and run SQL queries on your data warehouse. Zenlytic does NOT index any whole tables or copy data from your system to ours. We create a SQL query on the fly based on metadata stored in git and connected to Zenlytic and run that query on your data warehouse.\n### Do you cache my data?\n• We do. We use Redis to cache query results, but never the underlying tables in the warehouse. For example, if you ask for revenue daily, we will run a query to produce the data needed to show you that plot and cache the data that shows up on the plot so the next time that question is asked, it hits the cache instead of running a duplicative query on your warehouse. Note: you can configure the cache expiry time or disable the cache entirely if you wish. \n### How do you initialize the semantic layer?\n• We use solely metadata from information_schema in your warehouse to create the semantic layer. The semantic layer itself is a collection of yaml files that are stored in a git repo, which is connected to Zenlytic via an SSH key pair \n• One other (optional) feature we offer is the ability to tag a field as searchable which tells our system to index the unique values in that column. This is useful for columns like status which contain values like Fulfilled or Cancelled, so Zoë can answer questions like “how many cancelled orders did we have last week?” Only fields with searchable: true tagged explicitly will be indexed (and only the unique values of the column will be indexed).\n### How does the data flow from question to Zoë to answer?\n- We use your information_schema tables to get the metadata to create the semantic layer. You then tag which fields you want us to index, and add any nuance in how to use which fields\n- We pass that metadata to Zoe who will use it to make the decision on which fields to use in which combinations to best answer your question. That selection will be compiled into a SQL query, which we will run on your data warehouse.\n- We will take that result, pick a default plot, and show the result to Zoe for summarization and synthesis.\n- Results can then be added to dashboards and scheduled for delivery, or shared between users (who both have permissions to access the underlying data)\n### What data do you pull from our system to run the solution in Zenlytic SaaS? Do you pull the metadata and view/table definitions/relationships ONLY to create the semantic layer inside of Zenlytic, and DO NOT PULL ANY datasets housed inside of our Snowflake tables into your environment?\n- To create the semantic layer we use just metadata from information_schema tables, and we never, under any circumstances, pull raw tables from your warehouse and replicate them in our system. We create SQL queries on the fly as indicated by selections in the UI either by users or by Zoë and run those queries on your warehouse.\n- We also offer the (optional) ability to tag fields like a “status” or “type” so we index the unique values of those columns and show them to Zoë to improve her ability to answer questions\n- If its only the metadata and relationships being pulled, then when the prompts are fired, LLMs will evaluate the prompts, and access the semantic layer to produce the results, but at this time, during runtime, don’t you pull our data or do you push all the data processing inside snowflake to retrieve only the results and then pass it onto the presentation layer?\n### Can you clarify the orchestration of the prompt to response in detail to essentially clarify how our data is used and how our core business data can be protected at rest and in transit (if being pulled).\n- We use your information_schema tables to get the metadata to create the semantic layer. You then tag which fields you want us to index, and add any nuance in how to use which fields\n- We pass that metadata to Zoe who will use it to make the decision on which fields to use in which combinations to best answer your question. That selection will be compiled into a SQL query, which we will run on your data warehouse.\n- We will take that result, pick a default plot, and show the result to Zoe for summarization and synthesis.\n- Results can then be added to dashboards and scheduled for delivery, or shared between users (who both have permissions to access the underlying data)\n## Is your platform running on AWS? Azure? Any others?\n• We run primarily on AWS, but we run one tangential service on Azure.\n## What region is the platform running in within the respective cloud provider?\n• All cloud providers run in US East 1, except for our EU infra, which is wholly separate and runs in EU Central 1\n## Do you use any AI “watermarks” i.e. something that indicates that AI is being used and responses may be inaccurate/need to be fact checked?\n• No\n## Do you have…\n• An Incident Response policy - Yes\n• A Disaster Recovery policy - Yes\n• Routine tests for disaster recovery - Yes\n• An Employee Handbook - Yes\n• An Information Security policy - Yes\n• A Change Management policy - Yes\n• A Roles & Responsibilities policy - Yes\n• Regular information security trainings - Yes\n## What are the different user roles / permission sets?\n• Intercom doc",
+      "keywords": [
+        "training",
+        "security",
+        "incident",
+        "disaster recovery",
+        "employee",
+        "policy",
+        "aws"
+      ],
+      "lastUpdated": "2025-12-23T17:15:06.703Z"
     },
     {
       "id": "3f72c85f50d947ec97543db5242260f9",
@@ -863,7 +950,7 @@
         "security",
         "retention"
       ],
-      "lastUpdated": "2025-12-23T16:52:40.846Z"
+      "lastUpdated": "2025-12-23T17:15:07.791Z"
     },
     {
       "id": "c61320a6-760b-4a63-9f69-170b7a64b471",
@@ -871,7 +958,7 @@
       "parent": "Engineering Wiki",
       "content": "## Cloud Architecture\n---\n## Chat (Zoë) Architecture\n---\n## Component Architecture\nOriginal (Excalidraw)",
       "keywords": [],
-      "lastUpdated": "2025-12-23T16:52:43.507Z"
+      "lastUpdated": "2025-12-23T17:15:08.335Z"
     },
     {
       "id": "1bca8dad-05ac-808c-8170-ebe970188c55",
@@ -879,7 +966,7 @@
       "parent": "Architecture Diagram",
       "content": "- SEARCH_FIELDS_TOOL\n- QUERY_DATA_TOOL (referred to as DataQuestion in the code)\n- CHART_CONFIG_TOOL\n- SEARCH_DASHBOARDS_TOOL\n- CREATE_NEW_DASHBOARD_TOOL\n- ADD_QUESTIONS_TO_DASHBOARD_TOOL\n- SHOW_VIEWS_TOOL\n- CODE_INTERPRETER_TOOL\n- CREATE_FIELD_TOOL\n- USER_INTERACTION_MEMORY_TOOL\n- REASONING_TOOL\n- CAUSAL_IMPACT_ANALYZER_TOOL",
       "keywords": [],
-      "lastUpdated": "2025-12-23T16:52:43.991Z"
+      "lastUpdated": "2025-12-23T17:15:08.800Z"
     },
     {
       "id": "209a8dad-05ac-80e0-bd3d-c1504eed9633",
@@ -895,7 +982,7 @@
         "api",
         "integration"
       ],
-      "lastUpdated": "2025-12-23T16:52:46.611Z"
+      "lastUpdated": "2025-12-23T17:15:09.620Z"
     },
     {
       "id": "209a8dad-05ac-80e7-a300-dd017988985c",
@@ -908,7 +995,7 @@
         "infrastructure",
         "network"
       ],
-      "lastUpdated": "2025-12-23T16:52:47.956Z"
+      "lastUpdated": "2025-12-23T17:15:10.667Z"
     },
     {
       "id": "207a8dad-05ac-803f-88b7-f07f1f7dcc79",
@@ -921,7 +1008,7 @@
         "infrastructure",
         "api"
       ],
-      "lastUpdated": "2025-12-23T16:52:49.536Z"
+      "lastUpdated": "2025-12-23T17:15:12.676Z"
     },
     {
       "id": "b5eb4f7a-c7eb-4a45-bc35-0bcd9931dc4b",
@@ -931,7 +1018,7 @@
       "keywords": [
         "integration"
       ],
-      "lastUpdated": "2025-12-23T16:52:50.805Z"
+      "lastUpdated": "2025-12-23T17:15:14.137Z"
     },
     {
       "id": "22675636-cd8c-4e73-a45f-d065f158db5e",
@@ -943,7 +1030,7 @@
         "sso",
         "api"
       ],
-      "lastUpdated": "2025-12-23T16:52:51.884Z"
+      "lastUpdated": "2025-12-23T17:15:15.092Z"
     },
     {
       "id": "d828bc4b-c1f3-4c61-8b4a-5a82b0887983",
@@ -951,7 +1038,7 @@
       "parent": "Engineering Wiki",
       "content": "In this document, we’ll cover how to use the extra prompt context feature when setting up Zoë, Zenlytic’s AI analyst.\n---\n# What instructions does Zoë already have?\nWhen adding new context for Zoë, you should try not to repeat or contradict instructions she is given in the Zenlytic-set system prompt. \nThese are the high-level instructions we give Zoë by default when you interact with her:\n• You are Zenlytic's self-serve Business Intelligence (BI) assistant deployed in a chat interface.\n• You operate on the company's semantic layer.\n• You are assisting the company: <your-company-name> and the current date is <current-date>\n• Clarify ambiguous questions with follow-up questions.\nDon't change these instructions when adding additional context for Zoë because doing so will confuse Zoë and hurt her performance.\n# How should I add instructions?\nWhen structuring additional instructions for Zoë, make sure they are clearly written and contain a straightforward action Zoë should follow. \nA good heuristic is: \n> If a human was skimming this, would they still get the point and do what I’m asking?\nGenerally, it’s helpful to emphasize certain points to make sure Zoë follows them. For example, if you’re trying to get Zoë to ask a follow up question for a time period on a large table saying:\n```\nAsk for a time period if not given one.\n```\nWill not work as well as:\n```\nWhen asked a question that does not contain a time period filter, you must ALWAYS ask the user for the time period they want to use to view the data.\n```\nUsing bullet points or wrapping additional logic under a “Guidelines” header is also helpful. A good example is:\n```\nAdditional Guidelines:\n- The acronym FFDC refers to the marketing function at our company. When users ask for that, interpret it as the word marketing.\n- When the user asks a question in a non-English language, you must ALWAYS respond in the same language in which you were asked the question.\n- When the user asks a question without a time period specified, you must ALWAYS ask a follow-up question to make them pick a time period.\n```",
       "keywords": [],
-      "lastUpdated": "2025-12-23T16:52:52.683Z"
+      "lastUpdated": "2025-12-23T17:15:15.904Z"
     },
     {
       "id": "1baa8dad-05ac-80ac-a8c5-e7fd0cb47f54",
@@ -959,7 +1046,7 @@
       "parent": "Engineering Wiki",
       "content": "---\nAt Zenlytic, we believe the best insights come from matching the right tool to the right task. That’s why we’ve expanded Zoë, our conversational AI data agent, to support multiple AI models, letting users choose based on their specific needs.\nNot all AI models are the same. Some provide quick, straightforward answers, ideal for immediate insights on questions like, “What’s our top-selling product this month?” Others excel in structured problem-solving and are best for complex queries, such as analyzing deep customer trends or forecasting how new tariffs will affect production needs.\nBy empowering users to select the AI model suited to their query, Zoë ensures accuracy, speed, and relevance. Whether you need instant clarity or advanced analytical insights, Zoë provides the right tool every time you “Just Ask.”\nAvailable AI Models:\n• GPT-4o: Balanced model — great for answering straightforward questions like, “What’s our top-selling product this month?”\n• GPT-o1: Advanced reasoning model — ideal for complex, detailed analyses such as, “What factors are driving customer churn over the past quarter?”\n• Claude 3.5 Sonnet: Balanced model — suitable for quick insights and mid-level analytical tasks, like identifying sales trends.\n• Claude 3.7 Sonnet: Advanced exploratory model — best for deep dives, exploratory analysis, and nuanced insights. Highly intelligent but tends to be more verbose, making it excellent for comprehensive understanding.",
       "keywords": [],
-      "lastUpdated": "2025-12-23T16:52:53.268Z"
+      "lastUpdated": "2025-12-23T17:15:17.967Z"
     },
     {
       "id": "1d1a8dad-05ac-808e-84b0-ff824335fc9a",
@@ -969,7 +1056,7 @@
       "keywords": [
         "sso"
       ],
-      "lastUpdated": "2025-12-23T16:52:53.952Z"
+      "lastUpdated": "2025-12-23T17:15:19.988Z"
     },
     {
       "id": "281a8dad-05ac-8064-b33d-dbab315a8baf",
@@ -979,7 +1066,7 @@
       "keywords": [
         "integration"
       ],
-      "lastUpdated": "2025-12-23T16:52:54.587Z"
+      "lastUpdated": "2025-12-23T17:15:20.745Z"
     },
     {
       "id": "50eba629-62a7-44ff-8052-4577a5b79ce0",
@@ -989,7 +1076,7 @@
       "keywords": [
         "aws"
       ],
-      "lastUpdated": "2025-12-23T16:52:55.395Z"
+      "lastUpdated": "2025-12-23T17:15:21.403Z"
     },
     {
       "id": "1cea8dad-05ac-801c-8359-c678d80a9d81",
@@ -999,7 +1086,7 @@
       "keywords": [
         "aws"
       ],
-      "lastUpdated": "2025-12-23T16:52:56.048Z"
+      "lastUpdated": "2025-12-23T17:15:24.198Z"
     },
     {
       "id": "1cea8dad-05ac-8006-a808-c75cb3c4a862",
@@ -1023,7 +1110,7 @@
         "network",
         "monitoring"
       ],
-      "lastUpdated": "2025-12-23T16:52:56.813Z"
+      "lastUpdated": "2025-12-23T17:15:26.793Z"
     },
     {
       "id": "18aa8dad-05ac-80e9-92c8-ea352eb3c635",
@@ -1033,7 +1120,7 @@
       "keywords": [
         "integration"
       ],
-      "lastUpdated": "2025-12-23T16:52:57.621Z"
+      "lastUpdated": "2025-12-23T17:15:27.348Z"
     },
     {
       "id": "65edf3cb-a5d6-4e7b-a920-3cfbe8a53cfa",
@@ -1041,7 +1128,7 @@
       "parent": "Engineering Wiki",
       "content": "# Frontend\n☐ Update AG Grid License on prod once stage looks good\n# Backend\n☐ Broadly speaking to be prod ready, there should be no errors on any of the dashboards\n☐ Bottom rows still showing up as empty\n☐ Row Totals aren’t working\n☐ SQL Question is not working\n☐ Question specific errors aren’t working. This is suppose to tell the user that they need to select steps in the funnel. Check the dashboard as its seem to be all question types\n☐ Download dashboard as PDF is failing\n☐ Personal fields don’t seem to be working\n☐ Offset table calc not working in pivoted table\n☐ Percent Total on Pivots not working as expected. See ticket",
       "keywords": [],
-      "lastUpdated": "2025-12-23T16:52:59.195Z"
+      "lastUpdated": "2025-12-23T17:15:28.199Z"
     },
     {
       "id": "1a8a8dad-05ac-80fb-b57d-fd269b13bfb1",
@@ -1049,7 +1136,7 @@
       "parent": "Engineering Wiki",
       "content": "",
       "keywords": [],
-      "lastUpdated": "2025-12-23T16:53:00.765Z"
+      "lastUpdated": "2025-12-23T17:15:29.127Z"
     },
     {
       "id": "28fa8dad-05ac-803b-b68c-fa93c32a44dc",
@@ -1059,7 +1146,7 @@
       "keywords": [
         "api"
       ],
-      "lastUpdated": "2025-12-23T16:53:02.864Z"
+      "lastUpdated": "2025-12-23T17:15:30.015Z"
     },
     {
       "id": "28fa8dad-05ac-805a-9b7f-efcef3ef5612",
@@ -1069,7 +1156,7 @@
       "keywords": [
         "api"
       ],
-      "lastUpdated": "2025-12-23T16:53:03.388Z"
+      "lastUpdated": "2025-12-23T17:15:30.313Z"
     },
     {
       "id": "28fa8dad-05ac-80b6-a92a-f804712ff563",
@@ -1079,7 +1166,7 @@
       "keywords": [
         "api"
       ],
-      "lastUpdated": "2025-12-23T16:53:04.102Z"
+      "lastUpdated": "2025-12-23T17:15:31.239Z"
     },
     {
       "id": "129a8dad05ac801cb803e69297ecf8c7",
@@ -1106,7 +1193,7 @@
         "monitoring",
         "vendor"
       ],
-      "lastUpdated": "2025-12-23T16:53:05.091Z"
+      "lastUpdated": "2025-12-23T17:15:32.399Z"
     },
     {
       "id": "29ca8dad-05ac-80f3-9e55-cbb965b5b401",
@@ -1120,7 +1207,7 @@
         "rpo",
         "rto"
       ],
-      "lastUpdated": "2025-12-23T16:53:06.010Z"
+      "lastUpdated": "2025-12-23T17:15:33.283Z"
     }
   ]
 }
