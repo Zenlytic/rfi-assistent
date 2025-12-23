@@ -43,23 +43,33 @@ let fullIndex: FullIndex | null = null;
 function loadSearchIndex(): IndexedPage[] {
   if (searchIndex) return searchIndex;
 
-  // Try multiple possible paths (functions vs scripts context)
+  // Try multiple possible paths for different runtime contexts
+  // Netlify bundles files relative to function, so try various locations
   const possiblePaths = [
+    // Netlify runtime (included_files puts them at root)
+    '/var/task/config/notion-index/search-index.json',
+    // Local dev with netlify dev
+    join(process.cwd(), 'config', 'notion-index', 'search-index.json'),
+    // Relative to __dirname (compiled)
     join(__dirname, '..', '..', '..', 'config', 'notion-index', 'search-index.json'),
     join(__dirname, '..', '..', 'config', 'notion-index', 'search-index.json'),
-    join(process.cwd(), 'config', 'notion-index', 'search-index.json'),
   ];
 
   for (const indexPath of possiblePaths) {
-    if (existsSync(indexPath)) {
-      const data = readFileSync(indexPath, 'utf-8');
-      searchIndex = JSON.parse(data);
-      console.log(`Loaded search index from ${indexPath} (${searchIndex!.length} pages)`);
-      return searchIndex!;
+    try {
+      if (existsSync(indexPath)) {
+        const data = readFileSync(indexPath, 'utf-8');
+        searchIndex = JSON.parse(data);
+        console.log(`Loaded search index from ${indexPath} (${searchIndex!.length} pages)`);
+        return searchIndex!;
+      }
+    } catch (err) {
+      console.log(`Failed to load from ${indexPath}:`, err);
     }
   }
 
-  console.warn('Search index not found, local search unavailable');
+  console.warn('Search index not found at any path, local search unavailable');
+  console.warn('Tried paths:', possiblePaths);
   return [];
 }
 
@@ -70,17 +80,25 @@ function loadFullIndex(): FullIndex | null {
   if (fullIndex) return fullIndex;
 
   const possiblePaths = [
+    // Netlify runtime
+    '/var/task/config/notion-index/index.json',
+    // Local dev
+    join(process.cwd(), 'config', 'notion-index', 'index.json'),
+    // Relative paths
     join(__dirname, '..', '..', '..', 'config', 'notion-index', 'index.json'),
     join(__dirname, '..', '..', 'config', 'notion-index', 'index.json'),
-    join(process.cwd(), 'config', 'notion-index', 'index.json'),
   ];
 
   for (const indexPath of possiblePaths) {
-    if (existsSync(indexPath)) {
-      const data = readFileSync(indexPath, 'utf-8');
-      fullIndex = JSON.parse(data);
-      console.log(`Loaded full index from ${indexPath}`);
-      return fullIndex;
+    try {
+      if (existsSync(indexPath)) {
+        const data = readFileSync(indexPath, 'utf-8');
+        fullIndex = JSON.parse(data);
+        console.log(`Loaded full index from ${indexPath}`);
+        return fullIndex;
+      }
+    } catch (err) {
+      console.log(`Failed to load full index from ${indexPath}:`, err);
     }
   }
 
