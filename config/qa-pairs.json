@@ -87,25 +87,25 @@
     {
       "id": "qa_15",
       "q": "Does Zenlytic have a business continuity plan?",
-      "a": "**Yes** - BCP covers disaster recovery, data backup (every 5 minutes, 30-day retention, geo-redundant), and service restoration. [Business Continuity Plan; CC7.2.2 Database Backup Policy]",
+      "a": "**Yes** - BCP covers disaster recovery with RTO of 4 hours and RPO of 15 minutes, geo-redundant infrastructure, and documented service restoration procedures. [Business Continuity Plan]",
       "keywords": ["business continuity", "BCP", "disaster recovery", "backup"]
     },
     {
       "id": "qa_16",
       "q": "What is the RPO (Recovery Point Objective) for critical data?",
-      "a": "**5 minutes** - Zenlytic's RPO for critical data is 5 minutes, achieved through continuous database backups every 5 minutes with geo-redundant storage. Backups are retained for 30 days. [Business Continuity Plan; CC7.2.2 Database Backup Policy]",
+      "a": "**15 minutes** - Data loss must not exceed 15 minutes in the event of a disruption. [Business Continuity Plan]",
       "keywords": ["RPO", "recovery point objective", "data loss", "backup frequency"]
     },
     {
       "id": "qa_17",
       "q": "What is the RTO (Recovery Time Objective)?",
-      "a": "**4 hours** - Zenlytic's RTO for critical systems is 4 hours. This is supported by geo-redundant infrastructure (AWS us-east-1 primary, us-west-2 backup) and documented recovery procedures. [Business Continuity Plan]",
+      "a": "**4 hours** - The BI platform must be restored within 4 hours of a disruption for critical services. [Business Continuity Plan]",
       "keywords": ["RTO", "recovery time objective", "downtime", "restoration"]
     },
     {
       "id": "qa_18",
       "q": "Does Zenlytic have disaster recovery capabilities?",
-      "a": "**Yes** - Zenlytic maintains comprehensive disaster recovery capabilities including: geo-redundant infrastructure across AWS regions, RPO of 5 minutes, RTO of 4 hours, automated failover procedures, and regular DR testing. [Business Continuity Plan; CC7.2.2 Database Backup Policy]",
+      "a": "**Yes** - Zenlytic maintains comprehensive disaster recovery capabilities including: geo-redundant infrastructure across AWS regions (us-east-1 primary, us-west-2 backup), RPO of 15 minutes, RTO of 4 hours, and regular DR testing. [Business Continuity Plan]",
       "keywords": ["disaster recovery", "DR", "failover", "redundancy", "availability"]
     }
   ]
