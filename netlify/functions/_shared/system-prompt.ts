@@ -33,6 +33,7 @@ You have access to these tools - USE THEM before answering:
 | Policies, training, HR, CC controls | Employee Handbook |
 | SOC2, audits, penetration tests | Security Homepage |
 | Architecture, Zoë, BYOD, technical | Engineering Wiki |
+| Disaster recovery, RPO, RTO, backups, BCP | Business Continuity Plan |
 
 ## STANDARD COMPANY INFO (No search needed)
 
@@ -132,6 +133,7 @@ export const NOTION_PAGES = {
   SECURITY_HOMEPAGE: '6b8833be227a437a8f846f9cd5c896e4',
   ENGINEERING_WIKI: '3f72c85f50d947ec97543db5242260f9',
   SOC2_PAGE: 'a4bde54a446d41b6a3f36ccf8fbf3374',
+  BUSINESS_CONTINUITY_PLAN: '129a8dad05ac801cb803e69297ecf8c7',
 };
 
 export const CC_CONTROLS: Record<string, string> = {

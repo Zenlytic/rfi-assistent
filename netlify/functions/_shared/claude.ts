@@ -175,7 +175,7 @@ async function prefetchContext(question: string): Promise<string> {
   // Determine which sources to search based on keywords
   // Be aggressive - search both sources for most questions to avoid tool use
   const needsNotion =
-    /security|soc2|soc 2|compliance|policy|training|employee|hr|incident|access|encryption|audit|control|cc\d|gdpr|privacy|data|protect|breach|hipaa|pci|iso/i.test(question);
+    /security|soc2|soc 2|compliance|policy|training|employee|hr|incident|access|encryption|audit|control|cc\d|gdpr|privacy|data|protect|breach|hipaa|pci|iso|rpo|rto|recovery|disaster|continuity|backup|restore|failover|redundan/i.test(question);
   const needsDocs =
     /docs|documentation|subprocessor|data source|snowflake|bigquery|databricks|sso|saml|okta|authentication|integration|api|setup|connect|gdpr|privacy|legal|terms|dpa/i.test(question);
   const needsQA = true; // Always check Q&A pairs for exact matches
