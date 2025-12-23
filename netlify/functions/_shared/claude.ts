@@ -181,11 +181,17 @@ async function prefetchContext(question: string): Promise<string> {
   const needsQA = true; // Always check Q&A pairs for exact matches
 
   // 1. FIRST: Try local index (instant, no API call)
-  if (needsNotion && hasLocalIndex()) {
-    results.push({
-      source: 'Notion (local index)',
-      result: searchLocalIndex(question, 8),
-    });
+  if (needsNotion) {
+    try {
+      if (hasLocalIndex()) {
+        results.push({
+          source: 'Notion (local index)',
+          result: searchLocalIndex(question, 8),
+        });
+      }
+    } catch (err) {
+      console.error('Error loading local index:', err);
+    }
   }
 
   // 2. Always check Q&A pairs (instant, no API call)
@@ -204,14 +210,19 @@ async function prefetchContext(question: string): Promise<string> {
     });
   }
 
-  // 4. FALLBACK: Only use live Notion API if local index unavailable
-  if (needsNotion && !hasLocalIndex()) {
-    console.log('Local index not available, falling back to Notion API');
-    const notionResult = await searchNotion(question.slice(0, 100), 'all');
-    results.push({
-      source: 'Notion (API)',
-      result: notionResult,
-    });
+  // 4. FALLBACK: Only use live Notion API if local index unavailable or failed
+  const hasLocalResults = results.some(r => r.source.includes('local index'));
+  if (needsNotion && !hasLocalResults) {
+    try {
+      console.log('Local index not available, falling back to Notion API');
+      const notionResult = await searchNotion(question.slice(0, 100), 'all');
+      results.push({
+        source: 'Notion (API)',
+        result: notionResult,
+      });
+    } catch (err) {
+      console.error('Notion API fallback failed:', err);
+    }
   }
 
   let context = '';
