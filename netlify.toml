@@ -9,7 +9,7 @@
 [functions]
   node_bundler = "esbuild"
   external_node_modules = ["@notionhq/client"]
-  included_files = ["docs/**/*.md"]
+  included_files = ["docs/**/*.md", "config/notion-index/**/*.json"]
 
 # Increase timeout for AI functions (requires Netlify Pro or higher for >10s)
 [functions."ask"]

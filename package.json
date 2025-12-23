@@ -9,10 +9,15 @@
     "build": "cd packages/web && npm run build",
     "build:functions": "cd netlify/functions && npm run build",
     "install:all": "npm install && cd packages/web && npm install && cd ../../netlify/functions && npm install",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "export-notion": "tsx scripts/export-notion.ts"
+  },
+  "dependencies": {
+    "@notionhq/client": "^2.2.15"
   },
   "devDependencies": {
     "netlify-cli": "^17.0.0",
+    "tsx": "^4.7.0",
     "typescript": "^5.3.0"
   }
 }

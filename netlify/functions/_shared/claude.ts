@@ -9,6 +9,7 @@ import { SYSTEM_PROMPT, NOTION_PAGES } from './system-prompt.js';
 import { searchNotion, getNotionPage } from './notion-tools.js';
 import { searchQAPairs } from './qa-store.js';
 import { searchDocs, getDocsPage } from './docs-tools.js';
+import { searchLocalIndex, hasLocalIndex } from './notion-index.js';
 
 const anthropic = new Anthropic({
   apiKey: process.env.ANTHROPIC_API_KEY,
@@ -166,42 +167,59 @@ export interface AskResult {
 /**
  * Pre-fetch relevant context based on question keywords
  * This runs searches in parallel before calling Claude, reducing round-trips
+ *
+ * Priority: Local Index (instant) -> Q&A Pairs -> Docs -> Live Notion API (fallback)
  */
 async function prefetchContext(question: string): Promise<string> {
-  const lowerQ = question.toLowerCase();
-  const searches: Promise<string>[] = [];
-  const sources: string[] = [];
+  const results: Array<{ source: string; result: string }> = [];
 
   // Determine which sources to search based on keywords
-  // Be aggressive - search both sources for most questions to avoid tool use
   const needsNotion =
     /security|soc2|soc 2|compliance|policy|training|employee|hr|incident|access|encryption|audit|control|cc\d|gdpr|privacy|data|protect|breach|hipaa|pci|iso|rpo|rto|recovery|disaster|continuity|backup|restore|failover|redundan/i.test(question);
   const needsDocs =
     /docs|documentation|subprocessor|data source|snowflake|bigquery|databricks|sso|saml|okta|authentication|integration|api|setup|connect|gdpr|privacy|legal|terms|dpa/i.test(question);
   const needsQA = true; // Always check Q&A pairs for exact matches
 
-  // Run searches in parallel
-  if (needsNotion) {
-    sources.push('Notion');
-    searches.push(searchNotion(question.slice(0, 100), 'all'));
-  }
-  if (needsDocs) {
-    sources.push('Docs');
-    searches.push(searchDocs(question.slice(0, 100)));
-  }
-  if (needsQA) {
-    sources.push('Q&A');
-    searches.push(Promise.resolve(searchQAPairs(question)));
+  // 1. FIRST: Try local index (instant, no API call)
+  if (needsNotion && hasLocalIndex()) {
+    results.push({
+      source: 'Notion (local index)',
+      result: searchLocalIndex(question, 8),
+    });
   }
 
-  const results = await Promise.all(searches);
+  // 2. Always check Q&A pairs (instant, no API call)
+  if (needsQA) {
+    results.push({
+      source: 'Q&A',
+      result: searchQAPairs(question),
+    });
+  }
+
+  // 3. Search docs if needed (synchronous - reads local files)
+  if (needsDocs) {
+    results.push({
+      source: 'Docs',
+      result: searchDocs(question.slice(0, 100)),
+    });
+  }
+
+  // 4. FALLBACK: Only use live Notion API if local index unavailable
+  if (needsNotion && !hasLocalIndex()) {
+    console.log('Local index not available, falling back to Notion API');
+    const notionResult = await searchNotion(question.slice(0, 100), 'all');
+    results.push({
+      source: 'Notion (API)',
+      result: notionResult,
+    });
+  }
 
   let context = '';
-  results.forEach((result, i) => {
-    if (result && !result.includes('No results') && !result.includes('No matching')) {
-      context += `\n\n### From ${sources[i]}:\n${result.slice(0, 4000)}`;
+  for (const { source, result } of results) {
+    if (result && !result.includes('No results') && !result.includes('No matching') && !result.includes('not available')) {
+      context += `\n\n### From ${source}:\n${result.slice(0, 4000)}`;
     }
-  });
+  }
 
   return context;
 }

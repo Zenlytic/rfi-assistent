@@ -1,0 +1,1040 @@
+[
+  {
+    "id": "dc73011524e54feaa2a69d78d6e5164e",
+    "title": "Employee Handbook",
+    "parent": "root",
+    "keywords": [
+      "audit",
+      "employee",
+      "retention"
+    ],
+    "snippet": "## Policies\nData Retention Policies \n## Hiring\n## Agreements\n## Internal Audits \n## Engineering-specific \nFind docs for engineering-specific policies in the Teamspace Home for engineering\nEngineering Home \n## Employee Life\nZenlytic Holiday Calendar \nBenefits \nLeave \nExpenses \n## Background"
+  },
+  {
+    "id": "526475ca-69d2-4b67-a4f7-ddf8d8964201",
+    "title": "CC1.1.1 Conflict of Interest/Code of Ethics",
+    "parent": "Employee Handbook",
+    "keywords": [
+      "CC1.1.1",
+      "soc2",
+      "training",
+      "compliance",
+      "employee",
+      "policy"
+    ],
+    "snippet": "Ex Quanta Inc (d.b.a Zenlytic)\n## Conflict of Interest/Code of Ethics Policy\nVersion: 0.0\nPolicy Owner: Paul Blankley\nStatus: Implemented\n## Overview\nAt Zenlytic, we strive to maintain the highest levels of ethical conduct and integrity in our operations. The aim of our Conflict of Interest/Code of Ethics policy is to ensure that all personnel avoid situations where personal interests could conflict, or appear to conflict, with the interests of the company or our customers. This document details"
+  },
+  {
+    "id": "b1cd2254-9c1a-4b0b-945f-13e646221bf0",
+    "title": "CC1.1.1 Confidentiality of Customer Matters",
+    "parent": "Employee Handbook",
+    "keywords": [
+      "CC1.1.1",
+      "CC2.3.3",
+      "soc2",
+      "encryption",
+      "access control",
+      "training",
+      "security",
+      "incident",
+      "breach",
+      "employee",
+      "policy",
+      "firewall"
+    ],
+    "snippet": "Ex Quanta Inc (d.b.a Zenlytic)\n## Clear Desk & Screen Policy\nVersion: 0.0\nPolicy Owner: Paul Blankley\nStatus: Implemented\n## Overview\nOur commitment to the SOC2 Trust Services Criteria reflects the dedication we have towards our customers' information security. Confidentiality of Customer Matters is a key aspect of this commitment. This document defines how our organization is meeting and upholding this criterion by implementing suitable measures and controls.\n## Objective\nThe objective of this "
+  },
+  {
+    "id": "5388c71d-8cee-4d62-8be8-972d606690fd",
+    "title": "CC1.1.1 Clear Desk and Screen Policy",
+    "parent": "Employee Handbook",
+    "keywords": [
+      "CC1.1.1",
+      "employee",
+      "policy"
+    ],
+    "snippet": "Ex Quanta Inc (d.b.a Zenlytic)\n## Clear Desk & Screen Policy\nVersion: 0.0\nPolicy Owner: Paul Blankley\nStatus: Implemented\n# Clear Desk and Screen Policy\nWorkforce members shall avoid exposing Sensitive/Regulated Information, Restricted Information, and Confidential Information.\nWhen Sensitive/Regulated Information, Restricted Information, and Confidential Information is not in use, all workforce members shall:\n• Exit all applications where information may display on screen\n• Hide and secure all "
+  },
+  {
+    "id": "db53fd75-b172-44f9-84eb-e356d718c4ac",
+    "title": "CC1.1.1 Technology Acceptable Use Policy",
+    "parent": "Employee Handbook",
+    "keywords": [
+      "CC1.1.1",
+      "CC2.1.2",
+      "CC1.5.1",
+      "authentication",
+      "security",
+      "breach",
+      "privacy",
+      "rpo",
+      "vulnerability",
+      "employee",
+      "policy",
+      "procedure",
+      "data classification",
+      "network",
+      "logging"
+    ],
+    "snippet": "Ex Quanta Inc (d.b.a Zenlytic)\n## Technology Acceptable Use\nVersion: 0.0\nPolicy Owner: Paul Blankley\nStatus: Implemented\n# Technology Acceptable Use Policy\n## Approved Uses of Assets\nInformation assets provided by Zenlytic, both internally (networks, servers, databases, services such as the Internet and email, etc.) and externally (such as remote access) are the sole property of Zenlytic and are intended for conducting Zenlytic’s business only.\nUse of Zenlytic's information assets is subject to "
+  },
+  {
+    "id": "53107304-c676-4dad-877f-e3dc62b7fe2f",
+    "title": "CC1.1.3 Human Resources Security & Onboarding Policy ",
+    "parent": "Employee Handbook",
+    "keywords": [
+      "CC1.1.3",
+      "CC3.2.1",
+      "access control",
+      "training",
+      "security",
+      "incident",
+      "privacy",
+      "rpo",
+      "employee",
+      "onboarding",
+      "policy",
+      "procedure",
+      "vendor"
+    ],
+    "snippet": "Ex Quanta Inc (d.b.a Zenlytic)\n## Human Resource Security\nVersion: 0.0\nPolicy Owner: Paul Blankley\nStatus: Implemented\n# Security in Job Descriptions Policy\nSecurity roles and responsibilities must be clearly specified in all relevant job descriptions or defined in contracts or agreements.\n# New Hire Communications Policy\nHiring activity must be coordinated through the Human Resources Team prior to start dates. New hires must also be communicated to the Security Team, which is responsible for ro"
+  },
+  {
+    "id": "519cf166-e30d-44bf-b454-d388ed246e04",
+    "title": "CC1.5.1 Information Security Governance",
+    "parent": "Employee Handbook",
+    "keywords": [
+      "CC1.5.1",
+      "soc2",
+      "access control",
+      "training",
+      "security",
+      "compliance",
+      "audit",
+      "incident",
+      "privacy",
+      "employee",
+      "policy",
+      "procedure",
+      "byod",
+      "sso",
+      "aws",
+      "network",
+      "logging",
+      "monitoring",
+      "vendor"
+    ],
+    "snippet": "Ex Quanta Inc (d.b.a Zenlytic)\n# Information Security Governance\nVersion: 0.0\nPolicy Owner: Paul Blankley\nStatus: Implemented\n# Establishment of the Information Security Management System (ISMS)\nIn order to deepen Zenlytic’s commitment to security and to build trust with its customers and the wider community, Zenlytic has formally established an Information Security Management System (the “ISMS”).\nThe Board of Directors, Management Team, and Security Teams are dedicated to satisfying Zenlytic’s "
+  },
+  {
+    "id": "cdfb1ee2-0e75-4a98-b2ee-05e323f44433",
+    "title": "CC2.3.3 Incident Management",
+    "parent": "Employee Handbook",
+    "keywords": [
+      "CC2.3.3",
+      "training",
+      "security",
+      "incident",
+      "privacy",
+      "policy",
+      "procedure"
+    ],
+    "snippet": "Ex Quanta Inc (d.b.a Zenlytic)\n# Incident Management\nVersion: 0.0\nPolicy Owner: Paul Blankley\nStatus: Implemented\n# Incident Response Policy\nThe Incident Response Team shall respond to all potential or actual security or privacy incidents in accordance with the Incident Response Plan and Incident Response Playbooks.\nThe Incident Response Team shall respond to all incidents according to the Incident Response Playbooks for that category of incident. If no such playbook exists, the Incident Respons"
+  },
+  {
+    "id": "1b4a8dad-05ac-803b-a447-fc9262f97f83",
+    "title": "CC2.3.4 Software Patch Management",
+    "parent": "Employee Handbook",
+    "keywords": [
+      "CC2.3.4",
+      "training",
+      "security",
+      "compliance",
+      "audit",
+      "vulnerability",
+      "policy",
+      "procedure",
+      "integration"
+    ],
+    "snippet": "Ex Quanta Inc (d.b.a Zenlytic)\n# Software Patch Management\nVersion: 0.0\nPolicy Owner: Paul Blankley\nStatus: Implemented\n# Software Patch Management Policy\nZenlytic shall ensure that software used within the organization is consistently updated to address security vulnerabilities, improve functionality, and maintain system integrity. Zenlytic utilizes GitHub and Dependabot to automatically propose, review, and integrate software updates in a timely and secure manner.\n## Patch Identification\nDepen"
+  },
+  {
+    "id": "b2654df8-028d-4902-a8cf-93319708fc73",
+    "title": "CC1.2.4 Roles & Responsibilities",
+    "parent": "Employee Handbook",
+    "keywords": [
+      "CC1.2.4",
+      "CC1.1.5",
+      "security",
+      "audit",
+      "incident",
+      "privacy",
+      "rpo",
+      "business continuity",
+      "penetration test",
+      "vulnerability",
+      "employee",
+      "onboarding",
+      "policy",
+      "procedure",
+      "monitoring",
+      "vendor"
+    ],
+    "snippet": "Ex Quanta Inc (d.b.a Zenlytic)\n# Roles & Responsibilities\nVersion: 0.0\nSection Owner: Paul Blankley\nStatus: Implemented\n# General Workforce\nThe general workforce is responsible for day-to-day activity within the organization, and may have responsibilities as required by the ISMS.\n## Competencies\nAll employees should have the skills and knowledge required to review and abide by the policies in the ISMS.\n# Privacy Team\nThe Privacy Team role is assigned to:\n• Paul Blankley paul@zenlytic.com\n• Anshu"
+  },
+  {
+    "id": "808186e5-ec08-45e9-9539-c798f47ffb15",
+    "title": "CC6.2.2 Termination Offboarding Policy",
+    "parent": "Employee Handbook",
+    "keywords": [
+      "CC6.2.2",
+      "security",
+      "compliance",
+      "privacy",
+      "employee",
+      "onboarding",
+      "policy",
+      "procedure",
+      "logging"
+    ],
+    "snippet": "Ex Quanta Inc (d.b.a Zenlytic)\n## Termination Offboarding Policy\nVersion: 1.0\nPolicy Owner: Paul Blankley\nStatus: Implemented\nThe steps in detail will be covered in the offboarding section of Employee Onboarding Process \n## Overview\nAt Zenlytic, we recognize that employee departures are a natural part of business operations. However, they also present a risk to the security and privacy of our information, systems, and premises. Hence, a systematic and comprehensive offboarding process is necessa"
+  },
+  {
+    "id": "2527d98e-ee9c-484a-b665-af3fd881eb66",
+    "title": "CC3.3.1 Internal Control Reviews",
+    "parent": "Employee Handbook",
+    "keywords": [
+      "CC3.3.1"
+    ],
+    "snippet": "Internal controls are reviewed on an annual basis. Reviews are below:"
+  },
+  {
+    "id": "2f94af3c-24d2-4fdb-aa54-c6b3515294c1",
+    "title": "2023 Annual Review Of Internal Controls",
+    "parent": "CC3.3.1 Internal Control Reviews",
+    "keywords": [
+      "training",
+      "rpo",
+      "employee",
+      "onboarding",
+      "background check",
+      "procedure"
+    ],
+    "snippet": "Review Period: 2023\n## 1. Executive Summary\n---\n## 2. Scope of the Review\nThe review of internal controls covered controls preventing unauthorized access and fraud in engineering systems. This means that the review focused on evaluating the effectiveness of controls that are in place to ensure that only authorized personnel have access to engineering systems and that these systems are not manipulated for fraudulent purposes. The review was intended to provide assurance that the company has adequ"
+  },
+  {
+    "id": "612e9f45-4c2c-4b02-b60c-d411f4623e30",
+    "title": "2024 Annual Review Of Internal Controls",
+    "parent": "CC3.3.1 Internal Control Reviews",
+    "keywords": [
+      "training",
+      "rpo",
+      "employee",
+      "onboarding",
+      "background check",
+      "procedure"
+    ],
+    "snippet": "Review Period: 2024\n## 1. Executive Summary\n---\n## 2. Scope of the Review\nThe review of internal controls covered controls preventing unauthorized access and fraud in engineering systems. This means that the review focused on evaluating the effectiveness of controls that are in place to ensure that only authorized personnel have access to engineering systems and that these systems are not manipulated for fraudulent purposes. The review was intended to provide assurance that the company has adequ"
+  },
+  {
+    "id": "2b2a8dad-05ac-8047-a985-f4f279ca38fa",
+    "title": "2025 Annual Review Of Internal Controls",
+    "parent": "CC3.3.1 Internal Control Reviews",
+    "keywords": [
+      "mfa",
+      "training",
+      "rpo",
+      "employee",
+      "onboarding",
+      "background check",
+      "procedure",
+      "infrastructure"
+    ],
+    "snippet": "Review Period: 2025\n## 1. Executive Summary\n---\n## 2. Scope of the Review\nThe review of internal controls covered controls preventing unauthorized access and fraud in engineering systems. This means that the review focused on evaluating the effectiveness of controls that are in place to ensure that only authorized personnel have access to engineering systems and that these systems are not manipulated for fraudulent purposes. The review was intended to provide assurance that the company has adequ"
+  },
+  {
+    "id": "fc9d81e4-3f84-40c8-b798-d5018a890134",
+    "title": "CC8.1.1 Change Management Policy and Procedures",
+    "parent": "Employee Handbook",
+    "keywords": [
+      "CC8.1.1",
+      "rpo",
+      "policy",
+      "procedure"
+    ],
+    "snippet": "Ex Quanta Inc (d.b.a Zenlytic)\n## Change Management Policy and Procedures\nVersion: 1.0\nPolicy Owner: Paul Blankley\nStatus: Implemented\n## Introduction\nThe Change Management Plan was created for the Zenlytic in order to set expectations on how the approach to changes will be managed, what defines a change, the purpose and role of the change control board, and the overall change management process. All stakeholders will be expected to submit or request changes to Zenlytic in accordance with this C"
+  },
+  {
+    "id": "ab72611c-4387-40fe-8ab4-f7dcac850c91",
+    "title": "CC9.1.2 Vendor Management Policy",
+    "parent": "Employee Handbook",
+    "keywords": [
+      "CC9.1.2",
+      "security",
+      "compliance",
+      "incident",
+      "privacy",
+      "rpo",
+      "business continuity",
+      "employee",
+      "policy",
+      "procedure",
+      "sso",
+      "monitoring",
+      "vendor",
+      "subprocessor"
+    ],
+    "snippet": "Ex Quanta Inc (d.b.a Zenlytic)\n## Vendor Management Policy\nVersion: 0.0\nPolicy Owner: Paul Blankley\nStatus: Implemented\n# Purpose and Scope\n• This policy defines the rules for relationships with the organization’s Information Technology (IT) vendors and partners.\n• This policy applies to all IT vendors and partners who have the ability to impact the confidentiality, integrity, and availability of the organization’s technology and sensitive information, or who are within the scope of the organiza"
+  },
+  {
+    "id": "54d40b58-4835-48be-be4d-087df35eed07",
+    "title": "CC9.1.1 Risk Management Process Policy",
+    "parent": "Employee Handbook",
+    "keywords": [
+      "CC9.1.1",
+      "security",
+      "compliance",
+      "privacy",
+      "rpo",
+      "employee",
+      "policy",
+      "procedure",
+      "sso",
+      "aws",
+      "vendor"
+    ],
+    "snippet": "Ex Quanta Inc (d.b.a Zenlytic)\n## Risk Management Process Policy\nVersion: 0.0\nPolicy Owner: Paul Blankley\nStatus: Implemented\n## Introduction\nZenlytic has adopted this Risk Management Process Policy in order to recognize the requirement to comply with the Health Insurance Portability and Accountability Act (“HIPAA”), as amended by the Health Information Technology for Economic and Clinical Health (“HITECH”) Act of 2009 (Title XIII of division A and Title IV of division B of the American Recovery"
+  },
+  {
+    "id": "25a4bff1-68be-46a4-a958-5eace6f86ac4",
+    "title": "CC10.1 Anti Money-Laundering Policy",
+    "parent": "Employee Handbook",
+    "keywords": [
+      "CC10.1",
+      "training",
+      "compliance",
+      "audit",
+      "rpo",
+      "employee",
+      "policy",
+      "procedure",
+      "sso",
+      "aws",
+      "monitoring"
+    ],
+    "snippet": "Ex Quanta Inc (d.b.a Zenlytic)\n## Anti Money-Laundering Policy\nVersion: 0.0\nPolicy Owner: Ryan Janssen\nStatus: Implemented\n# Purpose:\nThis policy outlines the procedures and controls established to prevent and detect money laundering activities within the organization. It is designed to ensure compliance with relevant laws and regulations.\n# Scope:\nThis policy applies to all employees, officers, directors, and agents of the organization. It covers all business activities and transactions conduct"
+  },
+  {
+    "id": "df929f14-2b7d-4188-93dd-979ceeee50f8",
+    "title": "CC-P2.1 Privacy Practices Policy",
+    "parent": "Employee Handbook",
+    "keywords": [
+      "training",
+      "security",
+      "compliance",
+      "privacy",
+      "rpo",
+      "policy",
+      "procedure",
+      "retention"
+    ],
+    "snippet": "Ex Quanta Inc (d.b.a Zenlytic)\n## Privacy Practices Policy\nVersion: 1.1\nPolicy Owner: Paul Blankley\nStatus: Implemented\nLast updated: August 27, 2025\nThe external-facing privacy policy is here: Privacy Policy \n## Introduction\nZenlytic is committed to protecting the privacy of personal information. This document outlines our privacy practices to ensure compliance with privacy regulations and to maintain the trust of our clients and their data subjects.\n## Collection, Use, Retention, Disclosure, a"
+  },
+  {
+    "id": "21ea8dad-05ac-8094-a02d-e223590bc0b3",
+    "title": "CC.AI.1 AI Acceptable Use Policy",
+    "parent": "Employee Handbook",
+    "keywords": [
+      "CC.",
+      "CC1.1.5",
+      "security",
+      "compliance",
+      "privacy",
+      "rpo",
+      "employee",
+      "policy",
+      "retention",
+      "vendor"
+    ],
+    "snippet": "---\n## CC.AI.1 AI Acceptable Use Policy\nPolicy Owner: Paul Blankley\nVersion: 0.0\nStatus: Implemented\n### Introduction\nZenlytic supports the use of AI tools to increase individual and team productivity, creativity, and efficiency. Employees are encouraged to explore and adopt AI tools for work purposes, provided their use aligns with company policies, security requirements, and customer commitments.\n### Allowable Use\n• Employees may use AI tools (e.g., coding assistants, content generators, workf"
+  },
+  {
+    "id": "129a8dad-05ac-801c-b803-e69297ecf8c7",
+    "title": "Business Continuity Plan",
+    "parent": "Employee Handbook",
+    "keywords": [
+      "CC1.2.2",
+      "CC7.2.2",
+      "training",
+      "security",
+      "compliance",
+      "incident",
+      "backup",
+      "rpo",
+      "rto",
+      "business continuity",
+      "policy",
+      "procedure",
+      "sso",
+      "aws",
+      "infrastructure",
+      "network",
+      "monitoring",
+      "vendor"
+    ],
+    "snippet": "Ex Quanta Inc (d.b.a Zenlytic)\n## Human Resource Security\nVersion: 1.1\nPolicy Owner: Paul Blankley\nStatus: Implemented\n## Testing Minutes\n### 1. Purpose and Scope\nThe purpose of this Business Continuity Plan (BCP) is to ensure that our Business Intelligence (BI) platform can continue to operate during and after a disruptive event. This plan outlines the steps for preparedness, response, and recovery, ensuring minimal disruption to critical BI services such as data processing, reporting, and anal"
+  },
+  {
+    "id": "29ca8dad-05ac-80f3-9e55-cbb965b5b401",
+    "title": "2025-05-21 BCP Testing Minutes ",
+    "parent": "Business Continuity Plan",
+    "keywords": [
+      "compliance",
+      "incident",
+      "backup",
+      "rpo",
+      "rto"
+    ],
+    "snippet": "• Simulated Incident/Scenario: The exercise simulated a catastrophic database failure requiring restoration from a backup. The main goal was to test recovery point objective (RPO) and recovery time objective (RTO).\n• Participants and Roles:\n• Key Discussion Points:\n• Results: The team successfully walked through the full process of restoring a database from a snapshot and re-pointing the application to it. Paul confirmed that the process ensures compliance with a 5-minute RPO and a 4-hour RTO."
+  },
+  {
+    "id": "71ba3e15-d5b5-4e62-a6f2-f3cb07983910",
+    "title": "CC1.4.1 Job Descriptions",
+    "parent": "Employee Handbook",
+    "keywords": [
+      "CC1.4.1"
+    ],
+    "snippet": "### This is the definitive page for the currently active roles. Job descriptions of inactive roles should be unpublished so they are not externally visible\n## Job Description Sub Pages\n---\n### Hiring  Related Sub Pages\n---\n### Other\n---"
+  },
+  {
+    "id": "e62f4f20-ea21-458b-a00f-b23295e468f6",
+    "title": "Customer Success Engineer",
+    "parent": "CC1.4.1 Job Descriptions",
+    "keywords": [
+      "onboarding"
+    ],
+    "snippet": "## Job Overview\nZenlytic is an Intelligent Analytics company: we're building the human-first analytics experience.\nOur platform features a strong cognitive layer and a powerful chat agent, Zoë — our helpful assistant powered by large language models (LLMs). Zoë integrates deeply with our semantic layer to provide data insights with unparalleled accuracy to people of all backgrounds, from data analysts to company executives.\nAt Zenlytic, we’re committed to making sure customers get real value fro"
+  },
+  {
+    "id": "257a8dad-05ac-807d-a16d-c40911e9b0a7",
+    "title": "Customer Success Manager",
+    "parent": "CC1.4.1 Job Descriptions",
+    "keywords": [
+      "onboarding",
+      "api"
+    ],
+    "snippet": "## Job Overview\nZenlytic’s platform combines a powerful cognitive layer with our AI chat agent, Zoë, making data insights accessible to everyone, from SQL-savvy analysts to execs who just want clear answers. As a Customer Success Manager, you’ll lead customers to success while building the foundations of our success organization, ensuring every customer can realize value quickly and at scale.\nThis role is part guide, part builder: you’ll help customers onboard seamlessly by leveraging their exis"
+  },
+  {
+    "id": "e5dfcc09-a3ea-4180-99c6-136a6325f3aa",
+    "title": "UI/UX Designer",
+    "parent": "CC1.4.1 Job Descriptions",
+    "keywords": [],
+    "snippet": "## Job Overview\nZenlytic is an Intelligent Analytics company: we're building the human-first analytics experience.\nOur platform features a strong cognitive layer and a powerful chat agent, Zoë — our helpful assistant powered by large language models (LLMs). Zoë integrates deeply with our semantic layer to provide data insights with unparalleled accuracy to people of all backgrounds, from data analysts to company executives.\nWe’ve built out v1 of Zenlytic’s analytics platform — now we need someon"
+  },
+  {
+    "id": "1e04744c-8d19-4654-b475-0d61ccd115db",
+    "title": "UI/UX Freelancer (Part time)",
+    "parent": "CC1.4.1 Job Descriptions",
+    "keywords": [
+      "training",
+      "sso",
+      "aws",
+      "api"
+    ],
+    "snippet": "## Zenlytic\nRemote gig, Zenlytic is headquartered in New York.  This is a freelancer role for ~1 day/week, with potential opportunities to grow into a full-time role in the future.\nZenlytic is a no-code data science tool for DTC & eCommerce.  With Zenlytic, eCommerce operators combine their Shopify data, Google Analytics, Facebook Ads (and more) to discover hidden insights and accelerate their growth.  We're based in New York and backed by some of New York's finest venture capitalists\nWe're look"
+  },
+  {
+    "id": "6e1afd79-40ea-424e-a505-0a02de0c2fbd",
+    "title": "Software Engineer (Back End)",
+    "parent": "CC1.4.1 Job Descriptions",
+    "keywords": [
+      "access control",
+      "security",
+      "sso",
+      "aws",
+      "monitoring",
+      "api"
+    ],
+    "snippet": "### Salary Band\nBase: []\nEquity: []\n### Job Overview\nZenlytic is a modern BI company: we’re building the human-first analytics experience. Zenlytic has a strong semantic layer (data modeling to ensure a single source of truth) and the ability to get to the “Why” behind critical metrics automatically. \nOur company is seeking a Back End Engineer to help develop our chatbot, Zoë, for data analytics. The ideal candidate will be experienced in working with large language models (LLMs), and familiar w"
+  },
+  {
+    "id": "643242aa-ba5f-485a-a9ac-93632f14fcb1",
+    "title": "Senior Software Engineer (Back End)",
+    "parent": "CC1.4.1 Job Descriptions",
+    "keywords": [
+      "security",
+      "aws",
+      "monitoring",
+      "api"
+    ],
+    "snippet": "## Job Overview\nZenlytic is an Intelligent Analytics company: we're building the human-first analytics experience.\nOur platform features a strong cognitive layer and a powerful chat agent, Zoë — our helpful assistant powered by large language models (LLMs). Zoë integrates deeply with our semantic layer to provide data insights with unparalleled accuracy to people of all backgrounds, from data analysts to company executives.\nWe’re looking for a Senior Backend Engineer to help shape the future of "
+  },
+  {
+    "id": "0eb67d56-4e2d-4f6b-813a-4211173efc76",
+    "title": "Senior Software Engineer (Front End)",
+    "parent": "CC1.4.1 Job Descriptions",
+    "keywords": [
+      "aws",
+      "infrastructure",
+      "api"
+    ],
+    "snippet": "## Job Overview\nZenlytic is an Intelligent Analytics company: we're building the human-first analytics experience.\nOur platform features a strong cognitive layer and a powerful chat agent, Zoë — our helpful assistant powered by large language models (LLMs). Zoë integrates deeply with our semantic layer to provide data insights with unparalleled accuracy to people of all backgrounds, from data analysts to company executives.\nWe're looking for a Senior Frontend Engineer to define, architect, and b"
+  },
+  {
+    "id": "1d1a8dad-05ac-8062-b9b7-d58d407e3574",
+    "title": "Senior Software Engineer (Infrastructure)",
+    "parent": "CC1.4.1 Job Descriptions",
+    "keywords": [
+      "authentication",
+      "aws",
+      "infrastructure",
+      "monitoring"
+    ],
+    "snippet": "## Job Overview\nZenlytic is an Intelligent Analytics company: We're building the human-first analytics experience.\nOur platform features a strong cognitive layer and a powerful chat agent, Zoë, our AI data analyst, powered by large language models (LLMs). Zoë integrates deeply with the cognitive layer to provide data insights with unparalleled accuracy to people of all backgrounds, from data analysts to company executives. The cognitive layer ensures a single source of truth for data—it gives Zo"
+  },
+  {
+    "id": "25da8dad-05ac-8001-bfe8-ff19bb0aa0bc",
+    "title": "Software Engineering Intern",
+    "parent": "CC1.4.1 Job Descriptions",
+    "keywords": [],
+    "snippet": "## Job Overview\nZenlytic is an Intelligent Analytics company: we're building the human-first analytics experience.\nOur platform features a strong cognitive layer and a powerful chat agent, Zoë — our helpful assistant powered by large language models (LLMs). Zoë integrates deeply with our semantic layer to provide data insights with unparalleled accuracy to people of all backgrounds, from data analysts to company executives.\nWe’re looking for a Software Engineering Intern to develop benchmarks on"
+  },
+  {
+    "id": "5fbb2322-5e1e-4511-bc93-4df61c309cdf",
+    "title": "Growth Lead",
+    "parent": "CC1.4.1 Job Descriptions",
+    "keywords": [],
+    "snippet": ""
+  },
+  {
+    "id": "c4dcf450-e0e8-44b9-a40f-f0c13f33f4be",
+    "title": "Growth Lead - Strategy",
+    "parent": "Growth Lead",
+    "keywords": [
+      "api"
+    ],
+    "snippet": "# People\n• Notion 🙌\n• Figma 🙌\n• Webflow 🙌\n• Parabola.io 🙌\n• Bubble\n• Internal.io\n• Pattern89?\n• Roam research\n• Benchling\n• Gusto?  Or is it a little too SME focused?\n## Close but didn't quite make it:\n• Tray.io\n• ReTool\n• Zapier\n• Airtable\n## OpenView's PLG index\n• I don't see anything on there that has a great fit but lmk if you see any i missed:\n• I still don't hate the MongoDB comparison, but it does miss out our core value prop, which is better comparison / answering \"Why\" instead of \"e"
+  },
+  {
+    "id": "4cd88e19-4ea2-4549-bab4-974bb12ccd96",
+    "title": "Growth Lead - ABM Companies",
+    "parent": "Growth Lead",
+    "keywords": [],
+    "snippet": "• Product-first, bottom-up sales motions: \n• Strong community-based marketing:\n• Content-marketing leaders\n• Leading Shopify technology providers:"
+  },
+  {
+    "id": "df6e0b27-3198-42d9-8664-af317ec8bd79",
+    "title": "Jonathan Beaton Interview (Growth Lead)",
+    "parent": "Growth Lead",
+    "keywords": [],
+    "snippet": "---\n• 10/14/20\n• Jonathan Beaton\n---\n## GTM \n• What are you planning for our GTM? What directions would you take us?\n• Most of his experience was with organic motion "
+  },
+  {
+    "id": "5cfbb722-dd2b-4552-a259-ea50453cbd69",
+    "title": "Marketerhire",
+    "parent": "Growth Lead",
+    "keywords": [],
+    "snippet": "---\n## Meeting with Viral (8/5/2020)\n• He's the CFO, co-founder\n• He does ops and systems + low code tools \n• They're in growth stage and starting to focus on data\n• historically bringing data into gsheets and now on tableau\n• sync all data in tableau and report there \n---\n## Meeting with Alex (9/25/20)\n• No one person will fit all our needs \n• She'll send us a deck with their model and setup\n• We send them requirements and they'll match us \n• Hourly is $90-170 / hr except for CMO which is highe"
+  },
+  {
+    "id": "09030d3d-835d-42bc-9724-86d0a968e7de",
+    "title": "Keaton",
+    "parent": "Growth Lead",
+    "keywords": [],
+    "snippet": "- What would you do to launch Zenlytic?\nuse U-link to reach out\n- What do you think of the PLG model?\n- What's a marketing-driven company you respect?  How would you explain their marketing strategy?\n- How do you keep up with the industry?  What's your favorite email newsletter?\n- What are the most important components of an inbound strategy?\n- How have you used data before in your job?  What tools have you used?\n- What do you do for fun outside of work?\n- What brands or influencers do you follo"
+  },
+  {
+    "id": "c2fec5dc-b6b6-4ec1-b9b5-c3c312b32439",
+    "title": "Copy of Growth lead - standard questions",
+    "parent": "Growth Lead",
+    "keywords": [],
+    "snippet": "- What would you do to launch Zenlytic?\n- What do you think of the PLG model?\n- What's a marketing-driven company you respect?  How would you explain their marketing strategy?\n- How do you keep up with the industry?  What's your favorite email newsletter?\n- What are the most important components of an inbound strategy?\n- How have you used data before in your job?  What tools have you used?\n- What do you do for fun outside of work?\n- What brands or influencers do you follow on social media and wh"
+  },
+  {
+    "id": "ef147748-77aa-4049-92ec-d8d5978bc0d1",
+    "title": "Growth lead JD",
+    "parent": "CC1.4.1 Job Descriptions",
+    "keywords": [
+      "training",
+      "sso",
+      "aws",
+      "api"
+    ],
+    "snippet": "## Zenlytic\nRemote position, Zenlytic is headquartered in New York \nZenlytic is a no-code data science tool for DTC & eCommerce.  With Zenlytic, eCommerce operators combine their Shopify data, Google Analytics, Facebook Ads (and more) to discover hidden insights and accelerate their growth.  We're based in New York and backed by some of New York's finest venture capitalists.\nWe're looking for an experienced B2B growth expert that understands marketing and demand gen.  You'll be our first growth "
+  },
+  {
+    "id": "1b4a8dad-05ac-8032-b5ce-c63f100dcabe",
+    "title": "Product Manager",
+    "parent": "CC1.4.1 Job Descriptions",
+    "keywords": [
+      "infrastructure"
+    ],
+    "snippet": "# Product Manager\n## Job Overview\nZenlytic is an Intelligent Analytics company: We're building the human-first analytics experience.\nWe’re designing an interface that makes it finally possible for non-technical users to explore data.  This is achieved through Zoë, Zenlytic’s AI data analyst. With Zoë, users can ask data questions in natural language, but this new pattern requires thoughtful interaction design.  We must balance consistency with flexibility; explainability with ease-of-use.\nThat’s"
+  },
+  {
+    "id": "add41806-bd72-4418-835a-d7a337fc0b36",
+    "title": "BDR",
+    "parent": "CC1.4.1 Job Descriptions",
+    "keywords": [
+      "retention"
+    ],
+    "snippet": "### Salary Band\n### Job Overview\nZenlytic is a modern business intelligence tool: it’s a machine that turns data into stories.  It helps non-technical users understand, influence, and improve their business (especially with regards to acquisition, conversion, and retention) without relying on a data team.\nWe’re looking for a BDR to help build and maintain our sales pipeline and help our cross-functional team work smarter.  Working directly with our founders and collaborating closely with our pro"
+  },
+  {
+    "id": "1195ed70-a8b2-47cf-a34d-5894f200e66e",
+    "title": "SDR Intern - Market Development",
+    "parent": "CC1.4.1 Job Descriptions",
+    "keywords": [
+      "rpo",
+      "network"
+    ],
+    "snippet": "Do you just know you could be a world-class marketer-rainmaker if just given the chance?\nAre you considering entrepreneurship or VC and want to round out your founder skills?\nDo you have a nagging concern that IB and consulting are mostly powerpoint and you want to build an actual business?\nDo you ship?\nThen come be an intern with Zenlytic.  We’re a root-cause analytics tool that turns eComm and DTC marketers into data-driven geniuses.\nFirst and foremost, the role has outbound - reaching out to "
+  },
+  {
+    "id": "92da9569-6340-4865-be2a-7677164c5d1c",
+    "title": "Sales Engineer",
+    "parent": "CC1.4.1 Job Descriptions",
+    "keywords": [
+      "onboarding",
+      "api"
+    ],
+    "snippet": "## Job Overview\nZenlytic is an Intelligent Analytics company: we're building the human-first analytics experience.\nOur platform combines a powerful cognitive layer with our AI chat agent, Zoë, making data insights accessible to everyone — from SQL-savvy analysts to execs who just want clear answers. As a Sales Engineer, you’ll be the technical counterpart to our sales team, helping prospective customers understand the “how” behind our product and experience the value firsthand.\nThis role is part"
+  },
+  {
+    "id": "1eaa8dad-05ac-80d0-9b92-c2ba45a52272",
+    "title": "Finance Director",
+    "parent": "CC1.4.1 Job Descriptions",
+    "keywords": [
+      "compliance",
+      "audit",
+      "rpo",
+      "vendor",
+      "api"
+    ],
+    "snippet": "## Job Overview\nZenlytic is an Intelligent Analytics company: we're building the human‑first analytics experience. Our platform combines a powerful cognitive layer with Zoë, our chat‑native AI data analyst, to deliver accurate, accessible insights for everyone, from data teams to executive leadership.\nAs Director of Finance, you will be the founding leader of Zenlytic’s finance function. You’ll architect scalable processes, manage our outsourced accounting partners, and own the numbers that driv"
+  },
+  {
+    "id": "25ba8dad-05ac-801b-9928-e40a3d182470",
+    "title": "BE Candidate Screening Questions",
+    "parent": "CC1.4.1 Job Descriptions",
+    "keywords": [],
+    "snippet": "- What product or feature have you built from scratch that you're most proud of? \n- What product or feature have you worked on with the most demanding performance, scalability, latency, or memory requirements? Please describe these requirements.\n- What is the most complex application you've ever worked on? What specific factors made it complex?\n- Describe a technically challenging problem you solved that surprised you. Was it unexpectedly difficult or simple? Did you develop an elegant solution?"
+  },
+  {
+    "id": "1d0a8dad-05ac-80af-89e7-e100d0956aae",
+    "title": "FE Candidate Screening Questions",
+    "parent": "CC1.4.1 Job Descriptions",
+    "keywords": [
+      "api"
+    ],
+    "snippet": "- How have modern AI tools—such as ChatGPT, Cursor, or others—changed your day-to-day engineering workflow? Have you built or automated anything interesting using these tools?\n- Please describe the product or major feature that you are most proud of being the driving force behind.\n- Imagine you’ve been asked to design and build an application that helps users analyze CSV files, and you have full access to OpenAI’s APIs."
+  },
+  {
+    "id": "1d1a8dad-05ac-807a-b46f-f343f6f4c20f",
+    "title": "Infra Candidate Screening Questions",
+    "parent": "CC1.4.1 Job Descriptions",
+    "keywords": [
+      "infrastructure"
+    ],
+    "snippet": "- What system have you stood up from scratch that you’re most proud of?\n- What infrastructure system/tool has been the most challenging for you to maintain during your career, and why?\n- What kind of documentation makes sense in a modern infrastructure stack?\n- Describe a situation where you took an existing on-prem or single-cloud application and made it cloud-agnostic or deployable in a VPC"
+  },
+  {
+    "id": "1d1a8dad-05ac-80a8-8389-c938d2709bb8",
+    "title": "PM Candidate Screening Questions",
+    "parent": "CC1.4.1 Job Descriptions",
+    "keywords": [],
+    "snippet": "- Please describe the product or major feature that you are most proud of being the driving force behind.\n- What SaaS product out there do you think offers the most incredible user experience? What about it inspires you?\n- What do you think is the biggest thing that ChatGPT’s interface gets wrong?"
+  },
+  {
+    "id": "2aef0fb0-71ef-4ba9-806b-881051c8c20a",
+    "title": "Green Card Sponsorship Policy",
+    "parent": "Employee Handbook",
+    "keywords": [
+      "employee",
+      "policy"
+    ],
+    "snippet": "Ex Quanta Inc (d.b.a Zenlytic)\n## Green Card Sponsorship Policy\nVersion: 0.0\nPolicy Owner: Paul Blankley\nStatus: Implemented\nZenlytic required all migrant workers to be legally employable in the United States and performs validation of necessary documentation.\nZenlytic may choose to sponsor certain employees for permanent residence in the United States at its sole discretion.\nGiven the significant resources involved in any green card sponsorship, Zenlytic stipulates that an employee seeking such"
+  },
+  {
+    "id": "c63ab33c-0bc4-4aa9-98f3-fa81d7100850",
+    "title": "Zenlytic Green Card Sponsorship Reimbursement Agreement",
+    "parent": "Green Card Sponsorship Policy",
+    "keywords": [
+      "employee",
+      "sso",
+      "aws"
+    ],
+    "snippet": "THIS AGREEMENT is made on [INSERT DATE],\nBETWEEN:\nZenlytic, having its registered office at 5159 Vivian St. Wheat Ridge, CO 80033 (\"the Company\"), and\n[INSERT EMPLOYEE'S NAME], of [INSERT ADDRESS] (\"the Employee\").\nWHEREAS the Company has agreed to sponsor the Employee for a United States Green Card, and to cover certain costs related to the sponsorship process, subject to the terms and conditions contained herein;\nNOW, THEREFORE, in consideration of the promises and mutual covenants contained h"
+  },
+  {
+    "id": "a35e336a-5a92-4fba-9ac4-8a75d7872412",
+    "title": "Employee Onboarding Process",
+    "parent": "Employee Handbook",
+    "keywords": [
+      "soc 2",
+      "training",
+      "security",
+      "audit",
+      "employee",
+      "onboarding",
+      "background check",
+      "mdm",
+      "aws",
+      "logging"
+    ],
+    "snippet": "All employees who will touch customer data need to receive the email about reading and acknowledging our security and governance policies. ⚠️Please send it once the user has their Zenlytic email and has access to Notion.\n---\n# All Employees\n- Resume: (we need to have a PDF of the employee’s resume)\n- Rippling Onboarding: Initiate the Rippling onboarding process, include a background check, and leave the PIIA, Offer Letter, and NDA included in selected documents.\n\n- Security Training: If Rippling"
+  },
+  {
+    "id": "1325e189-2105-452d-b6f3-68f3b197ccf1",
+    "title": "Engineering Employee Onboarding",
+    "parent": "Employee Onboarding Process",
+    "keywords": [
+      "mfa",
+      "employee",
+      "onboarding",
+      "aws"
+    ],
+    "snippet": "These are the onboarding guidelines for engineers. They assume that the common employee onboarding steps have already been taken.\n---\n## Before Employee’s First Day\n- Give the employee access to the Zenlytic Github Organization, using their Zenlytic email. Once they have accepted the invite, add them to the zenlytic repo, specifically. Also, ensure they have 2FA set up for their Github account.\n- (Optional) If the employee is a front end engineer, give the employee access to Figma, using their Z"
+  },
+  {
+    "id": "ac94c667-0af3-4bad-a023-ba0ce979ebff",
+    "title": "CC1.1.4 Non-Disclosure Agreement",
+    "parent": "Employee Handbook",
+    "keywords": [
+      "CC1.1.4",
+      "training",
+      "breach",
+      "employee",
+      "sso",
+      "aws",
+      "third party"
+    ],
+    "snippet": "NON-DISCLOSURE AGREEMENT (\"NDA\")\nThis NDA is effective [effectivedate] (the “Effective Date”) and is between (i) Ex Quanta Inc (d.b.a. Zenlytic), an organization having offices at 5159 Vivian St. Wheat Ridge, CO 80033, United States (“Zenlytic”). [companyname] (ii)  the (“Counterparty”).  Zenlytic and the Counterparty may be referred to in this NDA individually as a “Party” and collectively as the “Parties”.\nIn consideration of the foregoing and the mutual promises and undertaking set forth here"
+  },
+  {
+    "id": "1595fdb6-a46a-482e-9dcc-65fd98831020",
+    "title": "Internal Audit Template",
+    "parent": "Employee Handbook",
+    "keywords": [
+      "security",
+      "compliance",
+      "audit"
+    ],
+    "snippet": "• Whether the ISMS controls and processes are adequate and effective\n• Whether the ISMS objectives have been fulfilled\n• Compliance with Zenlytic’s information security requirements\n• Whether the risk treatment plans Zenlytic develops are consistent with the risk assessment process, assessed risks, and Zenlytic's risk acceptance criteria\n• Whether the inputs and outputs of Zenlytic's management review\n• Process are relevant and results in an effective governance check on the ISMS\n• Whether manag"
+  },
+  {
+    "id": "8230df19-ee1e-4f6f-b0c1-00518e41d5bb",
+    "title": "SOC2 Background",
+    "parent": "Employee Handbook",
+    "keywords": [
+      "soc2",
+      "encryption",
+      "access control",
+      "training",
+      "security",
+      "compliance",
+      "incident",
+      "breach",
+      "gdpr",
+      "backup",
+      "rpo",
+      "vulnerability",
+      "employee",
+      "policy",
+      "procedure",
+      "data classification",
+      "sso",
+      "aws",
+      "infrastructure",
+      "network",
+      "firewall",
+      "logging",
+      "monitoring",
+      "vendor"
+    ],
+    "snippet": "Zenlytic is a self-serve analytics tool that aims to simplify the process of data exploration and decision-making through its intuitive interface and powerful AI capabilities. This tool is designed to answer data-related questions in seconds, thereby reducing reliance on a time-strapped analytics team.\n## Services provided\n\nZenlytic provides an interface for exploring and querying data, combined with dashboards for visualization and a LLM-powered chatbot named Zöe for interactive, natural langua"
+  },
+  {
+    "id": "25ca8dad-05ac-80d9-a716-c2461db6a795",
+    "title": "SOC2 Event Types",
+    "parent": "Employee Handbook",
+    "keywords": [
+      "soc2",
+      "security",
+      "incident",
+      "onboarding"
+    ],
+    "snippet": "## Event Types That Are Logged\n• Onboarding\n• Offboarding\n• Security Events\n• Security Holes or Issues Identified\n• Data Incidents\n## What to Log\n• Event type\n• Date\n• Relevant people\n• Action taken\n• Screenshots confirming action / acknowledgement / communication\n---\n## Log"
+  },
+  {
+    "id": "25ca8dad-05ac-805b-85a7-f7269be86e66",
+    "title": "SOC 2 Events Log",
+    "parent": "SOC2 Event Types",
+    "keywords": [
+      "soc 2",
+      "employee",
+      "onboarding"
+    ],
+    "snippet": "---\n• June 16, 2025: Employee Onboarding: Djordje Ivanovic\n---\n• July 16, 2025: Employee Departure: Rich Taylor\n---\n• July 28, 2025: Employee Onboarding: Jose Luiz Hernandez Hoyos\n---\n• August 29, 2025: Employee Termination: Aaron Cornejo\n• August 29, 2025: Employee Termination: Tyler Crimmins\n---\n• August 29, 2025: Employee Offboarding: Djordje Ivanovic\n• September 26, 2024: Employee Offboarding: Cole French\n---\n• October 2, 2025: Employee Onboarding: Sebastian Castro"
+  },
+  {
+    "id": "6b8833be227a437a8f846f9cd5c896e4",
+    "title": "Security Homepage",
+    "parent": "root",
+    "keywords": [
+      "soc2",
+      "security",
+      "compliance",
+      "penetration test",
+      "retention",
+      "network"
+    ],
+    "snippet": "These are the key docs for our security policies \n## Data Retention\n## Legal\n## Security External Documents\n• Security and Compliance \n• SOC2 \n• Penetration Testing \n# Legal for Website\n## Architecture Diagrams\n• Clarity Engine Diagram\n• Network Diagram\n• Agent Flow Diagram (Figma link)\n# Completed Security Docs (for future reference)\n## FAQ"
+  },
+  {
+    "id": "3f72c85f50d947ec97543db5242260f9",
+    "title": "Engineering Wiki",
+    "parent": "root",
+    "keywords": [
+      "security",
+      "retention"
+    ],
+    "snippet": "> 👋 Welcome to Zenlytic’s Engineering team! Our mission is to design, build, and maintain Zenlytic’s core product and features in support of our product vision.\nIf you don’t know where to start, start with Getting Started. For most things you’re looking for, you can safely ignore the Policies and Security sections. \n## Technology Vision & Roadmap\n## External \n---\nData Retention Policies \n---"
+  },
+  {
+    "id": "c61320a6-760b-4a63-9f69-170b7a64b471",
+    "title": "Architecture Diagram",
+    "parent": "Engineering Wiki",
+    "keywords": [],
+    "snippet": "## Cloud Architecture\n---\n## Chat (Zoë) Architecture\n---\n## Component Architecture\nOriginal (Excalidraw)"
+  },
+  {
+    "id": "1bca8dad-05ac-808c-8170-ebe970188c55",
+    "title": "Tools available to Zoë",
+    "parent": "Architecture Diagram",
+    "keywords": [],
+    "snippet": "- SEARCH_FIELDS_TOOL\n- QUERY_DATA_TOOL (referred to as DataQuestion in the code)\n- CHART_CONFIG_TOOL\n- SEARCH_DASHBOARDS_TOOL\n- CREATE_NEW_DASHBOARD_TOOL\n- ADD_QUESTIONS_TO_DASHBOARD_TOOL\n- SHOW_VIEWS_TOOL\n- CODE_INTERPRETER_TOOL\n- CREATE_FIELD_TOOL\n- USER_INTERACTION_MEMORY_TOOL\n- REASONING_TOOL\n- CAUSAL_IMPACT_ANALYZER_TOOL"
+  },
+  {
+    "id": "209a8dad-05ac-80e0-bd3d-c1504eed9633",
+    "title": "Technical Vision - Core Components",
+    "parent": "Engineering Wiki",
+    "keywords": [
+      "security",
+      "rpo",
+      "aws",
+      "infrastructure",
+      "monitoring",
+      "api",
+      "integration"
+    ],
+    "snippet": "### Introduction\nThe overarching goal of Zenlytic’s product vision is to provide every business user in an enterprise with a trustworthy and competent data analyst. This data analyst would have access to all of the internal enterprise data that the business user has access to; it could make sense of the data, answer questions about the data, and create visuals, documents, and presentations for the user. It would go beyond just reporting about internal data to creating predictions and recommendat"
+  },
+  {
+    "id": "209a8dad-05ac-80e7-a300-dd017988985c",
+    "title": "Technical Vision - Agentic System",
+    "parent": "Engineering Wiki",
+    "keywords": [
+      "rpo",
+      "sso",
+      "infrastructure",
+      "network"
+    ],
+    "snippet": "# I. Introduction\nThe overarching goal of Zenlytic’s product vision is to provide every business user in an enterprise with a trustworthy and competent data analyst. This data analyst would have access to all of the internal enterprise data that the business user has access to; it could make sense of the data, answer questions about the data, and create visuals, documents, and presentations for the user. It would go beyond just reporting about internal data to creating predictions and recommenda"
+  },
+  {
+    "id": "207a8dad-05ac-803f-88b7-f07f1f7dcc79",
+    "title": "Agent core EDA structure",
+    "parent": "Technical Vision - Agentic System",
+    "keywords": [
+      "rpo",
+      "sso",
+      "infrastructure",
+      "api"
+    ],
+    "snippet": "As part of the new agent structure, we will be leveraging core components of Event-Driven Architecture (EDA) to increase: \n• flexibility\n• adaptability\n• replay-ability\n# Strengths of EDA\nStrengths of EDA that we want to bring to our core agent logic\n• each event represents a unit of “fact”\n• events are stored in event brokers (not to be confused with message brokers)\n• the event broker is an append-only log\n• events are produced by a producer and consumed by multiple consumers. Consumers do not"
+  },
+  {
+    "id": "b5eb4f7a-c7eb-4a45-bc35-0bcd9931dc4b",
+    "title": "Installing the Zenlytic Bot in Microsoft Teams",
+    "parent": "Engineering Wiki",
+    "keywords": [
+      "integration"
+    ],
+    "snippet": "The Zenlytic Bot brings the power of Zoë, Zenlytic’s flagship natural language BI assistant, directly into Microsoft Teams. This integration allows users to effortlessly explore and query their organization's data, check available fields, views, and dashboards on specific topics, and even create or modify dashboards - all without ever leaving the convenience of Teams. \nWhether you're collaborating within a team or seeking insights in a one-on-one scope, the Zenlytic Bot provides a seamless, intu"
+  },
+  {
+    "id": "22675636-cd8c-4e73-a45f-d065f158db5e",
+    "title": "Zoë Tips & Tricks",
+    "parent": "Engineering Wiki",
+    "keywords": [
+      "privacy",
+      "sso",
+      "api"
+    ],
+    "snippet": "In this document, we’ll cover the top tips and tricks for setting up Zoë, Zenlytic’s AI analyst.\n---\n# Start here\nWhen thinking about how you’re defining your data model for use with Zoë, ask this question. \n> Could a talented data analyst answer questions using this data model on their first day on the job before they have any other context on the business?\nIf the answer to that question is yes, then Zoë will perform great! If not, use some of the tips below to encode more business context, so "
+  },
+  {
+    "id": "d828bc4b-c1f3-4c61-8b4a-5a82b0887983",
+    "title": "Zoë System Prompt Guidelines",
+    "parent": "Engineering Wiki",
+    "keywords": [],
+    "snippet": "In this document, we’ll cover how to use the extra prompt context feature when setting up Zoë, Zenlytic’s AI analyst.\n---\n# What instructions does Zoë already have?\nWhen adding new context for Zoë, you should try not to repeat or contradict instructions she is given in the Zenlytic-set system prompt. \nThese are the high-level instructions we give Zoë by default when you interact with her:\n• You are Zenlytic's self-serve Business Intelligence (BI) assistant deployed in a chat interface.\n• You ope"
+  },
+  {
+    "id": "1baa8dad-05ac-80ac-a8c5-e7fd0cb47f54",
+    "title": "Zoë - choosing a model",
+    "parent": "Engineering Wiki",
+    "keywords": [],
+    "snippet": "---\nAt Zenlytic, we believe the best insights come from matching the right tool to the right task. That’s why we’ve expanded Zoë, our conversational AI data agent, to support multiple AI models, letting users choose based on their specific needs.\nNot all AI models are the same. Some provide quick, straightforward answers, ideal for immediate insights on questions like, “What’s our top-selling product this month?” Others excel in structured problem-solving and are best for complex queries, such a"
+  },
+  {
+    "id": "1d1a8dad-05ac-808e-84b0-ff824335fc9a",
+    "title": "Zoë Prompt Engineering Guide",
+    "parent": "Engineering Wiki",
+    "keywords": [
+      "sso"
+    ],
+    "snippet": "Prompt engineering is essential for ensuring Zoë understands how to best interpret and interact with your data. Prompt engineering in the general sense is how you ask Zoë to do tasks for you or how you show her context on your business. \n## How you ask Zoë\nHow to Ask Good Questions of Zoë\nBe Specific: Clearly state exactly what you’re looking for. For example:\n• “Why did sales decline last week?” might imply you want insights by product, location, or both. If you have something in mind, don’t ma"
+  },
+  {
+    "id": "281a8dad-05ac-8064-b33d-dbab315a8baf",
+    "title": "Installing the Zenlytic Teams Tab",
+    "parent": "Engineering Wiki",
+    "keywords": [
+      "integration"
+    ],
+    "snippet": "The Zenlytic Teams Tab brings the full Zenlytic experience into Microsoft Teams. It includes Zoë for conversational analysis, dashboards, and governed data exploration so anyone get trusted answers fast.\nThe Zenlytic Teams Tab helps increase decision velocity by meeting people where they already work. This integration brings the already familiar experience of Zoë,  Zenlytic’s AI data analyst designed to turn everyday language into clear insights, directly into Microsoft Teams. This makes it easi"
+  },
+  {
+    "id": "50eba629-62a7-44ff-8052-4577a5b79ce0",
+    "title": "M1 Mac Development Environment",
+    "parent": "Engineering Wiki",
+    "keywords": [
+      "aws"
+    ],
+    "snippet": "---\nThese are the steps to onboard to a development environment with a new M1 Mac.\n### Core tools\n• Install brew (follow these instructions)\n• Install Docker (download docker desktop for Mac)\n• Install NVM (follow instructions https://github.com/nvm-sh/nvm)\n• Install python using miniconda’s bash installer for the M1 Mac (link here)\n• Install poetry for python dependency management (version found in readme, link here)\n### M1 Environment Settings\n• Set your AWS environment variables in your .zshr"
+  },
+  {
+    "id": "1cea8dad-05ac-801c-8359-c678d80a9d81",
+    "title": "Ubuntu Development Environment",
+    "parent": "Engineering Wiki",
+    "keywords": [
+      "aws"
+    ],
+    "snippet": "---\n### Core Tools\n• Install Docker\n• Install Python 3.11\n• Install Poetry\n• Install the AWS CLI\n• Install Postgres\n• Install libq\n• Install NVM\n• Install Node and NPM\n• Install Yarn\n### M1 Environment Settings\n• Set your AWS environment variables in your .zshrc(get these from Paul)\n```\n# AWS\nexport AWS_ACCOUNT_ID=734*********\nexport AWS_ACCESS_KEY_ID=QWDS**************g12e23rf*************************\n```\n• Set the environment variables in your .zshrc for zenlytic development (you can also edit"
+  },
+  {
+    "id": "1cea8dad-05ac-8006-a808-c75cb3c4a862",
+    "title": "MDM Requirements for SOC 2",
+    "parent": "Engineering Wiki",
+    "keywords": [
+      "soc 2",
+      "encryption",
+      "aes",
+      "mfa",
+      "authentication",
+      "access control",
+      "security",
+      "compliance",
+      "incident",
+      "privacy",
+      "rpo",
+      "byod",
+      "mdm",
+      "network",
+      "monitoring"
+    ],
+    "snippet": "Implement strong password policies, enable data encryption, configure VPNs for secure access, and utilize device restrictions and remote wiping capabilities for incident response\n1. Password Management & Security:\n• Enforce strong passwords:\n• Multi-Factor Authentication (MFA):\n• Device Lock:Allow for remote device locking in case of loss or compromise, preventing unauthorized access to sensitive data.\n2. Data Encryption & Protection:\n• Data Encryption:Encrypt data both at rest and in transit us"
+  },
+  {
+    "id": "18aa8dad-05ac-80e9-92c8-ea352eb3c635",
+    "title": "Deployment workflow",
+    "parent": "Engineering Wiki",
+    "keywords": [
+      "integration"
+    ],
+    "snippet": "# Proposal\nHave a central place where everyone can quickly check the current commit status on dev and master and verify the commits work in the respective environments. \n# Where\n#dev-stage-prod in slack\n# Steps\n## Verifying changes in dev.zenlytic.com\n• Once a PR is squashed and merged to dev , a message from GitHub will show up like this: \n• The author of the PR would then monitor the deployment process and verify the changes in dev.zenlytic.com. These are the icons to react to the message: \n##"
+  },
+  {
+    "id": "65edf3cb-a5d6-4e7b-a920-3cfbe8a53cfa",
+    "title": "Server Side Table: Stage Bug List",
+    "parent": "Engineering Wiki",
+    "keywords": [],
+    "snippet": "# Frontend\n☐ Update AG Grid License on prod once stage looks good\n# Backend\n☐ Broadly speaking to be prod ready, there should be no errors on any of the dashboards\n☐ Bottom rows still showing up as empty\n☐ Row Totals aren’t working\n☐ SQL Question is not working\n☐ Question specific errors aren’t working. This is suppose to tell the user that they need to select steps in the funnel. Check the dashboard as its seem to be all question types\n☐ Download dashboard as PDF is failing\n☐ Personal fields do"
+  },
+  {
+    "id": "1a8a8dad-05ac-80fb-b57d-fd269b13bfb1",
+    "title": "Conversion from CRUD based endpoints to DDD",
+    "parent": "Engineering Wiki",
+    "keywords": [],
+    "snippet": ""
+  },
+  {
+    "id": "28fa8dad-05ac-803b-b68c-fa93c32a44dc",
+    "title": "External API Architecture",
+    "parent": "Engineering Wiki",
+    "keywords": [
+      "api"
+    ],
+    "snippet": ""
+  },
+  {
+    "id": "28fa8dad-05ac-805a-9b7f-efcef3ef5612",
+    "title": "Bulk Provisioning (External API draft)",
+    "parent": "External API Architecture",
+    "keywords": [
+      "api"
+    ],
+    "snippet": "## Structure\n<TBD with John>\n• Organization \n## Prerequisite\n• Organization is created\n• Selected users are added as admins to the organization and can make requests to the following endpoints\n## Resource Hierarchy & Endpoints\n• /api/v1/organizations/{organization_id}/workspaces\n• /api/v1/organizations/{organization_id}/workspaces/{workspace_id}\n• /api/v1/organizations/{organization_id}/workspaces/{workspace_id}/groups\n• /api/v1/organizations/{organization_id}/workspaces/{workspace_id}/users\n• /"
+  },
+  {
+    "id": "28fa8dad-05ac-80b6-a92a-f804712ff563",
+    "title": "Conversation API ",
+    "parent": "External API Architecture",
+    "keywords": [
+      "api"
+    ],
+    "snippet": "# Introduction\n# State Machine Diagram\n# Endpoints"
+  },
+  {
+    "id": "129a8dad05ac801cb803e69297ecf8c7",
+    "title": "Business Continuity Plan",
+    "parent": "root",
+    "keywords": [
+      "CC1.2.2",
+      "CC7.2.2",
+      "training",
+      "security",
+      "compliance",
+      "incident",
+      "backup",
+      "rpo",
+      "rto",
+      "business continuity",
+      "policy",
+      "procedure",
+      "sso",
+      "aws",
+      "infrastructure",
+      "network",
+      "monitoring",
+      "vendor"
+    ],
+    "snippet": "Ex Quanta Inc (d.b.a Zenlytic)\n## Human Resource Security\nVersion: 1.1\nPolicy Owner: Paul Blankley\nStatus: Implemented\n## Testing Minutes\n### 1. Purpose and Scope\nThe purpose of this Business Continuity Plan (BCP) is to ensure that our Business Intelligence (BI) platform can continue to operate during and after a disruptive event. This plan outlines the steps for preparedness, response, and recovery, ensuring minimal disruption to critical BI services such as data processing, reporting, and anal"
+  },
+  {
+    "id": "29ca8dad-05ac-80f3-9e55-cbb965b5b401",
+    "title": "2025-05-21 BCP Testing Minutes ",
+    "parent": "Business Continuity Plan",
+    "keywords": [
+      "compliance",
+      "incident",
+      "backup",
+      "rpo",
+      "rto"
+    ],
+    "snippet": "• Simulated Incident/Scenario: The exercise simulated a catastrophic database failure requiring restoration from a backup. The main goal was to test recovery point objective (RPO) and recovery time objective (RTO).\n• Participants and Roles:\n• Key Discussion Points:\n• Results: The team successfully walked through the full process of restoring a database from a snapshot and re-pointing the application to it. Paul confirmed that the process ensures compliance with a 5-minute RPO and a 4-hour RTO."
+  }
+]
