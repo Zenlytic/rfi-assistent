@@ -139,7 +139,7 @@
       "policy",
       "procedure"
     ],
-    "snippet": "Ex Quanta Inc (d.b.a Zenlytic)\n# Incident Management\nVersion: 0.0\nPolicy Owner: Paul Blankley\nStatus: Implemented\n# Incident Response Policy\nThe Incident Response Team shall respond to all potential or actual security or privacy incidents in accordance with the Incident Response Plan and Incident Response Playbooks.\nThe Incident Response Team shall respond to all incidents according to the Incident Response Playbooks for that category of incident. If no such playbook exists, the Incident Respons"
+    "snippet": "Ex Quanta Inc (d.b.a Zenlytic)\n# Incident Management\nVersion: 0.0\nPolicy Owner: Anshu Aggarwal\nStatus: Implemented\n# Incident Response Policy\nThe Incident Response Team shall respond to all potential or actual security or privacy incidents in accordance with the Incident Response Plan and Incident Response Playbooks.\nThe Incident Response Team shall respond to all incidents according to the Incident Response Playbooks for that category of incident. If no such playbook exists, the Incident Respon"
   },
   {
     "id": "1b4a8dad-05ac-803b-a447-fc9262f97f83",
@@ -147,16 +147,20 @@
     "parent": "Employee Handbook",
     "keywords": [
       "CC2.3.4",
+      "CC9.1.1",
       "training",
       "security",
       "compliance",
       "audit",
+      "rpo",
+      "penetration test",
       "vulnerability",
       "policy",
       "procedure",
-      "integration"
+      "infrastructure",
+      "vendor"
     ],
-    "snippet": "Ex Quanta Inc (d.b.a Zenlytic)\n# Software Patch Management\nVersion: 0.0\nPolicy Owner: Paul Blankley\nStatus: Implemented\n# Software Patch Management Policy\nZenlytic shall ensure that software used within the organization is consistently updated to address security vulnerabilities, improve functionality, and maintain system integrity. Zenlytic utilizes GitHub and Dependabot to automatically propose, review, and integrate software updates in a timely and secure manner.\n## Patch Identification\nDepen"
+    "snippet": "Ex Quanta Inc (d.b.a Zenlytic)\n# Vulnerability & Patch Management\nVersion: 1.0\nPolicy Owner: Paul Blankley\nStatus: Implemented\n## Purpose & Scope\nZenlytic identifies, evaluates, and remediates security vulnerabilities across its software, infrastructure, and cloud environment in a timely, risk-prioritized manner. This policy covers vulnerabilities from all sources Zenlytic currently monitors, automated software composition / dependency scanning, periodic penetration testing, and responsibly disc"
   },
   {
     "id": "b2654df8-028d-4902-a8cf-93319708fc73",
@@ -773,10 +777,13 @@
     "parent": "SOC2 Event Types",
     "keywords": [
       "soc 2",
+      "training",
+      "security",
       "employee",
-      "onboarding"
+      "onboarding",
+      "aws"
     ],
-    "snippet": "---\n• June 16, 2025: Employee Onboarding: Djordje Ivanovic\n---\n• July 16, 2025: Employee Departure: Rich Taylor\n---\n• July 28, 2025: Employee Onboarding: Jose Luiz Hernandez Hoyos\n---\n• August 29, 2025: Employee Termination: Aaron Cornejo\n• August 29, 2025: Employee Termination: Tyler Crimmins\n---\n• August 29, 2025: Employee Offboarding: Djordje Ivanovic\n• September 26, 2024: Employee Offboarding: Cole French\n---\n• October 2, 2025: Employee Onboarding: Sebastian Castro"
+    "snippet": "---\n• June 16, 2025: Employee Onboarding: Djordje Ivanovic\n---\n• July 16, 2025: Employee Departure: Rich Taylor\n---\n• July 28, 2025: Employee Onboarding: Jose Luiz Hernandez Hoyos\n---\n• August 29, 2025: Employee Termination: Aaron Cornejo\n• August 29, 2025: Employee Termination: Tyler Crimmins\n---\n• August 29, 2025: Employee Offboarding: Djordje Ivanovic\n• September 26, 2024: Employee Offboarding: Cole French\n---\n• October 2, 2025: Employee Onboarding: Sebastian Castro\n---\n• November 24, 2025: D"
   },
   {
     "id": "6b8833be227a437a8f846f9cd5c896e4",
@@ -790,7 +797,7 @@
       "retention",
       "network"
     ],
-    "snippet": "These are the key docs for our security policies \n## Data Retention\n## Legal\n## Security External Documents\n• Security and Compliance \n• SOC2 \n• Penetration Testing \n# Legal for Website\n## Architecture Diagrams\n• Clarity Engine Diagram\n• Network Diagram\n• Agent Flow Diagram (Figma link)\n# Completed Security Docs (for future reference)\n## FAQ"
+    "snippet": "These are the key docs for our security policies \n## Data Retention\n## Insurance\n## Legal\n## Security External Documents\n• Security and Compliance \n• SOC2 \n• Penetration Testing \n# Legal for Website\n## Architecture Diagrams\n• Clarity Engine Diagram\n• Network Diagram\n• Agent Flow Diagram (Figma link)\nExploratory mode diagram \n# Completed Security Docs (for future reference)\n## FAQ"
   },
   {
     "id": "3eb14fe0-7e8d-400f-8082-a5af44c29a0a",
@@ -807,6 +814,18 @@
       "monitoring"
     ],
     "snippet": "Ex Quanta Inc (d.b.a Zenlytic)\n# Data Retention Policies\nVersion: 0.0\nPolicy Owner: Paul Blankley\nStatus: Implemented\n## Policies as they apply \n### Overview\nThis document outlines the data retention policies for Zenlytic. These policies are designed to ensure compliance, maintain data integrity, and protect customer information.\n### Data Retention Policies\n- AWS Cloudwatch (Logging)\n- Sentry (Logging)\n- Langfuse (LLM Logging)\n- LogRocket (Monitoring)\n- OpenAI (LLM)\n### Conclusion\nThese data ret"
+  },
+  {
+    "id": "36fa8dad-05ac-81a7-85a6-cfb6090cbcb4",
+    "title": "LLM Provider Data Retention Periods",
+    "parent": "Security Homepage",
+    "keywords": [
+      "training",
+      "policy",
+      "retention",
+      "logging"
+    ],
+    "snippet": "Ex Quanta Inc (d.b.a Zenlytic)\nPolicy Owner: Paul Blankley\nStatus: Implemented\n## Overview\nThis document outlines the attested log retention periods for the LLM providers supported by Zenlytic. Agreements are in place with all providers. It is a companion to the broader Data Retention Policies page, which covers retention across the rest of the application (CloudWatch, Sentry, Langfuse, etc).\n## Retention by Provider\n## Additional Notes\n• No training use: Data is never used for training with any"
   },
   {
     "id": "fd9bdf97-ab8c-4543-8810-2a70c312458c",
@@ -846,8 +865,11 @@
     "id": "180a8dad-05ac-80a1-bccf-da1558df31ed",
     "title": "Zoë Architecture",
     "parent": "Security Homepage",
-    "keywords": [],
-    "snippet": "Zoë operates with an Agentic architecture. This means that at each step of the question-answering process, the LLM chooses between calling a tool in its set of tools or responding directly to the user. \nIf the LLM chooses to call a tool, Zenlytic will run the tool and show the results to the LLM. The LLM will then make a decision on whether it wants to call another tool or respond directly to the user. This process continues until the LLM responds directly to the user.\nA high-level diagram of th"
+    "keywords": [
+      "audit",
+      "rpo"
+    ],
+    "snippet": "Zoë answers data questions by writing and running SQL against your warehouse in real time. But every query is grounded in governed, verified field definitions rather than free-form generation, so answers stay accurate and auditable. She can also create rich documents (Word, Excel, PowerPoint) and interactive dashboard experiences using the data she pulls.\nZoë operates with an agentic architecture. This means that at each step of the question-answering process, she chooses between calling a tool "
   },
   {
     "id": "a64dc864-7a02-468c-85f4-6c91bb6fc122",
@@ -872,6 +894,15 @@
     "snippet": "### How do you connect to the data warehouse?\n• Zenlytic uses database credentials to connect to and run SQL queries on your data warehouse. Zenlytic does NOT index any whole tables or copy data from your system to ours. We create a SQL query on the fly based on metadata stored in git and connected to Zenlytic and run that query on your data warehouse.\n### Do you cache my data?\n• We do. We use Redis to cache query results, but never the underlying tables in the warehouse. For example, if you ask"
   },
   {
+    "id": "326a8dad-05ac-80e9-b828-c696be3d3e85",
+    "title": "Zenlytic RFI + Security Memory",
+    "parent": "Security Homepage",
+    "keywords": [
+      "security"
+    ],
+    "snippet": "# Zenlytic RFI + Security Memory\nCorrections and gap-fills from live RFI/security questionnaire sessions. Newest entries at top. Treat this as a high-priority source alongside pre-approved Q&A pairs in the skill.\n---"
+  },
+  {
     "id": "3f72c85f50d947ec97543db5242260f9",
     "title": "Engineering Wiki",
     "parent": "root",
@@ -879,7 +910,7 @@
       "security",
       "retention"
     ],
-    "snippet": "> 👋 Welcome to Zenlytic’s Engineering team! Our mission is to design, build, and maintain Zenlytic’s core product and features in support of our product vision.\nIf you don’t know where to start, start with Getting Started. For most things you’re looking for, you can safely ignore the Policies and Security sections. \n## Technology Vision & Roadmap\n## External \n---\nData Retention Policies \n---"
+    "snippet": "> 👋 Welcome to Zenlytic’s Engineering team! Our mission is to design, build, and maintain Zenlytic’s core product and features in support of our product vision.\nIf you don’t know where to start, start with Getting Started. For most things you’re looking for, you can safely ignore the Policies and Security sections. \n## Technology Vision & Roadmap\n## External \n---\nData Retention Policies \n---\n## VPC Deployment\n---"
   },
   {
     "id": "c61320a6-760b-4a63-9f69-170b7a64b471",
@@ -935,6 +966,13 @@
     "snippet": "As part of the new agent structure, we will be leveraging core components of Event-Driven Architecture (EDA) to increase: \n• flexibility\n• adaptability\n• replay-ability\n# Strengths of EDA\nStrengths of EDA that we want to bring to our core agent logic\n• each event represents a unit of “fact”\n• events are stored in event brokers (not to be confused with message brokers)\n• the event broker is an append-only log\n• events are produced by a producer and consumed by multiple consumers. Consumers do not"
   },
   {
+    "id": "356a8dad-05ac-8047-a376-d4cc8ceed873",
+    "title": "Project Checklist",
+    "parent": "Engineering Wiki",
+    "keywords": [],
+    "snippet": "This is the checklist for new features. This applies to net-new features that will impact the customer experience, not to bug fixes or very minor enhancements. \n• CX communication\n• Rollout Strategy\n• Marketing Communication (if applicable)\n• Docs\n• Test Plan (message in #development if you are unsure about any of these)\n• Are there DB migrations? \n• Blast radius"
+  },
+  {
     "id": "b5eb4f7a-c7eb-4a45-bc35-0bcd9931dc4b",
     "title": "Installing the Zenlytic Bot in Microsoft Teams",
     "parent": "Engineering Wiki",
@@ -985,6 +1023,30 @@
       "integration"
     ],
     "snippet": "The Zenlytic Teams Tab brings the full Zenlytic experience into Microsoft Teams. It includes Zoë for conversational analysis, dashboards, and governed data exploration so anyone get trusted answers fast.\nThe Zenlytic Teams Tab helps increase decision velocity by meeting people where they already work. This integration brings the already familiar experience of Zoë,  Zenlytic’s AI data analyst designed to turn everyday language into clear insights, directly into Microsoft Teams. This makes it easi"
+  },
+  {
+    "id": "348a8dad-05ac-8072-931d-dce1a9f19c74",
+    "title": "VPC deployments",
+    "parent": "Engineering Wiki",
+    "keywords": [],
+    "snippet": "# Development\n# Customers\n## Customer documentation sync for Zoë in VPC\nSource: Paul Blankley in Slack on 2026-06-30. Slack thread.\nCustomers can replicate Zenlytic documentation inside their own environment by downloading the full docs package that mirrors docs.zenlytic.com: https://github.com/Zenlytic/zenlytic-docs/releases/latest/download/docs.zip.\n• Download the latest docs.zip release and sync/unzip the contents into a customer-controlled GitLab repository inside their environment.\n• Use th"
+  },
+  {
+    "id": "341a8dad-05ac-8039-83fb-e017f85504d8",
+    "title": "Tips on debugging VPC ephemeral environments",
+    "parent": "VPC deployments",
+    "keywords": [
+      "sso",
+      "logging"
+    ],
+    "snippet": "There could be multiple reasons why an ephemeral environment deployment could fail.\nThis is what it looks like on the pull request. \nClick into workflow_run, if the github action fails at Deploying Helm release... like this\nthen go ahead and check the logs of the pod:\nStep 1: Sign in to GCloud\n```\ngcloud config set project non-prod-492200\n\ngcloud container clusters get-credentials zenlytic-gke-eph-shared \\\n  --region us-central1 \\\n  --project non-prod-492200\n```\nPlease reach out to Sebastian if "
+  },
+  {
+    "id": "348a8dad-05ac-8016-b047-fcd7889f999b",
+    "title": "Verizon",
+    "parent": "VPC deployments",
+    "keywords": [],
+    "snippet": "Verizon prod deployments are targeted for every Thursday. \n## Customer documentation sync for Zoë in VPC\nSource: Paul Blankley in Slack on 2026-06-30. Slack thread.\nCustomers can replicate Zenlytic documentation inside their own environment by downloading the full docs package that mirrors docs.zenlytic.com: https://github.com/Zenlytic/zenlytic-docs/releases/latest/download/docs.zip.\n• Download the latest docs.zip release and sync/unzip the contents into a customer-controlled GitLab repository i"
   },
   {
     "id": "50eba629-62a7-44ff-8052-4577a5b79ce0",
@@ -1044,13 +1106,6 @@
     "snippet": "# Frontend\n☐ Update AG Grid License on prod once stage looks good\n# Backend\n☐ Broadly speaking to be prod ready, there should be no errors on any of the dashboards\n☐ Bottom rows still showing up as empty\n☐ Row Totals aren’t working\n☐ SQL Question is not working\n☐ Question specific errors aren’t working. This is suppose to tell the user that they need to select steps in the funnel. Check the dashboard as its seem to be all question types\n☐ Download dashboard as PDF is failing\n☐ Personal fields do"
   },
   {
-    "id": "1a8a8dad-05ac-80fb-b57d-fd269b13bfb1",
-    "title": "Conversion from CRUD based endpoints to DDD",
-    "parent": "Engineering Wiki",
-    "keywords": [],
-    "snippet": ""
-  },
-  {
     "id": "28fa8dad-05ac-803b-b68c-fa93c32a44dc",
     "title": "External API Architecture",
     "parent": "Engineering Wiki",
@@ -1076,6 +1131,74 @@
       "api"
     ],
     "snippet": "# Introduction\n# State Machine Diagram\n# Endpoints"
+  },
+  {
+    "id": "2e2a8dad-05ac-80e5-85c0-e6a399502072",
+    "title": "List of requests",
+    "parent": "External API Architecture",
+    "keywords": [
+      "api"
+    ],
+    "snippet": "From Verizon\n• After the insight gets generated, a user can publish and distribute it to a team of people. Will your api support this? link\n• Will your Chat API include the dashboard distribution and configuration? link"
+  },
+  {
+    "id": "323a8dad-05ac-8109-946b-f3cb71713079",
+    "title": "How to Set Up Azure Proxy with PrivateLink",
+    "parent": "Engineering Wiki",
+    "keywords": [
+      "tls",
+      "rto",
+      "onboarding",
+      "aws",
+      "infrastructure",
+      "network",
+      "api"
+    ],
+    "snippet": "TL;DR: We proxy AWS app traffic to customers' Azure Databricks workspaces via Private Link. Each customer gets a hostname like <customer>-dbx.zenlytic.com that routes through an Azure Application Gateway to a Private Endpoint connected to their Databricks workspace. Traffic flows over a site-to-site VPN between AWS and Azure.\n---\n# Adding a New Customer\n## Step 0: Get info from the customer\nSend the customer this message:\n> Hi [Customer],\n\nTo establish a private connection to your Databricks wor"
+  },
+  {
+    "id": "32da8dad-05ac-81cb-8044-f961ab1d6706",
+    "title": "Incident Post-Mortem Template",
+    "parent": "Engineering Wiki",
+    "keywords": [
+      "incident",
+      "breach",
+      "sso",
+      "api"
+    ],
+    "snippet": "Incident Title: [e.g., \"API latency spike — 2026-03-24\"]\nSeverity: P0 / P1 / P2 / P3\nDate: YYYY-MM-DD\nDuration: Start → End (total minutes/hours)\nLead: [Name]\n---\n## Summary\n1–2 sentences. What happened, who was affected, how bad was it.\n---\n## Timeline\nChronological list of key events: detection, escalation, mitigation, resolution.\n---\n## Root Cause\nWhat actually broke and why.\n---\n## Impact\nUsers affected, revenue impact, SLA breach, etc.\n---\n## Action Items\n---\n## Lessons Learned\nWhat went we"
+  },
+  {
+    "id": "37aa8dad-05ac-80b1-af2b-d10c583f988b",
+    "title": "Critical & High CVSSv3 Triage ",
+    "parent": "Engineering Wiki",
+    "keywords": [
+      "encryption",
+      "tls",
+      "audit",
+      "vulnerability",
+      "sso",
+      "saml",
+      "aws",
+      "network",
+      "vendor",
+      "api"
+    ],
+    "snippet": "# Critical Dependabot Alerts — Triage\nTriage of all open critical-severity GitHub Dependabot alerts as of June 9, 2026 (repo: Zenlytic/zenlytic). Each alert was assessed against the actual code path that consumes the dependency to determine whether the vulnerability is exploitable in our system.\nSummary: 5 open critical alerts; 0 materially exploitable among the open set. The previously-material redshift-connector RCE (#624) was remediated June 9, 2026. The remaining 5 are dev-only or transitive"
+  },
+  {
+    "id": "3a0a8dad-05ac-8058-8938-d5863d64095d",
+    "title": "2026 Q3 Hackathon ",
+    "parent": "Engineering Wiki",
+    "keywords": [],
+    "snippet": ""
+  },
+  {
+    "id": "3a0a8dad-05ac-80fc-9b98-fc7ec82170de",
+    "title": "Subagent Performance",
+    "parent": "2026 Q3 Hackathon ",
+    "keywords": [],
+    "snippet": "Author: @Jennifer Hsu \nQuestion in Pure Organics: "
   },
   {
     "id": "129a8dad05ac801cb803e69297ecf8c7",
