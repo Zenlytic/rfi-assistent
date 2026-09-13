@@ -852,7 +852,7 @@
       "sso",
       "subprocessor"
     ],
-    "snippet": "These are the subprocessors we use: \n• Amazon Web Services (Cloud provider)\n• Azure (Cloud provider)\n• Algolia (Search index)\n• OpenAI (LLM Provider)\n• Langfuse (developer logs)\n• LogRocket (developer logs)\n• Sentry (developer logs)\n• Segment (internal analytics)\n• Snowflake (internal analytics)\n• Airbyte (internal analytics)"
+    "snippet": "These are the subprocessors we use"
   },
   {
     "id": "216a8dad-05ac-8053-86f9-f85f9cdf8363",
@@ -910,7 +910,7 @@
       "security",
       "retention"
     ],
-    "snippet": "> 👋 Welcome to Zenlytic’s Engineering team! Our mission is to design, build, and maintain Zenlytic’s core product and features in support of our product vision.\nIf you don’t know where to start, start with Getting Started. For most things you’re looking for, you can safely ignore the Policies and Security sections. \n## Technology Vision & Roadmap\n## External \n---\nData Retention Policies \n---\n## VPC Deployment\n---"
+    "snippet": "> 👋 Welcome to Zenlytic’s Engineering team! Our mission is to design, build, and maintain Zenlytic’s core product and features in support of our product vision.\nIf you don’t know where to start, start with Getting Started. For most things you’re looking for, you can safely ignore the Policies and Security sections. \n## Technology Vision & Roadmap\n## External \n---\nData Retention Policies \n---\n## VPC Deployment\n---\n## Product Features\n---"
   },
   {
     "id": "c61320a6-760b-4a63-9f69-170b7a64b471",
@@ -1157,26 +1157,62 @@
     "snippet": "TL;DR: We proxy AWS app traffic to customers' Azure Databricks workspaces via Private Link. Each customer gets a hostname like <customer>-dbx.zenlytic.com that routes through an Azure Application Gateway to a Private Endpoint connected to their Databricks workspace. Traffic flows over a site-to-site VPN between AWS and Azure.\n---\n# Adding a New Customer\n## Step 0: Get info from the customer\nSend the customer this message:\n> Hi [Customer],\n\nTo establish a private connection to your Databricks wor"
   },
   {
+    "id": "3b2a8dad-05ac-803a-af08-eedcb8b41983",
+    "title": "Incidents",
+    "parent": "Engineering Wiki",
+    "keywords": [
+      "incident"
+    ],
+    "snippet": "Template\nIncidents"
+  },
+  {
     "id": "32da8dad-05ac-81cb-8044-f961ab1d6706",
     "title": "Incident Post-Mortem Template",
-    "parent": "Engineering Wiki",
+    "parent": "Incidents",
     "keywords": [
       "incident",
       "breach",
       "sso",
       "api"
     ],
-    "snippet": "Incident Title: [e.g., \"API latency spike — 2026-03-24\"]\nSeverity: P0 / P1 / P2 / P3\nDate: YYYY-MM-DD\nDuration: Start → End (total minutes/hours)\nLead: [Name]\n---\n## Summary\n1–2 sentences. What happened, who was affected, how bad was it.\n---\n## Timeline\nChronological list of key events: detection, escalation, mitigation, resolution.\n---\n## Root Cause\nWhat actually broke and why.\n---\n## Impact\nUsers affected, revenue impact, SLA breach, etc.\n---\n## Action Items\n---\n## Lessons Learned\nWhat went we"
+    "snippet": "Incident Title: [e.g., \"API latency spike — 2026-03-24\"]\nSeverity: P0 / P1 / P2 / P3\nDate: YYYY-MM-DD\nDuration: Start → End (total minutes/hours)\nLead: [Name]\n---\n## Summary\n1–2 sentences. What happened, who was affected, how bad was it.\n---\n## Timeline\nChronological list of key events: detection, escalation, mitigation, resolution.\n---\n## Root Cause\nWhat actually broke and why.\n---\n## Impact\nUsers affected, revenue impact, SLA breach, etc.\n---\n## Lessons Learned\n## Action Items\n---\nWhat went we"
+  },
+  {
+    "id": "3b2a8dad-05ac-80ff-b027-f817c583a6f5",
+    "title": "07-31-26: Cognito Identity Pool ID Removed",
+    "parent": "Incidents",
+    "keywords": [
+      "incident",
+      "sso",
+      "aws"
+    ],
+    "snippet": "Severity: P1\nDate: 2026-07-31\nDuration: ~17h 38m (21:54:52 Jul 31 → 15:32:59 Aug 1)\nLead: Noah Fidel\n---\n## Summary\nSSO/federated Login (Google, Okta, Entra, and the Microsoft Teams tab) was broken for all users. If  user logged out during the incident timeframe, they wouldn’t be able to log in.\n---\n## Timeline\n• Fri Jul 31, 4:43 PM ET — PR #8570 merges, drops the identity pool ID build arg.\n• Fri Jul 31, 5:54 PM ET — Bad build live in prod\n• Sat Aug 1, 11:15 AM ET — Hotfix merges\n• Sat Aug 1, 1"
+  },
+  {
+    "id": "3b2a8dad-05ac-80ec-b257-c918f994ba8e",
+    "title": "🚨08-04-26 API Gateway Production Outage",
+    "parent": "Incidents",
+    "keywords": [
+      "incident",
+      "sso",
+      "aws",
+      "api"
+    ],
+    "snippet": "Incident Title: API Gateway rollout: prod backend unreachable via APISIX\nSeverity: P1\nDate: 2026-08-04\nDuration: 22:24 UTC → 22:50 UTC (~26 minutes)\nLead: Sebastian\n---\n## Summary\nDuring the initial rollout of APISIX (api-gateway) to production, an ALB listener rule at priority 97 was created that immediately intercepted all traffic to api.zenlytic.com. APISIX could not resolve the backend upstream (backend.prod.internal) because the backend ECS service had never been registered with AWS Cloud M"
   },
   {
     "id": "37aa8dad-05ac-80b1-af2b-d10c583f988b",
     "title": "Critical & High CVSSv3 Triage ",
     "parent": "Engineering Wiki",
     "keywords": [
+      "CC876",
       "encryption",
       "tls",
+      "security",
       "audit",
+      "incident",
       "vulnerability",
+      "policy",
       "sso",
       "saml",
       "aws",
@@ -1184,7 +1220,21 @@
       "vendor",
       "api"
     ],
-    "snippet": "# Critical Dependabot Alerts — Triage\nTriage of all open critical-severity GitHub Dependabot alerts as of June 9, 2026 (repo: Zenlytic/zenlytic). Each alert was assessed against the actual code path that consumes the dependency to determine whether the vulnerability is exploitable in our system.\nSummary: 5 open critical alerts; 0 materially exploitable among the open set. The previously-material redshift-connector RCE (#624) was remediated June 9, 2026. The remaining 5 are dev-only or transitive"
+    "snippet": "> 🛡️ How this doc is produced: the weekly reconcile is run by the Claude Code slash command /dependabot-triage. The skill text is mirrored at Dependabot Triage — Claude Code skill (/dependabot-triage); the canonical source is .claude/commands/dependabot-triage.md in the Zenlytic/zenlytic repo.\n# Critical Dependabot Alerts — Triage\nTriage of all open critical-severity GitHub Dependabot alerts as of June 9, 2026 (repo: Zenlytic/zenlytic). Re-verified September 8, 2026 — open critical set unchange"
+  },
+  {
+    "id": "3d5a8dad-05ac-81b7-bd37-e34d4fd4b490",
+    "title": "Dependabot Triage — Claude Code skill (/dependabot-triage)",
+    "parent": "Critical & High CVSSv3 Triage ",
+    "keywords": [
+      "security",
+      "audit",
+      "vulnerability",
+      "sso",
+      "saml",
+      "api"
+    ],
+    "snippet": "Copy of the Claude Code slash-command skill that produces the weekly Critical & High CVSSv3 Triage  reconcile. Canonical source is .claude/commands/dependabot-triage.md in the Zenlytic/zenlytic repo (mirrored at ~/.claude/commands/). Invoke with /dependabot-triage in Claude Code from a checkout of the repo. Copied here September 8, 2026 — if the two drift, the repo file wins.\nSkill description: Weekly triage of open critical & high Dependabot alerts against our code paths; reconcile the Notion t"
   },
   {
     "id": "3a0a8dad-05ac-8058-8938-d5863d64095d",
